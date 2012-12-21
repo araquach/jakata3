@@ -2,3 +2,6 @@
 /yii_11
 /protected/config
 protected/config/main.php
+/jakata3.esproj
+
+*.log
