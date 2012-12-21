@@ -17,7 +17,7 @@ Yii::app()->clientScript->registerScript('galleria',"
 ?>
 
 <section id="collections">
-<h1>Autumn/Winter 2012 Collection</h1>
+<h1>Autumn/Winter Collection 2012</h1>
 
 	<div id="galleria">
 	    <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/collections/bha12_1.jpg" data-description="Hair: Vicky Rowland">
