@@ -10,3 +10,9 @@ protected/config/main.php
 *.log
 
 protected/.DS_Store
+
+*.espressostorage
+
+protected/config/.DS_Store
+
+*.log

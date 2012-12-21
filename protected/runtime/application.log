@@ -2375,3 +2375,56 @@ Stack trace:
 REQUEST_URI=/~araquach/jakata3/index.php?r=site/competition
 HTTP_REFERER=http://localhost/~araquach/jakata3/index.php?r=site/index
 ---
+2012/12/21 15:08:18 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[28000] [1045] Access denied for user 'adamcarter'@'localhost' (using password: YES)' in /Users/adamcarter/Sites/jakata3/yii_11/framework/db/CDbConnection.php:382
+Stack trace:
+#0 /Users/adamcarter/Sites/jakata3/yii_11/framework/db/CDbConnection.php(331): CDbConnection->open()
+#1 /Users/adamcarter/Sites/jakata3/yii_11/framework/db/CDbConnection.php(309): CDbConnection->setActive(true)
+#2 /Users/adamcarter/Sites/jakata3/yii_11/framework/base/CModule.php(388): CDbConnection->init()
+#3 /Users/adamcarter/Sites/jakata3/yii_11/framework/base/CApplication.php(431): CModule->getComponent('db')
+#4 /Users/adamcarter/Sites/jakata3/yii_11/framework/db/ar/CActiveRecord.php(619): CApplication->getDb()
+#5 /Users/adamcarter/Sites/jakata3/yii_11/framework/db/ar/CActiveRecord.php(2262): CActiveRecord->getDbConnection()
+#6 /Users/adamcarter/Sites/jakata3/yii_11/framework/db/ar/CActiveRecord.php(383): CActiveRecordMetaData->__construct(Object(Competition))
+#7 /Users/adamcarter/Sites/jakata3/yii_11/framework/db/ar/CActiveRecord.php(398): CActiveRecord::model('Competition')
+#8 /Users/adamcarter/Sites/jakata3/yii_11/framework/db/ar/CActiveRecord.php(78): CActiveRecord->getMetaData()
+#9 /Users/adamcarter/Sites/jakata3/protected/controllers/CompetitionController.php(65): CActiveRecord->__construct()
+#10 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/actions/CInlineAction.php(50): CompetitionController->actionEnter()
+#11 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/filters/CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#13 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#14 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CController.php(1146): CFilter->filter(Object(CFilterChain))
+#15 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#16 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/filters/CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#17 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CController.php(292): CFilterChain->run()
+#18 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CWebApplication.php(283): CController->run('enter')
+#20 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('competition/ent...')
+#21 /Users/adamcarter/Sites/jakata3/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#22 /Users/adamcarter/Sites/jakata3/index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/~adamcarter/jakata3/index.php?r=competition/enter
+HTTP_REFERER=http://localhost/~adamcarter/jakata3/index.php?r=competition/index
+---
+2012/12/21 17:29:26 [error] [exception.CException] exception 'CException' with message 'ContactForm has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' in /Users/adamcarter/Sites/jakata3/yii_11/framework/base/CModel.php:287
+Stack trace:
+#0 /Users/adamcarter/Sites/jakata3/yii_11/framework/base/CModel.php(259): CModel->createValidators()
+#1 /Users/adamcarter/Sites/jakata3/yii_11/framework/base/CModel.php(302): CModel->getValidators('first_name')
+#2 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/helpers/CHtml.php(1197): CModel->isAttributeRequired('first_name')
+#3 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/widgets/CActiveForm.php(560): CHtml::activeLabelEx(Object(ContactForm), 'first_name', Array)
+#4 /Users/adamcarter/Sites/jakata3/protected/views/site/contact.php(40): CActiveForm->labelEx(Object(ContactForm), 'first_name')
+#5 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CBaseController.php(127): require('/Users/adamcart...')
+#6 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CBaseController.php(96): CBaseController->renderInternal('/Users/adamcart...', Array, true)
+#7 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CController.php(870): CBaseController->renderFile('/Users/adamcart...', Array, true)
+#8 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CController.php(783): CController->renderPartial('contact', Array, true)
+#9 /Users/adamcarter/Sites/jakata3/protected/controllers/SiteController.php(73): CController->render('contact', Array)
+#10 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/actions/CInlineAction.php(50): SiteController->actionContact()
+#11 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CController.php(309): CInlineAction->runWithParams(Array)
+#12 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CController.php(287): CController->runAction(Object(CInlineAction))
+#13 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CWebApplication.php(283): CController->run('contact')
+#15 /Users/adamcarter/Sites/jakata3/yii_11/framework/web/CWebApplication.php(142): CWebApplication->runController('site/contact')
+#16 /Users/adamcarter/Sites/jakata3/yii_11/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#17 /Users/adamcarter/Sites/jakata3/index.php(13): CApplication->run()
+#18 {main}
+REQUEST_URI=/~adamcarter/jakata3/index.php?r=site/contact
+HTTP_REFERER=http://localhost/~adamcarter/jakata3/index.php?r=site/page&view=details
+---
