@@ -1,0 +1,349 @@
+<?php
+/* @var $this SiteController */
+$this->pageTitle=Yii::app()->name . ' - Hairdressing News - Hairdressers in Cheshire';
+?>
+
+<script type="text/javascript">
+window.addEvent('domready', function(){
+	  new Fx.Accordion($('accordion'), '#accordion .reveal', '#accordion .hidden')
+	  
+	  });
+</script>
+
+
+<section id="news">
+
+<section id="accordion">
+
+<article class="article">
+<a name="ChristmasGifts" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_christmas.jpg" width="135" height="106">
+<h2>Christmas Has Come Early!</h2>
+<p>It seems way too early to be talking about Christmas, but it is creeping up fast! The bookings are already flowing in, and we recently took arrival of this years Christmas Gift sets.</p>
+<p>This year we've got some great packs from our main suppliers, they're already flying off the shelves!</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/bed-volume.jpg" width="135" height="190">
+<p><strong>Tigi</strong> have produced some great packs, it appears they've put a lot of thought into grouping the most popular products together, offering them at a reduced price and they look fantastic too. We have set's from each range - call or pop in the salon for more information.</p>
+<p>The <strong>Schwazkopf</strong> gift sets are well put together this year, packaged with a shampoo, conditioner and intensive treatment. It works out that you end up with three products for the price of two all wrapped up in a useful wash bag!</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/ghd_metallic.jpg" width="135" height="163">
+<p>As always, <strong>GHD</strong> have launched this years Christmas sets which are a limited edition metallic collection - get yours before they sell out!</p>
+<p><strong>Plus don't forget about our Jakata Gift Vouchers, available in £10, £20, £50 and £100 or we can create a bespoke voucher for a specific service.</strong></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2012-10-26" pubdate="pubdate"><p>26th October 2012</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="NamedAnchor" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/merry-christmas.jpg" width="135" height="160">
+<h2>Christmas Bookings</h2>
+<p>We're anticipating a seriously busy Christmas period this year, we started taking bookings back in September! The salon is open longer hours throughout December, with Sunday/Monday opening in the two weeks before Christmas.</p>
+<p>We highly recommend getting your appointment booked soon to avoid disappointment - some of the weekends are already nearly booked up!</p>
+<p class="offer"><strong>Call 01925 242960 to book yours now.</strong></p>
+</section> <!--end .visible-->
+<p class="author">Published by Jakata</p>
+<time datetime="2012-06-30" pubdate="pubdate"><p>30th June 2012</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="AutumnColour" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend2.jpg" width="135" height="190">
+<h2>Autumn Colour Trends</h2>
+<p>Autumn is setting in fast, and with the change of season comes a change of wardrobe! The key to ensuring your looking your best this season is to ensure your hair is working in sync with the rest of your style.</p>
+<p>Jakata hairdressers Natalie and Mikala have compiled their  insights into this seasons tips for choosing the right colour …</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend1.jpg" width="135" height="190">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_freeze.jpg" width="135" height="190">
+<p>This years autumn hair colours are all about finding the perfect shade to suit your skin tone along with inventive colour placement that can enhance the overall look of your colour.</p>
+<p>It’s the season of the soft and natural. Subtle highlights, soft dip dies and rich chocolate tones.</p>
+<p>If you're precious about your blonde, and the thought of going darker is a no no, try adding a few biscuit or caramel tones beneath your parting to soften off and update your look for autumn.</p>
+<p>As ever this time of year, rich browns, auburn and copper hues are all on trend. For the ultimate healthy shine, try a blend of two or three shades of your chosen tones overlaying each other to mix things up.</p>
+<p><em>The key to maintaining your new colour is to always use a good colour save shampoo and conditioner to ensure your colour will last.</em></p>
+<p><strong>We recommend the Schwarzkopf Colour Freeze range to maintain your colour for ultimate longevity.</strong></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Nat &amp; Mikala</p>
+<time datetime="2012-10-06" pubdate="pubdate"><p>6th October 2012</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="Maisie" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/maisie2.jpg" width="135" height="190">
+<h2>New Senior Stylist Joins the team</h2>
+<p>This week we welcomed <strong>Maisie Thompson</strong> to the team. We've been on the look out for experienced stylists to compliment our existing team, someone with a natural flair and passion.</p>
+<p>Maisie came along and fit the bill perfectly...</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>Maisie spent the majority of her time as a hairdresser in Stockton Heath. She trained in a village centre salon and continued through the ranks there. After spending seven years  at the same company she was ready for a change.</p>
+<p>She took a short break to do some traveling and afterwards was eager to get back to doing what she loves best - hairdressing.</p>
+<p>Maisie started hairdressing at a young age and has developed a wealth of experience in a short time. The qualities that have made her build up such a loyal client base over the years are her warm, friendly personality, fantastic ability to understand each individuals specific needs plus her natural passion and flair for hairdressing.</p>
+<p><strong>As ever when a new stylist joins us, we're looking to quickly build Maisie's client base, so we're offering some great first time visit offers:</strong></p>
+<p class="offerTitle">£55 Colour &amp; Cut, Dry &amp; Style or</p>
+<p class="offer">£25 Cut, Dry &amp; Style or</p>
+<p class="offer">£15 Blow Dry/Hair Up</p>
+<p>Call 01925 242960 to book your appointment</p>
+<p class="small">Skin test required 48 hours prior to any colour service</p>
+<p class="small">offers end 17/11/12<br>New Clients Only<br>Not with any other offer</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Jakata</p>
+<time datetime="2012-10-03" pubdate="pubdate"><p>3rd October 2012</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="SessionSeries" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/group.jpg" width="135" height="150">
+<h2>Update your products this month</h2>
+<h3>With Tigi Catwalk Session Series</h3>
+<p>A great way to update your product shelf this Autumn is with the newest range from Tigi Catwalk. This versatile fashion forward range, handpicked from backstage at the catwalk shows, covers everything from frizz control, texture, volume and much more.</p>
+<p>The styling range is divided into three groups: For texturising, for working and for holding...</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p><strong>Click on any of the products below to get more information..</strong></p>
+<img src="images/newspics/texture.jpg" width="100" height="160">
+<h3>For Texturizing</h3>
+<p><em>For ultimate texture and looks straight from the catwalk. A light weight dry shampoo and Salt Spray form this part of the range</em></p>
+<p><a href="http://mobile.tigihaircare.com/SessionSeries/TransformingDryShampoo.aspx" target="_blank">Dry Shampoo</a></p>
+<p>This lightweight dry shampoo is invisible even on brunettes.<br>
+Its remarkable results make it a personal favourite and a best seller.
+Use on either unwashed hair or freshly washed hair to keep it from going too fly away.</p>
+<p><a href="http://mobile.tigihaircare.com/SessionSeries/SaltSpray.aspx" target="_blank">Salt Spray</a></p>
+<p>Give a light pliable hold to your hair with this texturising spray. <br>
+Its carefully designed formula allows you to control frizz and fight humidity, while sea salt adds body and definition to the hair to create the most amazing looks.</p>
+<img src="images/newspics/work.jpg" width="100" height="160">
+<h3>For Working</h3>
+<p><em>Seriously versatile styling products used by professionals. Styling Cream, 'Work It' hairspray and True Wax</em></p>
+<p><a href="http://mobile.tigihaircare.com/SessionSeries/StylingCream.aspx" target="_blank">Styling Cream</a></p>
+<p>This cream thickens hair and adds shine and body. It contains conditioning agents an adds moisture. <br>
+Use in wet hair to thicken and condition, use in dry hair for a smooth look.</p>
+<p><a href="http://mobile.tigihaircare.com/SessionSeries/WorkItHairSpray.aspx" target="_blank">Work It Hairspray</a></p>
+<p>This fast drying workable hair spray is humidity resistant and fights against frizz.<br>
+Adds extra shine to your style<br>
+Spray 12” away from head and manipulate your style.</p>
+<p><a href="http://mobile.tigihaircare.com/SessionSeries/TrueWax.aspx" target="_blank">True Wax</a></p>
+<p>This workable wax allows you to tame frizzy hair and provides a pliable hold while adding sheen. </p>
+<img src="images/newspics/hold.jpg" width="100" height="160">
+<h3>For Holding</h3>
+<p><em>For creative hair styles that stay - Wet Look Gel and Finishing Hairspray</em></p>
+<p><a href="http://mobile.tigihaircare.com/SessionSeries/WetLookGel.aspx" target="_blank">Wet Look Gel</a></p>
+<p>This non flakey gel provides strong hold for the most up-to-date hair trends.<br>
+Use on wet or dry hair to get that perfectly structured style</p>
+<p><a href="http://mobile.tigihaircare.com/SessionSeries/FinishingHairspray.aspx" target="_blank">Finishing Hairspray</a></p>
+<p>Add the final touch to your style with this long last hair spray <br>
+Its fine mist evenly distributes the product through your hair to give extra hold and ultimate shine.</p>
+<p class="offer">The entire Catwalk Session Series range is available in Jakata now!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Natalie Doxey</p>
+<time datetime="2012-09-19" pubdate="pubdate"><p>19th September 2012</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="Shell" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/shell.jpg" width="135" height="160">
+<h2>Michelle on her way home</h2>
+<p>Jakata senior stylist Michelle Ash is finally out of hospital after being in for almost four months! </p>
+<p>It's great news - she still has a long road to recovery but she'll definitely be happy to get home....</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>Shell was admitted to hospital eleven weeks ago after it was discovered she had blood poisoning. It all happened so quickly that it came as a massive shock to the team. Things got so serious with her condition that at one point we were told to prepare for the worst. She fought through but remained in a coma for a few weeks - over a period of time she started to come round and is now making a steady recovery.</p>
+<p><em>We're all wishing her the best here at Jakata - our camping trips aren't the same without her!!</em></p>
+<p class="offer">Get well soon Shell!!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam Carter</p>
+<time datetime="2012-06-30" pubdate="pubdate"><p>30th June 2012</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="Tweens" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tweens.jpg" width="135" height="160">
+<h2>Bed Head Tweens Available Now</h2>
+<p>For a limited time pick up your Urban Antidote Tweens for just &pound;28.35!</p>
+<p>Thats 3 times more product than the standard retail sizes for only &pound;5 more! </p>
+<p>PLUS pick up your free refillable travel kit available with tween purchases (while stocks last)</p>
+<p class="offer">This offer is only available for a short time so don't miss out.</p>
+</section> <!--end .visible-->
+
+<p class="author">Published by Jakata</p>
+<time datetime="2012-07-13" pubdate="pubdate"><p>13th July 2012</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="UrbanAntidotes" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/urban_antidotes.jpg" alt="Tigi Bedhead Urban Antidotes"width="135" height="140">
+<h2>Product Focus: Tigi Bedhead 'Urban Antidotes'</h2>
+<p>Urban Antidotes is a range of reparative shampoos and conditioners that can be used on any hair type. All 3 stages are colour safe and contain 'hits' of moisture.</p>
+<p>I love all 3 of Tigi's Urban Antidotes ranges because no matter what your hair is like there is something for you.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<h3>Urban Antidote No.1 - Re-Energize.</h3>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/urban_green.jpg" alt="Tigi Bedhead Urban Antidotes"width="135" height="140">
+<p>Perfect for hair that needs a daily 'pick me up'. For 'normal' or 'virgin' hair.</p>
+<p>Get your hair back to normal with hydrating, strengthening and shine enhancing shampoo. Livens up moisture by 25%, strengthens weak lifeless hair with weightless shine, promotes colour retension and re-energizes with body and thickness.</p>
+<p>Put some oomph back into your tired, over-stimulated hair. Supercharged hydrating conditioner helps strengthen weak hair giving it a rush of shine and health. Blasts weightless shine and detangles unruly locks!!</p>
+<p><em>'I think urban antidote No.1 is great if you feel like your hair is flat or dull because in my opinion it does liven up your hair and does give your hair loads of shine!!!!'</em></p>
+<h3>Urban Antidote No.2 - Re-Covery</h3>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/urban_blue.jpg" alt="Tigi Bedhead Urban Antidotes"width="135" height="140">
+<p>Helps moisture deprived hair to the ultimate recovery. For damaged tresses hat need a moisture hit.</p>
+<p>Recovery Shampoo helps strengthen and give shine to your worn out locks with 4x fewer breaks plus leaves hair 12x smoother. Protects hair from colour fading has U.V and heat protection. It also helps to prevent split ends. 9 out of 10 hairstylists believe it leaves hair instantly healthier.</p>
+<p>Re-Covery conditioner drenches moisture deprived hair with a rush of hydration that gets stressed out tresses back to a healthy condition. It moisturises for major softness and protects from thermal and combing damage.</p>
+<p><em>I actually use urban antidote No2 and find it leaves my hair feeling healthier! It gives my hair moisture and shine without weighing it down.</em></p>
+<h3>Urban Antidote No.3 - Resurrection.</h3>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/urban_red.jpg" alt="Tigi Bedhead Urban Antidotes"width="135" height="140">
+<p>Designed for weak, brittle hair that needs an intervention. It leaves hair 3x stronger and 12x smoother</p>
+<p>Bring weak brittle hair back to life with this powerful moisture packed shampoo, with micro sheilds to boost strength and stamina. Its heat and U.V protective, helps keep colour vibrant and zeros in on dry damaged hair.</p>
+<p>Resurrection conditioner brings dead-end hair back to life, the formula targets areas in the most need of repair giving it the revival it needs. It has long lasting results with continued repair!</p>
+<p><em>I used to use urban antidote No3 because my hair was damaged and dry, but by using this shampoo and conditioner it made my hair healther so i moved on to use No2!</em></p>
+<h3>Summary</h3>
+<p>To sum on the whole range there is something for everyone, and if you think your hair is beyond repair think again! Even if you start off at the bottom using No3, these shampoo's and conditioners are designed so you can move up the range to finally get to number 1!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Laura Hall</p>
+<time datetime="2012-07-11" pubdate="pubdate"><p>11th July 2012</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="FashionLights" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fashion_lights.jpg" width="135" height="190">
+<h2>New in Salon service:<br>
+<em>Schwarzkopf Igora Fashion Lights</em></h2>
+<p>The latest addition to our colour range arrived in the salon a few weeks ago geared at helping us to 'unleash our colour creativity'. It's NEW Fashion Lights.</p>
+<p>The range aims to give breathtaking brightness and superb luminosity; providing colour and lift in one step. It gives intense vibrancy; even on dark or tinted hair.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p><em>Schwarzkopf</em> claim that the colours are
+'precise, vibrant and long lasting'. We've not had them long enough to know how long they last but we can definitely confirm that they're ultra vibrant!</p>
+<p>The colours help you to individualise and emphasise your style
+by achieving a variety of fashion effects. Whether you’re looking for soft and subtle highlights or more of a strong fashion statement, this range can be tailored to suit you and your individual style. Perfect for layered and choppy styles to provide intense texture, alternatively can be placed underneath to give a subtle contrast.</p>
+<h4>Technology</h4>
+<p>The colour cream is packed with intense colour cremeboosters for incredibly vibrant highlights.
+The new developer contains more than 15% caring oil to provide superior hair condition and suppleness.
+Colour boosters guarantee ultimate colour intensity, penetrating effectively into the hair delivering great tone luminosity, vibrancy and long lasting results.
+The new oil developer carefully coats the hair, sealing the pigments inside, providing care as well as intense shine.</p>
+<p><em>We've all been having fun experimenting with the different tones in the salon - give us a few more weeks and you'll start to see everything from obvious, stand out, vibrant shades to subtle subdued hues.</em></p>
+<p><strong>Ask your Jakata stylist about Igora Fashion Lights on your next visit!</strong></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Michelle French</p>
+<time datetime="2012-06-30" pubdate="pubdate"><p>30th June 2012</p></time>
+</article> <!--end #article-->
+
+
+<article class="article">
+<a name="Mikala" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/mikala.jpg" alt="Mikala" width="135" height="191">
+<h2>Upcoming Jakata Stylist now taking bookings</h2>
+<p>Introducing our next big thing - talented trainee stylist <em>Mikala Sutcliffe</em>. Mikala completed her first year of training at a well known salon franchise and joined the Jakata team in October last year.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p> With just a few months left until she's a fully qualified stylist, Mikala is looking to finish off her training and polish up her skills. </p>
+<p><strong>Mikala's column is now open for appointments throughout the week, but places are limited!</strong></p>
+<p class="offerTitle">  Introductory offer</p> 
+<p class="offer">Colour and Cut with Mikala<br>
+    for just £25!</p>
+<p class="offerSmall">On first visit to salon - not with any other offer<br>
+    until 28th June 2012<br>
+  Skin test to be carried out 48 hrs prior to any colour service</p>
+</section> <!--end .hidden-->
+<time datetime="2012-05-29" pubdate="pubdate"><p>29th May 2012</p></time>
+</article> <!--end #article-->
+
+
+
+<article class="article">
+<a name="NewKebelo" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/kebelo.jpg" alt="Kebelo System" width="135" height="183">
+<h2>The Award Winning Kebelo System just got better!</h2>
+<p>We launched the <em>Kebelo System</em> in the salon a good few months ago (see earlier article)</p>
+<p>We've grown to absolutely love it. The smoothing and de-frizzing results have been great every time. The obvious downsides to the treatment was the time it took to do (about 3 1/2 - 4 hours!) which in turn meant it came with a high price (close to £200) although everyone who's had it still said was worth every penny.</p>
+<p><strong>Things changed earlier this month with a reformulated version of the product was launched.....</strong></p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/kebelo_blonde.jpg" width="135" height="190">
+<p><iframe width="300" height="200" src="http://www.youtube.com/embed/FYPvkP2cois" frameborder="0" allowfullscreen class="right"></iframe></p>
+<p>The new version has a reduced application time (down to 1 hour) whilst still promising to produce the same results as it's predecessor - almost hard to believe but I can safely say it's 100% true! (I've had both versions done on my hair!)</p>
+<p>This is fantastic news as it means we've been able to reduce the treatment price down to <strong>just £99!</strong> (this still includes the take home aftercare pack worth £40) plus you can use that extra time (and money) doing something more productive (like shopping!)</p> 
+<p><em>So there are absolutely no downsides now to the Kebelo Treatment.</em></p>
+<p><strong>Plus for a limited time we're offering a FREE Cut, Dry and Style with every treatment!</strong></p>
+<p><a href="http://www.kebelo.com/">Visit the Kebelo site for more information<a></p>
+</section> <!--end .hidden-->
+<time datetime="2012-04-13" pubdate="pubdate"><p>13th April 2012</p></time>
+</article> <!--end #article-->
+
+
+<article class="article">
+<a name="daniel_anderson" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/dan_logo.jpg" alt="Hairdressers Journal" width="135" height="115">
+ <h2>Daniel Anderson Hairdressing Now at Jakata</h2>
+ <p>After weeks of speculation, we can now confirm that <em>Daniel Anderson</em> has joined <em>Jakata &amp; Paul Kemp Hairdressing</em>.
+  	Adam and Danny have been in recent discussions to finalise the move which had to be kept under wraps until all the details were confirmed. Danny's Winwick Street salon closed last week and the task of making sure the transition was as smooth as possible was implemented. Dan and team members are now located between Jakata (Bridge Street) and Paul Kemp Hairdressing (Sankey Street).</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/danny.jpg" alt="Daniel Anderson" width="150" height="210">
+<p>The two hairdressers have known each other for 15 years,  having completed their initial training together and a few years later worked side by side in another Warrington based salon.</p>
+	<p>Adam said <em>'Danny and I go way back, we both have a mutual respect for each others work. This move marks exciting times ahead for the companies involved. The Jakata/Paul Kemp Brands are going from strength to strength and now with Danny on board we can expect great things to happen!'</em></p> 
+	<p>Danny Said <em>'It's an exciting time, I want to offer our customers the best experience. Between myself, Adam &amp; Paul we have the ultimate hairdressing team in Warrington!'</em></p>
+<p><strong>We'll keep you up to date with the latest developments</strong></p>
+</section> <!--end .hidden-->
+<time datetime="2012-03-23" pubdate="pubdate"><p>23rd March 2012</p></time>
+</article> <!--end #article-->
+
+
+<article class="article">
+<a name="candy_fixations" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/Candy-Fixations.jpg" alt="Bedhead Candy Fixations" width="135" height="97">
+<hgroup>
+  	<h2>NEW Bedhead 'Candy Fixations'</h2>
+  	<p><strong>begging to be whipped, teased, scrunched and smelt</strong></p>
+  </hgroup>
+  <p>Tigi have taken inspiration from the world of sweets and created an incredible texture range to deliver volume, flexible hold, definition and root lift. Sugar was originally used in the punk era to keep the mohawks standing upright and this new range is all about the ultimate texture.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>There are five products in Candy Fixations range: Mega Whip, Glaze Haze, Totally Baked, Sugar Shock and Sugar Dust.</p>
+
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/megawhip.jpg" alt="Mega Whip" width="70" height="70" class="image_list">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/glaze_haze.jpg" alt="Glaze Haze" width="70" height="70" class="image_list">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/totally-baked.jpg" alt="Totally Baked" width="70" height="70" class="image_list">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/sugarshock.jpg" alt="Sugar Shock" width="70" height="70" class="image_list">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/sugar-dust.jpg" alt="Sugar Dust" width="70" height="70" class="image_list">
+
+<ul>
+	<li><h5>Mega Whip</h5><p>whips into dry hair for light texture with a flexible hold for shorter styles, or use throughout longer layers for a piecey style definition.</p></li>
+	<li><h5>Glaze Haze</h5><p>a sweet treat that candy-coats each strand to fight humidity, adds shine and helps speed up drying time.</p></li>
+	<li><h5>Totally Baked</h5><p>Prep your blow-dry with TIGI Bed Head Candy Fixations Totally Baked, a tasty hair meringue, for long-lasting boost of hold, volume and texture.</p></li>
+	<li><h5>Sugar Shock</h5><p>Sweet waves, shocking body! Mist TIGI Bed Head Candy Fixations Sugar Shock into hair for a tousled look, or later throughout for extreme texture, fullness and hold.</p></li>
+	<li><h5>Sugar Dust</h5><p>a quick fix for your style addiction. Sprinkle into roots to absorb oil and tease for instant volume, or sprinkle throughout layers for texture with staying power.</p></li>
+</ul>
+
+<p>Check out this promo video for the range</p>
+<p><iframe width="300" height="200" src="http://www.youtube.com/embed/4YSxuWloiqw" frameborder="0" allowfullscreen class="right"></iframe></p>
+<p><strong>All product in the range are just £9.50 for a limited time</strong></p>
+</section> <!--end .hidden-->
+<time datetime="2012-03-15" pubdate="pubdate"><p>15th March 2012</p></time>
+</article> <!--end #article-->
+
+
+</section> <!--end #accordion-->
+
+</section> <!--end #news-->

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+@font-face {
+    font-family: 'NotethisRegular';
+    src: url('Note_this-webfont.eot');
+    src: url('Note_this-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Note_this-webfont.woff') format('woff'),
+         url('Note_this-webfont.ttf') format('truetype'),
+         url('Note_this-webfont.svg#NotethisRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
