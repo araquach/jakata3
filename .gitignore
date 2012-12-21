@@ -1,2 +1,4 @@
 /assets
 /yii_11
+/protected/config
+protected/config/main.php
