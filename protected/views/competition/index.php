@@ -14,7 +14,7 @@
 <p>If you need some Christmas gift ideas, don't forget here at Jakata we have a whole selection of gift packs from <strong>Tigi &amp; Schwarzkopf</strong>, starting from around £20, plus the best quality styling tools including the limited edition <strong>GHD Metallic collection</strong> and the <strong>Tigi Curling Wand</strong>.</p>
 <p><em><strong>We're giving away a £100 Jakata voucher, two £50 vouchers plus 5 Gift sets. Runners up will receive free sample products.</strong></em></p>
 
-<?php echo CHtml::link('All you have to do to enter is click here!',array('competition/enter')); ?>
+<p>The competition is now closed, we'll be announcing the winners soon!</p>
 
 </div> 
 </section> <!--#competition-->

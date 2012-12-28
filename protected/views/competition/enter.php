@@ -12,11 +12,10 @@
 
 <?php else: ?>
 <div id="competition_entry">
-<h2>Just answer this simple question</h2>
-<p class="question">When is the last opportunity for you to get your gift vouchers and gift packs from Jakata before Christmas?</p>
-<p class="small">(Your  details will not be passed on to anyone else)</p>
+<h2>The competition is now closed</h2>
+<p class="question">We'll be announcing the winners soon!</p>
 
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+<?php // echo $this->renderPartial('_form', array('model'=>$model)); ?>
 
 </section> <!--#competition_entry-->
 </section> <!--#competition-->
