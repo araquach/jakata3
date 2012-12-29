@@ -13,3 +13,5 @@ protected/config/main.php
 
 *.DS_Store
 
+
+*.espressostorage
