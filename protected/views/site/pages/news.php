@@ -16,6 +16,35 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a name="Winners" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/christmas.jpg" width="135" height="180">
+<h2>Christmas Competition Winners</h2>
+<p>The winners of this months Christmas competition have been drawn. We had over &pound;300 worth of prizes up for grabs and hundreds of people enter!</p>
+<p>If you entered find out if you're one of the winners below.</p>
+<p class="reveal">Winners ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<h3>The winners are &hellip;</h3>
+<ul>
+	<li>Helen Illingworth - a &pound;100 Gift Voucher</li>
+	<li>Claire Dolan - a &pound;50 Gift Voucher</li>
+	<li>Sarah Syers - a &pound;50 Gift Voucher</li>
+	<li>Jayne Andrews - a Tigi or Schwarzkopf gift set</li>
+	<li>Erin Hesketh - a Tigi or Schwarzkopf gift set</li>
+	<li>Kayleigh	Furfie - a Tigi or Schwarzkopf gift set</li>
+	<li>Miroslava	Frisova - a Tigi or Schwarzkopf gift set</li>
+	<li>Mel	Barton - a Tigi or Schwarzkopf gift set</li>
+</ul>
+
+<p class="offer">Well done to our winners, we'll be contacting you shortly.<br>
+Look out for more great competitions this year!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2012-12-29" pubdate="pubdate"><p>29th December 2012</p></time>
+</article> <!--end #article-->
+
+<article class="article">
 <a name="ChristmasGifts" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_christmas.jpg" width="135" height="106">

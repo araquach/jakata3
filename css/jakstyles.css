@@ -593,6 +593,16 @@ a.anchor {
 	margin-bottom: 10px;
 }
 
+#accordion article.article section.hidden ul {
+	margin-left: 200px;
+	padding: 0;
+}
+
+#accordion article.article section.hidden ul li {
+	padding-bottom: 10px;
+	color: #343348;
+}
+
 #accordion article.article section.visible h2 {
 	font-size: 1.5em;
 }
