@@ -16,11 +16,11 @@
 	<?php echo CHtml::encode($data->second_name); ?>
 	<br />
 	
-	<?php /*
-	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('age')); ?>:</b>
 	<?php echo CHtml::encode($data->age); ?>
 	<br />
+	
+	<?php /*
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('address1')); ?>:</b>
 	<?php echo CHtml::encode($data->address1); ?>

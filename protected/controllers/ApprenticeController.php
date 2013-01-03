@@ -135,7 +135,12 @@ class ApprenticeController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Apprentice');
+		$dataProvider=new CActiveDataProvider('Apprentice', array(
+			'pagination'=>array(
+				'pageSize'=>'5',
+				),
+			));
+			
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
