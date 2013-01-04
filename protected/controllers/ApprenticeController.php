@@ -135,11 +135,14 @@ class ApprenticeController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Apprentice', array(
-			'pagination'=>array(
-				'pageSize'=>'5',
-				),
-			));
+		$criterea=new CDbCriteria;
+		$criteria->order = 'apprentice_id DESC';
+		
+		$dataProvider=new CActiveDataProvider('Apprentice', array('criteria'=>$criteria, 
+		'pagination'=>array(
+			'pageSize'=>'5',
+			),			
+		));
 			
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,

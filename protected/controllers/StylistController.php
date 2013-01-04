@@ -135,7 +135,15 @@ class StylistController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Stylist');
+		$criterea=new CDbCriteria;
+		$criteria->order = 'stylist_id DESC'; 
+		
+		$dataProvider=new CActiveDataProvider('Stylist', 
+			array('criteria'=>$criteria, 
+			'pagination'=>array(
+				'pageSize'=>'5',
+				),
+			));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));

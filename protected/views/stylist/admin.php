@@ -1,4 +1,4 @@
-<div id="application">
+<div id="recruitBlank">
 <?php
 $this->breadcrumbs=array(
 	'Stylists'=>array('index'),
@@ -77,4 +77,4 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		),
 	),
 )); ?>
-</div> <!--application-->
+</div> <!--recruitBlank-->

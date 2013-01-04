@@ -1,4 +1,4 @@
-<div id="application">
+<div id="recruitBlank">
 
 <?php
 
@@ -19,11 +19,33 @@ $this->menu=array(
 		'date',
 		'first_name',
 		'second_name',
+		'address1',
+		'address2',
+		'address3',
+		'postcode',
+		'email',
+		'phone',
+		'mobile',
+		'experience',
+		'current_position',
+		'client_base',
+		'qualifications',
+		'cutting_skills',
+		'colour_knowledge',
+		'colour_skills',
+		'extensions_weave',
+		'extensions_ind',
+		'extensions_other',
+		'chem_straighten',
+		'braz_blow',
+		'hair_up',
+		'awards',
 		'about_you',
 		'why_hairdressing',
 		'why_jakata',
+		
 	),
 )); ?>
 
-</div> <!--application-->
+</div> <!--recruitBlank-->
 
