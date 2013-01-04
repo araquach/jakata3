@@ -254,7 +254,7 @@ class Apprentice extends CActiveRecord
 	
 	public function getQualSchoolText() {
 		$qualSchoolOptions=$this->qualSchoolOptions;
-		return isset($qualSchoolOptions[$this->qualification_school]) ? $qualSchoolOptionsOptions[$this->qualification_school] : "unknown qualification ({$this->qualification_school})";
+		return isset($qualSchoolOptions[$this->qualification_school]) ? $qualSchoolOptions[$this->qualification_school] : "unknown qualification ({$this->qualification_school})";
 	}
 	
 	public function getQualHairText() {
