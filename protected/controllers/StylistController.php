@@ -142,7 +142,8 @@ class StylistController extends Controller
 			array('criteria'=>$criteria, 
 			'pagination'=>array(
 				'pageSize'=>'5',
-				),
+				),			
+			
 			));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
