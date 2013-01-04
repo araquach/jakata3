@@ -14,4 +14,8 @@
 *.DS_Store
 
 
+<<<<<<< HEAD
 jakata3.esproj/user.adamcarter.espressostorage
+=======
+*.espressostorage
+>>>>>>> Form-message-Changes
