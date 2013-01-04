@@ -241,4 +241,30 @@ class Apprentice extends CActiveRecord
 			self::LIST_FIVE=>'5',
 		);
 	}
+	
+	public function getPositionText() {
+		$positionOptions=$this->positionOptions;
+		return isset($positionOptions[$this->current_position]) ? $positionOptions[$this->current_position] : "unknown position ({$this->current_position})";
+	}
+	
+	public function getInSalonText() {
+		$inSalonOptions=$this->inSalonOptions;
+		return isset($inSalonOptions[$this->in_salon]) ? $inSalonOptions[$this->in_salon] : "unknown salon ({$this->in_salon})";
+	}
+	
+	public function getQualSchoolText() {
+		$qualSchoolOptions=$this->qualSchoolOptions;
+		return isset($qualSchoolOptions[$this->qualification_school]) ? $qualSchoolOptionsOptions[$this->qualification_school] : "unknown qualification ({$this->qualification_school})";
+	}
+	
+	public function getQualHairText() {
+		$qualHairOptions=$this->qualHairOptions;
+		return isset($qualHairOptions[$this->qualification_hair]) ? $qualHairOptions[$this->qualification_hair] : "unknown qualification ({$this->qualification_hair})";
+	}
 }
+
+
+
+
+
+

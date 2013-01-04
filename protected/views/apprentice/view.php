@@ -27,12 +27,20 @@ $this->menu=array(
 		'postcode',
 		'email',
 		'phone',
-		'mobile',
-		'current_position',
-		'in_salon',
+		'mobile', 
+		array('name'=>'current_postion', 
+			'value'=>CHtml::encode($model->getPositionText())
+			),
+		array('name'=>'in_salon', 
+			'value'=>CHtml::encode($model->getInSalonText())
+			),
 		'salon_name',
-		'qualification_school',
-		'qualification_hair',
+		array('name'=>'qualification_school', 
+			'value'=>CHtml::encode($model->getQualSchoolText())
+			),
+		array('name'=>'qualification_hair', 
+			'value'=>CHtml::encode($model->getQualHairText())
+			),
 		'cutting',
 		'styling',
 		'colouring',

@@ -256,4 +256,30 @@ class Stylist extends CActiveRecord
 			self::LIST_ZERO=>'I don\'t do this service',
 		);
 	}
+	
+	public function getExperianceText() {
+		$experianceOptions=$this->experianceOptions;
+		return isset($experianceOptions[$this->experience]) ? $experianceOptions[$this->experience] : "unknown position ({$this->experience})";
+	}
+	
+	public function getPositionText() {
+		$positionOptions=$this->positionOptions;
+		return isset($positionOptions[$this->current_position]) ? $positionOptions[$this->current_position] : "unknown position ({$this->current_position})";
+	}
+	
+	public function getClientbaseText() {
+		$clientbaseOptions=$this->clientbaseOptions;
+		return isset($clientbaseOptions[$this->client_base]) ? $clientbaseOptions[$this->client_base] : "unknown salon ({$this->client_base})";
+	}
+	
+	public function getQualificationText() {
+		$qualificationOptions=$this->qualificationOptions;
+		return isset($qualificationOptions[$this->qualifications]) ? $qualificationOptions[$this->qualifications] : "unknown qualification ({$this->qualifications})";
+	}
 }
+
+
+
+
+
+

@@ -51,9 +51,13 @@
 	<?php echo CHtml::encode($data->mobile); ?>
 	<br />
 
+	*/ ?>
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('current_position')); ?>:</b>
-	<?php echo CHtml::encode($data->current_position); ?>
+	<?php echo CHtml::encode($data->getPositionText()); ?>
 	<br />
+	
+	<?php /*
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('in_salon')); ?>:</b>
 	<?php echo CHtml::encode($data->in_salon); ?>

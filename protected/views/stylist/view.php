@@ -26,10 +26,18 @@ $this->menu=array(
 		'email',
 		'phone',
 		'mobile',
-		'experience',
-		'current_position',
-		'client_base',
-		'qualifications',
+		array('name'=>'experiance', 
+			'value'=>CHtml::encode($model->getExperianceText())
+			),
+		array('name'=>'position', 
+			'value'=>CHtml::encode($model->getPositionText())
+			),
+		array('name'=>'client_base', 
+			'value'=>CHtml::encode($model->getClientBaseText())
+			),
+		array('name'=>'qualifications', 
+			'value'=>CHtml::encode($model->getQualificationText())
+			),
 		'cutting_skills',
 		'colour_knowledge',
 		'colour_skills',
