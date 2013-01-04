@@ -207,10 +207,10 @@ li.active a {
 
 
 #news2 {
-	background: url('../images/home/christmas.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/laura.jpg') no-repeat rgba(249, 249, 250, 0.8);
 }
 .no-rgba #news2 {
-	background: url('../images/home/christmas.jpg') no-repeat rgb(249, 249, 250);
+	background: url('../images/home/laura.jpg') no-repeat rgb(249, 249, 250);
 }
 
 #news3 {
@@ -594,9 +594,23 @@ a.anchor {
 	margin-bottom: 10px;
 }
 
-#accordion article.article section.hidden ul {
+#accordion article.article section.hidden ul,
+#accordion article.article section.hidden dl {
 	margin-left: 200px;
 	padding: 0;
+}
+
+#accordion article.article section.hidden dl dt {
+	color: #33306c;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#accordion article.article section.hidden dl dd {
+	color: #555b6c;
+	margin-left: 0;
+	margin-bottom: 8px;
+	line-height: 1.4em;
 }
 
 #accordion article.article section.hidden ul li {
