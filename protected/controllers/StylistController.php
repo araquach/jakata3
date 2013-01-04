@@ -72,7 +72,7 @@ class StylistController extends Controller
 				if($model->save())
 				{
 					$message = new YiiMailMessage;
-					$message->setBody('There is a new stylist applicant for Jakata<br>Name: '.$model->first_name.' '.$model->second_name.'<br>Experience: '.$model->experience.'<br>Email: '.$model->email.'<br> Mobile: '.$model->mobile, 'text/html');
+					$message->setBody('There is a new stylist applicant for Jakata<br>Name: '.$model->first_name.' '.$model->second_name.'<br>Experience: '.$model->experience.'<br>Email: '.$model->email.'<br> Mobile: '.$model->mobile..$model->mobile.'<br>http://www.jakatasalon.co.uk/stylist/'.$model->stylist_id, 'text/html');
 					$message->subject = 'New Stylist Application';
 					$message->addTo('adamcarter@jakatasalon.co.uk');
 					$message->from = Yii::app()->params['adminEmail'];
