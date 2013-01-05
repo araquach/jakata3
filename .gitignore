@@ -23,3 +23,5 @@ jakata3.esproj/user.adamcarter.espressostorage
 jakata3.esproj/Project.espressostorage
 
 *.log
+
+images/.DS_Store
