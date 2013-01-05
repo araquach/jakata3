@@ -21,3 +21,5 @@ jakata3.esproj/user.adamcarter.espressostorage
 >>>>>>> Form-message-Changes
 
 jakata3.esproj/Project.espressostorage
+
+*.log
