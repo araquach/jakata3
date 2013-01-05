@@ -64,6 +64,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'cutting',
 		'styling',
 		'colouring',
+		'men',
 		'extensions',
 		'chem_straightening',
 		'brazil_blow',

@@ -136,6 +136,12 @@
 		<?php echo $form->dropDownList($model,'colouring', $model->getListOptions()); ?>
 		<?php echo $form->error($model,'colouring'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'men'); ?>
+		<?php echo $form->dropDownList($model,'men', $model->getListOptions()); ?>
+		<?php echo $form->error($model,'men'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'extensions'); ?>

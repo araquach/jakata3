@@ -86,6 +86,10 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('colouring')); ?>:</b>
 	<?php echo CHtml::encode($data->colouring); ?>
 	<br />
+	
+	<b><?php echo CHtml::encode($data->getAttributeLabel('men')); ?>:</b>
+	<?php echo CHtml::encode($data->men); ?>
+	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('extensions')); ?>:</b>
 	<?php echo CHtml::encode($data->extensions); ?>
