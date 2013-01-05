@@ -123,6 +123,12 @@
 		<?php echo $form->dropDownList($model,'colour_skills', $model->getListOptions()); ?>
 		<?php echo $form->error($model,'colour_skills'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'men'); ?>
+		<?php echo $form->dropDownList($model,'men', $model->getListOptions()); ?>
+		<?php echo $form->error($model,'men'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'extensions_weave'); ?>

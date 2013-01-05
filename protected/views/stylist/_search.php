@@ -89,6 +89,11 @@
 		<?php echo $form->label($model,'colour_skills'); ?>
 		<?php echo $form->textField($model,'colour_skills'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->label($model,'men'); ?>
+		<?php echo $form->textField($model,'men'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'extensions_weave'); ?>
