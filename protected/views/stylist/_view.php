@@ -75,6 +75,10 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('colour_skills')); ?>:</b>
 	<?php echo CHtml::encode($data->colour_skills); ?>
 	<br />
+	
+	<b><?php echo CHtml::encode($data->getAttributeLabel('men')); ?>:</b>
+	<?php echo CHtml::encode($data->men); ?>
+	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('extensions_weave')); ?>:</b>
 	<?php echo CHtml::encode($data->extensions_weave); ?>

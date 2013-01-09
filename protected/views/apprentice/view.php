@@ -44,6 +44,7 @@ $this->menu=array(
 		'cutting',
 		'styling',
 		'colouring',
+		'men',
 		'extensions',
 		'chem_straightening',
 		'brazil_blow',

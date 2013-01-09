@@ -22,6 +22,7 @@
  * @property integer $cutting_skills
  * @property integer $colour_knowledge
  * @property integer $colour_skills
+ * @property integer $men
  * @property integer $extensions_weave
  * @property integer $extensions_ind
  * @property integer $extensions_other
@@ -92,7 +93,7 @@ class Stylist extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-		array('first_name, second_name, address1, address3, postcode, email, mobile, experience, current_position, client_base, qualifications, cutting_skills, colour_knowledge, colour_skills, extensions_weave, extensions_ind, extensions_other, chem_straighten, braz_blow, hair_up, about_you, why_hairdressing, why_jakata', 'required'),
+		array('first_name, second_name, address1, address3, postcode, email, mobile, experience, current_position, client_base, qualifications, cutting_skills, colour_knowledge, colour_skills, men, extensions_weave, extensions_ind, extensions_other, chem_straighten, braz_blow, hair_up, about_you, why_hairdressing, why_jakata', 'required'),
 		array('experience, current_position, client_base, qualifications, cutting_skills, colour_knowledge, colour_skills, extensions_weave, extensions_ind, extensions_other, chem_straighten, braz_blow, hair_up', 'numerical', 'integerOnly'=>true),
 			array('first_name, second_name, address1, address2, address3, email', 'length', 'max'=>256),
 			array('postcode', 'length', 'max'=>20),
@@ -102,7 +103,7 @@ class Stylist extends CActiveRecord
 		array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('stylist_id, date, first_name, second_name, address1, address2, address3, postcode, email, phone, mobile, experience, current_position, client_base, qualifications, cutting_skills, colour_knowledge, colour_skills, extensions_weave, extensions_ind, extensions_other, chem_straighten, braz_blow, hair_up, awards, about_you, why_hairdressing, why_jakata', 'safe', 'on'=>'search'),
+			array('stylist_id, date, first_name, second_name, address1, address2, address3, postcode, email, phone, mobile, experience, current_position, client_base, qualifications, cutting_skills, colour_knowledge, colour_skills, men, extensions_weave, extensions_ind, extensions_other, chem_straighten, braz_blow, hair_up, awards, about_you, why_hairdressing, why_jakata', 'safe', 'on'=>'search'),
 	);
 	}
 
@@ -141,6 +142,7 @@ class Stylist extends CActiveRecord
 			'cutting_skills' => 'Cutting Skills',
 			'colour_knowledge' => 'Colour Knowledge',
 			'colour_skills' => 'Colour Skills',
+			'men' => 'Men\'s Hairdressing',
 			'extensions_weave' => 'Extensions: Weave',
 			'extensions_ind' => 'Extensions: Individual',
 			'extensions_other' => 'Extensions: Other',
@@ -183,6 +185,7 @@ class Stylist extends CActiveRecord
 		$criteria->compare('cutting_skills',$this->cutting_skills);
 		$criteria->compare('colour_knowledge',$this->colour_knowledge);
 		$criteria->compare('colour_skills',$this->colour_skills);
+		$criteria->compare('men',$this->men);
 		$criteria->compare('extensions_weave',$this->extensions_weave);
 		$criteria->compare('extensions_ind',$this->extensions_ind);
 		$criteria->compare('extensions_other',$this->extensions_other);

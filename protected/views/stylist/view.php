@@ -41,6 +41,7 @@ $this->menu=array(
 		'cutting_skills',
 		'colour_knowledge',
 		'colour_skills',
+		'men',
 		'extensions_weave',
 		'extensions_ind',
 		'extensions_other',

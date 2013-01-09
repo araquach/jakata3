@@ -99,6 +99,11 @@
 		<?php echo $form->label($model,'colouring'); ?>
 		<?php echo $form->textField($model,'colouring'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->label($model,'men'); ?>
+		<?php echo $form->textField($model,'men'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'extensions'); ?>

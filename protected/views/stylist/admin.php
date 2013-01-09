@@ -61,6 +61,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'cutting_skills',
 		'colour_knowledge',
 		'colour_skills',
+		'men',
 		'extensions_weave',
 		'extensions_ind',
 		'extensions_other',
