@@ -57,7 +57,7 @@
 			array('label'=>'News', 'url'=>array('/site/page', 'view'=>'news')),
 			array('label'=>'Prices', 'url'=>array('/site/page', 'view'=>'prices')),
 			array('label'=>'Recruitment', 'url'=>array('/site/page', 'view'=>'recruitment')),
-			//array('label'=>'Offers', 'url'=>array('/site/page', 'view'=>'offers')),
+			array('label'=>'Offers', 'url'=>array('/site/page', 'view'=>'offers')),
 			array('label'=>'Contact', 'url'=>array('/site/page','view'=>'details')),
 		),
 	)); ?>

@@ -105,8 +105,8 @@ nav ul {
 nav li {
 	list-style-type: none;
 	display: inline;
-	font-size: 1em;
-	margin-right: 20px;
+	font-size: .85em;
+	margin-right: 17px;
 }
 
 nav li a {
@@ -1034,7 +1034,7 @@ div.row textarea {
 }
 
 #offer2 {
-	background: url(../images/offers/product_offer.jpg) no-repeat #fefefe;
+	background: url(../images/offers/bc.jpg) no-repeat #fefefe;
 }
 
 #offer3 {
