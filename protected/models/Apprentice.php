@@ -46,8 +46,12 @@ class Apprentice extends CActiveRecord
 	 const POSITION_Y1 = 1;
 	 const POSITION_Y2 = 2;
 	 const POSITION_OTHER = 3;
+	 const POSITION_COL_1 = 4;
+	 const POSITION_COL_2 = 5;
+	 const POSITION_SCHOOL = 6;
 	 
 	 const IN_SALON_YES = 1;
+	 const IN_SALON_OTHER = 2;
 	 const IN_SALON_NO = 0;
 	 
 	 const QUAL_SHOOL_UPTO4 = 1;
@@ -89,7 +93,7 @@ class Apprentice extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name, second_name, age, address1, address3, postcode, email, mobile, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_jakata', 'required'),
+			array('first_name, second_name, address1, address3, postcode, email, mobile, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_jakata', 'required'),
 			array('age, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up', 'numerical', 'integerOnly'=>true),
 			array('first_name, second_name, address1, address2, address3, email, salon_name', 'length', 'max'=>256),
 			array('postcode', 'length', 'max'=>56),
@@ -133,8 +137,8 @@ class Apprentice extends CActiveRecord
 			'phone' => 'Phone Number',
 			'mobile' => 'Mobile Number',
 			'current_position' => 'Current Position',
-			'in_salon' => 'Are you currently working in a salon?',
-			'salon_name' => 'If yes please state the salon name',
+			'in_salon' => 'Are you currently in employment?',
+			'salon_name' => 'Please state your current workplace (if applicable)',
 			'qualification_school' => 'What qualification did you achieve at school?',
 			'qualification_hair' => 'Are you currently doing any hairdressing qualifications?',
 			'cutting' => 'Cutting Hair',
@@ -201,6 +205,9 @@ class Apprentice extends CActiveRecord
 			self::CHOOSE=>'--Please Choose--',
 			self::POSITION_Y1=>'1st Year Apprentice',
 			self::POSITION_Y2=>'Second Year Apprentice',
+			self::POSITION_COL_1=>'Level 1 College',
+			self::POSITION_COL_2=>'Level 2 College',
+			self::POSITION_SCHOOL=>'School Link',
 			self::POSITION_OTHER=>'Other',
 		);
 	}
@@ -208,8 +215,9 @@ class Apprentice extends CActiveRecord
 	public function getInSalonOptions() {
 		return array(
 			self::CHOOSE=>'--Please Choose--',
-			self::IN_SALON_YES=>'Yes',
-			self::IN_SALON_NO=>'No',
+			self::IN_SALON_YES=>'In a salon',
+			self::IN_SALON_OTHER=>'Other industry',
+			self::IN_SALON_NO=>'Not employed',
 		);
 	}
 	

@@ -82,9 +82,9 @@
 		<?php echo $form->error($model,'mobile'); ?>
 	</div>
 	
-	</div> <!--end basic-->
+	</div> <!--end elements (basic info)-->
 	
-	<h2 class="reveal">2. Hairdressing Skills</h2>
+	<h2 class="reveal">2. Experience</h2>
 	<div class="elements">
 	
 	<div class="row">
@@ -116,6 +116,11 @@
 		<?php echo $form->dropDownList($model,'qualification_hair', $model->getQualHairOptions()); ?>
 		<?php echo $form->error($model,'qualification_hair'); ?>
 	</div>
+	
+	</div> <!--end elements (experience)-->
+	
+	<h2 class="reveal">3. Hairdressing Skills</h2>
+	<div class="elements">
 	
 	<p class="application">Please rate your main interests from 1 (least) to 5 (most) for the following:</p>
 
@@ -166,9 +171,9 @@
 		<?php echo $form->dropDownList($model,'hair_up', $model->getListOptions()); ?>
 		<?php echo $form->error($model,'hair_up'); ?>
 	</div>
-	</div> <!--end hairdressing info-->
+	</div> <!--end elements (hairdressing skills)-->
 	
-	<h2 class="reveal">3. About you</h2>
+	<h2 class="reveal">4. About you</h2>
 	<div class="elements">
 	
 	<div class="row">
@@ -192,7 +197,7 @@
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Send your application' : 'Save'); ?>
 	</div>
-	</div> <!--end more info-->
+	</div> <!--end elements (about you)-->
 </div><!-- end accordion-->
 
 <?php $this->endWidget(); ?>

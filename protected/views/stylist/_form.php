@@ -76,9 +76,9 @@
 		<?php echo $form->error($model,'mobile'); ?>
 	</div>
 	
-	</div> <!--end basic-->
+	</div> <!--end elements (basic)-->
 	
-	<h2 class="reveal">2. Hairdressing Skills</h2>
+	<h2 class="reveal">2. Other Info</h2>
 	<div class="elements">
 	<div class="row">
 		<?php echo $form->labelEx($model,'experience'); ?>
@@ -103,6 +103,11 @@
 		<?php echo $form->dropDownList($model,'qualifications', $model->getQualificationOptions()); ?>
 		<?php echo $form->error($model,'qualifications'); ?>
 	</div>
+	
+	</div> <!--end elements (other info)-->
+	
+	<h2 class="reveal">3. Hairdressing Skills</h2>
+	<div class="elements">
 	
 	<p class="application">Please rate yourself from 1 (poor) to 5 (excellent) at the following:</p>
 
@@ -196,7 +201,7 @@
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Send Your Application' : 'Save'); ?>
 	</div>
-	</div> <!--end more info-->
+	</div> <!--end element(hairdressing skills) -->
 	
 </div><!-- end accordion-->
 

@@ -49,15 +49,19 @@ class Stylist extends CActiveRecord
 	 const EXPERIANCE_4TO8 = 3;
 	 const EXPERIANCE_8TO10 = 4;
 	 const EXPERIANCE_10PLUS = 5;
+	 const EXPERIANCE_0 = 6;
+	 const EXPERIANCE_1 = 7;
+	 const EXPERIANCE_2 = 8;
 	 
 	 const POSITION_GRADUATE = 1;
 	 const POSITION_STYLIST = 2;
 	 const POSITION_SENIOR = 3;
 	 const POSITION_TOP = 4;
 	 const POSITION_DIRECTOR = 5;
-	 const POSITION_OTHER = 6;
+	 
 	 
 	 const CLIENTBASE_YES = 1;
+	 const CLIENTBASE_OUT = 2;
 	 const CLIENTBASE_NO = 0;
 	 
 	 const QUALIFICATION_NVQ1 = 1;
@@ -135,8 +139,8 @@ class Stylist extends CActiveRecord
 			'email' => 'Email Address',
 			'phone' => 'Phone Number',
 			'mobile' => 'Mobile Number',
-			'experience' => 'How many years experience do you have?',
-			'current_position' => 'Your Current Position',
+			'experience' => 'How many years hairdressing experience do you have? (Since qualified)',
+			'current_position' => 'Which of these best describes your current level?',
 			'client_base' => 'Do you have an existing client base?',
 			'qualifications' => 'Hairdressing Qualifications',
 			'cutting_skills' => 'Cutting Skills',
@@ -206,7 +210,10 @@ class Stylist extends CActiveRecord
 	{
 		return array(
 			self::CHOOSE=>'--Please Choose--',
-			self::EXPERIANCE_0TO2=>'0 to 2 years',
+			self::EXPERIANCE_0=>'None',
+			self::EXPERIANCE_1=>'Up to 12 months',
+			self::EXPERIANCE_2=>'1 to 2 years',
+			//self::EXPERIANCE_0TO2=>'0 to 2 years',
 			self::EXPERIANCE_2TO4=>'2 to 4 years',
 			self::EXPERIANCE_4TO8=>'4 to 8 years',
 			self::EXPERIANCE_8TO10=>'8 to 10 years',
@@ -221,9 +228,8 @@ class Stylist extends CActiveRecord
 			self::POSITION_GRADUATE=>'Graduate Stylist',
 			self::POSITION_STYLIST=>'Stylist',
 			self::POSITION_SENIOR=>'Senior Stylist',
-			self::POSITION_TOP=>'Top Stylist',
+			//self::POSITION_TOP=>'Top Stylist',
 			self::POSITION_DIRECTOR=>'Director',
-			self::POSITION_OTHER=>'Other',
 		);
 	}
 	
@@ -231,7 +237,8 @@ class Stylist extends CActiveRecord
 	{
 		return array(
 			self::CHOOSE=>'--Please Choose--',
-			self::CLIENTBASE_YES=>'Yes',
+			self::CLIENTBASE_YES=>'Yes - local',
+			self::CLIENTBASE_OUT=>'Yes - other area',
 			self::CLIENTBASE_NO=>'No',
 		);
 	}

@@ -863,8 +863,15 @@ section#recruitment h1 {
 	padding-left: 5px;
 }
 
-#stylist-form div.accordion div.elements div.row.buttons input,
-#apprentice-form div.accordion div.elements div.row.buttons input {
+div.accordion div.elements {
+	padding-left: 5px;
+}
+
+div.accordion div.elements div.row label {
+	font-size: 1em;
+}
+
+div.accordion div.elements div.row.buttons input {
 	width: 200px;
 	font-size: .9em;
 }
