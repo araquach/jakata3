@@ -101,11 +101,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'extensions_ind'); ?>
-		<?php echo $form->textField($model,'extensions_ind'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'extensions_other'); ?>
 		<?php echo $form->textField($model,'extensions_other'); ?>
 	</div>

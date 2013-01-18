@@ -7,7 +7,7 @@
 	<br />
 	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('date')); ?>:</b>
-	<?php echo CHtml::encode($data->date); ?>
+		<?php echo CHtml::encode(Yii::app()->dateFormatter->formatDateTime($data->date, "medium","")); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('first_name')); ?>:</b>
@@ -82,10 +82,6 @@
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('extensions_weave')); ?>:</b>
 	<?php echo CHtml::encode($data->extensions_weave); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('extensions_ind')); ?>:</b>
-	<?php echo CHtml::encode($data->extensions_ind); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('extensions_other')); ?>:</b>
