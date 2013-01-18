@@ -236,7 +236,7 @@
 	</div>
 	</div> <!--end hairdressing info-->
 	
-	<h2 class="reveal">3. About you</h2>
+	<h2 class="reveal">4. About you</h2>
 	<div class="elements">
 	<div class="row">
 		<?php echo $form->labelEx($model,'about_you'); ?>

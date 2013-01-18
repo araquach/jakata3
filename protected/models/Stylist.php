@@ -231,7 +231,6 @@ class Stylist extends CActiveRecord
 		$criteria->compare('colour_skills',$this->colour_skills);
 		$criteria->compare('men',$this->men);
 		$criteria->compare('extensions_weave',$this->extensions_weave);
-		$criteria->compare('extensions_ind',$this->extensions_ind);
 		$criteria->compare('chem_straighten',$this->chem_straighten);
 		$criteria->compare('braz_blow',$this->braz_blow);
 		$criteria->compare('hair_up',$this->hair_up);
