@@ -117,7 +117,7 @@ class Stylist extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-		//array('first_name, second_name, address1, address3, postcode, email, mobile, current_emp, school_qual, experience, current_position, client_base, qualifications, cutting_skills, colour_knowledge, colour_skills, men, extensions_weave, extensions_other, chem_straighten, braz_blow, hair_up, about_you, why_hairdressing, why_jakata', 'required'),
+		array('first_name, second_name, address1, address3, postcode, email, mobile, current_emp, school_qual, experience, current_position, client_base, qualifications, cutting_skills, colour_knowledge, colour_skills, men, extensions_weave, extensions_other, chem_straighten, braz_blow, hair_up, about_you, why_hairdressing, why_jakata', 'required'),
 		array('current_emp, school_qual, experience, current_position, client_base, qualifications, cutting_skills, colour_knowledge, colour_skills, extensions_weave, extensions_other, chem_straighten, braz_blow, hair_up', 'numerical', 'integerOnly'=>true),
 		array('adex_stock, adex_manage, adex_train, adex_reception, adex_marketing, adex_cservice', 'boolean'),
 			array('first_name, second_name, address1, address2, address3, email, current_emp_des, qual_non_hair, awards', 'length', 'max'=>256),
