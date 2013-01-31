@@ -11,7 +11,7 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Ch
 	<h2>FREE Colour with every Cut, Dry &amp; Style</h2>
 	<p>Have any Colour service absolutely FREE on your first visit to the salon
 	when you have a Cut, Dry &amp; Style</p>
-	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service Ends 15/02/13 </small>
+	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service Ends 28/02/13 </small>
 	</section> <!--end #offer1-->
 	
 	<section id="offer2">
