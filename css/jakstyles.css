@@ -1699,11 +1699,47 @@ span.kebelo_italic {
 
 #competition {
 	width: 950px;
-	height: 100%;
-	background: #f5f5f5 url('../images/competition/comp_back.jpg') no-repeat right top;
+	height: 900px;
+	background: #f5f5f5 url('../images/competition/valentine.png') no-repeat right top;
 	background-position-y: -5.2px;
 	padding-top: 250px;
 	padding-bottom: 200px;
+}
+
+#valentine {
+	width: 950px;
+	height: 100%;
+	background: #f5f5f5 url('../images/competition/valentine2.png') no-repeat right top;
+	background-position-y: -5.2px;
+	padding-top: 250px;
+	padding-bottom: 200px;
+}
+
+#competition_copy {
+	width: 300px;
+	position: absolute;
+	top: 550px;
+	left: 120px;
+}
+
+#competition_form {
+	width: 450px;
+	margin-left: 80px;
+}
+
+#competition_form p.question {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#competition_copy h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	font-size: 1.5em;
+}
+
+#competition_copy a {
+	font-size: 1.3em;
+	border-bottom: 1px dashed;
 }
 
 #competition_admin {
@@ -1713,54 +1749,6 @@ span.kebelo_italic {
 	background-position-y: -5.2px;
 	padding-top: 250px;
 	padding-bottom: 200px;
-}
-
-#competition_entry {
-	width: 475px;
-	min-height: 698px;
-	margin-left: 0px;
-	margin-top: -50px;
-	margin-bottom: 80px;
-	padding: 50px;
-	padding-right: 30px;
-	background-color: rgb(45, 2, 8);
-	background-color: rgba(20, 1, 4, 0.7);
-}
-
-#competition #competition_entry h1 {
-	font-size: 2.6em;
-	font-weight: bold;
-	color: #FFF;
-	margin-bottom: .3em;
-}
-
-#competition #competition_entry h2 {
-	color: #FFF;
-	font-size: 1.4em;
-	margin-top: 0;
-}
-
-#competition #competition_entry p {
-	font-size: 1em;
-	color: #FFF;
-}
-
-#competition #competition_entry p:first-of-type {
-	font-size: 1.1em;
-}
-
-#competition #competition_entry a {
-	color: #FFF;
-	font-size: 1.5em;
-	font-weight: bold;
-	font-style: italic;
-	line-height: 2em;
-	border-bottom: 2px dashed #FFF;
-	opacity: .8;
-}
-
-#competition #competition_entry a:hover {
-	opacity: 1;
 }
 
 .row input {
@@ -1774,19 +1762,11 @@ span.kebelo_italic {
 
 .competition_success {
 	width: 475px;
-	height: 698px;
-	margin-left: 0px;
-	margin-top: -50px;
-	margin-bottom: 80px;
-	padding: 50px;
-	padding-right: 30px;
-	background-color: rgb(45, 2, 8);
-	background-color: rgba(20, 1, 4, 0.7);
+	height: 500px;
 }
 
 .competition_success p{
 	font-size: 1.6em;
-	color: #FFF;
 }
 
 #competition #competition_entry #competition-form_es_ p {
