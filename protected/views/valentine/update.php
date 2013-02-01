@@ -16,6 +16,10 @@ $this->menu=array(
 );
 ?>
 
+<section id="valentine">
+
 <h1>Update Valentine <?php echo $model->id; ?></h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+
+</section>
