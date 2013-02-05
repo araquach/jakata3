@@ -5,6 +5,7 @@ $this->pageTitle=Yii::app()->name . ' - Competitions - Hairdressers in Cheshire'
 
 
 <section id="competition">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/competition/valentine-logo.png" alt="Valentines" width="741" height="397"/>
 <div id="competition_copy">
 <p><strong>Ensure you look your very best this Valentines Day &hellip;</strong></p>
 <h1>WIN A SET OF GHD GOLD STYLING IRONS</h1>

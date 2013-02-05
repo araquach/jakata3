@@ -1700,10 +1700,14 @@ span.kebelo_italic {
 #competition {
 	width: 950px;
 	height: 900px;
-	background: #f5f5f5 url('../images/competition/valentine.png') no-repeat right top;
+	background: #f5f5f5 url('../images/competition/valentine2.png') no-repeat right top;
 	background-position-y: -5.2px;
 	padding-top: 250px;
 	padding-bottom: 200px;
+}
+
+#competition img {
+	margin-left: 60pxpx;
 }
 
 #valentine {
@@ -1717,9 +1721,7 @@ span.kebelo_italic {
 
 #competition_copy {
 	width: 300px;
-	position: absolute;
-	top: 550px;
-	left: 120px;
+	margin-left: 100px;
 }
 
 #competition_form {
@@ -1738,7 +1740,7 @@ span.kebelo_italic {
 }
 
 #competition_copy a {
-	font-size: 1.3em;
+	font-size: 1.4em;
 	border-bottom: 1px dashed;
 }
 
