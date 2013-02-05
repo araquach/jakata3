@@ -32,7 +32,7 @@ class ValentineController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow managers to perform 'admin', 'delete', 'update' actions
-				'actions'=>array('admin','delete','update'),
+				'actions'=>array('index','admin','delete','update'),
 				'users'=>array('manager'),
 			),
 			
