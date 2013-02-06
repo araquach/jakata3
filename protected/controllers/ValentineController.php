@@ -1,12 +1,12 @@
 <?php
 
-class CompetitionController extends Controller
+class ValentineController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/column2';
+	public $layout='//layouts/column1';
 
 	/**
 	 * @return array action filters
@@ -27,18 +27,15 @@ class CompetitionController extends Controller
 	public function accessRules()
 	{
 		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view','enter'),
+			array('allow',  // allow all users to only perform 'create' actions
+				'actions'=>array('create'),
 				'users'=>array('*'),
 			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('update'),
-				'users'=>array('@'),
+			array('allow', // allow managers to perform 'admin', 'delete', 'update' actions
+				'actions'=>array('index','admin','delete','update'),
+				'users'=>array('manager'),
 			),
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete','entry_index'),
-				'users'=>array('adamcarter'),
-			),
+			
 			array('deny',  // deny all users
 				'users'=>array('*'),
 			),
@@ -60,26 +57,25 @@ class CompetitionController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionEnter()
+	public function actionCreate()
 	{
-		$model=new Competition;
+		$model=new Valentine;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Competition']))
+		if(isset($_POST['Valentine']))
 		{
-			$model->attributes=$_POST['Competition'];
+			$model->attributes=$_POST['Valentine'];
 			if($model->save())
-				
-				Yii::app()->user->setFlash('entry','<p>Thank\'s for entering ' . ucfirst($model->first_name) . '.' . '<br>We will be announcing the winners just before Christmas. Good Luck!</p>');
-				
+				Yii::app()->user->setFlash('entry','<p>Thank\'s for entering ' . ucfirst($model->first_name) . '.' . '<br>We will be announcing the winners just before Valentines Day. Good Luck!</p>');
 		}
 
-		$this->render('enter',array(
+		$this->render('create',array(
 			'model'=>$model,
 		));
 	}
+	
 
 	/**
 	 * Updates a particular model.
@@ -93,9 +89,9 @@ class CompetitionController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Competition']))
+		if(isset($_POST['Valentine']))
 		{
-			$model->attributes=$_POST['Competition'];
+			$model->attributes=$_POST['Valentine'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -118,19 +114,14 @@ class CompetitionController extends Controller
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
-	
-	public function actionIndex()
-	{
-		$this->render('index');
-	}
 
 	/**
 	 * Lists all models.
 	 */
-	public function actionEntry_index()
+	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Competition');
-		$this->render('entry_index',array(
+		$dataProvider=new CActiveDataProvider('Valentine');
+		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
 	}
@@ -140,10 +131,10 @@ class CompetitionController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Competition('search');
+		$model=new Valentine('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Competition']))
-			$model->attributes=$_GET['Competition'];
+		if(isset($_GET['Valentine']))
+			$model->attributes=$_GET['Valentine'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -157,7 +148,7 @@ class CompetitionController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Competition::model()->findByPk($id);
+		$model=Valentine::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -169,7 +160,7 @@ class CompetitionController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='competition-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='valentine-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
