@@ -20,7 +20,6 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 	</aside>',array('site/page','view'=>'collections')); ?>
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
-<<<<<<< HEAD
 <h3 class="newsheader">Win a set of GHD\'s</h3>
 <p class="newspara">Enter our Valentines competition for a chance to own a brand new set of the most desirable styling irons!</p>
 <p class="newscenter"><strong>Click Here &gt;</strong></p>
