@@ -12,6 +12,7 @@ $this->pageTitle=Yii::app()->name . ' - Competitions - Hairdressers in Cheshire'
 <h1>WIN A SET OF GHD GOLD STYLING IRONS</h1>
 <p>We’re giving away a set of the  most desirable styling irons available! (worth £120) plus 3 runners up will receive complimentary Blow Dry’s for their big Valentines night out!</p>
 <?php echo CHtml::link('CLICK HERE to enter',array('valentine/create')); ?>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/competition/ghd.jpg" alt="GHD" width="225" height="225" class="ghd"/>
 
 
 

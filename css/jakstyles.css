@@ -205,10 +205,10 @@ li.active a {
 
 
 #news2 {
-	background: url('../images/home/laura.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/ghd.jpg') no-repeat rgba(249, 249, 250, 0.8);
 }
 .no-rgba #news2 {
-	background: url('../images/home/laura.jpg') no-repeat rgb(249, 249, 250);
+	background: url('../images/home/ghd.jpg') no-repeat rgb(249, 249, 250);
 }
 
 #news3 {
@@ -1773,6 +1773,13 @@ span.kebelo_italic {
 
 #competition #competition_entry #competition-form_es_ p {
 	color: #000;
+}
+
+.ghd {
+	position: absolute;
+	top: 760px;
+	right: 200px;
+	border-radius: 20px;
 }
 
 /* @end */
