@@ -54,15 +54,15 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Average</p>' ?>
 			<?php echo $form->radioButton($model,'intro', array(
-			'value'=>-0,
+			'value'=>1,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Good</p>' ?>
 			<?php echo $form->radioButton($model,'intro', array(
-			'value'=>1,
+			'value'=>2,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Excellent</p>' ?>
 			<?php echo $form->radioButton($model,'intro', array(
-			'value'=>2,
+			'value'=>3,
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'intro'); ?>
 		</div>
@@ -79,15 +79,15 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Average</p>' ?>
 			<?php echo $form->radioButton($model,'consultation', array(
-			'value'=>-0,
+			'value'=>1,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Good</p>' ?>
 			<?php echo $form->radioButton($model,'consultation', array(
-			'value'=>1,
+			'value'=>2,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Excellent</p>' ?>
 			<?php echo $form->radioButton($model,'consultation', array(
-			'value'=>2,
+			'value'=>3,
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'consultation'); ?>
 		</div>
@@ -104,15 +104,15 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Average</p>' ?>
 			<?php echo $form->radioButton($model,'styling_area', array(
-			'value'=>-0,
+			'value'=>1,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Good</p>' ?>
 			<?php echo $form->radioButton($model,'styling_area', array(
-			'value'=>1,
+			'value'=>2,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Excellent</p>' ?>
 			<?php echo $form->radioButton($model,'styling_area', array(
-			'value'=>2,
+			'value'=>3,
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'styling_area'); ?>
 		</div>
@@ -129,15 +129,15 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Average</p>' ?>
 			<?php echo $form->radioButton($model,'stylist_appearance', array(
-			'value'=>-0,
+			'value'=>1,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Good</p>' ?>
 			<?php echo $form->radioButton($model,'stylist_appearance', array(
-			'value'=>1,
+			'value'=>2,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Excellent</p>' ?>
 			<?php echo $form->radioButton($model,'stylist_appearance', array(
-			'value'=>2,
+			'value'=>3,
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'stylist_appearance'); ?>
 		</div>
@@ -154,15 +154,15 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Average</p>' ?>
 			<?php echo $form->radioButton($model,'prod_advice', array(
-			'value'=>-0,
+			'value'=>1,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Good</p>' ?>
 			<?php echo $form->radioButton($model,'prod_advice', array(
-			'value'=>1,
+			'value'=>2,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Excellent</p>' ?>
 			<?php echo $form->radioButton($model,'prod_advice', array(
-			'value'=>2,
+			'value'=>3,
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'prod_advice'); ?>
 		</div>
@@ -179,15 +179,15 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Average</p>' ?>
 			<?php echo $form->radioButton($model,'styling_advice', array(
-			'value'=>-0,
+			'value'=>1,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Good</p>' ?>
 			<?php echo $form->radioButton($model,'styling_advice', array(
-			'value'=>1,
+			'value'=>2,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Excellent</p>' ?>
 			<?php echo $form->radioButton($model,'styling_advice', array(
-			'value'=>2,
+			'value'=>3,
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'styling_advice'); ?>
 		</div>
@@ -225,15 +225,15 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Average</p>' ?>
 			<?php echo $form->radioButton($model,'value_for_money', array(
-			'value'=>-0,
+			'value'=>1,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Good</p>' ?>
 			<?php echo $form->radioButton($model,'value_for_money', array(
-			'value'=>1,
+			'value'=>2,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Excellent</p>' ?>
 			<?php echo $form->radioButton($model,'value_for_money', array(
-			'value'=>2,
+			'value'=>3,
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'value_for_money'); ?>
 		</div>
@@ -251,15 +251,15 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Average</p>' ?>
 			<?php echo $form->radioButton($model,'whole_experience', array(
-			'value'=>-0,
+			'value'=>1,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Good</p>' ?>
 			<?php echo $form->radioButton($model,'whole_experience', array(
-			'value'=>1,
+			'value'=>2,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Excellent</p>' ?>
 			<?php echo $form->radioButton($model,'whole_experience', array(
-			'value'=>2,
+			'value'=>3,
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'whole_experience'); ?>
 		</div>
@@ -268,7 +268,7 @@
 			<?php echo $form->labelEx($model,'end_result'); ?>
 			<?php echo '<p class="scale_label">Devastated</p>' ?>
 			<?php echo $form->radioButton($model,'end_result', array(
-			'value'=>-4,
+			'value'=>-6,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Unhappy</p>' ?>
 			<?php echo $form->radioButton($model,'end_result', array(
@@ -276,15 +276,15 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Ok</p>' ?>
 			<?php echo $form->radioButton($model,'end_result', array(
-			'value'=>-0,
+			'value'=>1,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Happy</p>' ?>
 			<?php echo $form->radioButton($model,'end_result', array(
-			'value'=>2,
+			'value'=>3,
 			'uncheckValue'=>null)); ?>
 			<?php echo '<p class="scale_label">Exstatic</p>' ?>
 			<?php echo $form->radioButton($model,'end_result', array(
-			'value'=>4,
+			'value'=>6,
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'end_result'); ?>
 		</div>
