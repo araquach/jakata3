@@ -1,19 +1,19 @@
 <?php
 
 /**
- * This is the model class for table "bha_stylist".
+ * This is the model class for table "feedback_stylist".
  *
- * The followings are the available columns in table 'bha_stylist':
+ * The followings are the available columns in table 'feedback_stylist':
  * @property integer $id
  * @property string $stylist
  * @property integer $salon
  */
-class BhaStylist extends CActiveRecord
+class FeedbackStylist extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return BhaStylist the static model class
+	 * @return FeedbackStylist the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -25,7 +25,7 @@ class BhaStylist extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'bha_stylist';
+		return 'feedback_stylist';
 	}
 
 	/**
@@ -53,7 +53,7 @@ class BhaStylist extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'BhaInput' => array(self::HAS_MANY, 'BhaStylist', 'stylist_id')
+			'Feedback' => array(self::HAS_MANY, 'FeedbackStylist', 'stylist_id')
 		);
 	}
 

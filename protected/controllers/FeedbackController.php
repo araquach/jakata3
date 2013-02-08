@@ -1,6 +1,6 @@
 <?php
 
-class BhaInputController extends Controller
+class FeedbackController extends Controller
 {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
@@ -33,7 +33,7 @@ class BhaInputController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete','index','update','view'),
-				'users'=>array('adamcarter'),
+				'users'=>array('manager'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -52,9 +52,9 @@ class BhaInputController extends Controller
 		));
 	}
 	
-	public function actionBhaVoucher()
+	public function actionFeedbackVoucher()
 	{
-		$this->render('//mail/bha_voucher',array('model'=>$model));
+		$this->render('//mail/feedback_voucher',array('model'=>$model));
 	}
 
 	/**
@@ -63,18 +63,18 @@ class BhaInputController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new BhaInput;
+		$model=new Feedback;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['BhaInput']))
+		if(isset($_POST['Feedback']))
 		{
-			$model->attributes=$_POST['BhaInput'];
+			$model->attributes=$_POST['Feedback'];
 			if($model->save())
 				{
 					$message = new YiiMailMessage;
-					$message->view = 'bha_voucher';
+					$message->view = 'feedback_voucher';
 					$message->setBody(array('model'=>$model), 'text');
 					$message->subject = 'Jakata';
 					$message->addTo($model->mobile.'@smsid.textapp.net');
@@ -82,7 +82,7 @@ class BhaInputController extends Controller
 					
 					Yii::app()->mail->send($message);
 					
-					Yii::app()->user->setFlash('bhaInput','Thank you for your help ' . $model->client_first . '. It\'s really appreciated.<br>You will shortly receive your £10 voucher via text message.<br>See you in the salon soon!');
+					Yii::app()->user->setFlash('Feedback','Thank you for your help ' . $model->client_first . '. It\'s really appreciated.<br>You will shortly receive your £10 voucher via text message.<br>See you in the salon soon!');
 				}
 		}
 
@@ -103,9 +103,9 @@ class BhaInputController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['BhaInput']))
+		if(isset($_POST['Feedback']))
 		{
-			$model->attributes=$_POST['BhaInput'];
+			$model->attributes=$_POST['Feedback'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->id));
 		}
@@ -134,7 +134,7 @@ class BhaInputController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('BhaInput');
+		$dataProvider=new CActiveDataProvider('Feedback');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
@@ -145,10 +145,10 @@ class BhaInputController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new BhaInput('search');
+		$model=new Feedback('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['BhaInput']))
-			$model->attributes=$_GET['BhaInput'];
+		if(isset($_GET['Feedback']))
+			$model->attributes=$_GET['Feedback'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -162,7 +162,7 @@ class BhaInputController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=BhaInput::model()->findByPk($id);
+		$model=Feedback::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -174,7 +174,7 @@ class BhaInputController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='bha-input-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='feedback-input-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

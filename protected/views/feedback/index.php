@@ -1,22 +1,22 @@
 
 <?php
-/* @var $this BhaInputController */
+/* @var $this FeedbackController */
 /* @var $dataProvider CActiveDataProvider */
 ?>
 
-<div id="bha_back">
+<div id="feedback_back">
 <?php 
 $this->breadcrumbs=array(
-	'Bha Inputs',
+	'Feedback Inputs',
 );
 
 $this->menu=array(
-	array('label'=>'Create BhaInput', 'url'=>array('create')),
-	array('label'=>'Manage BhaInput', 'url'=>array('admin')),
+	array('label'=>'Create Feedback', 'url'=>array('create')),
+	array('label'=>'Manage Feedback', 'url'=>array('admin')),
 );
 ?>
 
-<h1>Bha Inputs</h1>
+<h1>Feedback Inputs</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

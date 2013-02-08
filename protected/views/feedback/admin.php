@@ -1,15 +1,15 @@
 <?php
-/* @var $this BhaInputController */
-/* @var $model BhaInput */
+/* @var $this FeedbackController */
+/* @var $model Feedback */
 
 $this->breadcrumbs=array(
-	'Bha Inputs'=>array('index'),
+	'Feedback Inputs'=>array('index'),
 	'Manage',
 );
 
 $this->menu=array(
-	array('label'=>'List BhaInput', 'url'=>array('index')),
-	array('label'=>'Create BhaInput', 'url'=>array('create')),
+	array('label'=>'List Feedback', 'url'=>array('index')),
+	array('label'=>'Create Feedback', 'url'=>array('create')),
 );
 
 Yii::app()->clientScript->registerScript('search', "
@@ -18,7 +18,7 @@ $('.search-button').click(function(){
 	return false;
 });
 $('.search-form form').submit(function(){
-	$.fn.yiiGridView.update('bha-input-grid', {
+	$.fn.yiiGridView.update('feedback-input-grid', {
 		data: $(this).serialize()
 	});
 	return false;
@@ -26,7 +26,7 @@ $('.search-form form').submit(function(){
 ");
 ?>
 
-<h1>Manage Bha Inputs</h1>
+<h1>Manage Feedback Inputs</h1>
 
 <p>
 You may optionally enter a comparison operator (<b>&lt;</b>, <b>&lt;=</b>, <b>&gt;</b>, <b>&gt;=</b>, <b>&lt;&gt;</b>
@@ -41,7 +41,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 </div><!-- search-form -->
 
 <?php $this->widget('zii.widgets.grid.CGridView', array(
-	'id'=>'bha-input-grid',
+	'id'=>'feedback-input-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
 	'columns'=>array(

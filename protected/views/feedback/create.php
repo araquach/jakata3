@@ -1,20 +1,20 @@
 <?php
-/* @var $this BhaInputController */
-/* @var $model BhaInput */
+/* @var $this FeedbackController */
+/* @var $model Feedback */
 ?>
 
 
 
-<div id="bha_back">
+<div id="feedback_back">
 
-<?php if(Yii::app()->user->hasFlash('bhaInput')): ?>
+<?php if(Yii::app()->user->hasFlash('Feedback')): ?>
 
 <div class="applicationSuccess">
-	<?php echo Yii::app()->user->getFlash('bhaInput'); ?>
+	<?php echo Yii::app()->user->getFlash('Feedback'); ?>
 </div>
 
 <?php else: ?>
-<div id="bha">
+<div id="feedback">
 <h1>Your Feedback is important to us!</h1>
 <h2>Receive a &pound;10 Product Voucher for your help</h2>
 <p><strong>As a valued Jakata customer, we would love to find out how your experience was in the salon</strong></p>
@@ -27,7 +27,7 @@ Plus entry into our Prize Draw for the chance to win some amazing prizes!</em></
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
 
-</div> <!--bha-->
-</div> <!--bha_back-->
+</div> <!--feedback-->
+</div> <!--feedback_back-->
 
 <?php endif; ?>

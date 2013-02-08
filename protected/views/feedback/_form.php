@@ -1,13 +1,13 @@
 <?php
-/* @var $this BhaInputController */
-/* @var $model BhaInput */
+/* @var $this FeedbackController */
+/* @var $model Feedback */
 /* @var $form CActiveForm */
 ?>
 
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'bha-input-form',
+	'id'=>'feedback-form',
 	'enableAjaxValidation'=>false,
 )); ?>
 
@@ -36,7 +36,7 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'stylist_id'); ?>
 		<?php echo $form->dropDownList($model, 'stylist_id', CHtml::listData(
-		BhaStylist::model()->findAll(), 'id', 'stylist'),
+		FeedbackStylist::model()->findAll(), 'id', 'stylist'),
 		array('prompt' => 'Select your Stylist')
 		); ?>
 		<?php echo $form->error($model,'stylist_id'); ?>

@@ -1,6 +1,6 @@
 <?php
-/* @var $this BhaInputController */
-/* @var $model BhaInput */
+/* @var $this FeedbackController */
+/* @var $model Feedback */
 /* @var $form CActiveForm */
 ?>
 

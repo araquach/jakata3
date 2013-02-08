@@ -1,9 +1,9 @@
 <?php
 
 /**
- * This is the model class for table "bha_input".
+ * This is the model class for table "feedback_input".
  *
- * The followings are the available columns in table 'bha_input':
+ * The followings are the available columns in table 'feedback_input':
  * @property integer $id
  * @property string $client_first
  * @property string $client_second
@@ -21,12 +21,12 @@
  * @property string $extra
  * @property integer $stylist_id
  */
-class BhaInput extends CActiveRecord
+class Feedback extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return BhaInput the static model class
+	 * @return Feedback the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -38,7 +38,7 @@ class BhaInput extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'bha_input';
+		return 'feedback';
 	}
 
 	/**
@@ -70,7 +70,7 @@ class BhaInput extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'BhaStylist' => array(self::BELONGS_TO, 'BhaStylist', 'id'),
+			'FeedbackStylist' => array(self::BELONGS_TO, 'FeedbackStylist', 'id'),
 		);
 	}
 
@@ -132,8 +132,5 @@ class BhaInput extends CActiveRecord
 		));
 	}
 	
-	public function trimEmail()
-	{
-		
-	}
+	
 }
