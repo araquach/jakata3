@@ -67,18 +67,8 @@ class FeedbackController extends Controller
 		{
 			$model->attributes=$_POST['Feedback'];
 			if($model->save())
-				{
-					$message = new YiiMailMessage;
-					$message->view = 'feedback_voucher';
-					$message->setBody(array('model'=>$model), 'text');
-					$message->subject = 'Jakata';
-					$message->addTo($model->mobile.'@smsid.textapp.net');
-					$message->from = ('enquiries@jakatasalon.co.uk');
-					
-					Yii::app()->mail->send($message);
-					
-					Yii::app()->user->setFlash('Feedback','Thank you for your help ' . ucfirst($model->client_first) . '. It\'s really appreciated.<br>You have automatically been entered into our prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
-				}
+			
+			Yii::app()->user->setFlash('Feedback','Thank you for your help ' . ucfirst($model->client_first) . '. It\'s really appreciated.<br>You have automatically been entered into our prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
 		}
 
 		$this->render('create',array(

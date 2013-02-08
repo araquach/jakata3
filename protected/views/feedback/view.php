@@ -4,7 +4,7 @@
 ?>
 
 
-<div id="feedback_back">
+<div id="feedbackBlank">
 <?php
 $this->breadcrumbs=array(
 	'Feedback Inputs'=>array('index'),

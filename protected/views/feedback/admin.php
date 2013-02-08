@@ -1,3 +1,4 @@
+<div id="feedbackBlank">
 <?php
 /* @var $this FeedbackController */
 /* @var $model Feedback */
@@ -68,3 +69,4 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		),
 	),
 )); ?>
+</div> <!--feedbackBlank-->

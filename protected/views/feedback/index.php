@@ -4,7 +4,7 @@
 /* @var $dataProvider CActiveDataProvider */
 ?>
 
-<div id="feedback_back">
+<div id="feedbackBlank">
 <?php 
 $this->breadcrumbs=array(
 	'Feedback Inputs',
@@ -22,4 +22,4 @@ $this->menu=array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
 )); ?>
-</div>
+</div> <!--feedbackBlank-->

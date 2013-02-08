@@ -1610,7 +1610,17 @@ span.kebelo_italic {
 
 /* @end */
 
-/* @group feedback Incentive */
+/* @group Feedback */
+
+
+#feedbackBlank {
+	width: 850px;
+	background-color: #f5f5f5;
+	padding-top: 250px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
 
 #feedback_back {
 	width: 950px;
@@ -1681,6 +1691,10 @@ span.kebelo_italic {
 
 #feedback_back .applicationSuccess {
 	margin-top: 100px;
+}
+
+#feedbackBlank #yw0 div.items div.view {
+	margin-bottom: 30px;
 }
 
 /* @end */

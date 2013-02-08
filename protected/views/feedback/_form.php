@@ -282,7 +282,7 @@
 			<?php echo $form->radioButton($model,'end_result', array(
 			'value'=>3,
 			'uncheckValue'=>null)); ?>
-			<?php echo '<p class="scale_label">Exstatic</p>' ?>
+			<?php echo '<p class="scale_label">Ecstatic</p>' ?>
 			<?php echo $form->radioButton($model,'end_result', array(
 			'value'=>6,
 			'uncheckValue'=>null)); ?>
