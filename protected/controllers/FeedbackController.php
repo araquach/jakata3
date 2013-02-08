@@ -77,7 +77,7 @@ class FeedbackController extends Controller
 					
 					Yii::app()->mail->send($message);
 					
-					Yii::app()->user->setFlash('Feedback','Thank you for your help ' . $model->client_first . '. It\'s really appreciated.<br>You will shortly receive your £10 voucher via text message.<br>See you in the salon soon!');
+					Yii::app()->user->setFlash('Feedback','Thank you for your help ' . ucfirst($model->client_first) . '. It\'s really appreciated.<br>You have automatically been entered into our prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
 				}
 		}
 

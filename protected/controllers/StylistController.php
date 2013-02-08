@@ -80,7 +80,7 @@ class StylistController extends Controller
 					
 					Yii::app()->mail->send($message);
 					
-					Yii::app()->user->setFlash('stylist','Thank you for your application ' . $model->first_name . '.' . '<br>We will keep hold of your details and contact you as soon as a position becomes available.<br>' . 'Thanks again.');
+					Yii::app()->user->setFlash('stylist','Thank you for your application ' . ucfirst($model->first_name) . '.' . '<br>We will keep hold of your details and contact you as soon as a position becomes available.<br>' . 'Thanks again.');
 				}
 			}
 			
