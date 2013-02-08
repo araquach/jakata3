@@ -1,3 +1,5 @@
+<div id="competitionBlank">
+
 <?php
 /* @var $this ValentineController */
 /* @var $model Valentine */
@@ -62,3 +64,5 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 )); ?>
 
 </section>
+
+</div> <!--competitionBlank-->

@@ -1,3 +1,5 @@
+<div id="competitionBlank">
+
 <?php
 /* @var $this ValentineController */
 /* @var $model Valentine */
@@ -15,7 +17,6 @@ $this->menu=array(
 	array('label'=>'Manage Valentine', 'url'=>array('admin')),
 );
 ?>
-<section id="valentine">
 
 <h1>View Valentine #<?php echo $model->id; ?></h1>
 
@@ -33,4 +34,5 @@ $this->menu=array(
 	),
 )); ?>
 
-</section>
+
+</div> <!--competitionBlank-->
