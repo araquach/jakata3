@@ -51,11 +51,6 @@ class FeedbackController extends Controller
 			'model'=>$this->loadModel($id),
 		));
 	}
-	
-	public function actionFeedbackVoucher()
-	{
-		$this->render('//mail/feedback_voucher',array('model'=>$model));
-	}
 
 	/**
 	 * Creates a new model.
