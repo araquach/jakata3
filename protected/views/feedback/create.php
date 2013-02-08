@@ -16,12 +16,11 @@
 <?php else: ?>
 <div id="feedback">
 <h1>Your Feedback is important to us!</h1>
-<h2>Receive a &pound;10 Product Voucher for your help</h2>
+<h2>PLUS your chance to win some great prizes!</h2>
 <p><strong>As a valued Jakata customer, we would love to find out how your experience was in the salon</strong></p>
 <p>We strive to offer the best possible service, plus give you a hairstyle that you're 100% happy with!</p>
 <p>We would really appreciate it if you could spare a couple of minutes to answer the following questions and give us your honest feedback.</p>
-<p><em>As a reward you will receive a &pound;10 gift voucher (delivered to you via text message) you can use towards any retail product in the salon.<br>
-Plus entry into our Prize Draw for the chance to win some amazing prizes!</em></p>
+<p><em>As a reward you will be automatically entered into our quarterly prize draw for the chance to win some amazing prizes, including GHD's plus hundreds of pounds worth of vouchers!</em></p>
 
 <p class="small">Your information will not be shared with anyone and is purely for us to ensure we are offering the best possible service along with looking at ways to improve our offering</p>
 
