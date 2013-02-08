@@ -4,7 +4,7 @@
 ?>
 
 <div class="view">
-	<?php /*
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
 	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
 	<br />
@@ -16,7 +16,7 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('client_second')); ?>:</b>
 	<?php echo CHtml::encode($data->client_second); ?>
 	<br />
-
+	<?php /*
 	<b><?php echo CHtml::encode($data->getAttributeLabel('mobile')); ?>:</b>
 	<?php echo CHtml::encode($data->mobile); ?>
 	<br />
@@ -62,12 +62,12 @@
 	<?php echo CHtml::encode($data->end_result); ?>
 	<br />
 	
-	*/ ?>
-	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('extra')); ?>:</b>
 	<?php echo CHtml::encode($data->extra); ?>
 	<br />
-
+	
+	*/  ?>
+	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('stylist_id')); ?>:</b>
 	<?php echo CHtml::encode($data->stylist_id); ?>
 	<br />
