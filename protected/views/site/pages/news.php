@@ -16,6 +16,30 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a name="Valentine" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/valentine.jpg" width="135" height="180">
+<h2>Valentine Competition Winners</h2>
+<p>We've had a fantastic response to this month's competition. A lucky winner gets a new set of GHD Gold Series styling irons, plus 3 runners up win a Dry &amp; Style in the salon.</p>
+<p>The winners have now been drawn!</p>
+<p class="reveal">Winners ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<h3>The winners are&hellip;</h3>
+<h4>Winner of the GHD's</h4>
+<p>Rebecca Hopwood</p>
+<h4>Runners Up</h4>
+<p>Philippa Bailey</p>
+<p>Samantha Self</p>
+<p>Louise Clarke</p>
+<p class="offer">Congratulations to our winners, we'll be contacting you soon.<br>
+<em>We'll be launching a brand new competition soon - visit our Facebook page or website to keep up to date</em></p>
+</section> <!--end .hidden-->
+<p class="author">Published by </p>
+<time datetime="2013-02-14" pubdate="pubdate"><p>14th February 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
 <a name="LauraInterview" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/laura.jpg" width="135" height="180">
