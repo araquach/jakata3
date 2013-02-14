@@ -1146,6 +1146,58 @@ p#book_button {
 
 /* @end */
 
+/* @group Catwalk */
+
+#catwalk_bground {
+	width: 950px;
+	height: 640px;
+	background-color: #f5f5f5;
+	background: #f5f5f5 url('../images/catwalk/catwalk_bground.jpg') no-repeat left top;
+	padding-top: 230px;
+	padding-bottom: 200px;
+}
+
+#catwalk {
+	margin-left: 50px;
+	float: left;
+}
+
+#catwalk h1 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#catwalk p {
+	font-size: 1.2em;
+	margin: 5px 0;
+}
+
+#catwalk_bground #catwalk a {
+	font-size: 1.2em;
+	line-height: 1.4em;
+	padding-bottom: 60px;
+}
+
+
+#catwalk img {
+	margin-left: -5px;
+}
+
+#catwalk p.cat_big {
+	font-size: 3em;
+}
+
+#catwalk p.cat_small {
+	font-size: .8em;
+}
+
+#catwalk p.cat_small:last-of-type {
+	margin-bottom: 30px;
+}
+
+
+/* @end */
+
 /* @group Collections */
 
 #collections {
