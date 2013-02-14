@@ -205,12 +205,12 @@ li.active a {
 
 
 #news2 {
-	background: url('../images/home/ghd.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/laura.jpg') no-repeat rgba(249, 249, 250, 0.8);
+}
+.no-rgba #news2 {
+	background: url('../images/home/laura.jpg') no-repeat rgb(249, 249, 250);
 }
 
-.no-rgba #news2 {
-	background: url('../images/home/ghd.jpg') no-repeat rgb(249, 249, 250);
-}
 
 #news3 {
 	background: url('../images/home/recruit.jpg') no-repeat rgba(249, 249, 250, 0.8);
