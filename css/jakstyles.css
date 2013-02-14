@@ -1801,6 +1801,12 @@ span.kebelo_italic {
 	color: #000;
 }
 
+.comp_closed {
+	color: #a42a46;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
 .ghd {
 	position: absolute;
 	top: 760px;
