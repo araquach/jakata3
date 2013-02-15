@@ -1172,12 +1172,12 @@ p#book_button {
 	margin: 5px 0;
 }
 
-#catwalk_bground #catwalk a {
-	font-size: 1.2em;
-	line-height: 1.4em;
-	padding-bottom: 60px;
+#catwalk p.link {
+	font-size: 1em;
+	margin-top: 20px;
+	
+	
 }
-
 
 #catwalk img {
 	margin-left: -5px;
@@ -1189,11 +1189,9 @@ p#book_button {
 
 #catwalk p.cat_small {
 	font-size: .8em;
+	margin-bottom: 10px;
 }
 
-#catwalk p.cat_small:last-of-type {
-	margin-bottom: 30px;
-}
 
 
 /* @end */
