@@ -71,7 +71,7 @@ window.addEvent('domready', function(){
 </dl>
 
 <p class="offer">Thanks to Shelly for taking the time out to answer these questions</p>
-<p class="offer">Next mont we'll be probing another team member!</p>
+<p class="offer">Next month we'll be probing another team member!</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="2013-01-04" pubdate="pubdate"><p>15th February 2013</p></time>
