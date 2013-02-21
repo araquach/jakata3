@@ -15,15 +15,18 @@ $this->pageTitle=Yii::app()->name . ' - Catwalk Package - Hairdressers in Cheshi
 	<p>with a Senior Stylist</p>
 	<p class="cat_big"><strong>worth &pound;140</strong></p>
 	<p>for only &pound;70</p>
-	<p>with a Stylist - only &pound;60</p>
+	<p>with a Stylist</p> 
+	<p class="cat_med">only &pound;60</p>
 	<p class="cat_small">worth &pound;120</p>
 	<br>
+	<div id="cat_includes">
 	<p><em><strong>Package Includes:</strong></em></p>
 	<p><em>Colour &amp; Cut PLUS</em><br>
 	<em>Catwalk Fashion Styling</em><br>
 	<em>FREE Catwalk Shampoo, Conditioner</em><br>
 	<em>&amp; Styling Product Worth £40</em></p>
 	<p class="cat_small">New clients only, not with any other offer</p>
+	</div> <!--#cat_includes-->
 	
 	<p class="link"><?php echo CHtml::link('Cut &amp Style only Package also available <br><strong>Click here for info</strong> ',array('site/page','view'=>'catwalk2')); ?></p>
 	
