@@ -1150,10 +1150,10 @@ p#book_button {
 
 #catwalk_bground {
 	width: 950px;
-	height: 680px;
+	height: 700px;
 	background-color: #f5f5f5;
 	background: #f5f5f5 url('../images/catwalk/catwalk_bground.jpg') no-repeat left top;
-	padding-top: 230px;
+	padding-top: 210px;
 	padding-bottom: 200px;
 }
 
