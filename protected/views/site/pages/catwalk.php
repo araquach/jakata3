@@ -25,12 +25,12 @@ $this->pageTitle=Yii::app()->name . ' - Catwalk Package - Hairdressers in Cheshi
 	<em>Catwalk Fashion Styling</em><br>
 	<em>FREE Catwalk Shampoo, Conditioner</em><br>
 	<em>&amp; Styling Product Worth £40</em></p>
-	<p class="cat_small">New clients only, not with any other offer, ends 31/03/13</p>
+	<p class="cat_small">New clients only, not with any other offer, weekdays only. Ends 31/03/13</p>
 	</div> <!--#cat_includes-->
 	
 	<p class="link"><?php echo CHtml::link('Cut &amp Style only Package also available <br><strong>Click here for info</strong> ',array('site/page','view'=>'catwalk2')); ?></p>
 	
-	<p>Call 01925 242960 to book</p>
+	<p class="catwalk_contact">Call 01925 242960 to book</p>
 	
 
 </section> <!--#catwalk-->
