@@ -23,8 +23,8 @@ $this->pageTitle=Yii::app()->name . ' - Catwalk Package - Hairdressers in Cheshi
 	<div id="cat_includes">
 	<p><em><strong>Package Includes:</strong></em></p>
 	<p><em>Cut, Dry &amp; Style PLUS</em><br>
-	<em>Catwalk Fashion Styling</em><br>
-	<em>FREE Catwalk Shampoo &amp; Conditioner</em></p>
+	<em>Catwalk Fashion Styling PLUS</em><br>
+	<em>FREE Catwalk Product</em></p>
 	<p class="cat_small">New clients only, not with any other offer. <br>Weekdays only. Ends 31/03/13</p>
 	</div>
 	
