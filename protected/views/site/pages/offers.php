@@ -9,15 +9,15 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Ch
 	<h1>Latest Offers</h1>
 
 	<?php echo CHtml::link('<section id="offer1" class="group">
-	<h2>Catwalk Makeover <br>Package 1</h2>
+	<h2>Catwalk Makeover <br>Colour &amp; Cut Package</h2>
 	<p>A limited edition package worth &pound;140 <br>for just &pound;70</p>
 	<p><strong>Click here for more details</strong></p>
 	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service Ends 31/03/13 </small>
-	(</section>', array('site/page','view'=>'catwalk')); ?>
+	</section>', array('site/page','view'=>'catwalk')); ?>
 	
 	<?php echo CHtml::link('<section id="offer2" class"group">
-	<h2>Catwalk Makeover <br>Package 2</h2>
-	<p>25% off a Cut, Dry &amp; Style plus FREE product and Catwalk Fashion Styling</p>
+	<h2>Catwalk Makeover <br>Cut &amp; Style Package</h2>
+	<p>A Cut, Dry &amp; Style plus FREE product and Catwalk Fashion Styling from only &pound;25</p>
 	<p><strong>Click here for more details</strong></p>
 	<small>Excludes Saturday. First visit only. Not with any other offer. Ends 31/03/13</small>
 	
