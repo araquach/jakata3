@@ -13,11 +13,17 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 
 <div id="home_news">
 
-<?php echo CHtml::link('<aside id="news1" class="home_news">
+<?php /*echo CHtml::link('<aside id="news1" class="home_news">
 <h3 class="newsheader">Autumn/Winter 2012 Collection</h3>
 <p class="newspara">Check out our latest collection by the Artistic Team</p>
 <p class="newscenter"><strong>Images here &gt;</strong></p>
-	</aside>',array('site/page','view'=>'collections')); ?>
+	</aside>',array('site/page','view'=>'collections')); */?>
+	
+<?php echo CHtml::link('<aside id="news1" class="home_news">
+<h3 class="newsheader">Limited Edition Catwalk Makeover Package</h3>
+<p class="newspara">A special, limited edition package for new clients worth &pound;140 for just &pound;70!</p>
+<p class="newscenter"><strong>Click here for details &gt;</strong></p>
+	</aside>',array('site/page','view'=>'catwalk')); ?>
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
 <h3 class="newsheader">Get to know the team: meet Shelly</h3>
