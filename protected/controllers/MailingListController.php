@@ -37,7 +37,7 @@ class MailingListController extends Controller
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
 				'actions'=>array('admin','delete','emailer'),
-				'users'=>array('adamcarter'),
+				'users'=>array('manager'),
 			),
 			array('deny',  // deny all users
 				'users'=>array('*'),
@@ -95,9 +95,9 @@ class MailingListController extends Controller
 				{
 					
 						$message = new YiiMailMessage;
-						$message->view = 'oct12';
+						$message->view = 'catwalk_mailshot';
 						$message->setBody(array('model'=>$row), 'text/html');
-						$message->subject = 'November News';
+						$message->subject = 'Catwalk Makeover Package';
 						$message->setTo($row->email);
 						$message->from = ('news@jakatasalon.co.uk');
 						Yii::app()->mail->batchSend($message);		
