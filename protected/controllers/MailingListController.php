@@ -84,6 +84,7 @@ class MailingListController extends Controller
 		));
 	}
 	
+	
 	public function actionEmailer()
 		{
 			$model=new MailingList;
@@ -95,7 +96,7 @@ class MailingListController extends Controller
 				{
 					
 						$message = new YiiMailMessage;
-						$message->view = 'catwalk_mailshot';
+						$message->view = 'catwalk_mailshot 2';
 						$message->setBody(array('model'=>$row), 'text/html');
 						$message->subject = 'Catwalk Makeover Package';
 						$message->setTo($row->email);
