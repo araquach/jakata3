@@ -16,6 +16,77 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a name="NatInterview" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/nat.jpg" width="135" height="160">
+<h2>Get to know the team: Meet Natalie</h2>
+<p>This month we took some time out to ask Natalie Doxey some questions about her career as a stylist at Jakata</p>
+<p>We found out how she got into hairdressing, her strengths and weaknesses plus her favourite hairdressing looks for Spring and Summer</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<dl>
+	<dt>So Natalie, how long have you been hairdressing for now?</dt>
+	<dd>I've been a qualified hairdresser for about 2 years now but I've been doing it for about 5 years altogether.</dd>
+	
+	<dt>When did you join the Jakata team?</dt>
+	<dd>I joined the Jakata team back in October 2008 as Saturday staff and continued to do all my training in house.</dd>
+	
+	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
+	<dd>I have always found the hair and beauty industry fascinating, so I got myself an apprenticeship with Jakata and never looked back. </dd>
+	
+	<dt>If you had chosen another profession what would it have been?</dt>
+	<dd>If I was to do any other job I would be an events organiser, I love planning and co-ordinating things.</dd>
+	
+	<dt>What key points make Jakata good at developing new stylists?</dt>
+	<dd>Jakata is amazing for developing new stylists as they really focus on your weaknesses and polish every last skill up to a high standard. It was such an amazing environment to learn in and an even better one now being on the shop floor full time.</dd>
+	
+	<dt>What's your favourite hairstyle of all time and why?</dt>
+	<dd>I absolutely love all styles, but for me the most iconic is Frankie Sandford from the Saturdays ... throughout my training that cut was so popular, I must've done 100’s of them and I still love it now!</dd>
+	
+	<dt>If you could cut anyone's hair who would it be and why?</dt>
+	<dd>If i could cut anyones hair it would be Isla Fisher. I love her style, colour and cut.</dd>
+	
+	<dt>How do you go about creating your cutting/colour styles? Is it difficult to think up new ideas and keep up with the latest trends?</dt>
+	<dd>Thinking up new ideas is a lot easier than you think, all it takes is a small bit of inspiration. All the team at Jakata feed each other new ideas all the time. Also <em>YouTube</em> is amazing for style ideas too.</dd>
+	
+	<dt>Whats the secret to a good haircut/style?</dt>
+	<dd>The secret to a good hair cut is a good listener. The best thing I ever learnt in my training was how to listen to a clients needs, the rest is easy.</dd>
+	
+	<dt>What tips can you give to up and coming hairstylists?</dt>
+	<dd>Tips for a up and coming stylist are to become a sponge, take every opportunity to learn, any courses you can get yourself on or any shadowing do it now!! Take advantage picking the brains of hairdressers.</dd>
+	
+	<dt>What do you think sets Jakata apart from other salons?</dt>
+	<dd>Jakata is totally different to any other salon. Our laid back atmosphere makes all clients feel at ease and I love the environment we work in. We have the right balance of professionalism and fun.</dd>
+	
+	<dt>Whats the best thing for you about being a stylist at Jakata?</dt>
+	<dd>The best thing for me about Jakata is the staff! I get on so well with everyone and we are such a close team. The clients that we get vary so it keeps my day interesting too.</dd>
+	
+	<dt>What do you think is the most exciting new spring/summer 2012 hair trend?</dt>
+	<dd>My spring summer trend this year is Isla Fisher meets Fern Cotton for me. Rich amazing tones with a mid length, wavey textured hair cut is perfect this year.</dd>
+		
+	<dt>Out of the product ranges which is your favourite and why?</dt>
+	<dd>My favourite products are the <a href="http://www.catwalkbytigi.com/the-catwalk-collection/styling-collection/session-series-styling-collection" target="_blank">Tigi Catwalk Session Series</a>. There isn’t one I don’t love! They're versatile and very current.</dd>
+	
+	<dt>Do you have a signature hairstyle? If so, describe it.</dt>
+	<dd>I don’t think I really have a signature hair style to be honest, I really enjoy hair up styling though</dd>
+	
+	<dt>What pushes your buttons in the world of fashion, hair and beauty?</dt>
+	<dd>All fashion inspires me. I personally like to find things I HATE and turn them into something I love,
+		just by changing it slightly whether its a hair cut or colour.</dd>
+	
+	<dt>Tell me your strengths and weaknesses as a hairdresser.</dt>
+	<dd>I love mens cutting, creative colouring, extensions and hair up, they are all my strengths. My weakness is cutting kids hair!!</dd>
+</dl>
+
+<p class="offer">Many thanks to Nat for answering these questions for us so candidly.</p>
+<p class="offer">Visit back next month to meet another Jakata team member</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2013-02-15" pubdate="pubdate"><p>15th March 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
 <a name="ShellyInterview" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/shelly.jpg" width="135" height="160">

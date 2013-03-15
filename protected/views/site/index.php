@@ -26,10 +26,10 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 	</aside>',array('site/page','view'=>'catwalk')); ?>
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
-<h3 class="newsheader">Get to know the team: meet Shelly</h3>
-<p class="newspara">A question &amp; answer session with Senior Stylist Michelle French </p>
+<h3 class="newsheader">Get to know the team: meet Natalie</h3>
+<p class="newspara">This month we caught up with Natalie Doxey to ask her some probing questions!</p>
 <p class="newscenter"><strong>Read it here &gt;</strong></p>
-</aside>',array('site/page','view'=>'news','#'=>'ShellyInterview')); ?>
+</aside>',array('site/page','view'=>'news','#'=>'NatInterview')); ?>
 
 <?php echo CHtml::link('<aside id="news3" class="home_news">
 <h3 class="newsheader">Great career opportunities at Jakata</h3>
