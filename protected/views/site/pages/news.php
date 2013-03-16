@@ -62,8 +62,8 @@ window.addEvent('domready', function(){
 	<dt>Whats the best thing for you about being a stylist at Jakata?</dt>
 	<dd>The best thing for me about Jakata is the staff! I get on so well with everyone and we are such a close team. The clients that we get vary so it keeps my day interesting too.</dd>
 	
-	<dt>What do you think is the most exciting new spring/summer 2012 hair trend?</dt>
-	<dd>My spring summer trend this year is Isla Fisher meets Fern Cotton for me. Rich amazing tones with a mid length, wavey textured hair cut is perfect this year.</dd>
+	<dt>What do you think is the most exciting new spring/summer 2013 hair trend?</dt>
+	<dd>My spring summer trend this year is Isla Fisher meets Fern Cotton for me. Rich amazing tones with a mid length, wavy textured hair cut is perfect this year.</dd>
 		
 	<dt>Out of the product ranges which is your favourite and why?</dt>
 	<dd>My favourite products are the <a href="http://www.catwalkbytigi.com/the-catwalk-collection/styling-collection/session-series-styling-collection" target="_blank">Tigi Catwalk Session Series</a>. There isn’t one I don’t love! They're versatile and very current.</dd>
