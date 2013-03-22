@@ -5,67 +5,11 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 
 <?php
 	Yii::app()->clientScript->registerCoreScript('jquery');
-    Yii::app()->clientScript->registerScript('team_animate',"
-               
-      $('.team_member_copy').each(function(){
-      $(this).hover(function(){
-      $(this).css({opacity: 0});
-      $('#'+$(this).attr('rel')).fadeIn(800);
-      return false;
-      }, function(){
-      $(this).css({opacity: 1});
-      $('#'+$(this).attr('rel')).fadeOut(800);
-      });
-      });	
-        
-    ",CClientScript::POS_READY);
+	Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/scripts/team.js');
 ?>
-
-
 
 <div id="team_shot"></div>
 <section id="team">
-
-<?php 
-$this->widget('zii.widgets.jui.CJuiAccordion', array(
-    'panels'=>array(
-        'panel 1'=>'Welcome',
-        'panel 2'=>'This is panel 2',
-        // panel 3 contains the content rendered by a partial view
-           ),
-    // additional javascript options for the accordion plugin
-    'options'=>array(
-        'animated'=>'slide',
-    ),
-));
-?>
-
-	<!-- TEXT FOR VENUE -->
-	<div id="venue" class="picsText">
-	<p class="mediumtx" align="left">
-	Researching for the ideal venue for your event can be one of the most 
-	daunting tasks you will be faced with. Greek Concierge has the right 
-	contacts to make this happen.
-	</p>
-	</div>
-	
-	<!-- TEXT FOR THEME -->
-	
-	<div id="theme" class="picsText">
-	<p class="mediumtx" align="left">
-	Getting the theme right is important to attract more guests at your 
-	events. We have many ideas to choose from - all you need is to decide 
-	which one is right for the moment you are trying to create. 
-	</p>
-	</div>
-	
-	<div id="pics">
-	<img src="http://www.greekconcierge.com/images/events-venue.png" title="" alt="Events London Venue" rel="venue" > 
-	<img src="http://www.greekconcierge.com/images/events-theme.png" title="" alt="Events London Theme" rel="theme"> 
-	</div>
-
-	
-
 	<section id="team_overview">
     <h1>The Team</h1>
     <p>The Jakata team comprises of ten skilled stylists, all from different hairdressing backgrounds, all displaying a diverse range of skills.</p>
@@ -77,77 +21,132 @@ $this->widget('zii.widgets.jui.CJuiAccordion', array(
     
     <div id="team_members">
 	<section class="team_member" id="jimmy">
+	<div id="team_button"><strong><p>About<br>Jimmy</p></strong></div>
 	<h2>Jimmy Sharpe</h2>
+	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
+	<p><strong>Salon manager Jimmy joined Jakata in October 2007 as an apprentice and quickly worked his way up through the ranks.</strong></p>
+	<p>His passion for hairdressing is infectious. His experimental approach ensures he's always pushing the boundaries in cutting, colouring &amp; styling hair.</p>
+	<p>Jimmy was recently a member of the Schwarzkopf Young Artistic Team</p>
+	<p><strong>Favourite Style: </strong>Short hair cuts</p>
+	<p><strong>Favourite Product: </strong>Schwarzkopf Flex Wax</p>
+	<p class="price">Average Cut &amp; Colour <br>with Jimmy: &pound;90</p>
+	</section> <!--team_member_copy -->
 	</section> <!--team member jimmy-->
-	<section class="team_member_copy">
-	<p>Jimmy joined the team in 200? straight from college. He quickly developed his hairdressing skills but also showed a keen interest in all aspects of the salon. From maintenance to finances, literally anything! He naturally fell into his role as salon manager and is a pivotal member of the team. </p>
-	<p>His hairdressing strengths are ???? and he loves ?????</p>
-	<p class="price">Average Cut &amp; Colour with Jimmy: &pound;90</p>
-	</section> <!--team_member_copy -->
-	
-	<section class="team_member" id="shelly">
-	<section class="team_member_copy">
-	<h2>Michelle French</h2>
-	<p>Michelle has a tonne of experiance from working in salons in Warrington. She spent a large part of her career working for Toni &amp; Guy and mad the move to Jakata 3 years ago.</p>
-	<p>Her skills are diverse with a passion for cutting. She says the classic bob is her all time favourte style, but her skills are strong in fashion colouring </p>
-	<p class="price">Average Cut &amp; Colour with Michelle: &pound;90</p>
-	</section> <!--team_member_copy -->
-	</section> <!--team member shelly-->
 	
 	<section class="team_member" id="vicky">
-	<section class="team_member_copy">
+	<div id="team_button"><p>About<br>Vikki</p></div>
 	<h2>Vicky Rowland</h2>
-	<p>Vicky has many years experiance, with athe bulk of her experience from working at the Hair Cuttery. She moved to Jakata in ???</p>
-	<p>Vicky's unique personal style definately has an impact on the styles she creates in the saon. She loves all things retro, but don't worry, if the retro look isn't your thing, she is adaptable!</p>
-	<p class="price">Average Cut &amp; Colour with Vicky: &pound;90</p>
+	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
+	<p><strong>Team leader Vicky is a highly experienced stylist with a passion for all things vintage.</strong></p>
+	<p>Her time with the Hair Cuttery gave her a strong customer service focus. After joining Jakata in ???? she's worked her way up to salon team leader.</p>
+	<p>Vicky's unique personal style definitely has an reflects in her innovative creations in the salon. </p>
+	<p><strong>Favourite Style: </strong> Anything Vintage</p>
+	<p><strong>Favourite Product: </strong>Catwalk Weightless Shine Spray</p>
+	<p class="price">Average Cut &amp; Colour <br>with Vicky: &pound;90</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member vicky-->
 	
-	<section class="team_member" id="nat">
+	<section class="team_member" id="michelle">
+	<div id="team_button"><p>About<br>Michelle</p></div>
+	<h2>Michelle Ash</h2>
 	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
+	<p><strong>Senior Stylist Michelle has been a key Jakata team member for (many) years.</strong></p>
+	<p>With 17 years experience she's highly skilled in all aspects of hairdressing.</p>
+	<p>She particularly loves technical cutting &amp; Colouring and has been a finalist in the L'Oreal Colour Trophy.</p>
+	<p><strong>Favourite Style: </strong>Any kind of Bob</p>
+	<p><strong>Favourite Product: </strong>Tigi 'Hard To Get'</p>
+	<p class="price">Average Cut &amp; Colour <br>with Michelle: &pound;90??</p>
+	</section> <!--team_member_copy -->
+	</section> <!--team member vicky-->
+	
+	<section class="team_member" id="shelly">
+	<div id="team_button"><p>About<br>Shelly</p></div>
+	<h2>Michelle French</h2>
+	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
+	<p><strong>Senior Stylist Shelly has been a Jakata Team member since September 2011. She has over 10 years experience.</strong></p> 
+	<p>Her hairdressing background with Tony &amp; Guy ensured a good foundation, and she is always striving to push to the next level. </p> 
+	<p>Shelly says the secret to a good haircut is correct assessment of the hair type and texture, suitability and manageability.</p>
+	<p><strong>Favourite Style: </strong>Classic Bob's</p>
+	<p><strong>Favourite Product: ?</strong> Osis Shape Shifters</p>
+	<p class="price">Average Cut &amp; Colour <br>with Michelle: &pound;90</p>
+	</section> <!--team_member_copy -->
+	</section> <!--team member shelly-->
+	
+	<section class="team_member" id="maisie">
+	<div id="team_button"><p>About<br>Maisie</p></div>
+	<h2>Maisie Thompson</h2>
+	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
+	<p><strong>Maisie is Jakata's latest addition to the team. As a senior stylist she has over 8 years experience.</strong></p>
+	<p>She loves big, messy, tousled styles with loads of bounce and attitude.</p> 
+	<p>Precision, creativity and a strong understanding of an individuals hair are Maisie's focus.</p>
+	<p>She has an advanced diploma in Colour Correction through Biostetique</p>
+	<p><strong>Favourite Style: </strong>Big, tousled hair</p>
+	<p><strong>Favourite Product: </strong>Tigi 'Totally Baked'</p> 
+	<p class="price">Average Cut &amp; Colour <br>with Maisie: &pound;90</p>
+	</section> <!--team_member_copy -->
+	</section> <!--team member maisie-->
+	
+	<section class="team_member" id="laura">
+	<div id="team_button"><p>About<br>Laura</p></div>
+	<h2>Laura Hall</h2>
+	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
+	<p><strong>Laura has been hairdressing for 8 years and joined Jakata in 2005. That makes her the longest serving team member (apart from Adam).</strong></p>
+	<p>Laura loves classic styling plus technical services like Opti-Smooth and Kebelo.</p>
+	<p>Laura strongly believes using the right products is the key to maintaining a new hairstyle.</p>
+	<p><strong>Favourite Style:</strong> ?</p>
+	<p><strong>Favourite Product:</strong> Any of the Tigi Candy Fixations Range</p>
+	 <p class="price">Average Cut &amp; Colour <br>with Laura: &pound;80</p>
+	</section> <!--team_member_copy --> 
+	</section> <!--team member laura-->
+		
+	<section class="team_member" id="nat">
+	<div id="team_button"><p>About<br>Nat</p></div>
 	<h2>Natalie Doxey</h2>
-	<p>Natalie is quickly flying through the ranks and has the passion and drive to get her to the top of her career. She lives and breathes hairdressing.</p>
-	<p>She was recently part of the winning team for the 'Redken Style Innovator' award and has featured in a number if hairdressing publications - a great achievement for a relative newcomer.</p>
-	<p class="price">Average Cut &amp; Colour with Natalie: &pound;70</p>
+	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
+	<p><strong>Natalie completed her apprenticeship with Jakata in 2008. She's now a fully fledged stylist, exhibiting some incredible creative talent.</strong></p>
+	<p>A key player in the winning team at the Redken NYC Awards, Natalie picked up the Style Innovator Trophy.</p> 
+	<p>She loves men's hair cutting, creative colouring, extensions and hair up.</p>
+	<p><strong>Favourite Style: </strong> </p>
+	<p><strong>Favourite Product: </strong>Session Series Dry Shampoo</p>
+	<p class="price">Average Cut &amp; Colour <br>with Natalie: &pound;60</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member nat-->
 	
-	<section class="team_member" id="adam">
-	<section class="team_member_copy">
-	<h2>Daniel Anderson</h2>
-	<p>Dan isn't officially a Jakatan, but deserves a mention! He is a law unto himself and churns out some super nice cuts and colours</p>
-	<p>He came on board at Jakata and has settled in like part of the furniture. He likes to do 90's styles.</p>
-	<p class="price">Average Cut &amp; Colour with Dan: &pound;110</p>
-	</section> <!--team_member_copy -->
-	</section> <!--team member adam-->
-	
 	<section class="team_member" id="mikala">
-	<section class="team_member_copy">
+	<div id="team_button"><p>About<br>Mikala</p></div>
 	<h2>Mikala Sutcliffe</h2>
-	<p>Mikala is the latest recruit to compete our rigorous training and is now a fully fledged Graduate Stylist. She has a talent for creating beautiful styles and has a great eye for the perfect finish. Her colouring skills are also fantastic.</p>
-	<p>Graduate Stylists don't stay at this level for long, so take advantage of this great price before she gets promoted!!</p>
-	<p class="price">Average Cut &amp; Colour with Mikala: &pound;60</p>
+	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
+	<p><strong>Graduate Stylist Mikala is the latest recruit to complete our rigorous training, and is now a qualified Graduate Stylist. </strong></p>
+	<p>She has a talent for creating beautiful styles and has a great eye for the perfect finish.</p>
+	<p><em>Graduate Stylists don't stay at this level for long, so take advantage of this great price before she gets promoted!!</em></p>
+	<p><strong>Favourite Style: </strong>Curly Blow Dry's</p>
+	<p><strong>Favourite Product: </strong>Tigi 'Mega Whip'</p>
+	<p class="price">Average Cut &amp; Colour <br>with Mikala: &pound;60</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member mikala-->
+	 
+	<section class="team_member" id="dan">
+	<div id="team_button"><p>About<br>Dan</p></div>
+	<h2>Daniel Anderson</h2>
+	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
+	<p><strong>Dan isn't officially a Jakatan, but deserves a mention! He is a law unto himself and churns out some super nice cuts and colours</strong></p>
+	<p>He came on board at Jakata and has settled in like part of the furniture.</p>
+	<p><strong>Favourite Style: </strong>Straight Line Graduation</p>
+	<p><strong>Favourite Product: </strong>Totally Baked</p>
+	<p class="price">Average Cut &amp; Colour <br>with Dan: &pound;110</p>
+	</section> <!--team_member_copy -->
+	</section> <!--team member dan-->
 	
-	<section class="team_member" id="laura">
-	<section class="team_member_copy">
-	 <h2>Laura Hall</h2>
-	 <p>Laura joined Jakata way back in 2005 and has been a key member of the team since. Her passion is for doing all the boring shit, like chemical straightening.</p>
-	 <p class="price">Average Cut &amp; Colour with Laura: &pound;80</p>
-	</section> <!--team_member_copy --> 
-	</section> <!--team member laura-->
-	 
-	<section class="team_member" id="katie">
-	<section class="team_member_copy">
-	<h2>Katy Littlemore</h2>
-	<p>Katy was a member of the Daniel Anderson Team and joined us when he came on board. She loves cutting, colouring and styling hair but her true passion is her horses.</p>
-	<p>In her spare time she trims her horses maine and tail.</p>
-	<p class="price">Average Cut &amp; Colour with Katy: &pound;80</p>
-	</section> <!--team_member_copy --> 
-	</section> <!--team member katie-->
-	</div> <!--team members-->
-	 
+		 
 	 
 </section> <!--team-->
       	
