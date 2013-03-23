@@ -14,7 +14,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
     <h1>The Team</h1>
     <p>The Jakata team comprises of ten skilled stylists, all from different hairdressing backgrounds, all displaying a diverse range of skills.</p>
     <p>Over the years Jakata has trained and developed a number of people to exceptional standards, whilst taking on already established stylists. This mix of talent creates a dynamic team with stylists well suited to anyone with a desire for a fashion forward look.</p>
-    <p>A year ago the team divided into two when we opened our sister salon <a href="http://www.paulkemphairdressing.com" target="_blank">Paul Kemp Hairdressing</a> due to outgrowing our Bridge Street premises. Both teams continue to grow both in number and skill, proving to be a formidable force in hairdressing both in Warrington and the North West. </p>
+    <p>A year ago the team divided into two when we opened our sister salon <a href="http://www.paulkemphairdressing.com" target="_blank">Paul Kemp Hairdressing</a> due to outgrowing our Bridge Street premises. Both teams continue to grow both in number and skill.</p>
     <p><em>It's difficult to find a stylist well suited to your needs, take the time to read each staff members profile to find the right fit for you. Prices for each stylist vary dependant on a number of factors (experience, specialised skills, high demand etc.)</em></p>
     <p><strong>Please call to arrange for a complimentary consultation with any of our team members.</strong></p>
     </section> <!--team_overview-->
@@ -76,20 +76,20 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	</section> <!--team_member_copy -->
 	</section> <!--team member shelly-->
 	
-	<!--<section class="team_member" id="maisie">
+	<section class="team_member" id="maisie">
 	<div id="team_button"><p>About<br>Maisie</p></div>
 	<h2>Maisie Thompson</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
-	<p><strong>Maisie is Jakata's latest addition to the team. She's a senior stylist she has over 8 years experience.</strong></p>
+	<p><strong>Maisie is Jakata's latest addition to the team. She's a senior stylist and has over 8 years experience.</strong></p>
 	<p>She loves big, messy, tousled styles with loads of bounce and attitude.</p> 
 	<p>Precision, creativity and a strong understanding of an individuals hair are Maisie's focus.</p>
 	<p>She has an advanced diploma in Colour Correction through La Biostetique</p>
 	<p><strong>Favourite Style: </strong>Big, tousled hair</p>
 	<p><strong>Favourite Product: </strong>Tigi 'Totally Baked'</p> 
 	<p class="price">Average Cut &amp; Colour <br>with Maisie: &pound;90</p>
-	</section> <!--team_member_copy --*>
-	</section> <!--team member maisie--*>-->
+	</section> <!--team_member_copy -->
+	</section> <!--team member maisie-->
 	
 	<section class="team_member" id="laura">
 	<div id="team_button"><p>About<br>Laura</p></div>
@@ -124,7 +124,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	<h2>Mikala Sutcliffe</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
-	<p><strong>Graduate Stylist Mikala is the latest recruit to complete our rigorous training, and is now a qualified Graduate Stylist. </strong></p>
+	<p><strong>Mikala is the latest recruit to complete our rigorous training, and is now a qualified Graduate Stylist. </strong></p>
 	<p>She has a talent for creating beautiful styles and has a great eye for the perfect finish.</p>
 	<p><em>Graduate Stylists don't stay at this level for long, so take advantage of this great price before she gets promoted!!</em></p>
 	<p><strong>Favourite Style: </strong>Curly Blow Dry's</p>
