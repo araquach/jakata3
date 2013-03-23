@@ -385,49 +385,86 @@ li.active a {
 	top: 280px;
 	right: 50px;
 	background: url('../images/team/jimmy.jpg') no-repeat left top #FFF;
-	-webkit-transform:rotate(2deg);
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
+	
+	transform:rotate(2deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-moz-transform:rotate(2deg); /* Firefox */
+	-webkit-transform:rotate(2deg); /* Safari and Chrome */
+	-o-transform:rotate(2deg); /* Opera */
+
 }
 
 #vicky {
 	background: #FFF url('../images/team/vicky.jpg') no-repeat left top;
-	-webkit-transform:rotate(-4deg);
+	transform:rotate(-4deg);
+	-ms-transform:rotate(-4deg); /* IE 9 */
+	-moz-transform:rotate(-4deg); /* Firefox */
+	-webkit-transform:rotate(-4deg); /* Safari and Chrome */
+	-o-transform:rotate(-4deg); /* Opera */
+	
 }
 
 #michelle {
 	background: #FFF url('../images/team/michelle.jpg') no-repeat left top;
-	-webkit-transform:rotate(-2deg);
+	transform:rotate(3deg);
+	-ms-transform:rotate(3deg); /* IE 9 */
+	-moz-transform:rotate(3deg); /* Firefox */
+	-webkit-transform:rotate(3deg); /* Safari and Chrome */
+	-o-transform:rotate(3deg); /* Opera */
 }
 
 #maisie {
 	background: #FFF url('../images/team/maisie.jpg') no-repeat left top;
-	-webkit-transform:rotate(-4deg);
+	transform:rotate(-4deg);
+	-ms-transform:rotate(-4deg); /* IE 9 */
+	-moz-transform:rotate(-4deg); /* Firefox */
+	-webkit-transform:rotate(-4deg); /* Safari and Chrome */
+	-o-transform:rotate(-4deg); /* Opera */
 }
 
 #nat {
 	background: #FFF url('../images/team/nat.jpg') no-repeat left top;
-	-webkit-transform:rotate(3deg);
+	transform:rotate(3deg);
+	-ms-transform:rotate(3deg); /* IE 9 */
+	-moz-transform:rotate(3deg); /* Firefox */
+	-webkit-transform:rotate(3deg); /* Safari and Chrome */
+	-o-transform:rotate(3deg); /* Opera */
 }
 
 #shelly {
 	background: #FFF url('../images/team/shelly.jpg') no-repeat left top;
-	-webkit-transform:rotate(-3deg);
+	transform:rotate(-3deg);
+	-ms-transform:rotate(-3deg); /* IE 9 */
+	-moz-transform:rotate(-3deg); /* Firefox */
+	-webkit-transform:rotate(-3deg); /* Safari and Chrome */
+	-o-transform:rotate(-3deg); /* Opera */
 }
 
 #mikala {
 	background: #FFF url('../images/team/mikala.jpg') no-repeat left top;
-	-webkit-transform:rotate(3deg);
+	transform:rotate(2deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-moz-transform:rotate(2deg); /* Firefox */
+	-webkit-transform:rotate(2deg); /* Safari and Chrome */
+	-o-transform:rotate(2deg); /* Opera */
 }
 
 #laura {
 	background: #FFF url('../images/team/laura.jpg') no-repeat left top;
-	-webkit-transform:rotate(-2deg);
+	transform:rotate(-2deg);
+	-ms-transform:rotate(-2deg); /* IE 9 */
+	-moz-transform:rotate(-2deg); /* Firefox */
+	-webkit-transform:rotate(-2deg); /* Safari and Chrome */
+	-o-transform:rotate(-2deg); /* Opera */
 }
 
 #dan {
 	background: #FFF url('../images/team/dan.jpg') no-repeat left top;
-	-webkit-transform:rotate(1deg);
+	transform:rotate(1deg);
+	-ms-transform:rotate(1deg); /* IE 9 */
+	-moz-transform:rotate(1deg); /* Firefox */
+	-webkit-transform:rotate(1deg); /* Safari and Chrome */
+	-o-transform:rotate(1deg); /* Opera */
 }
 
 /* @end */
