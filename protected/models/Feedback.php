@@ -5,6 +5,7 @@
  *
  * The followings are the available columns in table 'feedback_input':
  * @property integer $id
+ * @property integer $date
  * @property string $client_first
  * @property string $client_second
  * @property string $mobile
@@ -51,6 +52,7 @@ class Feedback extends CActiveRecord
 		return array(
 			array('client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, stylist_id', 'required'),
 			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, stylist_id', 'numerical', 'integerOnly'=>true),
+			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('client_first, client_second', 'length', 'max'=>50),
 			array('mobile', 'length', 'max'=>25),
 			array('mobile', 'unique'),
@@ -58,7 +60,7 @@ class Feedback extends CActiveRecord
 			array('extra', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, extra, stylist_id', 'safe', 'on'=>'search'),
+			array('id, date, client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, extra, stylist_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -81,6 +83,7 @@ class Feedback extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
+			'date'=> 'Date Submitted',
 			'client_first' => 'First Name',
 			'client_second' => 'Second Name',
 			'mobile' => 'Mobile Number (no spaces)',
@@ -111,6 +114,7 @@ class Feedback extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
+		$criteria->compare('date',$this->date);
 		$criteria->compare('client_first',$this->client_first,true);
 		$criteria->compare('client_second',$this->client_second,true);
 		$criteria->compare('mobile',$this->mobile,true);

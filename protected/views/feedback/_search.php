@@ -15,6 +15,11 @@
 		<?php echo $form->label($model,'id'); ?>
 		<?php echo $form->textField($model,'id'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->label($model,'date'); ?>
+		<?php echo $form->textField($model,'date'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'client_first'); ?>
