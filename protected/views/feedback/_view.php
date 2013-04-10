@@ -69,7 +69,7 @@
 	*/  ?>
 	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('stylist_id')); ?>:</b>
-	<?php echo CHtml::encode($data->stylist_id); ?>
+	<?php echo CHtml::encode($data->FeedbackStylist->stylist); ?>
 	<br />
 
 	

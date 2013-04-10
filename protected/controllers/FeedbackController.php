@@ -147,7 +147,7 @@ class FeedbackController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Feedback::model()->findByPk($id);
+		$model=Feedback::model()->with('FeedbackStylist')->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
