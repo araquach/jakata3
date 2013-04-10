@@ -136,5 +136,24 @@ class Feedback extends CActiveRecord
 		));
 	}
 	
+	public function score()
+	{
+		$a = $this->intro;
+		$b = $this->consultation;
+		$c = $this->styling_area;
+		$d = $this->stylist_appearance;
+		$e = $this->prod_advice;
+		$f = $this->styling_advice;
+		$g = $this->internal_marketing;
+		$h = $this->value_for_money;
+		$i = $this->whole_experience;
+		$j = $this->end_result;
+		
+		$score = $a+$b+$c+$d+$e+$f+$g+$h+$i+$j;
+		
+		return $score;
+	}
+	
+	
 	
 }
