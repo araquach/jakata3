@@ -94,9 +94,9 @@
 	</div>
 	
 	<div class="row">
-		<?php echo $form->labelEx($model,'school_qual'); ?>
-		<?php echo $form->dropDownList($model,'school_qual', $model->getQualSchoolOptions()); ?>
-		<?php echo $form->error($model,'school_qual'); ?>
+		<?php echo $form->labelEx($model,'qual_school'); ?>
+		<?php echo $form->dropDownList($model,'qual_school', $model->getQualSchoolOptions()); ?>
+		<?php echo $form->error($model,'qual_school'); ?>
 	</div>
 	
 	<div class="row">
@@ -123,48 +123,42 @@
 			<?php echo $form->error($model,'client_base'); ?>
 		</div>
 	
-		<div class="row">
-			<?php echo $form->labelEx($model,'qualifications'); ?>
-			<?php echo $form->dropDownList($model,'qualifications', $model->getQualificationOptions()); ?>
-			<?php echo $form->error($model,'qualifications'); ?>
-		</div>
-	
 	<div id="adex">
 	<p class="application">Please check the box if you have experience in the following areas:</p>
 	<div class="adexBox">
-		<?php echo $form->labelEx($model,'adex_stock'); ?>
-		<?php echo $form->checkBox($model,'adex_stock'); ?>
-		<?php echo $form->error($model,'adex_stock'); ?>
+		<?php echo $form->labelEx($model,'adex1'); ?>
+		<?php echo $form->checkBox($model,'adex1'); ?>
+		<?php echo $form->error($model,'adex1'); ?>
 	</div>
 	
 	<div class="adexBox">
-		<?php echo $form->labelEx($model,'adex_manage'); ?>
-		<?php echo $form->checkBox($model,'adex_manage'); ?>
-		<?php echo $form->error($model,'adex_manage'); ?>
+		<?php echo $form->labelEx($model,'adex2'); ?>
+		<?php echo $form->checkBox($model,'adex2'); ?>
+		<?php echo $form->error($model,'adex2'); ?>
 	</div>
 	
 	<div class="adexBox">
-		<?php echo $form->labelEx($model,'adex_train'); ?>
-		<?php echo $form->checkBox($model,'adex_train'); ?>
-		<?php echo $form->error($model,'adex_train'); ?>
+		<?php echo $form->labelEx($model,'adex3'); ?>
+		<?php echo $form->checkBox($model,'adex3'); ?>
+		<?php echo $form->error($model,'adex3'); ?>
 	</div>
 	
 	<div class="adexBox">
-		<?php echo $form->labelEx($model,'adex_reception'); ?>
-		<?php echo $form->checkBox($model,'adex_reception'); ?>
-		<?php echo $form->error($model,'adex_reception'); ?>
+		<?php echo $form->labelEx($model,'adex4'); ?>
+		<?php echo $form->checkBox($model,'adex4'); ?>
+		<?php echo $form->error($model,'adex4'); ?>
 	</div>
 	
 	<div class="adexBox">
-		<?php echo $form->labelEx($model,'adex_marketing'); ?>
-		<?php echo $form->checkBox($model,'adex_marketing'); ?>
-		<?php echo $form->error($model,'adex_marketing'); ?>
+		<?php echo $form->labelEx($model,'adex5'); ?>
+		<?php echo $form->checkBox($model,'adex5'); ?>
+		<?php echo $form->error($model,'adex5'); ?>
 	</div>
 	
 	<div class="adexBox">
-		<?php echo $form->labelEx($model,'adex_cservice'); ?>
-		<?php echo $form->checkBox($model,'adex_cservice'); ?>
-		<?php echo $form->error($model,'adex_cservice'); ?>
+		<?php echo $form->labelEx($model,'adex6'); ?>
+		<?php echo $form->checkBox($model,'adex6'); ?>
+		<?php echo $form->error($model,'adex6'); ?>
 	</div>
 	</div> <!--end adex-->
 		
@@ -251,9 +245,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'why_jakata'); ?>
-		<?php echo $form->textArea($model,'why_jakata',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'why_jakata'); ?>
+		<?php echo $form->labelEx($model,'why_us'); ?>
+		<?php echo $form->textArea($model,'why_us',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'why_us'); ?>
 	</div>
 
 	<div class="row buttons">

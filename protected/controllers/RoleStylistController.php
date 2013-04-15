@@ -1,49 +1,46 @@
 <?php
 
-class StylistController extends Controller
+class RoleStylistController extends Controller
 {
-	/**
-	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
-	 * using two-column layout. See 'protected/views/layouts/column2.php'.
-	 */
-	public $layout='//layouts/column2';
 
 	/**
-	 * @return array action filters
-	 */
-	public function filters()
-	{
-		return array(
-			'accessControl', // perform access control for CRUD operations
-		);
-	}
-
-	/**
-	 * Specifies the access control rules.
-	 * This method is used by the 'accessControl' filter.
-	 * @return array access control rules
-	 */
-	public function accessRules()
-	{
-		return array(
-			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('create'),
-				'users'=>array('*'),
-			),
-			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('index','update','admin','delete','view'),
-				'users'=>array('@'),
-			),
-			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
-				'users'=>array('admin'),
-			),
-			array('deny',  // deny all users
-				'users'=>array('*'),
-			),
-		);
-	}
-
+		 * @return array action filters
+		 */
+		public function filters()
+		{
+			return array(
+				'accessControl', // perform access control for CRUD operations
+				'postOnly + delete', // we only allow deletion via POST request
+			);
+		}
+	
+		/**
+		 * Specifies the access control rules.
+		 * This method is used by the 'accessControl' filter.
+		 * @return array access control rules
+		 */
+		public function accessRules()
+		{
+			return array(
+				array('allow',  // allow all users to perform 'index' and 'view' actions
+					'actions'=>array('create'),
+					'users'=>array('*'),
+				),
+				array('allow', // allow authenticated user to perform 'create' and 'update' actions
+					'actions'=>array('index','update','admin','delete','view'),
+					'users'=>array('@'),
+				),
+				array('allow', // allow admin user to perform 'admin' and 'delete' actions
+					'actions'=>array('admin','delete'),
+					'users'=>array('admin'),
+				),
+				array('deny',  // deny all users
+					'users'=>array('*'),
+				),
+			);
+		}
+		
+	
 	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
@@ -54,21 +51,21 @@ class StylistController extends Controller
 			'model'=>$this->loadModel($id),
 		));
 	}
-
+	
 	/**
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
 	public function actionCreate()
 		{
-			$model=new Stylist;
+			$model=new RoleStylist;
 	
 			// Uncomment the following line if AJAX validation is needed
 			// $this->performAjaxValidation($model);
 	
-			if(isset($_POST['Stylist']))
+			if(isset($_POST['RoleStylist']))
 			{
-				$model->attributes=$_POST['Stylist'];
+				$model->attributes=$_POST['RoleStylist'];
 				if($model->save())
 				{
 					$message = new YiiMailMessage;
@@ -86,7 +83,8 @@ class StylistController extends Controller
 			
 			$this->render('create',array('model'=>$model));
 		}
-
+	
+	
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.
@@ -99,11 +97,11 @@ class StylistController extends Controller
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Stylist']))
+		if(isset($_POST['RoleStylist']))
 		{
-			$model->attributes=$_POST['Stylist'];
+			$model->attributes=$_POST['RoleStylist'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->stylist_id));
+				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('update',array(
@@ -137,9 +135,9 @@ class StylistController extends Controller
 	public function actionIndex()
 	{
 		$criterea=new CDbCriteria;
-		$criteria->order = 'stylist_id DESC'; 
+		$criteria->order = 'id DESC'; 
 		
-		$dataProvider=new CActiveDataProvider('Stylist', 
+		$dataProvider=new CActiveDataProvider('RoleStylist', 
 			array('criteria'=>$criteria, 
 			'pagination'=>array(
 				'pageSize'=>'5',
@@ -156,10 +154,10 @@ class StylistController extends Controller
 	 */
 	public function actionAdmin()
 	{
-		$model=new Stylist('search');
+		$model=new RoleStylist('search');
 		$model->unsetAttributes();  // clear any default values
-		if(isset($_GET['Stylist']))
-			$model->attributes=$_GET['Stylist'];
+		if(isset($_GET['RoleStylist']))
+			$model->attributes=$_GET['RoleStylist'];
 
 		$this->render('admin',array(
 			'model'=>$model,
@@ -173,7 +171,7 @@ class StylistController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Stylist::model()->findByPk($id);
+		$model=RoleStylist::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
@@ -185,7 +183,7 @@ class StylistController extends Controller
 	 */
 	protected function performAjaxValidation($model)
 	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='stylist-form')
+		if(isset($_POST['ajax']) && $_POST['ajax']==='roleStylist-form')
 		{
 			echo CActiveForm::validate($model);
 			Yii::app()->end();

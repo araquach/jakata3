@@ -1,14 +1,13 @@
 <?php
 
 /**
- * This is the model class for table "apprentice".
+ * This is the model class for table "role_applicant".
  *
- * The followings are the available columns in table 'apprentice':
- * @property integer $apprentice_id
+ * The followings are the available columns in table 'role_applicant':
+ * @property integer $id
  * @property string $date
  * @property string $first_name
  * @property string $second_name
- * @property integer $age
  * @property string $address1
  * @property string $address2
  * @property string $address3
@@ -16,24 +15,36 @@
  * @property string $email
  * @property string $phone
  * @property string $mobile
+ * @property string $current_emp
+ * @property string $current_emp_des
+ * @property string $qual_school
+ * @property string $qual_non_hair
+ * @property string $adex1 (stock)
+ * @property string $adex2 (management)
+ * @property string $adex3 (training)
+ * @property string $adex4 (reception)
+ * @property string $adex5 (marketing)
+ * @property string $adex6 (cservice)
+ * @property integer $experience
  * @property integer $current_position
- * @property integer $in_salon
- * @property string $salon_name
- * @property integer $qualification_school
- * @property integer $qualification_hair
- * @property integer $cutting
- * @property integer $styling
- * @property integer $colouring
+ * @property integer $client_base
+ * @property integer $qual_hair
+ * @property integer $cutting_skills
+ * @property integer $colour_knowledge
+ * @property integer $colour_skills
  * @property integer $men
- * @property integer $extensions
- * @property integer $chem_straightening
- * @property integer $brazil_blow
+ * @property integer $extensions_weave
+ * @property integer $extensions_other
+ * @property integer $chem_straighten
+ * @property integer $braz_blow
  * @property integer $hair_up
- * @property string $about
+ * @property string $awards
+ * @property string $about_you
  * @property string $why_hairdressing
- * @property string $why_jakata
+ * @property string $why_us
  */
-class Apprentice extends CActiveRecord
+ 
+class RoleApplicant extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
@@ -43,17 +54,6 @@ class Apprentice extends CActiveRecord
 	 
 	 const CHOOSE = NULL;
 	 
-	 const POSITION_Y1 = 1;
-	 const POSITION_Y2 = 2;
-	 const POSITION_OTHER = 3;
-	 const POSITION_COL_1 = 4;
-	 const POSITION_COL_2 = 5;
-	 const POSITION_SCHOOL = 6;
-	 
-	 const IN_SALON_YES = 1;
-	 const IN_SALON_OTHER = 2;
-	 const IN_SALON_NO = 0;
-	 
 	 const QUAL_SHOOL_UPTO4 = 1;
 	 const QUAL_SHOOL_4PLUS = 2;
 	 const QUAL_SHOOL_ALEVEL = 3;
@@ -62,7 +62,7 @@ class Apprentice extends CActiveRecord
 	 const QUAL_HAIR_NVQ1 = 1;
 	 const QUAL_HAIR_NVQ2 = 2;
 	 const QUAL_HAIR_NVQ3 = 3;
-	 const QUAL_HAIR_OTHER = 4;
+	 const QUAL_HAIR_OTHER = 4;	
 	 
 	 const LIST_ZERO = 0;
 	 const LIST_ONE = 1;
@@ -70,6 +70,7 @@ class Apprentice extends CActiveRecord
 	 const LIST_THREE = 3;
 	 const LIST_FOUR = 4;
 	 const LIST_FIVE = 5;
+	 
 	 
 	 
 	public static function model($className=__CLASS__)
@@ -82,7 +83,7 @@ class Apprentice extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'apprentice';
+		return 'role_applicant';
 	}
 
 	/**
@@ -93,7 +94,7 @@ class Apprentice extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name, second_name, address1, address3, postcode, email, mobile, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_jakata', 'required'),
+			array('first_name, second_name, address1, address3, postcode, email, mobile, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_us', 'required'),
 			array('age, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up', 'numerical', 'integerOnly'=>true),
 			array('first_name, second_name, address1, address2, address3, email, salon_name', 'length', 'max'=>256),
 			array('postcode', 'length', 'max'=>56),
@@ -103,7 +104,7 @@ class Apprentice extends CActiveRecord
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('apprentice_id, date, first_name, second_name, age, address1, address2, address3, postcode, email, phone, mobile, current_position, in_salon, salon_name, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_jakata', 'safe', 'on'=>'search'),
+			array('apprentice_id, date, first_name, second_name, age, address1, address2, address3, postcode, email, phone, mobile, current_position, in_salon, salon_name, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_us', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -124,7 +125,7 @@ class Apprentice extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'apprentice_id' => 'Apprentice',
+			'id' => 'Applicant',
 			'date' => 'Date',
 			'first_name' => 'First Name',
 			'second_name' => 'Second Name',
@@ -136,22 +137,28 @@ class Apprentice extends CActiveRecord
 			'email' => 'Email Address',
 			'phone' => 'Phone Number',
 			'mobile' => 'Mobile Number',
-			'current_position' => 'Current Position',
-			'in_salon' => 'Are you currently in employment?',
-			'salon_name' => 'Please state your current workplace (if applicable)',
-			'qualification_school' => 'What qualification did you achieve at school?',
-			'qualification_hair' => 'Are you currently doing any hairdressing qualifications?',
-			'cutting' => 'Cutting Hair',
-			'styling' => 'Hair Styling',
-			'colouring' => 'Colouring Hair',
+			
+			'cutting_skills' => 'Cutting Skills',
+			'colour_knowledge' => 'Colour Knowledge',
+			'colour_skills' => 'Colour Skills',
 			'men' => 'Men\'s Hairdressing',
-			'extensions' => 'Extensions',
-			'chem_straightening' => 'Chemical Straightening',
-			'brazil_blow' => 'Brazilian Blowdrys',
+			'extensions_weave' => 'Extensions: Weave',
+			'extensions_other' => 'Extensions: Other',
+			'chem_straighten' => 'Chemical Straightening',
+			'braz_blow' => 'Brazilian Blowdry',
 			'hair_up' => 'Hair Up Styling',
-			'about' => 'Tell us a bit about yourself',
-			'why_hairdressing' => 'Why did you choose hairdressing as a career?',
-			'why_jakata' => 'What makes you want to join the Jakata Team?',
+			'awards' => 'Please state any hairdressing awards',
+			'about_you' => 'Tell us a bit about yourself',
+			'why_hairdressing' => 'Why did you choose to be a hairdresser?',
+			'why_us' => 'Why do you want to join the team?',
+			
+			'qual_school'  => 'What qualification did you achieve at school?',
+			'qual_hair' => 'Are you currently doing any hairdressing qualifications?',
+			'qual_non_hair'  => 'Please state any non-hairdressing qualifications?',
+			
+			'current_emp' => 'What is your current employment status?',
+			'current_emp_des'  => 'If employed, please tell us where',
+			'salon_name' => 'Please state your current workplace (if applicable)',
 		);
 	}
 
@@ -193,33 +200,26 @@ class Apprentice extends CActiveRecord
 		$criteria->compare('hair_up',$this->hair_up);
 		$criteria->compare('about',$this->about,true);
 		$criteria->compare('why_hairdressing',$this->why_hairdressing,true);
-		$criteria->compare('why_jakata',$this->why_jakata,true);
+		$criteria->compare('why_us',$this->why_us,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
 	
-	public function getPositionOptions() {
+	public function getListOptions()
+	{
 		return array(
 			self::CHOOSE=>'--Please Choose--',
-			self::POSITION_Y1=>'1st Year Apprentice',
-			self::POSITION_Y2=>'Second Year Apprentice',
-			self::POSITION_COL_1=>'Level 1 College',
-			self::POSITION_COL_2=>'Level 2 College',
-			self::POSITION_SCHOOL=>'School Link',
-			self::POSITION_OTHER=>'Other',
+			self::LIST_ONE=>'1',
+			self::LIST_TWO=>'2',
+			self::LIST_THREE=>'3',
+			self::LIST_FOUR=>'4',
+			self::LIST_FIVE=>'5',
+			self::LIST_ZERO=>'I don\'t do this service',
 		);
 	}
 	
-	public function getInSalonOptions() {
-		return array(
-			self::CHOOSE=>'--Please Choose--',
-			self::IN_SALON_YES=>'In a salon',
-			self::IN_SALON_OTHER=>'Other industry',
-			self::IN_SALON_NO=>'Not employed',
-		);
-	}
 	
 	public function getQualSchoolOptions() {
 		return array(
@@ -231,6 +231,12 @@ class Apprentice extends CActiveRecord
 		);
 	}
 	
+	public function getQualSchoolText() {
+		$qualSchoolOptions=$this->qualSchoolOptions;
+		return isset($qualSchoolOptions[$this->qualification_school]) ? $qualSchoolOptions[$this->qualification_school] : "unknown qualification ({$this->qualification_school})";
+	}
+	
+	
 	public function getQualHairOptions() {
 		return array(
 			self::CHOOSE=>'--Please Choose--',
@@ -241,37 +247,11 @@ class Apprentice extends CActiveRecord
 		);
 	}
 	
-	public function getListOptions() {
-		return array(
-			self::CHOOSE=>'--Please Choose--',
-			self::LIST_ZERO=>'0',
-			self::LIST_ONE=>'1',
-			self::LIST_TWO=>'2',
-			self::LIST_THREE=>'3',
-			self::LIST_FOUR=>'4',
-			self::LIST_FIVE=>'5',
-		);
-	}
-	
-	public function getPositionText() {
-		$positionOptions=$this->positionOptions;
-		return isset($positionOptions[$this->current_position]) ? $positionOptions[$this->current_position] : "unknown position ({$this->current_position})";
-	}
-	
-	public function getInSalonText() {
-		$inSalonOptions=$this->inSalonOptions;
-		return isset($inSalonOptions[$this->in_salon]) ? $inSalonOptions[$this->in_salon] : "unknown salon ({$this->in_salon})";
-	}
-	
-	public function getQualSchoolText() {
-		$qualSchoolOptions=$this->qualSchoolOptions;
-		return isset($qualSchoolOptions[$this->qualification_school]) ? $qualSchoolOptions[$this->qualification_school] : "unknown qualification ({$this->qualification_school})";
-	}
-	
 	public function getQualHairText() {
 		$qualHairOptions=$this->qualHairOptions;
 		return isset($qualHairOptions[$this->qualification_hair]) ? $qualHairOptions[$this->qualification_hair] : "unknown qualification ({$this->qualification_hair})";
 	}
+	
 }
 
 
