@@ -94,9 +94,9 @@ class RoleApplicant extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name, second_name, address1, address3, postcode, email, mobile, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_us', 'required'),
-			array('age, current_position, in_salon, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up', 'numerical', 'integerOnly'=>true),
-			array('first_name, second_name, address1, address2, address3, email, salon_name', 'length', 'max'=>256),
+			//array('first_name, second_name, address1, address3, postcode, email, mobile, current_emp,  current_position, qual_school, qual_non_hair, experience, current_position, client_base, qual_hair, cutting_skills, colour_knowledge, colour_skills, men, extensions_weave, extensions_other, chem_straighten, braz_blow, hair_up, about_you, why_hairdressing, why_us', 'required'),
+			array('current_position,  men, hair_up', 'numerical', 'integerOnly'=>true),
+			array('first_name, second_name, address1, address2, address3, email', 'length', 'max'=>256),
 			array('postcode', 'length', 'max'=>56),
 			array('phone, mobile', 'length', 'max'=>11),
 			array('phone, mobile', 'numerical'),
@@ -104,7 +104,7 @@ class RoleApplicant extends CActiveRecord
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('apprentice_id, date, first_name, second_name, age, address1, address2, address3, postcode, email, phone, mobile, current_position, in_salon, salon_name, qualification_school, qualification_hair, cutting, styling, colouring, men, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_us', 'safe', 'on'=>'search'),
+			array('id, date, first_name, second_name, address1, address2, address3, postcode, email, phone, mobile, current_position, in_salon, salon_name, men, extensions, chem_straightening, brazil_blow, hair_up, about, why_hairdressing, why_us', 'safe', 'on'=>'search'),
 		);
 	}
 

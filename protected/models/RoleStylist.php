@@ -40,25 +40,6 @@ class RoleStylist extends RoleApplicant
 	{
 		return parent::model($className);
 	}
-	
-	/**
-	 * @return array validation rules for model attributes.
-	 */
-	/*
-	public function rules()
-	{
-	
-		// NOTE: you should only define rules for those attributes that
-		// will receive user inputs.
-		return array(
-			array('adex1, adex2, adex3, adex4, adex5, adex6', 'required'),
-			array('adex1, adex2, adex3, adex4, adex5, adex6', 'numerical', 'integerOnly'=>true),
-			// The following rule is used by search().
-			// Please remove those attributes that should not be searched.
-			array('adex1, adex2, adex3, adex4, adex5, adex6', 'safe', 'on'=>'search'),
-		);
-	}
-	*/
 
 	public function relations()
 	{
