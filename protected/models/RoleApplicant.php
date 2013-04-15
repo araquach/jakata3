@@ -129,7 +129,6 @@ class RoleApplicant extends CActiveRecord
 			'date' => 'Date',
 			'first_name' => 'First Name',
 			'second_name' => 'Second Name',
-			'age' => 'Age',
 			'address1' => 'Address 1',
 			'address2' => 'Address 2',
 			'address3' => 'Town',
@@ -137,7 +136,20 @@ class RoleApplicant extends CActiveRecord
 			'email' => 'Email Address',
 			'phone' => 'Phone Number',
 			'mobile' => 'Mobile Number',
-			
+			'current_emp' => 'What is your current employment status?',
+			'current_emp_des'  => 'If employed, please tell us where',
+			'qual_school'  => 'What qualification did you achieve at school',
+			'qual_non_hair'  => 'Please state any non-hairdressing qualifications?',
+			'adex1' => 'Stock',
+			'adex2' => 'Management',
+			'adex3' => 'Training',
+			'adex4' => 'Reception',
+			'adex5' => 'Marketing',
+			'adex6' => 'Customer Service',
+			'experience' => 'Experience',
+			'client_base' => 'Client Base',
+			'qual_hair' => 'Hair Qualifications',
+			'current_position' => 'Current Position',
 			'cutting_skills' => 'Cutting Skills',
 			'colour_knowledge' => 'Colour Knowledge',
 			'colour_skills' => 'Colour Skills',
@@ -151,14 +163,6 @@ class RoleApplicant extends CActiveRecord
 			'about_you' => 'Tell us a bit about yourself',
 			'why_hairdressing' => 'Why did you choose to be a hairdresser?',
 			'why_us' => 'Why do you want to join the team?',
-			
-			'qual_school'  => 'What qualification did you achieve at school?',
-			'qual_hair' => 'Are you currently doing any hairdressing qualifications?',
-			'qual_non_hair'  => 'Please state any non-hairdressing qualifications?',
-			
-			'current_emp' => 'What is your current employment status?',
-			'current_emp_des'  => 'If employed, please tell us where',
-			'salon_name' => 'Please state your current workplace (if applicable)',
 		);
 	}
 
@@ -166,47 +170,7 @@ class RoleApplicant extends CActiveRecord
 	 * Retrieves a list of models based on the current search/filter conditions.
 	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
 	 */
-	public function search()
-	{
-		// Warning: Please modify the following code to remove attributes that
-		// should not be searched.
-
-		$criteria=new CDbCriteria;
-
-		$criteria->compare('apprentice_id',$this->apprentice_id);
-		$criteria->compare('date',$this->date,true);
-		$criteria->compare('first_name',$this->first_name,true);
-		$criteria->compare('second_name',$this->second_name,true);
-		$criteria->compare('age',$this->age);
-		$criteria->compare('address1',$this->address1,true);
-		$criteria->compare('address2',$this->address2,true);
-		$criteria->compare('address3',$this->address3,true);
-		$criteria->compare('postcode',$this->postcode,true);
-		$criteria->compare('email',$this->email,true);
-		$criteria->compare('phone',$this->phone,true);
-		$criteria->compare('mobile',$this->mobile,true);
-		$criteria->compare('current_position',$this->current_position);
-		$criteria->compare('in_salon',$this->in_salon);
-		$criteria->compare('salon_name',$this->salon_name,true);
-		$criteria->compare('qualification_school',$this->qualification_school);
-		$criteria->compare('qualification_hair',$this->qualification_hair);
-		$criteria->compare('cutting',$this->cutting);
-		$criteria->compare('styling',$this->styling);
-		$criteria->compare('colouring',$this->colouring);
-		$criteria->compare('men',$this->men);
-		$criteria->compare('extensions',$this->extensions);
-		$criteria->compare('chem_straightening',$this->chem_straightening);
-		$criteria->compare('brazil_blow',$this->brazil_blow);
-		$criteria->compare('hair_up',$this->hair_up);
-		$criteria->compare('about',$this->about,true);
-		$criteria->compare('why_hairdressing',$this->why_hairdressing,true);
-		$criteria->compare('why_us',$this->why_us,true);
-
-		return new CActiveDataProvider($this, array(
-			'criteria'=>$criteria,
-		));
-	}
-	
+		
 	public function getListOptions()
 	{
 		return array(

@@ -44,8 +44,10 @@ class RoleStylist extends RoleApplicant
 	/**
 	 * @return array validation rules for model attributes.
 	 */
+	/*
 	public function rules()
 	{
+	
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
@@ -56,7 +58,7 @@ class RoleStylist extends RoleApplicant
 			array('adex1, adex2, adex3, adex4, adex5, adex6', 'safe', 'on'=>'search'),
 		);
 	}
-	
+	*/
 
 	public function relations()
 	{
