@@ -55,6 +55,16 @@ class RoleApprentice extends RoleApplicant
 		
 		);
 	}
+	
+	protected function beforeSave()
+	{
+		
+		if($this->isNewRecord)
+			$this->salon_id=1;
+			$this->role_id=2;
+		
+		return parent::beforeSave();
+	}
 
 	/**
 	 * Retrieves a list of models based on the current search/filter conditions.

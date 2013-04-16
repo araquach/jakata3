@@ -68,6 +68,17 @@ class RoleStylist extends RoleApplicant
 			
 		);
 	}
+	
+	protected function beforeSave()
+	{
+		
+		if($this->isNewRecord)
+			$this->salon_id=1;
+			$this->role_id=4;
+		
+		return parent::beforeSave();
+	}
+	
 
 		
 	public function getEmploymentOptions()

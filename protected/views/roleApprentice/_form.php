@@ -21,6 +21,14 @@
 	<div class="row">
 		<?php echo $form->hiddenField($model,'date'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->hiddenField($model,'salon_id'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->hiddenField($model,'role_id'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'first_name'); ?>
@@ -34,11 +42,6 @@
 		<?php echo $form->error($model,'second_name'); ?>
 	</div>
 
-	<div class="row">
-		<?php echo $form->labelEx($model,'age'); ?>
-		<?php echo $form->textField($model,'age'); ?>
-		<?php echo $form->error($model,'age'); ?>
-	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'address1'); ?>
@@ -92,30 +95,6 @@
 		<?php echo $form->dropDownList($model,'current_position', $model->getPositionOptions()); ?>
 		<?php echo $form->error($model,'current_position'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'in_salon'); ?>
-		<?php echo $form->dropDownList($model,'in_salon', $model->getInSalonOptions()); ?>
-		<?php echo $form->error($model,'in_salon'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'salon_name'); ?>
-		<?php echo $form->textField($model,'salon_name',array('size'=>60,'maxlength'=>256)); ?>
-		<?php echo $form->error($model,'salon_name'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'qualification_school'); ?>
-		<?php echo $form->dropDownList($model,'qualification_school', $model->getQualSchoolOptions()); ?>
-		<?php echo $form->error($model,'qualification_school'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'qualification_hair'); ?>
-		<?php echo $form->dropDownList($model,'qualification_hair', $model->getQualHairOptions()); ?>
-		<?php echo $form->error($model,'qualification_hair'); ?>
-	</div>
 	
 	</div> <!--end elements (experience)-->
 	
@@ -125,21 +104,21 @@
 	<p class="application">Please rate your main interests from 1 (least) to 5 (most) for the following:</p>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'cutting'); ?>
-		<?php echo $form->dropDownList($model,'cutting', $model->getListOptions()); ?>
-		<?php echo $form->error($model,'cutting'); ?>
+		<?php echo $form->labelEx($model,'cutting_skills'); ?>
+		<?php echo $form->dropDownList($model,'cutting_skills', $model->getListOptions()); ?>
+		<?php echo $form->error($model,'cutting_skills'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'styling'); ?>
-		<?php echo $form->dropDownList($model,'styling', $model->getListOptions()); ?>
-		<?php echo $form->error($model,'styling'); ?>
+		<?php echo $form->labelEx($model,'colour_knowledge'); ?>
+		<?php echo $form->dropDownList($model,'colour_knowledge', $model->getListOptions()); ?>
+		<?php echo $form->error($model,'colour_knowledge'); ?>
 	</div>
-
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'colouring'); ?>
-		<?php echo $form->dropDownList($model,'colouring', $model->getListOptions()); ?>
-		<?php echo $form->error($model,'colouring'); ?>
+		<?php echo $form->labelEx($model,'colour_skills'); ?>
+		<?php echo $form->dropDownList($model,'colour_skills', $model->getListOptions()); ?>
+		<?php echo $form->error($model,'colour_skills'); ?>
 	</div>
 	
 	<div class="row">
@@ -149,21 +128,28 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'extensions'); ?>
-		<?php echo $form->dropDownList($model,'extensions', $model->getListOptions()); ?>
-		<?php echo $form->error($model,'extensions'); ?>
+		<?php echo $form->labelEx($model,'extensions_weave'); ?>
+		<?php echo $form->dropDownList($model,'extensions_weave', $model->getListOptions()); ?>
+		<?php echo $form->error($model,'extensions_weave'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'extensions_other'); ?>
+		<?php echo $form->dropDownList($model,'extensions_other', $model->getListOptions()); ?>
+		<?php echo $form->error($model,'extensions_other'); ?>
+	</div>
+	
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'chem_straighten'); ?>
+		<?php echo $form->dropDownList($model,'chem_straighten', $model->getListOptions()); ?>
+		<?php echo $form->error($model,'chem_straighten'); ?>
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'chem_straightening'); ?>
-		<?php echo $form->dropDownList($model,'chem_straightening', $model->getListOptions()); ?>
-		<?php echo $form->error($model,'chem_straightening'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'brazil_blow'); ?>
-		<?php echo $form->dropDownList($model,'brazil_blow', $model->getListOptions()); ?>
-		<?php echo $form->error($model,'brazil_blow'); ?>
+		<?php echo $form->labelEx($model,'braz_blow'); ?>
+		<?php echo $form->dropDownList($model,'braz_blow', $model->getListOptions()); ?>
+		<?php echo $form->error($model,'braz_blow'); ?>
 	</div>
 
 	<div class="row">
@@ -177,9 +163,9 @@
 	<div class="elements">
 	
 	<div class="row">
-		<?php echo $form->labelEx($model,'about'); ?>
-		<?php echo $form->textArea($model,'about',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'about'); ?>
+		<?php echo $form->labelEx($model,'about_you'); ?>
+		<?php echo $form->textArea($model,'about_you',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'about_you'); ?>
 	</div>
 
 	<div class="row">
@@ -189,9 +175,9 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'why_jakata'); ?>
-		<?php echo $form->textArea($model,'why_jakata',array('rows'=>6, 'cols'=>50)); ?>
-		<?php echo $form->error($model,'why_jakata'); ?>
+		<?php echo $form->labelEx($model,'why_us'); ?>
+		<?php echo $form->textArea($model,'why_us',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'why_us'); ?>
 	</div>
 
 	<div class="row buttons">
