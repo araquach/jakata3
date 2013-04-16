@@ -72,14 +72,15 @@ class StylistController extends Controller
 				if($model->save())
 				{
 					$message = new YiiMailMessage;
-					$message->setBody('There is a new stylist applicant for Jakata<br>Name: '.$model->first_name.' '.$model->second_name.'<br>Experience: '.$model->experience.'<br>Email: '.$model->email.'<br> Mobile: '.$model->mobile, 'text/html');
+					$message->setBody('There is a new stylist applicant for Jakata<br>Name: '.$model->first_name.' '.$model->second_name.'<br>Experience: '.$model->experience.'<br>Email: '.$model->email.'<br> Mobile: '.$model->mobile.'<br>http://www.jakatasalon.co.uk/stylist/'.$model->stylist_id, 'text/html');
 					$message->subject = 'New Stylist Application';
 					$message->addTo('adamcarter@jakatasalon.co.uk');
+					$message->addTo('jimmy@jakatasalon.co.uk');
 					$message->from = Yii::app()->params['adminEmail'];
 					
 					Yii::app()->mail->send($message);
 					
-					Yii::app()->user->setFlash('stylist','Thank you for your application ' . $model->first_name . '.' . '<br>We will keep hold of your details and contact you as soon as a position becomes available.<br>' . 'Thanks again.');
+					Yii::app()->user->setFlash('stylist','Thank you for your application ' . ucfirst($model->first_name) . '.' . '<br>We will keep hold of your details and contact you as soon as a position becomes available.<br>' . 'Thanks again.');
 				}
 			}
 			
@@ -135,7 +136,16 @@ class StylistController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Stylist');
+		$criterea=new CDbCriteria;
+		$criteria->order = 'stylist_id DESC'; 
+		
+		$dataProvider=new CActiveDataProvider('Stylist', 
+			array('criteria'=>$criteria, 
+			'pagination'=>array(
+				'pageSize'=>'5',
+				),			
+			
+			));
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));

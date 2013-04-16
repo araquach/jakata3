@@ -1,5 +1,5 @@
 
-<div id="application">
+<div id="recruitBlank">
 <?php
 $this->breadcrumbs=array(
 	'Apprentices',
@@ -17,4 +17,4 @@ $this->menu=array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
 )); ?>
-</div> <!--application-->
+</div> <!--recruitBlank-->
