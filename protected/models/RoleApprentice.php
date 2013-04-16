@@ -61,7 +61,7 @@ class RoleApprentice extends RoleApplicant
 		
 		if($this->isNewRecord)
 			$this->salon_id=1;
-			$this->role_id=2;
+			$this->role_id=1;
 		
 		return parent::beforeSave();
 	}

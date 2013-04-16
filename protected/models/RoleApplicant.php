@@ -94,7 +94,7 @@ class RoleApplicant extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			//array('first_name, second_name, address1, address3, postcode, email, mobile, current_emp,  current_position, qual_school, qual_non_hair, experience, current_position, client_base, qual_hair, cutting_skills, colour_knowledge, colour_skills, men, extensions_weave, extensions_other, chem_straighten, braz_blow, hair_up, about_you, why_hairdressing, why_us', 'required'),
+			array('first_name, second_name, address1, address3, postcode, email, mobile, current_emp,  current_position, qual_school, experience, current_position, client_base, qual_hair, cutting_skills, colour_knowledge, colour_skills, men, extensions_weave, extensions_other, chem_straighten, braz_blow, hair_up, about_you, why_hairdressing, why_us', 'required'),
 			array('current_position,  men, hair_up', 'numerical', 'integerOnly'=>true),
 			array('first_name, second_name, address1, address2, address3, email', 'length', 'max'=>256),
 			array('postcode', 'length', 'max'=>56),
