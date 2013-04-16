@@ -96,6 +96,36 @@
 		<?php echo $form->error($model,'current_position'); ?>
 	</div>
 	
+	<div class="row">
+		<?php echo $form->labelEx($model,'current_emp'); ?>
+		<?php echo $form->dropDownList($model,'current_emp', $model->getEmploymentOptions()); ?>
+		<?php echo $form->error($model,'current_emp'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'qual_school'); ?>
+		<?php echo $form->dropDownList($model,'qual_school', $model->getQualSchoolOptions()); ?>
+		<?php echo $form->error($model,'qual_school'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'qual_hair'); ?>
+		<?php echo $form->textArea($model,'qual_hair',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'qual_hair'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'experience'); ?>
+		<?php echo $form->dropDownList($model,'experience', $model->getExperianceOptions()); ?>
+		<?php echo $form->error($model,'experience'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'client_base'); ?>
+		<?php echo $form->dropDownList($model,'client_base', $model->getClientBaseOptions()); ?>
+		<?php echo $form->error($model,'client_base'); ?>
+	</div>
+	
 	</div> <!--end elements (experience)-->
 	
 	<h2 class="reveal">3. Hairdressing Skills</h2>

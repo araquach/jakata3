@@ -100,6 +100,12 @@
 	</div>
 	
 	<div class="row">
+		<?php echo $form->labelEx($model,'qual_hair'); ?>
+		<?php echo $form->textArea($model,'qual_hair',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'qual_hair'); ?>
+	</div>
+	
+	<div class="row">
 		<?php echo $form->labelEx($model,'qual_non_hair'); ?>
 		<?php echo $form->textArea($model,'qual_non_hair',array('rows'=>6, 'cols'=>50)); ?>
 		<?php echo $form->error($model,'qual_non_hair'); ?>
