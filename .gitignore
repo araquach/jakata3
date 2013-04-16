@@ -9,3 +9,26 @@ protected/config/main.php
 jakata3.esproj/user.adamcarter.espressostorage
 
 jakata3.esproj/user.adamcarter.espressostorage
+
+/jakata3.esproj
+
+.DS_Store
+
+*.espressostorage
+
+*.log
+
+*.espressostorage
+
+*.DS_Store
+
+jakata3.esproj/user.adamcarter.espressostorage
+
+*.espressostorage
+
+jakata3.esproj/Project.espressostorage
+
+*.log
+
+images/.DS_Store
+
