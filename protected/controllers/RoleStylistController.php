@@ -52,7 +52,7 @@ class RoleStylistController extends Controller
 					$message = new YiiMailMessage;
 					$message->setBody('There is a new stylist applicant for Jakata<br>Name: '.$model->first_name.' '.$model->second_name.'<br>Experience: '.$model->experience.'<br>Email: '.$model->email.'<br> Mobile: '.$model->mobile.'<br>http://www.jakatasalon.co.uk/stylist/'.$model->id, 'text/html');
 					$message->subject = 'New Stylist Application';
-					$message->addTo('adamcarter@jakatasalon.co.uk');
+					//$message->addTo('adamcarter@jakatasalon.co.uk');
 					//$message->addTo('jimmy@jakatasalon.co.uk');
 					$message->from = Yii::app()->params['adminEmail'];
 					
