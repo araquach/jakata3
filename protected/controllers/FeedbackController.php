@@ -119,7 +119,12 @@ class FeedbackController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Feedback');
+		$criteria=new CDbCriteria();
+			$criteria->order = 't.id DESC';
+			
+		$dataProvider=new CActiveDataProvider('Feedback', array(
+			'criteria'=>$criteria));
+		
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));
