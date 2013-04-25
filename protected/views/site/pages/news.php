@@ -18,7 +18,7 @@ window.addEvent('domready', function(){
 <article class="article">
 <a name="CollectionNews" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/artistic_team.jpg" width="130" height="95">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/artistic_team.jpg" width="130" height="94">
 <h2>Artistic team produce new collection</h2>
 <p>Over the last few months the Jakata artistic team have been working extremely hard coming up with and developing ideas for their latest collection.</p>
 <p>The brief was to produce a collection of images that reflect the fashion forward, cutting edge style that Jakata represents. The images will be used for salon branding and maybe be entered into competitions.</p>
@@ -37,7 +37,7 @@ window.addEvent('domready', function(){
 <article class="article">
 <a name="HairReborn" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_reborn.jpg" width="135" height="190">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_reborn.jpg" width="130" height="183">
 <h2>Introducing Tigi Hair Reborn</h2>
 <p>Hair Reborn is a new hair product range by Tigi that uses concentrated raw ingredients to replace proteins and restore your hair to a more youthful state.</p>
 <p>Designed by TIGI hairdressers, the collection of shampoos, conditioners, hairsprays and styling treatments have been created to restore hair to its natural state, using 'Hyper Distillation' technology to ensure the highest and most potent pharmaceutical grade products.</p>
@@ -141,7 +141,7 @@ window.addEvent('domready', function(){
 <article class="article">
 <a name="FibreForce" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force3.jpg" width="135" height="119">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force3.jpg" width="135" height="111">
 <h2>New BC Fibre Force</h2>
 <p>We've all been guilty of mistreating our hair from time to time, wether it's through over straightening, over colouring or just using poor quality products. Hair is tough, but you do have to treat it right if you want it to behave itself!</p>
 <p>Schwarzkopf realised there are a lot of people out there not giving their hair the love and care it needs, so they introduced BC Fibre Force - a complete range of products designed to return your hair to it's former glory over a short(ish) period of time.</p>

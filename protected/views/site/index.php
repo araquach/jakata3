@@ -20,16 +20,16 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 	</aside>',array('site/page','view'=>'collections')); */?>
 	
 <?php echo CHtml::link('<aside id="news1" class="home_news">
-<h3 class="newsheader">Limited Edition Catwalk Makeover Package</h3>
-<p class="newspara">A special, limited edition package for new clients worth &pound;140 for just &pound;70!</p>
+<h3 class="newsheader">Introducing Tigi Hair Reborn</h3>
+<p class="newspara">Jakata is one of the few hairdressers in Warrington to stock this amazing new product</p>
 <p class="newscenter"><strong>Click here for details &gt;</strong></p>
-	</aside>',array('site/page','view'=>'catwalk')); ?>
+	</aside>',array('site/page','view'=>'news','#'=>'HairReborn')); ?>
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
-<h3 class="newsheader">Get to know the team: meet Natalie</h3>
-<p class="newspara">This month we caught up with Natalie Doxey to ask her some probing questions!</p>
+<h3 class="newsheader">Get to know the team: meet Maisie</h3>
+<p class="newspara">This month we caught up with Maisie to find out about her role at Jakata!</p>
 <p class="newscenter"><strong>Read it here &gt;</strong></p>
-</aside>',array('site/page','view'=>'news','#'=>'NatInterview')); ?>
+</aside>',array('site/page','view'=>'news','#'=>'MaisieInterview')); ?>
 
 <?php echo CHtml::link('<aside id="news3" class="home_news">
 <h3 class="newsheader">Great career opportunities at Jakata</h3>

@@ -197,18 +197,18 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/catwalk2.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/hair_reborn.jpg') no-repeat rgba(249, 249, 250, 0.8);
 }
 .no-rgba #news1 {
-	background: url('../images/home/catwalk2.jpg') no-repeat rgb(249, 249, 250);
+	background: url('../images/home/hair_reborn.jpg') no-repeat rgb(249, 249, 250);
 }
 
 
 #news2 {
-	background: url('../images/home/nat.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/maisie2.jpg') no-repeat rgba(249, 249, 250, 0.8);
 }
 .no-rgba #news2 {
-	background: url('../images/home/nat.jpg') no-repeat rgb(249, 249, 250);
+	background: url('../images/home/maisie2.jpg') no-repeat rgb(249, 249, 250);
 }
 
 
