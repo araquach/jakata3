@@ -16,6 +16,161 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a name="CollectionNews" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/artistic_team.jpg" width="130" height="95">
+<h2>Artistic team produce new collection</h2>
+<p>Over the last few months the Jakata artistic team have been working extremely hard coming up with and developing ideas for their latest collection.</p>
+<p>The brief was to produce a collection of images that reflect the fashion forward, cutting edge style that Jakata represents. The images will be used for salon branding and maybe be entered into competitions.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/shoot.jpg" width="130" height="173">
+<p>Jimmy said 'People don't realise the amount of work that goes into planning a shoot, even before you've seen the models or picked up a camera. We pull all our ideas together through mood boards then spend weeks practicing our looks.'</p>
+<p>Earlier this month the photo shoot took place, and thanks to the prep work we put in, the looks came out great.</p>
+<p class="offer">Keep an eye out for our latest collection images, we'll be posting them in the next few months&hellip;</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2013-04-25" pubdate="pubdate"><p>25th April 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="HairReborn" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_reborn.jpg" width="135" height="190">
+<h2>Introducing Tigi Hair Reborn</h2>
+<p>Hair Reborn is a new hair product range by Tigi that uses concentrated raw ingredients to replace proteins and restore your hair to a more youthful state.</p>
+<p>Designed by TIGI hairdressers, the collection of shampoos, conditioners, hairsprays and styling treatments have been created to restore hair to its natural state, using 'Hyper Distillation' technology to ensure the highest and most potent pharmaceutical grade products.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_resurgence.jpg" width="135" height="120">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_serenity.jpg" width="135" height="120">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_awakening.jpg" width="135" height="120">
+<p>There are three journeys to choose from, each catering to specific needs:</p>
+<ul>
+	<li>Resurgence for Dry Hair</li>
+	<li>Serenity for Frizz-Prone Hair</li>
+	<li>Awakening for Weak, Damaged Hair</li>
+</ul>
+<p>Each range has a shampoo, a conditioner, and a take home treatment. Plus an intensive in-salon treatment is also available.</p>
+<p>The range is only available in a selected salons, and Jakata is one of the few. Since it's arrival it is proving to be a massive hit with the Jakata team and clients alike.</p>
+<p><iframe width="400" height="300" class="right" src="http://www.youtube.com/embed/PyvXRsXgCVg" frameborder="0" allowfullscreen></iframe></p>
+<p>It's a premium haircare range with prices starting at £17.95 for the Shampoos and take-home treatments around the £28 mark. If your hair needs a big pick-me-up then we'd highly recommend the in-salon treatment from just £7.50.</p>
+<p class="offer">The quality of these products goes beyond what we've ever seen before, the positive feedback from early adopters has been amazing. If you wan't to give them a try we've got some free sample packs in the salon (only until stocks last!). Drop in to get yours!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Jakata</p>
+<time datetime="2013-04-25" pubdate="pubdate"><p>25th April 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="MaisieInterview" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/maisie.jpg" width="135" height="180">
+<h2>Get to know the team: Meet Maisie</h2>
+<p>This month we caught up with Jakata's newest stylist Maisie Thompson who joined us last October.</p>
+<p>We bombarded her with loads of questions about her role as a Jakata stylist.</p>
+<p>Click below to read the full interview &hellip; </p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<dl>
+	<dt>How long have you been hairdressing for Maisie?</dt>
+	<dd>I've been hairdressing for 8 years now.</dd>
+	
+	<dt>When did you join the Jakata team?</dt>
+	<dd>I'm the newest member of the team. I only joined in October 2012.</dd>
+	
+	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
+	<dd>From a very young age I used to use tin foil to foil my girls world's hair with paint and practice plaits on all my 3 sisters. My first hairdressing job was at MC2 hair design in Stockton Heath.</dd>
+	
+	<dt>If you had chosen another profession what would it have been?</dt>
+	<dd>I think I would've been a nail technician.</dd>
+	
+	<dt>What key points make Jakata good at developing new stylists?</dt>
+	<dd>The very friendly relaxed environment allows us to home in on our talents and then expand them and encourage them to pass on to other members of staff.</dd>
+	
+	<dt>What's your favourite hairstyle of all time and why?</dt>
+	<dd>I just love anything with bounce and attitude!</dd>
+	
+	<dt>If you could cut anyone's hair who would it be and why?</dt>
+	<dd>Michelle Keegan - because her hairs too long and its not fair. Haha</dd>
+	
+	<dt>How do you go about creating your cutting/colour styles? Is it difficult to think up new ideas and keep up with the latest trends?</dt>
+	<dd>Always listen to the client then take what they have said into consideration and advise them on what your thinking or use their ideas and incorporate some of your own. I think its very important that you always listen properly to your client so you know exactly what they like and don’t like before you share your ideas with them. Reading a lot of the hairdressing magazines and keeping up with the trends help, then putting your own little twist on them. Also going on courses to give you inspiration helps.</dd>
+	
+	<dt>Whats the secret to a good haircut/style?</dt>
+	<dd>Precision, creativity and a strong understanding of the clients hair.</dd>
+	
+	<dt>What's the worst mistake you've made while cutting/colouring someone's hair?</dt>
+	<dd>The worst thing that happened was when a used a toner which grabbed on the ends of porous hair. I used my colour correction knowledge and deep cleaned it - it came straight out, but I was a little worried for a minute!</dd>
+	
+	<dt>What tips can you give to up and coming hairstylists?</dt>
+	<dd>Make sure you're really passionate about being a hairdresser and have patience. Keep up to date with all the trends and don’t shy away from getting stuck in there or you will never learn. Its the best way to build up your confidence.</dd>
+	
+	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
+	<dd>I had a client that came in that had been travelling for 12 months. She hadn’t been having her hair cut or coloured or looking after it properly. It was seriously matted and had been abused by the salt water and sun. The ends had snapped so her hair was different lengths. I cut it into a bob, put a treatment on and sorted her colour out. She went away looking like a different person (for the better).</dd>
+	
+	<dt>What do you think sets Jakata apart from other salons?</dt>
+	<dd>Its an award winning salon with a fresh young vibe. The atmosphere is very friendly and welcoming.</dd>
+	
+	<dt>Whats the best thing for you about being a stylist at Jakata?</dt>
+	<dd>I feel like I can be more creative and adventurous because the salon has that kind of vibe. I also feel proud to be a part of an award winning salon. They encourage your passion by letting you take part in competitions and photoshoots.</dd>
+	
+	<dt>What thought process do you go through when styling someone for a photo shoot?</dt>
+	<dd>I try to consider the overall image, making sure everything works and fits into place. Using mood boards helps pull the ideas together.</dd>
+		
+	<dt>Out of the product ranges which is your favourite and why?</dt>
+	<dd>Tigi Bed Head has a great range of products to achieve different finishing looks. I think the look of them fits in really well with the salon too. They all smell amazing, so it feels like a luxury product to use.</dd>
+	
+	<dt>Do you have a signature hairstyle? If so, describe it.</dt>
+	<dd>I like big, messy, tussled hair. Nothing too sleek and perfect, a bit ruffled. A kind of beach effect look.</dd>
+	
+	<dt>Tell me your strengths and weaknesses as a hairdresser.</dt>
+	<dd>I'd say colour correction as a big strength, fixing other hairdressers mistakes! (from other salons not Jakata). I took part in a 12 month course that specialised in colour correction and received my certificate in Paris. I guess I just love colouring in general. I'm not as keen on doing men's hair e.g clipper work. I guess I prefer working with longer hair (there's more to play with!)</dd>
+</dl>
+
+<p class="offer">Many thank's to Maisie for taking the time out to answer our questions.</p>
+<p class="offer">If you'd like to book an appointment with Maisie, just call 01925 242960</p>
+<p class="offer">Next month we'll be meeting another Jakata team member.</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2013-04-25" pubdate="pubdate"><p>25th April 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
+<a name="FibreForce" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force3.jpg" width="135" height="119">
+<h2>New BC Fibre Force</h2>
+<p>We've all been guilty of mistreating our hair from time to time, wether it's through over straightening, over colouring or just using poor quality products. Hair is tough, but you do have to treat it right if you want it to behave itself!</p>
+<p>Schwarzkopf realised there are a lot of people out there not giving their hair the love and care it needs, so they introduced BC Fibre Force - a complete range of products designed to return your hair to it's former glory over a short(ish) period of time.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force2.jpg" width="135" height="108">
+<p>Here's what Schwarzkopf say:</p>
+<p><em>BC Fibre Force introduces a new dimension of hair repair returning even most eroded hair to its optimal level of force and resilience.</em></p>
+<p><iframe src="http://player.vimeo.com/video/56987102" width="400" height="300" class="right" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
+<p><em>For the first time the formulas with Micronized Hair-Identical Keratins penetrate deeply into the hair architecture to re-cement specifically the Cell-Membrane-Complex, the intercellular bonding cement responsible for strong and resilient hair fibre.</em></p>
+<p>Which in English means that it's going to make the most damaged hair feel loads healthier!</p>
+<p><strong>The complete range is as follows:</strong></p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force.jpg" width="135" height="121">
+<ul>
+	<li>BC Fibre Force Shampoo</li>
+	<li>BC Fibre Force Spray Conditioner</li>
+	<li>BC Fibre Force Rinse Out Conditioner</li>
+	<li>BC Fibre Force Fortifier Treatment</li>
+	<li>BC Fibre Force Keratin Infusion</li>
+</ul>
+<p class="offer">We've been putting Fibre Force to the test with Jakata stylist Vicky as the guinea pig. We'll be posting the results soon…</p>
+<p>Find out more at the Schwarzkopf site: <br> <a href="http://www.schwarzkopf-professional.co.uk/index.php?id=22120" target="_blank">www.schwarzkopf-professional.co.uk/fibreforce</a></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2013-04-26" pubdate="pubdate"><p>26th April 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
 <a name="NatInterview" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/nat.jpg" width="135" height="160">
@@ -459,77 +614,6 @@ Its fine mist evenly distributes the product through your hair to give extra hol
 </section> <!--end .hidden-->
 <p class="author">Published by Laura Hall</p>
 <time datetime="2012-07-11" pubdate="pubdate"><p>11th July 2012</p></time>
-</article> <!--end #article-->
-
-<article class="article">
-<a name="FashionLights" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fashion_lights.jpg" width="135" height="190">
-<h2>New in Salon service:<br>
-<em>Schwarzkopf Igora Fashion Lights</em></h2>
-<p>The latest addition to our colour range arrived in the salon a few weeks ago geared at helping us to 'unleash our colour creativity'. It's NEW Fashion Lights.</p>
-<p>The range aims to give breathtaking brightness and superb luminosity; providing colour and lift in one step. It gives intense vibrancy; even on dark or tinted hair.</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<p><em>Schwarzkopf</em> claim that the colours are
-'precise, vibrant and long lasting'. We've not had them long enough to know how long they last but we can definitely confirm that they're ultra vibrant!</p>
-<p>The colours help you to individualise and emphasise your style
-by achieving a variety of fashion effects. Whether you’re looking for soft and subtle highlights or more of a strong fashion statement, this range can be tailored to suit you and your individual style. Perfect for layered and choppy styles to provide intense texture, alternatively can be placed underneath to give a subtle contrast.</p>
-<h4>Technology</h4>
-<p>The colour cream is packed with intense colour cremeboosters for incredibly vibrant highlights.
-The new developer contains more than 15% caring oil to provide superior hair condition and suppleness.
-Colour boosters guarantee ultimate colour intensity, penetrating effectively into the hair delivering great tone luminosity, vibrancy and long lasting results.
-The new oil developer carefully coats the hair, sealing the pigments inside, providing care as well as intense shine.</p>
-<p><em>We've all been having fun experimenting with the different tones in the salon - give us a few more weeks and you'll start to see everything from obvious, stand out, vibrant shades to subtle subdued hues.</em></p>
-<p><strong>Ask your Jakata stylist about Igora Fashion Lights on your next visit!</strong></p>
-</section> <!--end .hidden-->
-<p class="author">Published by Michelle French</p>
-<time datetime="2012-06-30" pubdate="pubdate"><p>30th June 2012</p></time>
-</article> <!--end #article-->
-
-
-<article class="article">
-<a name="Mikala" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/mikala.jpg" alt="Mikala" width="135" height="191">
-<h2>Upcoming Jakata Stylist now taking bookings</h2>
-<p>Introducing our next big thing - talented trainee stylist <em>Mikala Sutcliffe</em>. Mikala completed her first year of training at a well known salon franchise and joined the Jakata team in October last year.</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<p> With just a few months left until she's a fully qualified stylist, Mikala is looking to finish off her training and polish up her skills. </p>
-<p><strong>Mikala's column is now open for appointments throughout the week, but places are limited!</strong></p>
-<p class="offerTitle">  Introductory offer</p> 
-<p class="offer">Colour and Cut with Mikala<br>
-    for just £25!</p>
-<p class="offerSmall">On first visit to salon - not with any other offer<br>
-    until 28th June 2012<br>
-  Skin test to be carried out 48 hrs prior to any colour service</p>
-</section> <!--end .hidden-->
-<time datetime="2012-05-29" pubdate="pubdate"><p>29th May 2012</p></time>
-</article> <!--end #article-->
-
-<article class="article">
-<a name="NewKebelo" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/kebelo.jpg" alt="Kebelo System" width="135" height="183">
-<h2>The Award Winning Kebelo System just got better!</h2>
-<p>We launched the <em>Kebelo System</em> in the salon a good few months ago (see earlier article)</p>
-<p>We've grown to absolutely love it. The smoothing and de-frizzing results have been great every time. The obvious downsides to the treatment was the time it took to do (about 3 1/2 - 4 hours!) which in turn meant it came with a high price (close to £200) although everyone who's had it still said was worth every penny.</p>
-<p><strong>Things changed earlier this month with a reformulated version of the product was launched.....</strong></p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/kebelo_blonde.jpg" width="135" height="190">
-<p><iframe width="300" height="200" src="http://www.youtube.com/embed/FYPvkP2cois" frameborder="0" allowfullscreen class="right"></iframe></p>
-<p>The new version has a reduced application time (down to 1 hour) whilst still promising to produce the same results as it's predecessor - almost hard to believe but I can safely say it's 100% true! (I've had both versions done on my hair!)</p>
-<p>This is fantastic news as it means we've been able to reduce the treatment price down to <strong>just £99!</strong> (this still includes the take home aftercare pack worth £40) plus you can use that extra time (and money) doing something more productive (like shopping!)</p> 
-<p><em>So there are absolutely no downsides now to the Kebelo Treatment.</em></p>
-<p><strong>Plus for a limited time we're offering a FREE Cut, Dry and Style with every treatment!</strong></p>
-<p><a href="http://www.kebelo.com/">Visit the Kebelo site for more information<a></p>
-</section> <!--end .hidden-->
-<time datetime="2012-04-13" pubdate="pubdate"><p>13th April 2012</p></time>
 </article> <!--end #article-->
 
 </section> <!--end #accordion-->
