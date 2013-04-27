@@ -2,7 +2,7 @@
 /* @var $this SiteController */
 $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Cheshire';
 ?>
-
+<!--
 <section id="offers">
 
 
@@ -29,22 +29,22 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Ch
 	<p>Come into the salon to see a wide selection of shampoo's, conditioners, treatments &amp; styling products</p>
 	<p>All with 30% off!</p>
 	<small>Subject to availability.</small>
-	</section><!--end #offer3-->
+	</section><!--end #offer3--*>
 	
 	<?php echo CHtml::link('<p id="book_button">Online enquiry and booking form</p>',array('site/contact')); ?>
 
 
-</section> <!--end #offers-->
+</section> <!--end #offers--*>-->
 
 
-<!--
+
 <section id="no_offers">
 
 <h1>Latest Offers</h1>
 
-<p>Look out for some great offers in the New Year!</p>
+<p>Look out for some great offers soon!</p>
 <p>
-	<a href="http://www.facebook.com/JakataSalon" target="_blank">Visit our Facebook page - we occasionally run ad-hoc offers </a>
+	<a href="http://www.facebook.com/JakataSalon" target="_blank">Visit our Facebook page<br> to keep up to date with the latest offers </a>
 </p>
 
 </section> <!--no_offers-->
