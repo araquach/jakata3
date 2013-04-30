@@ -143,7 +143,7 @@ window.addEvent('domready', function(){
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force3.jpg" width="135" height="111">
 <h2>New BC Fibre Force</h2>
-<p>We've all been guilty of mistreating our hair from time to time, wether it's through over straightening, over colouring or just using poor quality products. Hair is tough, but you do have to treat it right if you want it to behave itself!</p>
+<p>We've all been guilty of mistreating our hair from time to time, whether it's through over straightening, over colouring or just using poor quality products. Hair is tough, but you do have to treat it right if you want it to behave itself!</p>
 <p>Schwarzkopf realised there are a lot of people out there not giving their hair the love and care it needs, so they introduced BC Fibre Force - a complete range of products designed to return your hair to it's former glory over a short(ish) period of time.</p>
 <p class="reveal">Read More ></p>
 </section> <!--end .visible-->
