@@ -22,6 +22,7 @@
 		<p style="font-size: .8em; margin-top: 20px; margin-bottom: 0px;">With a Stylist - only &pound;60</p>
 		<p style="font-size: .6em; margin: 0px">worth &pound;120</p>
 		
+		<p>Hi <?php echo $model->first_name ?></p>
 		<p style="font-size: .5em; margin-top: 20px; font-family: Arial, Helvetica, Geneva, sans-serif; line-height: 1.4em"><strong>PACKAGE INCLUDES:</strong><br>
 		Colour &amp; Cut PLUS<br>
 		Catwalk Fashion Styling<br>

@@ -28,7 +28,7 @@ class MailingListController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index','view','emailer'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -45,11 +45,7 @@ class MailingListController extends Controller
 		);
 	}
 	
-	public function actionEmail()
-	{
-		$this->render('//mail/oct12',array('model'=>$this->loadModel($id)));
-	}
-
+	
 	/**
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
@@ -84,6 +80,12 @@ class MailingListController extends Controller
 		));
 	}
 	
+	public function actionEmail()
+	{
+		$this->render('//mail/catwalk_mailshot 2',array('model'=>$this->loadModel($id), 'image'=>$this->image));
+	}
+	
+	
 	
 	public function actionEmailer()
 		{
@@ -94,13 +96,15 @@ class MailingListController extends Controller
 	
 				if(isset($_POST['MailingList']))
 				{
+						
 					
 						$message = new YiiMailMessage;
+						$image = $message->embed(Swift_Image::fromPath('./images/email/catwalk_email.jpg'));
 						$message->view = 'catwalk_mailshot 2';
 						$message->setBody(array('model'=>$row), 'text/html');
 						$message->subject = 'Catwalk Makeover Package';
 						$message->setTo($row->email);
-						$message->from = ('news@jakatasalon.co.uk');
+						$message->from = ('adam@jakatasalon.co.uk');
 						Yii::app()->mail->batchSend($message);		
 						Yii::app()->user->setFlash('emailer','Thanks for sending the emails');
 								

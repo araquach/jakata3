@@ -10,7 +10,7 @@
 	<table width="600" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="border: 3px solid #000001"> <!--main-->
 	<tr>
 		<td style="padding-left: 30px; font-family: Arial, Helvetica, Geneva, sans-serif; font-size: .8em">
-		<h2>Hi First Name,</h2>
+		<h2>Hi <?php echo $model->first_name  ?>,</h2>
 		<p><strong>We've launched our new, limited edition Catwalk Makeover Package and we'd love you to take advantage of it.</strong></p>
 		<p>The offer is aimed at new clients, but we thought you'd like to give it a go too!</p>
 		
@@ -46,7 +46,7 @@
 		<table width="300" cellpadding="0" cellspacing="0"> <!--column 2-->
 		<tr>
 		<td>
-		<img src="<?php $model->embed(Swift_Image::fromPath('images/email/catwalk_email.jpg')) ?>" alt="" />
+		<img src="<?php echo $image ?>" alt="Image" />
 		</td>
 		</tr>
 		</table> <!--column 2 table-->
