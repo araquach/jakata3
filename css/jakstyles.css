@@ -788,6 +788,11 @@ p.reveal {
 	border-bottom: 1px dotted #585050;
 }
 
+#accordion article.article section.hidden table {
+	width: 500px;
+	margin-left: 200px;
+}
+
 /* @end */
 
 /* @group Recruitment */

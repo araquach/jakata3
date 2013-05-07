@@ -16,6 +16,49 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a name="MenTrends" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men1.jpg" width="135" height="148">
+<h2>Men's Summer Trends</h2>
+<p>Here at Jakata we have a large male clientele with most stylist's being as proficient at men's hair as women's.</p>
+<p>There have been some really strong men's looks leaving the salon recently so I asked Jakata stylist <strong>Mikala Sutcliffe</strong> to give us the lowdown on up and coming men's styles&hellip;</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men2.jpg" width="135" height="148">
+<p>The big style trend for men’s hair for spring and summer 2013 is all about the exaggerated sleek side parting with quiff, taking the sides and back super short with a disconnection from from the top.</p>
+<p>It's a bold and versatile look, can be slick and smooth, (using Catwalk Session Series Wet Look Gel) or a messed up loose texture (try Catwalk Session Series Sea Salt Spray), or for the most daring have the top section permed for the ultimate curly texture.</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men3.jpg" width="135" height="141">
+<p>My Buzzwords for the season:</p>
+<table>
+<tr>
+<td>Quiffed</td>
+<td>Gelled</td>
+<td>Side Parting</td>
+</tr>
+<tr>
+<td>Groomed</td>
+<td>Smart</td>
+<td>Clean Edges</td>
+</tr>
+<tr>
+<td>Exagerated</td>
+<td>Sleek</td>
+<td>Wave</td>
+</tr>
+<tr>
+<td>Wet Look</td>
+<td>Disconnected</td>
+<td>Perm</td>
+</tr>
+</table>
+<p class="offer">Men's cut's range from  &pound;14 to &pound;34 (depending on level of stylist)</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Mikala</p>
+<time datetime="2013-05-02" pubdate="pubdate"><p>2nd May 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
 <a name="CollectionNews" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/artistic_team.jpg" width="130" height="94">
