@@ -18,7 +18,7 @@ window.addEvent('domready', function(){
 <article class="article">
 <a name="ConditioningTreatments" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/glam_chic.jpg" width="135" height="190">
 <h2>In-Salon Treatments</h2>
 <p>We all know your hair needs some extra TLC from time to time, excessive use of heat styling tools plus over colouring leads to tired, hard to style hair.</p>
 <p>To get the most from your locks we recommend an in-salon intensive treatment every month or two. the £5 - £10 cost is well worth the results - no more bad hair days for at least a month!</p>
@@ -27,20 +27,20 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p class="reveal">Read More ></p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/" width="135" height="180">
 <h3>Tigi Hair Reborn</h3>
 <p>Hair Reborn is a new product range offering 3 different 'journeys' all aiming to address a specific hair problem.</p>
 <h4>Journey of Resurgence for Dry Hair:<br>Treatment of Moisture Balance</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_resurgence.jpg" width="135" height="120">
 <p>I tried this treatment out on my colleague Mikala, the shine on her hair after the application was amazing. We recommend you to have these treatments every 6-8 weeks in salon to keep your hair in the best condition with luminous shine. The treatment gives your hair an astonishing 400% more hydration.</p>
 <p><strong>Price: &pound;7.50<br>Time Taken: 10-20 minutes</strong></p>
-
 <h4>Journey of Awakening for weak, damaged hair:<br>
 	Treatment of Restoration</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_awakening.jpg" width="135" height="120">
 <p>This again is an in-salon treatment designed for weak damaged hair, particularly those who find they have a lot of breakage/split ends. It is perfect to have done in-salon after a colour to keep your hair feeling as healthy as possible with strength and vitality.</p>
 <p><strong>Price: &pound;7.50<br>Time Taken: 10-20 minutes</strong></p>
-
 <h4>Journey of serenity for frizz prone hair:<br>
 	Treatment of Smoothing</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_serenity.jpg" width="135" height="120">
 <p>For all of you that suffer with naturally frizzy hair, this treatment is perfect for you. It also works wonders for hair that’s curly with a natural frizz, helping define curls. It works by sealing the hairs fibres and nourishing the hair to give it exceptionally smooth and shiny results. This treatment gives your hair up to 80% reduction in frizz.  Perfect for this damp British weather.</p>
 <p><strong>Price: &pound;7.50<br>Time Taken: 10-20 minutes</strong></p>
 
@@ -48,11 +48,13 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 
 <h3>Schwarzkopf One Shot Treatments</h3>
 <h4>Repair Rescue</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/repair_one_shot.jpg" width="135" height="190">
 <p>Perfect for broken down damaged weakened hair. Great for people that want a quick fix with not much time to spare. Once the treatment has been applied it instantaneously closes the hair cuticle effectively strengthening the inner hair fibre. </p>
 <p><em>It gives immediate visible results leaving the hair shiny, luminous and healthy. Because it works so fast the treatment is only left on for a minute. Great for people in a rush that want to keep their hair in the healthiest way possible.</em></p>
 <p><strong>Price: &pound;5<br>Time Taken: 1 minute</strong></p>
 
 <h4>Smooth and Shine</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/smooth_one_shot.jpg" width="135" height="190">
 <p>In-salon treatment again perfect for those that don’t have much time to spare. This treatment gives the hair instant care by closing the cuticle and helping to deliver control and definition. </p>
 <p><em>This treatment gives a high gloss finish leaving the hair with illuminating radiance, for just £5 why neglect your hair!</em></p>
 <p><strong>Price: &pound;5<br>Time Taken: 1 minute</strong></p>
@@ -60,11 +62,15 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p><strong>The one shot treatments are a quick but very effective way of keeping your hair in the best condition it possibly can be in.</strong></p>
 
 <h3>Schwarzkopf Fibre Force</h3>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force4.jpg" width="135" height="127">
 <p>Fibre force gives you the chance to get your hair back to virgin quality in 4-10 weeks. This treatment takes between 10-15 minutes costing just £5. It deeply replenishes and rejuvenates the hair, it immediately feels fuller stronger and revitalized. </p>
 <p><em>Vickie who works with us has been using the fibre force for 7 weeks, she has noticed a dramatic difference and is extremely impressed with the product.</em></p>
 <p><strong>Price: &pound;5<br>Time Taken: 10 -15 minutes</strong></p>
 
 <p><em>There is an intensive conditioning treatment suited for all hair types, your Jakata stylist will recommend the best one for your needs</em></p>
+
+<h3>Special Offer</h3>
+<p>We're running a fantastic offer on treatments this month</p>
 
 </section> <!--end .hidden-->
 <p class="author">Published by Maisie</p>
@@ -488,69 +494,6 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 </article> <!--end #article-->
 
 <article class="article">
-<a name="Winners" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/christmas.jpg" width="135" height="180">
-<h2>Christmas Competition Winners</h2>
-<p>The winners of this months Christmas competition have been drawn. We had over &pound;300 worth of prizes up for grabs and hundreds of people enter!</p>
-<p>If you entered find out if you're one of the winners below.</p>
-<p class="reveal">Winners ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<h3>The winners are &hellip;</h3>
-<ul>
-	<li>Helen Illingworth - a &pound;100 Gift Voucher</li>
-	<li>Claire Dolan - a &pound;50 Gift Voucher</li>
-	<li>Sarah Syers - a &pound;50 Gift Voucher</li>
-	<li>Jayne Andrews - a Tigi or Schwarzkopf gift set</li>
-	<li>Erin Hesketh - a Tigi or Schwarzkopf gift set</li>
-	<li>Kayleigh	Furfie - a Tigi or Schwarzkopf gift set</li>
-	<li>Miroslava	Frisova - a Tigi or Schwarzkopf gift set</li>
-	<li>Mel	Barton - a Tigi or Schwarzkopf gift set</li>
-</ul>
-
-<p class="offer">Well done to our winners, we'll be contacting you shortly.<br>
-Look out for more great competitions this year!</p>
-</section> <!--end .hidden-->
-<p class="author">Published by Adam</p>
-<time datetime="2012-12-29" pubdate="pubdate"><p>29th December 2012</p></time>
-</article> <!--end #article-->
-
-<article class="article">
-<a name="ChristmasGifts" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_christmas.jpg" width="135" height="106">
-<h2>Christmas Has Come Early!</h2>
-<p>It seems way too early to be talking about Christmas, but it is creeping up fast! The bookings are already flowing in, and we recently took arrival of this years Christmas Gift sets.</p>
-<p>This year we've got some great packs from our main suppliers, they're already flying off the shelves!</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/bed-volume.jpg" width="135" height="190">
-<p><strong>Tigi</strong> have produced some great packs, it appears they've put a lot of thought into grouping the most popular products together, offering them at a reduced price and they look fantastic too. We have set's from each range - call or pop in the salon for more information.</p>
-<p>The <strong>Schwazkopf</strong> gift sets are well put together this year, packaged with a shampoo, conditioner and intensive treatment. It works out that you end up with three products for the price of two all wrapped up in a useful wash bag!</p>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/ghd_metallic.jpg" width="135" height="163">
-<p>As always, <strong>GHD</strong> have launched this years Christmas sets which are a limited edition metallic collection - get yours before they sell out!</p>
-<p><strong>Plus don't forget about our Jakata Gift Vouchers, available in £10, £20, £50 and £100 or we can create a bespoke voucher for a specific service.</strong></p>
-</section> <!--end .hidden-->
-<p class="author">Published by Adam</p>
-<time datetime="2012-10-26" pubdate="pubdate"><p>26th October 2012</p></time>
-</article> <!--end #article-->
-
-<article class="article">
-<a name="NamedAnchor" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/merry-christmas.jpg" width="135" height="160">
-<h2>Christmas Bookings</h2>
-<p>We're anticipating a seriously busy Christmas period this year, we started taking bookings back in September! The salon is open longer hours throughout December, with Sunday/Monday opening in the two weeks before Christmas.</p>
-<p>We highly recommend getting your appointment booked soon to avoid disappointment - some of the weekends are already nearly booked up!</p>
-<p class="offer"><strong>Call 01925 242960 to book yours now.</strong></p>
-</section> <!--end .visible-->
-<p class="author">Published by Jakata</p>
-<time datetime="2012-06-30" pubdate="pubdate"><p>30th June 2012</p></time>
-</article> <!--end #article-->
-
-<article class="article">
 <a name="AutumnColour" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend2.jpg" width="135" height="190">
@@ -596,123 +539,6 @@ Look out for more great competitions this year!</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Jakata</p>
 <time datetime="2012-10-03" pubdate="pubdate"><p>3rd October 2012</p></time>
-</article> <!--end #article-->
-
-<article class="article">
-<a name="SessionSeries" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/group.jpg" width="135" height="150">
-<h2>Update your products this month</h2>
-<h3>With Tigi Catwalk Session Series</h3>
-<p>A great way to update your product shelf this Autumn is with the newest range from Tigi Catwalk. This versatile fashion forward range, handpicked from backstage at the catwalk shows, covers everything from frizz control, texture, volume and much more.</p>
-<p>The styling range is divided into three groups: For texturising, for working and for holding...</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<p><strong>Click on any of the products below to get more information..</strong></p>
-<img src="images/newspics/texture.jpg" width="100" height="160">
-<h3>For Texturizing</h3>
-<p><em>For ultimate texture and looks straight from the catwalk. A light weight dry shampoo and Salt Spray form this part of the range</em></p>
-<p><a href="http://mobile.tigihaircare.com/SessionSeries/TransformingDryShampoo.aspx" target="_blank">Dry Shampoo</a></p>
-<p>This lightweight dry shampoo is invisible even on brunettes.<br>
-Its remarkable results make it a personal favourite and a best seller.
-Use on either unwashed hair or freshly washed hair to keep it from going too fly away.</p>
-<p><a href="http://mobile.tigihaircare.com/SessionSeries/SaltSpray.aspx" target="_blank">Salt Spray</a></p>
-<p>Give a light pliable hold to your hair with this texturising spray. <br>
-Its carefully designed formula allows you to control frizz and fight humidity, while sea salt adds body and definition to the hair to create the most amazing looks.</p>
-<img src="images/newspics/work.jpg" width="100" height="160">
-<h3>For Working</h3>
-<p><em>Seriously versatile styling products used by professionals. Styling Cream, 'Work It' hairspray and True Wax</em></p>
-<p><a href="http://mobile.tigihaircare.com/SessionSeries/StylingCream.aspx" target="_blank">Styling Cream</a></p>
-<p>This cream thickens hair and adds shine and body. It contains conditioning agents an adds moisture. <br>
-Use in wet hair to thicken and condition, use in dry hair for a smooth look.</p>
-<p><a href="http://mobile.tigihaircare.com/SessionSeries/WorkItHairSpray.aspx" target="_blank">Work It Hairspray</a></p>
-<p>This fast drying workable hair spray is humidity resistant and fights against frizz.<br>
-Adds extra shine to your style<br>
-Spray 12” away from head and manipulate your style.</p>
-<p><a href="http://mobile.tigihaircare.com/SessionSeries/TrueWax.aspx" target="_blank">True Wax</a></p>
-<p>This workable wax allows you to tame frizzy hair and provides a pliable hold while adding sheen. </p>
-<img src="images/newspics/hold.jpg" width="100" height="160">
-<h3>For Holding</h3>
-<p><em>For creative hair styles that stay - Wet Look Gel and Finishing Hairspray</em></p>
-<p><a href="http://mobile.tigihaircare.com/SessionSeries/WetLookGel.aspx" target="_blank">Wet Look Gel</a></p>
-<p>This non flakey gel provides strong hold for the most up-to-date hair trends.<br>
-Use on wet or dry hair to get that perfectly structured style</p>
-<p><a href="http://mobile.tigihaircare.com/SessionSeries/FinishingHairspray.aspx" target="_blank">Finishing Hairspray</a></p>
-<p>Add the final touch to your style with this long last hair spray <br>
-Its fine mist evenly distributes the product through your hair to give extra hold and ultimate shine.</p>
-<p class="offer">The entire Catwalk Session Series range is available in Jakata now!</p>
-</section> <!--end .hidden-->
-<p class="author">Published by Natalie Doxey</p>
-<time datetime="2012-09-19" pubdate="pubdate"><p>19th September 2012</p></time>
-</article> <!--end #article-->
-
-<article class="article">
-<a name="Shell" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/shell.jpg" width="135" height="160">
-<h2>Michelle on her way home</h2>
-<p>Jakata senior stylist Michelle Ash is finally out of hospital after being in for almost four months! </p>
-<p>It's great news - she still has a long road to recovery but she'll definitely be happy to get home....</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<p>Shell was admitted to hospital eleven weeks ago after it was discovered she had blood poisoning. It all happened so quickly that it came as a massive shock to the team. Things got so serious with her condition that at one point we were told to prepare for the worst. She fought through but remained in a coma for a few weeks - over a period of time she started to come round and is now making a steady recovery.</p>
-<p><em>We're all wishing her the best here at Jakata - our camping trips aren't the same without her!!</em></p>
-<p class="offer">Get well soon Shell!!</p>
-</section> <!--end .hidden-->
-<p class="author">Published by Adam Carter</p>
-<time datetime="2012-06-30" pubdate="pubdate"><p>30th June 2012</p></time>
-</article> <!--end #article-->
-
-<article class="article">
-<a name="Tweens" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tweens.jpg" width="135" height="160">
-<h2>Bed Head Tweens Available Now</h2>
-<p>For a limited time pick up your Urban Antidote Tweens for just &pound;28.35!</p>
-<p>Thats 3 times more product than the standard retail sizes for only &pound;5 more! </p>
-<p>PLUS pick up your free refillable travel kit available with tween purchases (while stocks last)</p>
-<p class="offer">This offer is only available for a short time so don't miss out.</p>
-</section> <!--end .visible-->
-
-<p class="author">Published by Jakata</p>
-<time datetime="2012-07-13" pubdate="pubdate"><p>13th July 2012</p></time>
-</article> <!--end #article-->
-
-<article class="article">
-<a name="UrbanAntidotes" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/urban_antidotes.jpg" alt="Tigi Bedhead Urban Antidotes"width="135" height="140">
-<h2>Product Focus: Tigi Bedhead 'Urban Antidotes'</h2>
-<p>Urban Antidotes is a range of reparative shampoos and conditioners that can be used on any hair type. All 3 stages are colour safe and contain 'hits' of moisture.</p>
-<p>I love all 3 of Tigi's Urban Antidotes ranges because no matter what your hair is like there is something for you.</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<h3>Urban Antidote No.1 - Re-Energize.</h3>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/urban_green.jpg" alt="Tigi Bedhead Urban Antidotes"width="135" height="140">
-<p>Perfect for hair that needs a daily 'pick me up'. For 'normal' or 'virgin' hair.</p>
-<p>Get your hair back to normal with hydrating, strengthening and shine enhancing shampoo. Livens up moisture by 25%, strengthens weak lifeless hair with weightless shine, promotes colour retension and re-energizes with body and thickness.</p>
-<p>Put some oomph back into your tired, over-stimulated hair. Supercharged hydrating conditioner helps strengthen weak hair giving it a rush of shine and health. Blasts weightless shine and detangles unruly locks!!</p>
-<p><em>'I think urban antidote No.1 is great if you feel like your hair is flat or dull because in my opinion it does liven up your hair and does give your hair loads of shine!!!!'</em></p>
-<h3>Urban Antidote No.2 - Re-Covery</h3>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/urban_blue.jpg" alt="Tigi Bedhead Urban Antidotes"width="135" height="140">
-<p>Helps moisture deprived hair to the ultimate recovery. For damaged tresses hat need a moisture hit.</p>
-<p>Recovery Shampoo helps strengthen and give shine to your worn out locks with 4x fewer breaks plus leaves hair 12x smoother. Protects hair from colour fading has U.V and heat protection. It also helps to prevent split ends. 9 out of 10 hairstylists believe it leaves hair instantly healthier.</p>
-<p>Re-Covery conditioner drenches moisture deprived hair with a rush of hydration that gets stressed out tresses back to a healthy condition. It moisturises for major softness and protects from thermal and combing damage.</p>
-<p><em>I actually use urban antidote No2 and find it leaves my hair feeling healthier! It gives my hair moisture and shine without weighing it down.</em></p>
-<h3>Urban Antidote No.3 - Resurrection.</h3>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/urban_red.jpg" alt="Tigi Bedhead Urban Antidotes"width="135" height="140">
-<p>Designed for weak, brittle hair that needs an intervention. It leaves hair 3x stronger and 12x smoother</p>
-<p>Bring weak brittle hair back to life with this powerful moisture packed shampoo, with micro sheilds to boost strength and stamina. Its heat and U.V protective, helps keep colour vibrant and zeros in on dry damaged hair.</p>
-<p>Resurrection conditioner brings dead-end hair back to life, the formula targets areas in the most need of repair giving it the revival it needs. It has long lasting results with continued repair!</p>
-<p><em>I used to use urban antidote No3 because my hair was damaged and dry, but by using this shampoo and conditioner it made my hair healther so i moved on to use No2!</em></p>
-<h3>Summary</h3>
-<p>To sum on the whole range there is something for everyone, and if you think your hair is beyond repair think again! Even if you start off at the bottom using No3, these shampoo's and conditioners are designed so you can move up the range to finally get to number 1!</p>
-</section> <!--end .hidden-->
-<p class="author">Published by Laura Hall</p>
-<time datetime="2012-07-11" pubdate="pubdate"><p>11th July 2012</p></time>
 </article> <!--end #article-->
 
 </section> <!--end #accordion-->
