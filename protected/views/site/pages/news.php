@@ -16,6 +16,62 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a name="ConditioningTreatments" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/" width="135" height="180">
+<h2>In-Salon Treatments</h2>
+<p>We all know your hair needs some extra TLC from time to time, excessive use of heat styling tools plus over colouring leads to tired, hard to style hair.</p>
+<p>To get the most from your locks we recommend an in-salon intensive treatment every month or two. the £5 - £10 cost is well worth the results - no more bad hair days for at least a month!</p>
+<p>Here at Jakata we have a diverse range of treatments suited to every hair type with the aim to solve a whole host of hair issues.
+Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information on all the treatments we have to offer.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/" width="135" height="180">
+<h3>Tigi Hair Reborn</h3>
+<p>Hair Reborn is a new product range offering 3 different 'journeys' all aiming to address a specific hair problem.</p>
+<h4>Journey of Resurgence for Dry Hair:<br>Treatment of Moisture Balance</h4>
+<p>I tried this treatment out on my colleague Mikala, the shine on her hair after the application was amazing. We recommend you to have these treatments every 6-8 weeks in salon to keep your hair in the best condition with luminous shine. The treatment gives your hair an astonishing 400% more hydration.</p>
+<p><strong>Price: &pound;7.50<br>Time Taken: 10-20 minutes</strong></p>
+
+<h4>Journey of Awakening for weak, damaged hair:<br>
+	Treatment of Restoration</h4>
+<p>This again is an in-salon treatment designed for weak damaged hair, particularly those who find they have a lot of breakage/split ends. It is perfect to have done in-salon after a colour to keep your hair feeling as healthy as possible with strength and vitality.</p>
+<p><strong>Price: &pound;7.50<br>Time Taken: 10-20 minutes</strong></p>
+
+<h4>Journey of serenity for frizz prone hair:<br>
+	Treatment of Smoothing</h4>
+<p>For all of you that suffer with naturally frizzy hair, this treatment is perfect for you. It also works wonders for hair that’s curly with a natural frizz, helping define curls. It works by sealing the hairs fibres and nourishing the hair to give it exceptionally smooth and shiny results. This treatment gives your hair up to 80% reduction in frizz.  Perfect for this damp British weather.</p>
+<p><strong>Price: &pound;7.50<br>Time Taken: 10-20 minutes</strong></p>
+
+<p><strong>Experience one of our luxury hair re-born treatments in salon with a complimentary relaxing head and shoulder massage. We also have a take-home treatment for you to  use in between your in-salon treatment. There is one in each range, so its personalised for your individual hair.</strong></p>
+
+<h3>Schwarzkopf One Shot Treatments</h3>
+<h4>Repair Rescue</h4>
+<p>Perfect for broken down damaged weakened hair. Great for people that want a quick fix with not much time to spare. Once the treatment has been applied it instantaneously closes the hair cuticle effectively strengthening the inner hair fibre. </p>
+<p><em>It gives immediate visible results leaving the hair shiny, luminous and healthy. Because it works so fast the treatment is only left on for a minute. Great for people in a rush that want to keep their hair in the healthiest way possible.</em></p>
+<p><strong>Price: &pound;5<br>Time Taken: 1 minute</strong></p>
+
+<h4>Smooth and Shine</h4>
+<p>In-salon treatment again perfect for those that don’t have much time to spare. This treatment gives the hair instant care by closing the cuticle and helping to deliver control and definition. </p>
+<p><em>This treatment gives a high gloss finish leaving the hair with illuminating radiance, for just £5 why neglect your hair!</em></p>
+<p><strong>Price: &pound;5<br>Time Taken: 1 minute</strong></p>
+
+<p><strong>The one shot treatments are a quick but very effective way of keeping your hair in the best condition it possibly can be in.</strong></p>
+
+<h3>Schwarzkopf Fibre Force</h3>
+<p>Fibre force gives you the chance to get your hair back to virgin quality in 4-10 weeks. This treatment takes between 10-15 minutes costing just £5. It deeply replenishes and rejuvenates the hair, it immediately feels fuller stronger and revitalized. </p>
+<p><em>Vickie who works with us has been using the fibre force for 7 weeks, she has noticed a dramatic difference and is extremely impressed with the product.</em></p>
+<p><strong>Price: &pound;5<br>Time Taken: 10 -15 minutes</strong></p>
+
+<p><em>There is an intensive conditioning treatment suited for all hair types, your Jakata stylist will recommend the best one for your needs</em></p>
+
+</section> <!--end .hidden-->
+<p class="author">Published by Maisie</p>
+<time datetime="2013-05-07" pubdate="pubdate"><p>7th May 2013</p></time>
+</article> <!--end #article-->
+
+<article class="article">
 <a name="MenTrends" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men1.jpg" width="135" height="148">
