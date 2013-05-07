@@ -70,8 +70,8 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p><em>There is an intensive conditioning treatment suited for all hair types, your Jakata stylist will recommend the best one for your needs</em></p>
 
 <h3>Special Offer</h3>
-<p>We're running a fantastic offer on treatments this month</p>
-
+<p class="offer">We're running a fantastic offer on treatments this month</p>
+<p class="big"><?php echo CHtml::link('Click here for the offer details',array('site/page', 'view'=>'specialoffer')); ?></p>
 </section> <!--end .hidden-->
 <p class="author">Published by Maisie</p>
 <time datetime="2013-05-07" pubdate="pubdate"><p>7th May 2013</p></time>
