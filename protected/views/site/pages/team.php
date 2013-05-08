@@ -22,6 +22,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
     <div id="team_members">
 	<section class="team_member" id="jimmy">
 	<div id="team_button"><strong><p>About<br>Jimmy</p></strong></div>
+	<a name="Jimmy" class="anchor"></a>
 	<h2>Jimmy Sharpe</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
@@ -36,6 +37,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	
 	<section class="team_member" id="vicky">
 	<div id="team_button"><p>About<br>Vikki</p></div>
+	<a name="Vicky" class="anchor"></a>
 	<h2>Vicky Rowland</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
@@ -64,6 +66,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	
 	<section class="team_member" id="shelly">
 	<div id="team_button"><p>About<br>Shelly</p></div>
+	<a name="Shelly" class="anchor"></a>
 	<h2>Michelle French</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
@@ -78,6 +81,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	
 	<section class="team_member" id="maisie">
 	<div id="team_button"><p>About<br>Maisie</p></div>
+	<a name="Maisie" class="anchor"></a>
 	<h2>Maisie Thompson</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
@@ -93,6 +97,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	
 	<section class="team_member" id="laura">
 	<div id="team_button"><p>About<br>Laura</p></div>
+	<a name="Laura" class="anchor"></a>
 	<h2>Laura Hall</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
@@ -107,6 +112,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 		
 	<section class="team_member" id="nat">
 	<div id="team_button"><p>About<br>Nat</p></div>
+	<a name="Natalie" class="anchor"></a>
 	<h2>Natalie Doxey</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
@@ -121,6 +127,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	
 	<section class="team_member" id="mikala">
 	<div id="team_button"><p>About<br>Mikala</p></div>
+	<a name="Mikala" class="anchor"></a>
 	<h2>Mikala Sutcliffe</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25">
