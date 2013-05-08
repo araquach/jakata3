@@ -82,7 +82,7 @@ class MailingListController extends Controller
 	
 	public function actionEmail()
 	{
-		$this->render('//mail/catwalk_mailshot 2',array('model'=>$this->loadModel($id), 'image'=>$this->image));
+		$this->render('//mail/may13',array('model'=>$this->loadModel($id)));
 	}
 	
 	
@@ -96,18 +96,14 @@ class MailingListController extends Controller
 	
 				if(isset($_POST['MailingList']))
 				{
-						
-					
 						$message = new YiiMailMessage;
-						$image = $message->embed(Swift_Image::fromPath('./images/email/catwalk_email.jpg'));
-						$message->view = 'catwalk_mailshot 2';
+						$message->view = 'may13';
 						$message->setBody(array('model'=>$row), 'text/html');
-						$message->subject = 'Catwalk Makeover Package';
+						$message->subject = 'Jakata May News';
 						$message->setTo($row->email);
-						$message->from = ('adam@jakatasalon.co.uk');
+						$message->from = ('news@jakatasalon.co.uk');
 						Yii::app()->mail->batchSend($message);		
 						Yii::app()->user->setFlash('emailer','Thanks for sending the emails');
-								
 				}
 			}
 			

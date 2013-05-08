@@ -23,8 +23,8 @@ $this->pageTitle=Yii::app()->name . ' - Special Offer - Hairdressers in Cheshire
 	<p class="so_small">Offer open to all clients</p>
 	</div> <!--#so_includes-->
 	
-	<p class="specOffer_contact"><strong>Call 01925 242960 to book</strong></p>
-	<p class="">ends 14/06/2013</p>
+	<p class="specOffer_contact"><strong>Call:<br>01925 242960<br>to book</strong></p>
+	<p class="so_small">ends 14/06/2013</p>
 	
 
 	</section> <!--#specOffer-->
