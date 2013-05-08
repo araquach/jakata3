@@ -25,10 +25,10 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Ch
 	
 	
 	<section id="offer3" class="group">
-	<h2>30% Off Selected Products</h2>
-	<p>Come into the salon to see a wide selection of shampoo's, conditioners, treatments &amp; styling products</p>
-	<p>All with 30% off!</p>
-	<small>Subject to availability.</small>
+	<h2></h2>
+	<p></p>
+	<p></p>
+	<small></small>
 	</section><!--end #offer3--*>
 	
 	<?php echo CHtml::link('<p id="book_button">Online enquiry and booking form</p>',array('site/contact')); ?>
