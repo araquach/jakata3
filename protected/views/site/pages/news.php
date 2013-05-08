@@ -19,9 +19,9 @@ window.addEvent('domready', function(){
 <a name="ConditioningTreatments" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/glam_chic.jpg" width="135" height="190">
-<h2>In-Salon Treatments</h2>
+<h2>Treat Your Hair this summer</h2>
 <p>We all know your hair needs some extra TLC from time to time, excessive use of heat styling tools plus over colouring leads to tired, hard to style hair.</p>
-<p>To get the most from your locks we recommend an in-salon intensive treatment every month or two. the £5 - £10 cost is well worth the results - no more bad hair days for at least a month!</p>
+<p>To get the most from your locks we recommend an in-salon intensive treatment every month or two. the &pound;5 - &pound;10 cost is well worth the results - no more bad hair days for at least a month!</p>
 <p>Here at Jakata we have a diverse range of treatments suited to every hair type with the aim to solve a whole host of hair issues.
 Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information on all the treatments we have to offer.</p>
 <p class="reveal">Read More ></p>
