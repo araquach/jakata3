@@ -1309,6 +1309,29 @@ p#book_button {
 
 /* @end */
 
+/* @group specoffer2 */
+
+#specOffer2_bground {
+	width: 950px;
+	height: 700px;
+	background-color: #f5f5f5;
+	background: #f5f5f5 url('../images/spec_offer/') no-repeat left top;
+	padding-top: 210px;
+	padding-bottom: 200px;
+}
+
+#specOffer2_bground #specOffer h1 {
+	margin-top: 30px;
+}
+
+#specOffer2_bground #specOffer p:first-of-type {
+	margin: 30px 0;
+}
+
+
+
+/* @end */
+
 /* @group Catwalk */
 
 #catwalk_bground {

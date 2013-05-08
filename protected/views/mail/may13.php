@@ -68,7 +68,7 @@
 	  	</tr>
 	  </table>
 	  <p>(Click an image to read the stylists profile)</p>
-	  <p>Offer exclusively for '.ucfirst($model->first_name).' '.ucfirst($model->last_name).' only,<br>Not Transferable, weekdays only </p>
+	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only,<br>Not Transferable, weekdays only </p>
 	  <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
 	  <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: June 28th 2013</p>
 	 </td>
@@ -117,6 +117,7 @@
 		<p>Here at Jakata we have a large male clientele with most stylist's being as proficient at men's hair as women's.</p>
 		<p>There have been some really strong men's looks leaving the salon recently so I asked Jakata stylist <strong>Mikala Sutcliffe</strong> to give us the lowdown on up and coming men's styles&hellip;</p>
 		<p><a href="http://www.jakatasalon.co.uk/news.php#MenTrends" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
+		<p>If your husband/boyfriend has never been to Jakata before then <a href="">Click Here to take advantage of a great introductory offer!</a>
 	   </td>
 	</tr>
 	
