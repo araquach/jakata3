@@ -22,7 +22,7 @@
 	<!--header-->
 	<tr>
 	<td height="224" align="left" valign="middle" style="background-color:#FFFFFF;border-top:0px solid #333333;"><center>
-	  <a href="http://www.jakatasalon.co.uk"><img src="http://www.jakatasalon.co.uk/images/newspics/news_masthead2.jpg" alt="Jakata Hair &amp; Beauty Team. 01925 242960" width="657" height="224" style="border-style: none"></a></td>
+	  <a href="http://www.jakatasalon.co.uk"><img src="http://www.jakatasalon.co.uk/images/email/email_masthead.jpg" alt="Jakata Hair &amp; Beauty Team. 01925 242960" width="657" height="224" style="border-style: none"></a></td>
 	</tr>
 	</table>
 	<!--end header-->
@@ -38,8 +38,7 @@
 		<p>Hi <?php echo ucfirst($model->first_name);?>, </p>
 		<p>Summer is almost here after what seemed like a never ending winter! During the winter months the Jakata team kept themselves occupied by putting together a new collection of images (see story below) which we'll be publishing soon.</p>
 		<p>With holiday season almost here we all need to ensure our hair is in the best possible condition. We've introduced some great new product ranges and treatments to the salon recently, plus we've launched a special offer on conditioning tretments. Find out more below&hellip;</p>
-		<P><strong>See you in the salon soon!</strong></P>
-		<p><a href="http://www.jakatasalon.co.uk" target="_blank" style="color: #333;">www.jakatasalon.co.uk</a></p>
+		<P><strong>See you in the salon soon!</strong></p>
 	   </td>
 	</tr>
 	
@@ -73,7 +72,7 @@
 	  <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: June 28th 2013</p>
 	 </td>
 	</tr>';
-	break;
+	//break;
 	case 2:
 	echo
 	'<tr> 
@@ -86,7 +85,7 @@
 	  <p><strong>Have a Cut, Dry &amp; Style, receive 1 FREE product<br>
 	  	Have a Colur &amp; Cut receive 2 FREE products</strong></p>
 	  
-	  <p>Offer exclusively for '.ucfirst($model->first_name).' '.ucfirst($model->last_name).' only.<br>Not Transferable, weekdays only </p>
+	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
 	  <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
 	  <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>
 	  Retail size products only, excludes Hair Reborn. Offer ends: June 28th 2013</p>
@@ -117,7 +116,7 @@
 		<p>Here at Jakata we have a large male clientele with most stylist's being as proficient at men's hair as women's.</p>
 		<p>There have been some really strong men's looks leaving the salon recently so I asked Jakata stylist <strong>Mikala Sutcliffe</strong> to give us the lowdown on up and coming men's styles&hellip;</p>
 		<p><a href="http://www.jakatasalon.co.uk/news.php#MenTrends" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
-		<p>If your husband/boyfriend has never been to Jakata before then <a href="">Click Here to take advantage of a great introductory offer!</a>
+		<p>If your husband/boyfriend has never been to Jakata before then<br><a href="http://www.jakatasalon.co.uk/menoffer">Click Here to take advantage of a great introductory offer!</a></p>
 	   </td>
 	</tr>
 	
@@ -168,14 +167,15 @@
 		<p>Here at Jakata we have a diverse range of treatments suited to every hair type with the aim to solve a whole host of hair issues.
 		Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information on all the treatments we have to offer.</p>
 		<p><a href="http://www.jakatasalon.co.uk/news.php#ConditioningTreatments" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
+		<p><a href="http://www.jakatasalon.co.uk/treatment"><strong>Click Here for a fantastic conditioning treatment offer!</strong></a></p>
 	   </td>
 	</tr>
 	
 	<!--footer-->
 	
 	<tr>
-	  <td style="background-color: #999;border-top:10px solid #FFFFFF;" valign="top">&nbsp;</td>
-	  <td style="background-color:#999;border-top:10px solid #FFFFFF;" valign="top">
+	  <td style="background-color: #CDD6DD;border-top:10px solid #FFFFFF;" valign="top">&nbsp;</td>
+	  <td style="background-color:#CDD6DD;border-top:10px solid #FFFFFF;" valign="top">
 	  <span style="text-align:left;font-size:10px;color:#FFFFFF;font-family:verdana;">
 		Jakata Hair &amp; Beauty Team <br />
 	  <br />

@@ -86,11 +86,13 @@ class MailingListController extends Controller
 	}
 	
 	
-	
 	public function actionEmailer()
 		{
 			$model=new MailingList;
-			$emails = MailingList::model()->findAll();
+			$criteria=new CDbCriteria;
+			$criteria->condition = "id > 101";
+			$criteria->limit = 100;
+			$emails = MailingList::model()->findAll($criteria);
 			foreach ($emails as $row)
 			{
 	
