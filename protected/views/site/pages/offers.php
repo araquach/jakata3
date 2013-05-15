@@ -27,14 +27,14 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Ch
 	<h2>&pound;50 Colour &amp; Cut package<br>for new clients</h2>
 	<p><strong>with a Senior Stylist</strong></p>
 	<p>Call 01925 242960 to take advantage of this limited offer!</p>
-	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service Ends 29/06/13 </small>
+	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service. Ends 29/06/13 </small>
 	</section>
 	
 	<section id="offer2" class"group">
 	<h2>&pound;30 Colour &amp; Cut Package<br>for new clients</h2>
 	<p><strong>with a Stylist/Graduate Stylist</strong></p>
 	<p>Call 01925 242960 to take advantage of this limited offer!</p>
-	<small>Excludes Saturday. First visit only. Not with any other offer. Ends 29/06/13</small>
+	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service. Ends 29/06/13</small>
 	</section>
 	
 	

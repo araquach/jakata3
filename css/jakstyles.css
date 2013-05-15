@@ -197,7 +197,7 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/hair_reborn.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/mono_mods.jpg') no-repeat rgba(249, 249, 250, 0.8);
 }
 .no-rgba #news1 {
 	background: url('../images/home/hair_reborn.jpg') no-repeat rgb(249, 249, 250);
@@ -1149,11 +1149,11 @@ div.row textarea {
 
 #offer1 {
 	margin-top: 50px;
-	background: url(../images/offers/) no-repeat #fefefe;
+	background: url(../images/offers/mono_mods.jpg) no-repeat #fefefe;
 }
 
 #offer2 {
-	background: url(../images/offers/) no-repeat #fefefe;
+	background: url(../images/offers/electric_youth.jpg) no-repeat #fefefe;
 }
 
 #offer3 {
