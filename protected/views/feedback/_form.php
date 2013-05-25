@@ -298,6 +298,12 @@
 			<?php echo $form->textArea($model,'extra',array('rows'=>10,'cols'=>55)); ?>
 			<?php echo $form->error($model,'extra'); ?>
 		</div>
+		
+		<div class="row">
+			<?php echo $form->labelEx($model,'allow'); ?>
+			<?php echo $form->checkBox($model,'allow'); ?>
+			<?php echo $form->error($model,'allow'); ?>
+		</div>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Submit' : 'Save'); ?>

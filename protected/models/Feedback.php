@@ -20,6 +20,7 @@
  * @property integer $whole_experience
  * @property integer $end_result
  * @property string $extra
+ * @property bool $allow
  * @property integer $stylist_id
  */
 class Feedback extends CActiveRecord
@@ -52,6 +53,7 @@ class Feedback extends CActiveRecord
 		return array(
 			array('client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, stylist_id', 'required'),
 			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, stylist_id', 'numerical', 'integerOnly'=>true),
+			array('allow', 'boolean'),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('client_first, client_second', 'length', 'max'=>50),
 			array('mobile', 'length', 'max'=>25),
@@ -60,7 +62,7 @@ class Feedback extends CActiveRecord
 			array('extra', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, date, client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, extra, stylist_id', 'safe', 'on'=>'search'),
+			array('id, allow, date, client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, extra, stylist_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -98,6 +100,7 @@ class Feedback extends CActiveRecord
 			'whole_experience' => '9. How do you rate the experience as a whole on your last visit?',
 			'end_result' => '10. How happy were you with the end result of your hair?',
 			'extra' => 'Do you have any extra comments you would like to make?',
+			'allow' => 'Please tick the box if you give permission to use your comments on our testimonials page',
 			'stylist_id' => 'Your Last Stylist',
 		);
 	}
@@ -129,6 +132,7 @@ class Feedback extends CActiveRecord
 		$criteria->compare('whole_experience',$this->whole_experience);
 		$criteria->compare('end_result',$this->end_result);
 		$criteria->compare('extra',$this->extra,true);
+		$criteria->compare('allow',$this->allow);
 		$criteria->compare('stylist_id',$this->stylist_id);
 
 		return new CActiveDataProvider($this, array(

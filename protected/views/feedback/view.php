@@ -45,6 +45,7 @@ $this->menu=array(
 		'whole_experience',
 		'end_result',
 		'extra',
+		'allow',
 		array(
 			'name'=>'Score'.':',
 			'value'=>$model->score(),
