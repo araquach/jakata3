@@ -20,7 +20,7 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 	</aside>',array('site/page','view'=>'collections')); */?>
 	
 <?php echo CHtml::link('<aside id="news1" class="home_news">
-<h3 class="newsheader">Great offers this May</h3>
+<h3 class="newsheader">Great offers this June</h3>
 <p class="newspara">We\'re running some unbeatable offers this month on Colour &amp; Cut packages</p>
 <p class="newscenter"><strong>Click here for details &gt;</strong></p>
 	</aside>',array('site/page','view'=>'offers')); ?>
