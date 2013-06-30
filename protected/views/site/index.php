@@ -20,10 +20,10 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 	</aside>',array('site/page','view'=>'collections')); */?>
 	
 <?php echo CHtml::link('<aside id="news1" class="home_news">
-<h3 class="newsheader">Great offers this June</h3>
-<p class="newspara">We\'re running some unbeatable offers this month on Colour &amp; Cut packages</p>
+<h3 class="newsheader">Men\'s Summer Trends </h3>
+<p class="newspara">Get up to speed with all the latest styles for men this season</p>
 <p class="newscenter"><strong>Click here for details &gt;</strong></p>
-	</aside>',array('site/page','view'=>'offers')); ?>
+	</aside>',array('site/page','view'=>'news','#'=>'MenTrends')); ?>
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
 <h3 class="newsheader">Treat Your Hair This Summer</h3>

@@ -197,10 +197,10 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/mono_mods.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/men3.jpg') no-repeat rgba(249, 249, 250, 0.8);
 }
 .no-rgba #news1 {
-	background: url('../images/home/hair_reborn.jpg') no-repeat rgb(249, 249, 250);
+	background: url('../images/home/men3.jpg') no-repeat rgb(249, 249, 250);
 }
 
 
