@@ -20,10 +20,10 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 	</aside>',array('site/page','view'=>'collections')); */?>
 	
 <?php echo CHtml::link('<aside id="news1" class="home_news">
-<h3 class="newsheader">Men\'s Summer Trends </h3>
-<p class="newspara">Get up to speed with all the latest styles for men this season</p>
+<h3 class="newsheader">The Ultimate Smoothing Treatment</h3>
+<p class="newspara">Kebelo Advantage could change your hair styling routine forever!</p>
 <p class="newscenter"><strong>Click here for details &gt;</strong></p>
-	</aside>',array('site/page','view'=>'news','#'=>'MenTrends')); ?>
+	</aside>',array('kebelo/index')); ?>
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
 <h3 class="newsheader">Treat Your Hair This Summer</h3>

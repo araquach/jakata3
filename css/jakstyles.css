@@ -197,10 +197,10 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/men3.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/caterina.jpg') no-repeat rgba(249, 249, 250, 0.8);
 }
 .no-rgba #news1 {
-	background: url('../images/home/men3.jpg') no-repeat rgb(249, 249, 250);
+	background: url('../images/home/caterina.jpg') no-repeat rgb(249, 249, 250);
 }
 
 
@@ -1509,28 +1509,6 @@ p#book_button {
 	background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
 }
 
-#kebelo_top_links {
-	position: absolute;
-	top: 210px;
-	right: 30px;
-}
-
-#kebelo #kebelo_top_links a {
-	font-family: 'Rosarivo', serif;
-	font-size: 1.2em;
-	color: #FFF;
-	color: rgba(246, 246, 246, 0.99);
-	border-left: 1px solid #FFF;
-	padding-left: 10px;
-	margin: 0;
-	margin-left: 5px;
-}
-
-#kebelo #kebelo_top_links a:hover {
-	color: #FFF;
-	color: rgba(255, 255, 255, 0.7);
-}
-
 #kebeloMain h2 {
 	text-indent: -9999px;
 }
@@ -1538,6 +1516,7 @@ p#book_button {
 #kebeloMain h3 {
 	font-family: 'Rosarivo', serif;
 	font-size: 3em;
+	margin-bottom: 20px;
 }
 
 span.kebelo_italic {
@@ -1560,14 +1539,14 @@ span.kebelo_italic {
 
 #kebelo_offer {
 	position: absolute;
-	width: 250px;
-	height: 250px;
-	bottom: 460px;
-	right: 30px;
+	width: 220px;
+	height: 220px;
+	top: 300px;
+	left: 50px;
 	background-color: #FFF;
 	background-color: rgba(255, 255, 255, 0.65);
 	border-radius: 50%;
-	border: 1px solid #FFF;
+	border: 1px solid #333;
 }
 
 .no-borderradius #kebelo_offer {
@@ -1586,24 +1565,29 @@ span.kebelo_italic {
 
 
 #kebelo_offer p {
-	margin-right: 40px;
 	text-align: center;
-	font-size: 1em;
-	width: 250px;
-	color: rgb(67, 45, 22);
+	font-size: 0.8em;
+	width: 220px;
+	color: rgb(79, 81, 106);
 	font-weight: bold;
 }
 
+#kebelo_offer p .bold {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
 #kebelo_offer p.big_offer {
-	font-size: 3.5em;
+	font-size: 2.5em;
 	margin: 0;
+	margin-top: 10px;
 	line-height: .7em;
 }
 
 #kebelo {
 	width: 100%;
-	background: url('../images/kebelo/kebelo_cover.jpg') no-repeat left top #e9e0d7;
-	height: 1200px;
+	background: url('../images/kebelo/caterina.jpg') no-repeat left top #FFF;
+	height: 550px;
 	padding-top: 250px;
 	padding-bottom: 180px;
 }
@@ -1636,13 +1620,18 @@ span.kebelo_italic {
 
 #silk_link {
 	position: absolute;
-	top: 950px;
-	left: 50px;
+	top: 600px;
+	left: 320px;
 	width: 200px;
+	height: 150px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid rgb(79, 81, 106);
 }
 
 #silk_link a {
-	color: #FFF;
+	color: rgb(79, 81, 106);
 	font-family: 'Rosarivo', serif;
 	font-size: 1.8em;
 	line-height: 1.2em;
@@ -1659,10 +1648,9 @@ span.kebelo_italic {
 #silk_link p {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.2em;
-	color: #FFF;
+	color: rgb(79, 81, 106);
 	line-height: 1.2em;
 	width: 200px;
-	padding-top: 7px;
 }
 
 
@@ -1679,9 +1667,10 @@ span.kebelo_italic {
 	width: 370px;
 	background-color: rgb(75, 35, 108);
 	color: #FFF;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
 }
 
+#kebelo #kebelo_top_links,
 #advantage #kebelo_top_links,
 #questions #kebelo_top_links,
 #silk #kebelo_top_links {
@@ -1690,7 +1679,7 @@ span.kebelo_italic {
 	left: 65px;
 }
 
-
+#kebelo #kebelo_top_links a,
 #advantage #kebelo_top_links a,
 #questions #kebelo_top_links a,
 #silk #kebelo_top_links a {
@@ -1702,10 +1691,16 @@ span.kebelo_italic {
 	margin-left: 5px;
 }
 
+#kebelo #kebelo_top_links a:hover,
 #advantage #kebelo_top_links a:hover,
 #questions #kebelo_top_links a:hover,
 #silk #kebelo_top_links a:hover {
 	color: rgba(79, 81, 106, 0.7);
+}
+
+#kebelo #kebelo_top_links {
+	left: 30px;
+	top: 230px;
 }
 
 #advantage_copy {
@@ -1715,13 +1710,18 @@ span.kebelo_italic {
 
 #advantage_link {
 	position: absolute;
-	top: 650px;
+	top: 600px;
 	left: 50px;
 	width: 200px;
+	height: 150px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid rgb(79, 81, 106);
 }
 
 #advantage_link a {
-	color: #FFF;
+	color: rgb(79, 81, 106);
 	font-family: 'Rosarivo', serif;
 	font-size: 1.8em;
 	-moz-transition: all .2s ease-in-out 0s;;
@@ -1737,10 +1737,9 @@ span.kebelo_italic {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.2em;
 	line-height: 1.2em;
-	color: #FFF;
+	color: rgb(79, 81, 106);
 	line-height: 1.2em;
 	width: 200px;
-	padding-top: 7px;
 }
 
 #advantage #three_advantages {
@@ -1801,14 +1800,19 @@ span.kebelo_italic {
 
 #questions_link {
 	position: absolute;
-	top: 650px;
-	left: 730px;
+	top: 600px;
+	right: 140px;
 	width: 200px;
+	height: 150px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 10px;
+	border-radius: 10px;
+	border: 1px solid rgb(79, 81, 106);
 }
 
 #questions_link a {
-	color: #FFF;
-	font-size: 1.8em;
+	color: rgb(79, 81, 106);
+	font-size: 1.5em;
 	line-height: 1.2em;
 	font-family: 'Rosarivo', serif;
 	-moz-transition: all .2s ease-in-out 0s;;
@@ -1822,11 +1826,10 @@ span.kebelo_italic {
 
 #questions_link p {
 	font-family: 'PT Sans', sans-serif;
-	font-size: 1.2em;
-	color: #FFF;
+	font-size: 1em;
+	color: rgb(79, 81, 106);
 	line-height: 1.2em;
 	width: 200px;
-	padding-top: 7px;
 }
 
 #questions_copy {
