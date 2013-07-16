@@ -52,12 +52,12 @@
 	<?php $this->widget('zii.widgets.CMenu',array(
 		'items'=>array(
 			array('label'=>'Home', 'url'=>array('/site/index')),
-			//array('label'=>'Offers', 'url'=>array('/site/page', 'view'=>'offers')),
+			array('label'=>'Offers', 'url'=>array('/site/page', 'view'=>'offers')),
 			//array('label'=>'The Salon', 'url'=>array('/site/page', 'view'=>'salon')),
 			array('label'=>'Team', 'url'=>array('/site/page', 'view'=>'team')),
 			array('label'=>'News', 'url'=>array('/site/page', 'view'=>'news')),
 			array('label'=>'Prices', 'url'=>array('/site/page', 'view'=>'prices')),
-			array('label'=>'Recruitment', 'url'=>array('/site/page', 'view'=>'recruitment')),
+			//array('label'=>'Recruitment', 'url'=>array('/site/page', 'view'=>'recruitment')),
 			array('label'=>'Contact', 'url'=>array('/site/page','view'=>'details')),
 		),
 	)); ?>
