@@ -23,7 +23,7 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 <h3 class="newsheader">The Ultimate Smoothing Treatment</h3>
 <p class="newspara">Kebelo Advantage could change your hair styling routine forever!</p>
 <p class="newscenter"><strong>Click here for details &gt;</strong></p>
-	</aside>',array('kebelo/index')); ?>
+	</aside>',array('kebelo/advantage')); ?>
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
 <h3 class="newsheader">Treat Your Hair This Summer</h3>
