@@ -1,19 +1,16 @@
 <div id="competitionBlank">
 
 <?php
-/* @var $this ValentineController */
+/* @var $this CompetitionController */
 /* @var $dataProvider CActiveDataProvider */
 
-$this->breadcrumbs=array(
-	'Valentines',
-);
 
 $this->menu=array(
-	array('label'=>'Create Valentine', 'url'=>array('create')),
-	array('label'=>'Manage Valentine', 'url'=>array('admin')),
+	array('label'=>'Create Competition', 'url'=>array('create')),
+	array('label'=>'Manage Competition', 'url'=>array('admin')),
 );
 ?>
-<h1>Valentines</h1>
+<h1>Competition Entries</h1>
 
 <?php $this->widget('zii.widgets.CListView', array(
 	'dataProvider'=>$dataProvider,

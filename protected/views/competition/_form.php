@@ -1,13 +1,13 @@
 <?php
-/* @var $this ValentineController */
-/* @var $model Valentine */
+/* @var $this CompetitionController */
+/* @var $model Competition */
 /* @var $form CActiveForm */
 ?>
 
 <div class="form">
 
 <?php $form=$this->beginWidget('CActiveForm', array(
-	'id'=>'valentine-form',
+	'id'=>'competition-form',
 	'enableAjaxValidation'=>false,
 )); ?>
 
