@@ -1560,8 +1560,8 @@ span.kebelo_italic {
 
 #kebelo_offer {
 	position: absolute;
-	width: 250px;
-	height: 250px;
+	width: 270px;
+	height: 270px;
 	bottom: 460px;
 	right: 30px;
 	background-color: #FFF;
@@ -1589,9 +1589,13 @@ span.kebelo_italic {
 	margin-right: 40px;
 	text-align: center;
 	font-size: 1em;
-	width: 250px;
+	width: 270px;
 	color: rgb(67, 45, 22);
 	font-weight: bold;
+}
+
+#kebelo_offer p.bold {
+	font-weight: bolder;
 }
 
 #kebelo_offer p.big_offer {
