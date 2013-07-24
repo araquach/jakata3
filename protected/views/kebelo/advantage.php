@@ -19,6 +19,7 @@ $this->pageTitle=Yii::app()->name . ' - Kebelo Advantage';
 	<p>What's more, with the new ADVANTAGE treatment, it only takes 1 hour to achieve and lasts for 100 days, and you can have a colour service straight after. This unique foundation treatment lets you lose the frizz whilst maintaining the bounce and volume, giving you even more styling freedom. Once again, Kebelo has led the way in hair smoothing.</p>
 	<p>The Kebelo ADVANTAGE smoothing system takes three simple steps; cleanse, treat and maintain. Using Kebelo pioneered carbocysteine hair technology that allow the treatment to support, strengthen and revitalise each strand from within, weak, dull, frizzy, unhealthy hair is transformed to beautiful smooth locks filled with bounce and volume.</p>
 	<p><strong>For a limited time have a Kebelo Advantage Treatment and get a FREE Cut, Dry &amp; Style for just &pound;99</strong></p>
+	<?php echo CHtml::link("We're giving away THREE Kebelo treatments <br> <strong>Click Here for a chance to win</strong>", array('competition/create'));?>
 	</div> <!--end advantage copy-->
 	<div id="three_advantages">
 	<h3>3 advantages of ADVANTAGE</h3>

@@ -1686,6 +1686,17 @@ span.kebelo_italic {
 	margin-bottom: 40px;
 }
 
+#advantage_copy p:last-of-type {
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 20px;
+}
+
+#advantage_copy a {
+	font-size: 1.2em;
+	display: block;
+}
+
 #advantage #kebelo_top_links,
 #questions #kebelo_top_links,
 #silk #kebelo_top_links {
@@ -1967,11 +1978,18 @@ span.kebelo_italic {
 
 #competition {
 	width: 950px;
-	height: 900px;
-	background: #f5f5f5 url('../images/competition/valentine2.jpg') no-repeat right top;
+	height: 100%;
+	background: #f5f5f5 url('../images/competition/kebelo.jpg') no-repeat right top;
 	padding-top: 250px;
 	padding-bottom: 200px;
-	background-size: cover;
+}
+
+#competition h1 {
+	margin-bottom: -20px;
+}
+
+#competition h2 {
+	font-size: 1.2em;
 }
 
 #competitionBlank {
@@ -2038,11 +2056,24 @@ span.kebelo_italic {
 }
 
 #competition label.required {
-	color: #FFF;
+	color: #333;
+}
+
+#competition div.row input#Competition_regular {
+	width: 20px;
+	float: right;
+	height: 30px;
+	margin-right: 30px;
+}
+
+#competition div.form label {
+	width: 400px;
+	float: left;
+	margin-bottom: 10px;
 }
 
 .competition_success {
-	width: 475px;
+	width: 400px;
 	height: 500px;
 }
 
