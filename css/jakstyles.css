@@ -1967,11 +1967,10 @@ span.kebelo_italic {
 
 #competition {
 	width: 950px;
-	height: 900px;
-	background: #f5f5f5 url('../images/competition/valentine2.jpg') no-repeat right top;
+	height: 100%;
+	background: #f5f5f5 url('../images/competition/kebelo.jpg') no-repeat right top;
 	padding-top: 250px;
 	padding-bottom: 200px;
-	background-size: cover;
 }
 
 #competitionBlank {
@@ -2038,11 +2037,11 @@ span.kebelo_italic {
 }
 
 #competition label.required {
-	color: #FFF;
+	color: #333;
 }
 
 .competition_success {
-	width: 475px;
+	width: 400px;
 	height: 500px;
 }
 

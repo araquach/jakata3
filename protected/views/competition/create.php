@@ -14,14 +14,20 @@
 
 <?php else: ?>
 
-<h1>Kebelo Competition</h1>
+<h1>Win A Kebelo Treatment</h1>
+<h2>100 Days of Frizz Free hair</h2>
 
 <!--<p class="comp_closed">The competition is now closed - look out for more soon!</p>-->
 
-<p>For your chance to win a set of <strong>'Gold' Edition GHD's</strong> or a <strong>FREE Blow Dry</strong>, simply fill out the form and answer the following question:</p>
-<p class="question">What do the letters 'GHD' stand for?</p>
+<p>We're giving away THREE Kebelo Advantage treatments.<br>For your chance to win just answer the question below&hellip;</p>
+<?php echo CHtml::link('(Click here to find out more about this amazing treatment)
+', array('kebelo/advantage')); ?>
+
+<p class="question">How long does a Kebelo treatment last for?</p>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+
+<small>Closing Date: 31/08/13<br>1 entry per person</small>
 
 </div> <!--end #competition_form-->
 </section> <!--end #competition-->

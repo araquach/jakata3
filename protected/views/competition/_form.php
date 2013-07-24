@@ -14,6 +14,13 @@
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'answer'); ?>
+		<?php echo ZHtml::enumDropDownList($model,'answer',array('prompt' => 'Select your answer')); ?>
+		<?php echo $form->error($model,'answer'); ?>
+	</div>
+	
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'first_name'); ?>
@@ -37,12 +44,6 @@
 		<?php echo $form->labelEx($model,'email'); ?>
 		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'email'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'answer'); ?>
-		<?php echo ZHtml::enumDropDownList($model,'answer',array('prompt' => 'Select your answer')); ?>
-		<?php echo $form->error($model,'answer'); ?>
 	</div>
 
 	<div class="row">
