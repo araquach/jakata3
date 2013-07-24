@@ -1686,6 +1686,17 @@ span.kebelo_italic {
 	margin-bottom: 40px;
 }
 
+#advantage_copy p:last-of-type {
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 20px;
+}
+
+#advantage_copy a {
+	font-size: 1.2em;
+	display: block;
+}
+
 #advantage #kebelo_top_links,
 #questions #kebelo_top_links,
 #silk #kebelo_top_links {
@@ -1973,6 +1984,14 @@ span.kebelo_italic {
 	padding-bottom: 200px;
 }
 
+#competition h1 {
+	margin-bottom: -20px;
+}
+
+#competition h2 {
+	font-size: 1.2em;
+}
+
 #competitionBlank {
 	width: 850px;
 	height: 100%;
@@ -2038,6 +2057,19 @@ span.kebelo_italic {
 
 #competition label.required {
 	color: #333;
+}
+
+#competition div.row input#Competition_regular {
+	width: 20px;
+	float: right;
+	height: 30px;
+	margin-right: 30px;
+}
+
+#competition div.form label {
+	width: 400px;
+	float: left;
+	margin-bottom: 10px;
 }
 
 .competition_success {

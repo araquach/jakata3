@@ -23,11 +23,11 @@
 <?php echo CHtml::link('(Click here to find out more about this amazing treatment)
 ', array('kebelo/advantage')); ?>
 
-<p class="question">How long does a Kebelo treatment last for?</p>
+<p class="question">How many days of frizz free hair does a Kebelo give you?</p>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
 
-<small>Closing Date: 31/08/13<br>1 entry per person</small>
+<small>Closing Date: 31/08/13 - 1 entry per person</small>
 
 </div> <!--end #competition_form-->
 </section> <!--end #competition-->
