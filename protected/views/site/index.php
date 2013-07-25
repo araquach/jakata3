@@ -26,10 +26,10 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 	</aside>',array('kebelo/advantage')); ?>
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
-<h3 class="newsheader">Treat Your Hair This Summer</h3>
-<p class="newspara">Buy a take home treatment, get an in salon treatment absolutely FREE!</p>
+<h3 class="newsheader">Special Offer<br>for New Clients</h3>
+<p class="newspara">This month we have a fantastic offer for new customers to the salon</p>
 <p class="newscenter"><strong>Find out here &gt;</strong></p>
-</aside>',array('site/page','view'=>'specialoffer')); ?>
+</aside>',array('site/page','view'=>'offers')); ?>
 
 <?php echo CHtml::link('<aside id="news3" class="home_news">
 <h3 class="newsheader">Great career opportunities at Jakata</h3>
