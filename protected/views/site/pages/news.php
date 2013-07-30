@@ -1,6 +1,6 @@
 <?php
 /* @var $this SiteController */
-$this->pageTitle=Yii::app()->name . ' - Hairdressing News - Hairdressers in Cheshire';
+$this->pageTitle=Yii::app()->id . ' - Hairdressing News - Hairdressers in Cheshire';
 ?>
 
 <script type="text/javascript">
@@ -16,9 +16,9 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
-<a name="ConditioningTreatments" class="anchor"></a>
+<a id="ConditioningTreatments" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/glam_chic.jpg" width="135" height="190">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/glam_chic.jpg" width="135" height="190" alt="Glam Chic">
 <h2>Treat Your Hair this summer</h2>
 <p>We all know your hair needs some extra TLC from time to time, excessive use of heat styling tools plus over colouring leads to tired, hard to style hair.</p>
 <p>To get the most from your locks we recommend an in-salon intensive treatment every month or two. the &pound;5 - &pound;10 cost is well worth the results - no more bad hair days for at least a month!</p>
@@ -30,17 +30,17 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <h3>Tigi Hair Reborn</h3>
 <p>Hair Reborn is a new product range offering 3 different 'journeys' all aiming to address a specific hair problem.</p>
 <h4>Journey of Resurgence for Dry Hair:<br>Treatment of Moisture Balance</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_resurgence.jpg" width="135" height="120">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_resurgence.jpg" width="135" height="120" alt="Resurgence">
 <p>I tried this treatment out on my colleague Mikala, the shine on her hair after the application was amazing. We recommend you to have these treatments every 6-8 weeks in salon to keep your hair in the best condition with luminous shine. The treatment gives your hair an astonishing 400% more hydration.</p>
 <p><strong>Price: &pound;7.50<br>Time Taken: 10-20 minutes</strong></p>
 <h4>Journey of Awakening for weak, damaged hair:<br>
 	Treatment of Restoration</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_awakening.jpg" width="135" height="120">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_awakening.jpg" width="135" height="120" alt="Awakening">
 <p>This again is an in-salon treatment designed for weak damaged hair, particularly those who find they have a lot of breakage/split ends. It is perfect to have done in-salon after a colour to keep your hair feeling as healthy as possible with strength and vitality.</p>
 <p><strong>Price: &pound;7.50<br>Time Taken: 10-20 minutes</strong></p>
 <h4>Journey of serenity for frizz prone hair:<br>
 	Treatment of Smoothing</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_serenity.jpg" width="135" height="120">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_serenity.jpg" width="135" height="120" alt="Serenity">
 <p>For all of you that suffer with naturally frizzy hair, this treatment is perfect for you. It also works wonders for hair that’s curly with a natural frizz, helping define curls. It works by sealing the hairs fibres and nourishing the hair to give it exceptionally smooth and shiny results. This treatment gives your hair up to 80% reduction in frizz.  Perfect for this damp British weather.</p>
 <p><strong>Price: &pound;7.50<br>Time Taken: 10-20 minutes</strong></p>
 
@@ -48,13 +48,13 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 
 <h3>Schwarzkopf One Shot Treatments</h3>
 <h4>Repair Rescue</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/repair_one_shot.jpg" width="135" height="190">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/repair_one_shot.jpg" width="135" height="190" alt="Repair One Shot">
 <p>Perfect for broken down damaged weakened hair. Great for people that want a quick fix with not much time to spare. Once the treatment has been applied it instantaneously closes the hair cuticle effectively strengthening the inner hair fibre. </p>
 <p><em>It gives immediate visible results leaving the hair shiny, luminous and healthy. Because it works so fast the treatment is only left on for a minute. Great for people in a rush that want to keep their hair in the healthiest way possible.</em></p>
 <p><strong>Price: &pound;5<br>Time Taken: 1 minute</strong></p>
 
 <h4>Smooth and Shine</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/smooth_one_shot.jpg" width="135" height="190">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/smooth_one_shot.jpg" width="135" height="190" alt="Smoothe One Shot">
 <p>In-salon treatment again perfect for those that don’t have much time to spare. This treatment gives the hair instant care by closing the cuticle and helping to deliver control and definition. </p>
 <p><em>This treatment gives a high gloss finish leaving the hair with illuminating radiance, for just £5 why neglect your hair!</em></p>
 <p><strong>Price: &pound;5<br>Time Taken: 1 minute</strong></p>
@@ -62,7 +62,7 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p><strong>The one shot treatments are a quick but very effective way of keeping your hair in the best condition it possibly can be in.</strong></p>
 
 <h3>Schwarzkopf Fibre Force</h3>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force4.jpg" width="135" height="127">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force4.jpg" width="135" height="127" alt="Fibre Force">
 <p>Fibre force gives you the chance to get your hair back to virgin quality in 4-10 weeks. This treatment takes between 10-15 minutes costing just £5. It deeply replenishes and rejuvenates the hair, it immediately feels fuller stronger and revitalized. </p>
 <p><em>Vickie who works with us has been using the fibre force for 7 weeks, she has noticed a dramatic difference and is extremely impressed with the product.</em></p>
 <p><strong>Price: &pound;5<br>Time Taken: 10 -15 minutes</strong></p>
@@ -74,23 +74,23 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p class="big"><?php echo CHtml::link('Click here for the offer details',array('site/page', 'view'=>'specialoffer')); ?></p>
 </section> <!--end .hidden-->
 <p class="author">Published by Maisie</p>
-<time datetime="2013-05-07" pubdate="pubdate"><p>7th May 2013</p></time>
+<time datetime="2013-05-07">7<sup>th</sup> May 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
-<a name="MenTrends" class="anchor"></a>
+<a id="MenTrends" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men1.jpg" width="135" height="148">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men1.jpg" width="135" height="148" alt="Men Trends">
 <h2>Men's Summer Trends</h2>
 <p>Here at Jakata we have a large male clientele with most stylist's being as proficient at men's hair as women's.</p>
 <p>There have been some really strong men's looks leaving the salon recently so I asked Jakata stylist <strong>Mikala Sutcliffe</strong> to give us the lowdown on up and coming men's styles&hellip;</p>
 <p class="reveal">Read More ></p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men2.jpg" width="135" height="148">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men2.jpg" width="135" height="148" alt="Men Trends 2">
 <p>The big style trend for men’s hair for spring and summer 2013 is all about the exaggerated sleek side parting with quiff, taking the sides and back super short with a disconnection from from the top.</p>
 <p>It's a bold and versatile look, can be slick and smooth, (using Catwalk Session Series Wet Look Gel) or a messed up loose texture (try Catwalk Session Series Sea Salt Spray), or for the most daring have the top section permed for the ultimate curly texture.</p>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men3.jpg" width="135" height="141">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men3.jpg" width="135" height="141" alt="Men Trends 3">
 <p>My Buzzwords for the season:</p>
 <table>
 <tr>
@@ -117,41 +117,41 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p class="offer">Men's cut's range from  &pound;14 to &pound;34 (depending on level of stylist)</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Mikala</p>
-<time datetime="2013-05-02" pubdate="pubdate"><p>2nd May 2013</p></time>
+<time datetime="2013-05-02">2<sup>nd</sup> May 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
-<a name="CollectionNews" class="anchor"></a>
+<a id="CollectionNews" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/artistic_team.jpg" width="130" height="94">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/artistic_team.jpg" width="130" height="94" alt="Jakata Artistic Team">
 <h2>Artistic team produce new collection</h2>
 <p>Over the last few months the Jakata artistic team have been working extremely hard coming up with and developing ideas for their latest collection.</p>
 <p>The brief was to produce a collection of images that reflect the fashion forward, cutting edge style that Jakata represents. The images will be used for salon branding and maybe be entered into competitions.</p>
 <p class="reveal">Read More ></p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/shoot.jpg" width="130" height="173">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/shoot.jpg" width="130" height="173" alt="Photoshoot">
 <p>Jimmy said 'People don't realise the amount of work that goes into planning a shoot, even before you've seen the models or picked up a camera. We pull all our ideas together through mood boards then spend weeks practicing our looks.'</p>
 <p>Earlier this month the photo shoot took place, and thanks to the prep work we put in, the looks came out great.</p>
 <p class="offer">Keep an eye out for our latest collection images, we'll be posting them in the next few months&hellip;</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
-<time datetime="2013-04-25" pubdate="pubdate"><p>25th April 2013</p></time>
+<time datetime="2013-04-25">25<sup>th</sup> April 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
-<a name="HairReborn" class="anchor"></a>
+<a id="HairReborn" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_reborn.jpg" width="130" height="183">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_reborn.jpg" width="130" height="183" alt="Tigi Hair Reborn">
 <h2>Introducing Tigi Hair Reborn</h2>
 <p>Hair Reborn is a new hair product range by Tigi that uses concentrated raw ingredients to replace proteins and restore your hair to a more youthful state.</p>
 <p>Designed by TIGI hairdressers, the collection of shampoos, conditioners, hairsprays and styling treatments have been created to restore hair to its natural state, using 'Hyper Distillation' technology to ensure the highest and most potent pharmaceutical grade products.</p>
 <p class="reveal">Read More ></p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_resurgence.jpg" width="135" height="120">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_serenity.jpg" width="135" height="120">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_awakening.jpg" width="135" height="120">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_resurgence.jpg" width="135" height="120" alt="Resurgence">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_serenity.jpg" width="135" height="120" alt="Serenity">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_awakening.jpg" width="135" height="120" alt="Awakening">
 <p>There are three journeys to choose from, each catering to specific needs:</p>
 <ul>
 	<li>Resurgence for Dry Hair</li>
@@ -165,13 +165,13 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p class="offer">The quality of these products goes beyond what we've ever seen before, the positive feedback from early adopters has been amazing. If you wan't to give them a try we've got some free sample packs in the salon (only until stocks last!). Drop in to get yours!</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Jakata</p>
-<time datetime="2013-04-25" pubdate="pubdate"><p>25th April 2013</p></time>
+<time datetime="2013-04-25">25<sup>th</sup> April 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
-<a name="MaisieInterview" class="anchor"></a>
+<a id="MaisieInterview" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/maisie.jpg" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/maisie.jpg" width="135" height="180" alt="Maisie Thompson">
 <h2>Get to know the team: Meet Maisie</h2>
 <p>This month we caught up with Jakata's newest stylist Maisie Thompson who joined us last October.</p>
 <p>We bombarded her with loads of questions about her role as a Jakata stylist.</p>
@@ -240,27 +240,27 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p class="offer">Next month we'll be meeting another Jakata team member.</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
-<time datetime="2013-04-25" pubdate="pubdate"><p>25th April 2013</p></time>
+<time datetime="2013-04-25">25<sup>th</sup> April 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
-<a name="FibreForce" class="anchor"></a>
+<a id="FibreForce" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force3.jpg" width="135" height="111">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force3.jpg" width="135" height="111" alt="Fibre Force">
 <h2>New BC Fibre Force</h2>
 <p>We've all been guilty of mistreating our hair from time to time, whether it's through over straightening, over colouring or just using poor quality products. Hair is tough, but you do have to treat it right if you want it to behave itself!</p>
 <p>Schwarzkopf realised there are a lot of people out there not giving their hair the love and care it needs, so they introduced BC Fibre Force - a complete range of products designed to return your hair to it's former glory over a short(ish) period of time.</p>
 <p class="reveal">Read More ></p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force2.jpg" width="135" height="108">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force2.jpg" width="135" height="108" alt="Fibre Force">
 <p>Here's what Schwarzkopf say:</p>
 <p><em>BC Fibre Force introduces a new dimension of hair repair returning even most eroded hair to its optimal level of force and resilience.</em></p>
 <p><iframe src="http://player.vimeo.com/video/56987102" width="400" height="300" class="right" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
 <p><em>For the first time the formulas with Micronized Hair-Identical Keratins penetrate deeply into the hair architecture to re-cement specifically the Cell-Membrane-Complex, the intercellular bonding cement responsible for strong and resilient hair fibre.</em></p>
 <p>Which in English means that it's going to make the most damaged hair feel loads healthier!</p>
 <p><strong>The complete range is as follows:</strong></p>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force.jpg" width="135" height="121">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibre_force.jpg" width="135" height="121" alt="Fibre Force">
 <ul>
 	<li>BC Fibre Force Shampoo</li>
 	<li>BC Fibre Force Spray Conditioner</li>
@@ -272,13 +272,13 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p>Find out more at the Schwarzkopf site: <br> <a href="http://www.schwarzkopf-professional.co.uk/index.php?id=22120" target="_blank">www.schwarzkopf-professional.co.uk/fibreforce</a></p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
-<time datetime="2013-04-26" pubdate="pubdate"><p>26th April 2013</p></time>
+<time datetime="2013-04-26">26<sup>th</sup> April 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
-<a name="NatInterview" class="anchor"></a>
+<a id="NatInterview" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/nat.jpg" width="135" height="160">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/nat.jpg" width="135" height="160" alt="Natalie Doxey">
 <h2>Get to know the team: Meet Natalie</h2>
 <p>This month we took some time out to ask Natalie Doxey some questions about her career as a stylist at Jakata</p>
 <p>We found out how she got into hairdressing, her strengths and weaknesses plus her favourite hairdressing looks for Spring and Summer</p>
@@ -343,13 +343,13 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p class="offer">Visit back next month to meet another Jakata team member</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
-<time datetime="2013-02-15" pubdate="pubdate"><p>15th March 2013</p></time>
+<time datetime="2013-02-15">15<sup>th</sup> March 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
-<a name="ShellyInterview" class="anchor"></a>
+<a id="ShellyInterview" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/shelly.jpg" width="135" height="160">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/shelly.jpg" width="135" height="160" alt="Michelle French">
 <h2>Get to know the team: Meet Shelly</h2>
 <p>This month we're continuing our 'Meet the Team' series with a question and answer session with Jakata senior stylist Michelle French.</p>
 <p>Michelle (AKA Shelly) gives an insight into what makes her tick as a hairdresser, what inspires her and her experiences working with Jakata</p>
@@ -405,14 +405,14 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p class="offer">Next month we'll be probing another team member!</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
-<time datetime="2013-01-04" pubdate="pubdate"><p>15th February 2013</p></time>
+<time datetime="2013-01-04">15<sup>th</sup> February 2013</time>
 </article> <!--end #article-->
 
 
 <article class="article">
-<a name="Valentine" class="anchor"></a>
+<a id="Valentine" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/valentine.jpg" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/valentine.jpg" width="135" height="180" alt="Valentine">
 <h2>Valentine Competition Winners</h2>
 <p>We've had a fantastic response to this month's competition. A lucky winner gets a new set of GHD Gold Series styling irons, plus 3 runners up win a Dry &amp; Style in the salon.</p>
 <p>The winners have now been drawn!</p>
@@ -430,13 +430,13 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <em>We'll be launching a brand new competition soon - visit our Facebook page or website to keep up to date</em></p>
 </section> <!--end .hidden-->
 <p class="author">Published by Jakata</p>
-<time datetime="2013-02-14" pubdate="pubdate"><p>14th February 2013</p></time>
+<time datetime="2013-02-14">14<sup>th</sup> February 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
-<a name="LauraInterview" class="anchor"></a>
+<a id="LauraInterview" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/laura.jpg" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/laura.jpg" width="135" height="180" alt="Laura Crumplin">
 <h2>Get to know the team: Meet Laura</h2>
 <p>Every month we're going to have a question and answer session with each of our team members.</p>
 <p>This month we're chatting to our longest serving team member, Laura Hall, about how she got into hairdressing and why she loves being a member of the Jakata Team. </p>
@@ -490,21 +490,21 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p class="offer">Thanks Laura for your answers, we'll be chatting to another team member next month!</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
-<time datetime="2013-01-04" pubdate="pubdate"><p>4th January 2013</p></time>
+<time datetime="2013-01-04">4<sup>th</sup> January 2013</time>
 </article> <!--end #article-->
 
 <article class="article">
-<a name="AutumnColour" class="anchor"></a>
+<a id="AutumnColour" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend2.jpg" width="135" height="190">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend2.jpg" width="135" height="190" alt="Colour Trend 1">
 <h2>Autumn Colour Trends</h2>
 <p>Autumn is setting in fast, and with the change of season comes a change of wardrobe! The key to ensuring your looking your best this season is to ensure your hair is working in sync with the rest of your style.</p>
 <p>Jakata hairdressers Natalie and Mikala have compiled their  insights into this seasons tips for choosing the right colour …</p>
 <p class="reveal">Read More ></p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend1.jpg" width="135" height="190">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_freeze.jpg" width="135" height="190">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend1.jpg" width="135" height="190" alt="Colour Trend 2">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_freeze.jpg" width="135" height="190" alt="Colour Trend 3">
 <p>This years autumn hair colours are all about finding the perfect shade to suit your skin tone along with inventive colour placement that can enhance the overall look of your colour.</p>
 <p>It’s the season of the soft and natural. Subtle highlights, soft dip dies and rich chocolate tones.</p>
 <p>If you're precious about your blonde, and the thought of going darker is a no no, try adding a few biscuit or caramel tones beneath your parting to soften off and update your look for autumn.</p>
@@ -513,13 +513,13 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p><strong>We recommend the Schwarzkopf Colour Freeze range to maintain your colour for ultimate longevity.</strong></p>
 </section> <!--end .hidden-->
 <p class="author">Published by Nat &amp; Mikala</p>
-<time datetime="2012-10-06" pubdate="pubdate"><p>6th October 2012</p></time>
+<time datetime="2012-10-06">6<sup>th</sup> October 2012</time>
 </article> <!--end #article-->
 
 <article class="article">
-<a name="Maisie" class="anchor"></a>
+<a id="Maisie" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/maisie2.jpg" width="135" height="190">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/maisie2.jpg" width="135" height="190" alt="Maisie Thompson">
 <h2>New Senior Stylist Joins the team</h2>
 <p>This week we welcomed <strong>Maisie Thompson</strong> to the team. We've been on the look out for experienced stylists to compliment our existing team, someone with a natural flair and passion.</p>
 <p>Maisie came along and fit the bill perfectly...</p>
@@ -538,7 +538,7 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p class="small">offers end 17/11/12<br>New Clients Only<br>Not with any other offer</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Jakata</p>
-<time datetime="2012-10-03" pubdate="pubdate"><p>3rd October 2012</p></time>
+<time datetime="2012-10-03">3<sup>rd</sup> October 2012</time>
 </article> <!--end #article-->
 
 </section> <!--end #accordion-->

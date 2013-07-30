@@ -25,14 +25,14 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Ch
 	
 	
 	<section id="offer1">
-	  <h2>FREE Colour <br>with every<br>Cut, Dry &amp; Style</h3>
+	  <h2>FREE Colour <br>with every<br>Cut, Dry &amp; Style</h2>
 	  <p>For new clients<br>until the end of July</p>
 	    <small>until 31/07/13<br>
 	    For New Clients - not with any other offer. Excludes Saturday<br>Skin test required 48hrs before any colour service</small>
 	</section>
 	
 	<?php echo CHtml::link('<section id="offer2">
-	  <h2>FREE Cut Dry &amp; Style <br>with every<br>Kebelo Advantage Treatment</h3>
+	  <h2>FREE Cut Dry &amp; Style <br>with every<br>Kebelo Advantage Treatment</h2>
 	  <p>Throughout the month of July</p>
 	    <small>until 31/07/13<br>
 	    Not with any other offer. Excludes Saturday<br></small>
@@ -69,4 +69,4 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Ch
 	<a href="http://www.facebook.com/JakataSalon" target="_blank">Visit our Facebook page<br> to keep up to date with the latest offers </a>
 </p>
 
-</section> <!--no_offers--*>-->
+</section> -->

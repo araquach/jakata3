@@ -328,7 +328,7 @@ li.active a {
 	cursor: hand;
 }
 
-#team_button {
+.team_button {
 	width: 65px;
 	height: 30px;
 	background-color: rgb(14, 6, 32);
@@ -338,7 +338,7 @@ li.active a {
 	padding: 3px 0;
 }
 
-#team_button p {
+.team_button p {
 	color: #f7f0f8;
 	margin: 0;
 	padding: 0;
@@ -704,13 +704,13 @@ a.anchor {
 	font-size: 1.1em;
 }
 
-#accordion article.article time p {
-	margin-left: 200px;
-	margin-bottom: 0;
+#accordion article.article time {
 	font-family: 'PT Sans', sans-serif;
 	font-size: .8em;
 	opacity: .8;
 	text-align: right;
+	float: right;
+	color: #33306c;
 }
 
 p.author {

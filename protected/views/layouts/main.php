@@ -22,10 +22,10 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	
 	
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/mootools-core.js "type="text/javascript"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/mootools-more.js "type="text/javascript"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/modernizr.js "type="text/javascript"></script>
-	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/selectivisr-min.js "type="text/javascript"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/mootools-core.js " type="text/javascript"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/mootools-more.js " type="text/javascript"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/modernizr.js " type="text/javascript"></script>
+	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/selectivizr-min.js " type="text/javascript"></script>
 	
 	
 
@@ -40,7 +40,7 @@
 
 <header class="group">
 
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/main/jakata_logo.png" width="388" height="78"alt="" />
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/main/jakata_logo.png" width="388" height="78" alt="" />
 
 	<hgroup>
 	<h1>Jakata Salon</h1>
@@ -74,16 +74,16 @@
 	<section id="prodlogos">
 	    <ul id="prodcomps">
 	    	<li>
-	    		<a href="http://www.schwarzkopf-professional.com/"target="_blank" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-01.png" alt="Schwarzkopf - the best hairdressing products"></a>
+	    		<a href="http://www.schwarzkopf-professional.com/" target="_blank" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-01.png" alt="Schwarzkopf - the best hairdressing products"></a>
 	    	</li>
 	    	<li>
-	    		<a href="http://www.schwarzkopf-professional.com/"target="_blank" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-02.png" alt="Schwarzkopf Bonacure"></a>
+	    		<a href="http://www.schwarzkopf-professional.com/" target="_blank" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-02.png" alt="Schwarzkopf Bonacure"></a>
 	    	</li>
 	    	<li>
-	    		<a href="http://www.schwarzkopf-professional.com/"target="_blank" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-03.png" alt="Schwarzkopf Osis"></a>
+	    		<a href="http://www.schwarzkopf-professional.com/" target="_blank" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-03.png" alt="Schwarzkopf Osis"></a>
 	    	</li>
 	    	<li>
-	    		<a href="http://www.kebelo.com/"target="_blank" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-04.png" alt="Kebelo"></a>
+	    		<a href="http://www.kebelo.com/" target="_blank" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-04.png" alt="Kebelo"></a>
 	    	</li>
 	    	<li>
 	    		<a href="http://www.tigihaircare.com/consumer/en-UK/bedhead/" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-05.png" alt="Tigi Bedhead - The Hairdressers Choice"></a>
@@ -96,7 +96,7 @@
 	    	</li>
 	    	
 	    	<li>
-	    		<a href="http://www.ghdhair.com/"target="_blank" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-08.png" alt="ghd - hair styling at it's best"></a>
+	    		<a href="http://www.ghdhair.com/" target="_blank" ><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/footer/footer-08.png" alt="ghd - hair styling at it's best"></a>
 	    	</li>
 	    	
 	    </ul>
