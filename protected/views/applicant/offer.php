@@ -16,9 +16,10 @@ $this->pageTitle=Yii::app()->name . ' - Company Special Offer';
 <p>Winners of the <em>L'Oreal Colour Trophy</em> and more recently the <em>Redken Style Innovator Award</em>, the team are on hand to offer you an amazing hairdressing experience.</p>
 <p>We want <em>you</em> to experience what Jakata has to offer....</p>
 <p>get <strong>50% off your first visit</strong> plus an <strong>ongoing 10% discount.</strong></p>
-<p>(Offer excludes 11/12/12 - 31/12/12)
 
-<?php echo CHtml::link('<p style="font-size:1.7em"><strong>Click Here</strong> to claim your 50% off Voucher</p><p style="font-size: .8em">voucher delivered via SMS Message</p>',array('applicant/create')); ?>
+<?php echo CHtml::link('<strong>Click Here</strong> to claim your 50% off Voucher',array('applicant/create')); ?>
+
+<p>voucher delivered via SMS Message</p>
 
 </div> <!--company_applicant-->
 </section> <!--end #company-->

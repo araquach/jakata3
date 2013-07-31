@@ -1491,6 +1491,15 @@ p#book_button {
 	margin: 20px 0 10px 0;
 }
 
+#company #company_offer a {
+	font-size: 2.2em;
+	line-height: 1.6em;
+}
+
+#company #company_offer a:hover {
+	border-bottom: 1px dashed #333;
+}
+
 #company #company_offer p {
 	font-size: 1.2em;
 }
