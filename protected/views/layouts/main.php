@@ -3,13 +3,8 @@
 <html class="no-js">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="language" content="en" />
-	
 	<meta name="description" content="Jakata is a fashion forward, award winning hairdressing salon in Warrington, Cheshire. With a team of twelve talented hairdressers looking after you, you know you're in good hands. Based on Bridge street in Warrington Town Centre the salon is located perfectly to serve Lymm, Stockton Heath, Culcheth, Great Sankey, Widnes and Runcorn. If you're looking for the most fashion forward hairdressing then look no further. Our hairdressing services will far outweigh your expectations plus you'll be blown away by our friendly, approachable staff. Jakata, 90/92 Bridge Street, Warrington, WA1 2RF, 01925 242960">
 		<meta name="keywords" content="hairdressers, hairdressing, hairdressers in Warrington, men's hairdresing, fashion colour, brazilian blowdry, wedding hair, Daniel Anderson, Warrington, Lymm, Stockton Heath, Culcheth, Great Sankey, Widnes and Runcorn">
-		
-		<meta name="copyright" content="2012, Jakata Salon. All rights reserved.">
-		<meta name="language" content="English">
 		<meta name="author" content="Contra Design">
 		
  <?php $this->widget('ext.widgets.googleAnalytics.EGoogleAnalyticsWidget',
@@ -42,11 +37,8 @@
 
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/main/jakata_logo.png" width="388" height="78" alt="" />
 
-	<hgroup>
 	<h1>Jakata Salon</h1>
-	<h2>Hairdressers in Warrington</h2>		
-	</hgroup>
-
+	<h2>Hairdressers in Warrington</h2>
 
 	<nav class="group">
 	<?php $this->widget('zii.widgets.CMenu',array(
