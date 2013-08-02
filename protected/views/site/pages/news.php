@@ -1,6 +1,6 @@
 <?php
 /* @var $this SiteController */
-$this->pageTitle=Yii::app()->id . ' - Hairdressing News - Hairdressers in Cheshire';
+$this->pageTitle=Yii::app()->name . ' - Hairdressing News - Hairdressers in Cheshire';
 ?>
 
 <script type="text/javascript">
