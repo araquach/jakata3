@@ -13,17 +13,23 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 
 <div id="home_news">
 
-<?php echo CHtml::link('<aside id="news1" class="home_news">
+<?php /*echo CHtml::link('<aside id="news1" class="home_news">
 <h3 class="newsheader">Autumn/Winter 2012 Collection</h3>
 <p class="newspara">Check out our latest collection by the Artistic Team</p>
 <p class="newscenter"><strong>Images here &gt;</strong></p>
-	</aside>',array('site/page','view'=>'collections')); ?>
+	</aside>',array('site/page','view'=>'collections')); */?>
+	
+<?php echo CHtml::link('<aside id="news1" class="home_news">
+<h3 class="newsheader">Limited Edition Catwalk Makeover Package</h3>
+<p class="newspara">A special, limited edition package for new clients worth &pound;140 for just &pound;70!</p>
+<p class="newscenter"><strong>Click here for details &gt;</strong></p>
+	</aside>',array('site/page','view'=>'catwalk')); ?>
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
-<h3 class="newsheader">Christmas is a time for giving&hellip;</h3>
-<p class="newspara">That\'s why we\'re giving away over £300 pounds worth of prizes this December!</p>
-<p class="newscenter"><strong>Find out more here &gt;</strong></p>
-</aside>',array('competition/index')); ?>
+<h3 class="newsheader">Get to know the team: meet Natalie</h3>
+<p class="newspara">This month we caught up with Natalie Doxey to ask her some probing questions!</p>
+<p class="newscenter"><strong>Read it here &gt;</strong></p>
+</aside>',array('site/page','view'=>'news','#'=>'NatInterview')); ?>
 
 <?php echo CHtml::link('<aside id="news3" class="home_news">
 <h3 class="newsheader">Great career opportunities at Jakata</h3>

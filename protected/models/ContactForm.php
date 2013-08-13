@@ -20,10 +20,10 @@ class ContactForm extends CFormModel
 	{
 		return array(
 			// name, email, subject and body are required
-			array('first_name, second_name, email, mobile, body', 'required'),
-			array('mobile', 'numerical'),
+			array('first_name, second_name, email, mobile, body', 'required', 'message'=>'Please enter your {attribute}'),
+			array('mobile', 'numerical', 'message'=>'Please enter your mobile number without spaces'),
 			// email has to be a valid email address
-			array('email', 'email'),
+			array('email', 'email', 'message'=>'Please enter a valid email address'),
 		);
 	}
 

@@ -76,33 +76,102 @@
 		<?php echo $form->error($model,'mobile'); ?>
 	</div>
 	
-	</div> <!--end basic-->
+	</div> <!--end elements (basic)-->
 	
-	<h2 class="reveal">2. Hairdressing Skills</h2>
+	<h2 class="reveal">2. Other Info</h2>
 	<div class="elements">
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'experience'); ?>
-		<?php echo $form->dropDownList($model,'experience', $model->getExperianceOptions()); ?>
-		<?php echo $form->error($model,'experience'); ?>
+		<?php echo $form->labelEx($model,'current_emp'); ?>
+		<?php echo $form->dropDownList($model,'current_emp', $model->getEmploymentOptions()); ?>
+		<?php echo $form->error($model,'current_emp'); ?>
 	</div>
-
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'current_position'); ?>
-		<?php echo $form->dropDownList($model,'current_position', $model->getPositionOptions()); ?>
-		<?php echo $form->error($model,'current_position'); ?>
+		<?php echo $form->labelEx($model,'current_emp_des'); ?>
+		<?php echo $form->textField($model,'current_emp_des',array('size'=>30,'maxlength'=>30)); ?>
+		<?php echo $form->error($model,'current_emp_des'); ?>
 	</div>
-
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'client_base'); ?>
-		<?php echo $form->dropDownList($model,'client_base', $model->getClientbaseOptions()); ?>
-		<?php echo $form->error($model,'client_base'); ?>
+		<?php echo $form->labelEx($model,'school_qual'); ?>
+		<?php echo $form->dropDownList($model,'school_qual', $model->getQualSchoolOptions()); ?>
+		<?php echo $form->error($model,'school_qual'); ?>
 	</div>
-
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'qualifications'); ?>
-		<?php echo $form->dropDownList($model,'qualifications', $model->getQualificationOptions()); ?>
-		<?php echo $form->error($model,'qualifications'); ?>
+		<?php echo $form->labelEx($model,'qual_non_hair'); ?>
+		<?php echo $form->textArea($model,'qual_non_hair',array('rows'=>6, 'cols'=>50)); ?>
+		<?php echo $form->error($model,'qual_non_hair'); ?>
 	</div>
+	
+	<div class="row">
+			<?php echo $form->labelEx($model,'experience'); ?>
+			<?php echo $form->dropDownList($model,'experience', $model->getExperianceOptions()); ?>
+			<?php echo $form->error($model,'experience'); ?>
+		</div>
+	
+		<div class="row">
+			<?php echo $form->labelEx($model,'current_position'); ?>
+			<?php echo $form->dropDownList($model,'current_position', $model->getPositionOptions()); ?>
+			<?php echo $form->error($model,'current_position'); ?>
+		</div>
+	
+		<div class="row">
+			<?php echo $form->labelEx($model,'client_base'); ?>
+			<?php echo $form->dropDownList($model,'client_base', $model->getClientbaseOptions()); ?>
+			<?php echo $form->error($model,'client_base'); ?>
+		</div>
+	
+		<div class="row">
+			<?php echo $form->labelEx($model,'qualifications'); ?>
+			<?php echo $form->dropDownList($model,'qualifications', $model->getQualificationOptions()); ?>
+			<?php echo $form->error($model,'qualifications'); ?>
+		</div>
+	
+	<div id="adex">
+	<p class="application">Please check the box if you have experience in the following areas:</p>
+	<div class="adexBox">
+		<?php echo $form->labelEx($model,'adex_stock'); ?>
+		<?php echo $form->checkBox($model,'adex_stock'); ?>
+		<?php echo $form->error($model,'adex_stock'); ?>
+	</div>
+	
+	<div class="adexBox">
+		<?php echo $form->labelEx($model,'adex_manage'); ?>
+		<?php echo $form->checkBox($model,'adex_manage'); ?>
+		<?php echo $form->error($model,'adex_manage'); ?>
+	</div>
+	
+	<div class="adexBox">
+		<?php echo $form->labelEx($model,'adex_train'); ?>
+		<?php echo $form->checkBox($model,'adex_train'); ?>
+		<?php echo $form->error($model,'adex_train'); ?>
+	</div>
+	
+	<div class="adexBox">
+		<?php echo $form->labelEx($model,'adex_reception'); ?>
+		<?php echo $form->checkBox($model,'adex_reception'); ?>
+		<?php echo $form->error($model,'adex_reception'); ?>
+	</div>
+	
+	<div class="adexBox">
+		<?php echo $form->labelEx($model,'adex_marketing'); ?>
+		<?php echo $form->checkBox($model,'adex_marketing'); ?>
+		<?php echo $form->error($model,'adex_marketing'); ?>
+	</div>
+	
+	<div class="adexBox">
+		<?php echo $form->labelEx($model,'adex_cservice'); ?>
+		<?php echo $form->checkBox($model,'adex_cservice'); ?>
+		<?php echo $form->error($model,'adex_cservice'); ?>
+	</div>
+	</div> <!--end adex-->
+		
+	</div> <!--end elements (other info)-->
+	
+	<h2 class="reveal">3. Hairdressing Skills</h2>
+	<div class="elements">
 	
 	<p class="application">Please rate yourself from 1 (poor) to 5 (excellent) at the following:</p>
 
@@ -123,17 +192,17 @@
 		<?php echo $form->dropDownList($model,'colour_skills', $model->getListOptions()); ?>
 		<?php echo $form->error($model,'colour_skills'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'men'); ?>
+		<?php echo $form->dropDownList($model,'men', $model->getListOptions()); ?>
+		<?php echo $form->error($model,'men'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'extensions_weave'); ?>
 		<?php echo $form->dropDownList($model,'extensions_weave', $model->getListOptions()); ?>
 		<?php echo $form->error($model,'extensions_weave'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'extensions_ind'); ?>
-		<?php echo $form->dropDownList($model,'extensions_ind', $model->getListOptions()); ?>
-		<?php echo $form->error($model,'extensions_ind'); ?>
 	</div>
 
 	<div class="row">
@@ -167,7 +236,7 @@
 	</div>
 	</div> <!--end hairdressing info-->
 	
-	<h2 class="reveal">3. About you</h2>
+	<h2 class="reveal">4. About you</h2>
 	<div class="elements">
 	<div class="row">
 		<?php echo $form->labelEx($model,'about_you'); ?>
@@ -190,7 +259,7 @@
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Send Your Application' : 'Save'); ?>
 	</div>
-	</div> <!--end more info-->
+	</div> <!--end element(hairdressing skills) -->
 	
 </div><!-- end accordion-->
 

@@ -1,10 +1,8 @@
-/* @override 
-	http://localhost/~araquach/jakata3/css/jakstyles.css */
-
 @charset "UTF-8";
+
 /* CSS Document */
 
-/*------------   Group/clear fix styling   ---------------*/
+/* @group Clear Fix */
 
 .group:after {
 	content: ".";
@@ -23,10 +21,9 @@
 	min-height: 1px;
 }
 
+/* @end */
 
-/*---------- General ---------------*/
-
-
+/* @group General */
 
 body {
 	margin: 10px auto;
@@ -65,11 +62,9 @@ a:hover {
 	color: #2e2b60;
 }
 
+/* @end */
 
-/*---------- Variable Layouts ------------------*/
-
-
-/*---------- Header ------------------*/
+/* @group Header */
 
 header {
 	position: absolute;
@@ -104,8 +99,8 @@ nav ul {
 nav li {
 	list-style-type: none;
 	display: inline;
-	font-size: 1em;
-	margin-right: 20px;
+	font-size: .85em;
+	margin-right: 17px;
 }
 
 nav li a {
@@ -136,14 +131,18 @@ li.active a {
 	opacity: 1;
 }
 
-/*---------- Login ------------------*/
+/* @end */
+
+/* @group Login */
 
 #login {
 	width: 400px;
 	margin-left: 50px;
 }
 
-/*---------- Home ------------------*/
+/* @end */
+
+/* @group Home */
 
 #home {
 	width: 950px;
@@ -198,19 +197,20 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/bha.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/catwalk2.jpg') no-repeat rgba(249, 249, 250, 0.8);
 }
 .no-rgba #news1 {
-	background: url('../images/home/bha.jpg') no-repeat rgb(249, 249, 250);
+	background: url('../images/home/catwalk2.jpg') no-repeat rgb(249, 249, 250);
 }
 
 
 #news2 {
-	background: url('../images/home/christmas.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/nat.jpg') no-repeat rgba(249, 249, 250, 0.8);
 }
 .no-rgba #news2 {
-	background: url('../images/home/christmas.jpg') no-repeat rgb(249, 249, 250);
+	background: url('../images/home/nat.jpg') no-repeat rgb(249, 249, 250);
 }
+
 
 #news3 {
 	background: url('../images/home/recruit.jpg') no-repeat rgba(249, 249, 250, 0.8);
@@ -219,7 +219,9 @@ li.active a {
 	background: url('../images/home/recruit.jpg') no-repeat rgb(249, 249, 250);
 }
 
-/*---------- Salon ------------------*/
+/* @end */
+
+/* @group Salon */
 
 #salon {
 	width: 950px;
@@ -260,7 +262,9 @@ li.active a {
 	margin-bottom: 20px;
 }
 
-/*---------- Team -------------------*/
+/* @end */
+
+/* @group Team */
 
 #team {
 	width: 950px;
@@ -280,17 +284,6 @@ li.active a {
 #team_overview a:hover {
 	border-bottom: 1px dashed #2e2b60;
 }
-
-
-
-/*#team_shot {
-	width: 390px;
-	height: 250px;
-	background-color: #5a4a4a;
-	position: absolute;
-	top: 0px;
-	right: 0px;
-}*/
 
 #team_members {
 	width: 800px;
@@ -321,34 +314,55 @@ li.active a {
 	box-shadow: 4px 4px 15px #444;
 }
 
-team_member_copy {
-	display: none;
-	width: 280px;
-	height: 290px;
+.team_member_copy {
+	width: 290px;
+	height: 280px;
+	padding: 15px;
+	padding-top: 45px;
 	position: absolute;
 	top: 0;
+	left: 0;
+	background-color: rgb(255, 255, 255);
+	background-color: rgba(255, 255, 255, 0.85);
+	cursor: pointer;
+	cursor: hand;
 }
 
-/* --------  Jquery praccy ------------  */
-
-.picsText {
-display: none; 
-width: 180px; 
-height: 121px;
-position: absolute;
-top: 0;
-}
-.mediumtx {
-color: #222;
-font-family: verdana,arial,sans-serif;
-font-size: 0.87em;
-}
-div#pics {
-position: absolute;
-top: 200px;
+#team_button {
+	width: 65px;
+	height: 30px;
+	background-color: rgb(14, 6, 32);
+	background-color: rgba(14, 6, 32, 0.5);
+	border-radius: 10px;
+	text-align: center;
+	padding: 3px 0;
 }
 
-/* -------- END Jquery praccy ------------  */
+#team_button p {
+	color: #f7f0f8;
+	margin: 0;
+	padding: 0;
+	font-size: .7em;
+}
+
+.team_member_copy p {
+	font-size: .8em;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+.team_member_copy p.price {
+	font-size: .9em;
+	font-weight: bold;
+	margin-top: 6px;
+	color: #4f516a;
+}
+
+.team_member_copy img {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
 
 .team_member h2 {
 	font-size: 1.4em;
@@ -364,48 +378,108 @@ top: 200px;
 	top: 280px;
 	right: 50px;
 	background: url('../images/team/jimmy.jpg') no-repeat left top #FFF;
-	-webkit-transform:rotate(2deg);
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
+	
+	transform:rotate(2deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-moz-transform:rotate(2deg); /* Firefox */
+	-webkit-transform:rotate(2deg); /* Safari and Chrome */
+	-o-transform:rotate(2deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+
 }
 
 #vicky {
 	background: #FFF url('../images/team/vicky.jpg') no-repeat left top;
-	-webkit-transform:rotate(-4deg);
+	transform:rotate(-4deg);
+	-ms-transform:rotate(-4deg); /* IE 9 */
+	-moz-transform:rotate(-4deg); /* Firefox */
+	-webkit-transform:rotate(-4deg); /* Safari and Chrome */
+	-o-transform:rotate(-4deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+	
+	
+}
+
+#michelle {
+	background: #FFF url('../images/team/michelle.jpg') no-repeat left top;
+	transform:rotate(3deg);
+	-ms-transform:rotate(3deg); /* IE 9 */
+	-moz-transform:rotate(3deg); /* Firefox */
+	-webkit-transform:rotate(3deg); /* Safari and Chrome */
+	-o-transform:rotate(3deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+	
+}
+
+#maisie {
+	background: #FFF url('../images/team/maisie.jpg') no-repeat left top;
+	transform:rotate(-4deg);
+	-ms-transform:rotate(-4deg); /* IE 9 */
+	-moz-transform:rotate(-4deg); /* Firefox */
+	-webkit-transform:rotate(-4deg); /* Safari and Chrome */
+	-o-transform:rotate(-4deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+	
 }
 
 #nat {
 	background: #FFF url('../images/team/nat.jpg') no-repeat left top;
-	-webkit-transform:rotate(-3deg);
+	transform:rotate(3deg);
+	-ms-transform:rotate(3deg); /* IE 9 */
+	-moz-transform:rotate(3deg); /* Firefox */
+	-webkit-transform:rotate(3deg); /* Safari and Chrome */
+	-o-transform:rotate(3deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+	
 }
 
 #shelly {
 	background: #FFF url('../images/team/shelly.jpg') no-repeat left top;
-	-webkit-transform:rotate(-3deg);
-}
-
-#katie {
-	background: #FFF url('../images/team/vicky.jpg') no-repeat left top;
-	-webkit-transform:rotate(-2deg);
+	transform:rotate(-3deg);
+	-ms-transform:rotate(-3deg); /* IE 9 */
+	-moz-transform:rotate(-3deg); /* Firefox */
+	-webkit-transform:rotate(-3deg); /* Safari and Chrome */
+	-o-transform:rotate(-3deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+	
 }
 
 #mikala {
 	background: #FFF url('../images/team/mikala.jpg') no-repeat left top;
-	-webkit-transform:rotate(-3deg);
+	transform:rotate(2deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-moz-transform:rotate(2deg); /* Firefox */
+	-webkit-transform:rotate(2deg); /* Safari and Chrome */
+	-o-transform:rotate(2deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+	
 }
 
 #laura {
 	background: #FFF url('../images/team/laura.jpg') no-repeat left top;
-	-webkit-transform:rotate(3deg);
+	transform:rotate(-2deg);
+	-ms-transform:rotate(-2deg); /* IE 9 */
+	-moz-transform:rotate(-2deg); /* Firefox */
+	-webkit-transform:rotate(-2deg); /* Safari and Chrome */
+	-o-transform:rotate(-2deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+	
 }
 
-#adam {
-	background: #FFF url('../images/team/laura.jpg') no-repeat left top;
-	-webkit-transform:rotate(1deg);
+#dan {
+	background: #FFF url('../images/team/dan.jpg') no-repeat left top;
+	transform:rotate(1deg);
+	-ms-transform:rotate(1deg); /* IE 9 */
+	-moz-transform:rotate(1deg); /* Firefox */
+	-webkit-transform:rotate(1deg); /* Safari and Chrome */
+	-o-transform:rotate(1deg); /* Opera */
+	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
+	
 }
 
+/* @end */
 
-/*---------- Prices -------------------*/
+/* @group Prices */
 
 #prices {
 	width: 950px;
@@ -504,8 +578,9 @@ h4.price_stylist {
 	font-size: 12px;
 }
 
+/* @end */
 
-/*---------- News -------------------*/
+/* @group News */
 
 #news {
 	width: 950px;
@@ -591,6 +666,30 @@ a.anchor {
 #accordion article.article section.hidden iframe {
 	margin-left: 200px;
 	margin-bottom: 10px;
+}
+
+#accordion article.article section.hidden ul,
+#accordion article.article section.hidden dl {
+	margin-left: 200px;
+	padding: 0;
+}
+
+#accordion article.article section.hidden dl dt {
+	color: #33306c;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#accordion article.article section.hidden dl dd {
+	color: #555b6c;
+	margin-left: 0;
+	margin-bottom: 8px;
+	line-height: 1.4em;
+}
+
+#accordion article.article section.hidden ul li {
+	padding-bottom: 10px;
+	color: #343348;
 }
 
 #accordion article.article section.visible h2 {
@@ -689,9 +788,9 @@ p.reveal {
 	border-bottom: 1px dotted #585050;
 }
 
+/* @end */
 
-
-/*---------- Recruitment -------------------*/
+/* @group Recruitment */
 
 /*---- general ----*/
 
@@ -705,6 +804,41 @@ p.reveal {
 	padding-bottom: 200px;
 }
 
+#recruitBlank {
+	width: 850px;
+	background-color: #f5f5f5;
+	padding-top: 250px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#recruitAdmin {
+	width: 950px;
+	background-color: #f5f5f5;
+	padding-top: 250px;
+	padding-bottom: 200px;
+}
+
+#recruitAdmin h1, 
+#recruitAdmin p,
+#recruitAdmin a.search-button  {
+	margin: 10px 40px;
+}
+
+#recruitAdmin div.pager {
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+#recruitAdmin div.summary {
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+
+#recruitBlank #yw0 div.items div.view {
+	margin-bottom: 30px;
+}
 
 #recruitment h1,
 #recruitment h2,
@@ -803,8 +937,15 @@ section#recruitment h1 {
 	padding-left: 5px;
 }
 
-#stylist-form div.accordion div.elements div.row.buttons input,
-#apprentice-form div.accordion div.elements div.row.buttons input {
+div.accordion div.elements {
+	padding-left: 5px;
+}
+
+div.accordion div.elements div.row label {
+	font-size: 1em;
+}
+
+div.accordion div.elements div.row.buttons input {
 	width: 200px;
 	font-size: .9em;
 }
@@ -835,7 +976,35 @@ div.row textarea {
 	line-height: 1.3em;
 }
 
-/*---------- Details -----------------*/
+#adex {
+	width: 350px;
+	margin: 10px 0;
+	padding: 5px 20px 20px 20px;
+	height: 180px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #333;
+}
+
+#adex .adexBox {
+	float: right;
+	width: 150px;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	
+}
+
+#adex label {
+	float: left;
+	color: #4f516a;
+}
+
+#adex input {
+	float: right;
+}
+
+/* @end */
+
+/* @group Details (contact) */
 
 #details {
 	width: 950px;
@@ -866,10 +1035,9 @@ div.row textarea {
 	border-bottom: 1px dashed #333;
 }
 
+/* @end */
 
-
-
-/*---------- Contact -----------------*/
+/* @group Contact */
 
 #contact {
 	width: 950px;
@@ -927,7 +1095,9 @@ div.row textarea {
 	width: 350px;
 }
 
-/*---------- Offers -----------------*/
+/* @end */
+
+/* @group Offers */
 
 #offers {
 	width: 950px;
@@ -970,21 +1140,21 @@ div.row textarea {
 
 #offer1 {
 	margin-top: 50px;
-	background: url(../images/offers/colour_offer.jpg) no-repeat #fefefe;
+	background: url(../images/offers/catwalk.jpg) no-repeat #fefefe;
 }
 
 #offer2 {
-	background: url(../images/offers/product_offer.jpg) no-repeat #fefefe;
+	background: url(../images/offers/catwalk2.jpg) no-repeat #fefefe;
 }
 
 #offer3 {
 	margin-bottom: 30px;
-	background: url(../images/offers/Amandine.jpg) no-repeat #fefefe;
+	background: url(../images/offers/bc.jpg) no-repeat #fefefe;
 }
 
 #offer4 {
 	margin-bottom: 30px;
-	background: url(../images/offers/kebelo_cover.jpg) no-repeat #fefefe;
+	background: url(../images/offers/kebel0.jpg) no-repeat #fefefe;
 }
 
 
@@ -1064,12 +1234,76 @@ p#book_button {
 	margin-left: 50px;
 }
 
-/* --------  Collections ------------  */
+/* @end */
+
+/* @group Catwalk */
+
+#catwalk_bground {
+	width: 950px;
+	height: 700px;
+	background-color: #f5f5f5;
+	background: #f5f5f5 url('../images/catwalk/catwalk_bground.jpg') no-repeat left top;
+	padding-top: 210px;
+	padding-bottom: 200px;
+}
+
+#catwalk {
+	margin-left: 50px;
+	float: left;
+}
+
+#catwalk h1 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+#catwalk p {
+	font-size: 1.2em;
+	margin: 5px 0;
+}
+
+#catwalk p.link {
+	font-size: 1em;
+	margin-top: 20px;
+	
+	
+}
+
+#catwalk img {
+	margin-left: -5px;
+}
+
+#catwalk p.cat_big {
+	font-size: 2.6em;
+}
+
+#catwalk p.cat_med {
+	font-size: 2em;
+}
+
+#catwalk p.cat_small {
+	font-size: .8em;
+}
+
+#catwalk #cat_includes p {
+	font-size: .8em;
+}
+
+#catwalk p.catwalk_contact {
+	margin: 20px 0;
+}
+
+
+
+
+/* @end */
+
+/* @group Collections */
 
 #collections {
 	width: 950px;
 	height: 100%;
-	background: #f5f5f5 url('../images/collections/bha_background.jpg') no-repeat left top;
+	background: #f5f5f5 url('../images/collections/feedback_background.jpg') no-repeat left top;
 	padding-top: 250px;
 	padding-bottom: 200px;
 }
@@ -1088,8 +1322,9 @@ p#book_button {
 	border: 1px solid #FFF;
 }
 
+/* @end */
 
-/*---------Company Offer-------------------*/
+/* @group Company Offer */
 
 #company {
 	width: 950px;
@@ -1169,8 +1404,9 @@ p#book_button {
 	margin: 0;
 }
 
+/* @end */
 
-/* -------- Kebelo ----------- */
+/* @group Kebelo */
 
 #kebeloMain {
 	width: 950px;
@@ -1524,46 +1760,57 @@ span.kebelo_italic {
 	line-height: 1.4em;
 }
 
+/* @end */
 
-/* --------  BHA Incentive ------------  */
+/* @group Feedback */
 
-#bha_back {
+
+#feedbackBlank {
+	width: 850px;
+	background-color: #f5f5f5;
+	padding-top: 250px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#feedback_back {
 	width: 950px;
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
 }
 
-#bha {
+#feedback {
 	padding: 60px;
 	width: 650px;
 }
 
-#bha h1 {
+#feedback h1 {
 	font-size: 2em;
 }
 
-#bha h2 {
+#feedback h2 {
 	font-size: 1.5em;
 }
 
-#bha p {
+#feedback p {
 	font-size: 1.1em;
 }
 
-#bha p strong {
+#feedback p strong {
 	font-weight: bold;
 }
 
-#bha input, #bha label, #bha .errorSummary, #bha .errorMessage, #bha select, #bha textarea, #bha h1, #bha p.note {
+#feedback input, #feedback label, #feedback .errorSummary, #feedback .errorMessage, #feedback select, #feedback textarea, #feedback h1, #feedback p.note {
 	margin-left: 0;
 }
 
-#bha input {
+#feedback input {
 	margin-right: 40px;
 }
 
-#bha label.required {
+#feedback label.required {
 	font-size: 1.2em;
 	font-weight: normal;
 	margin-bottom: 10px;
@@ -1572,33 +1819,39 @@ span.kebelo_italic {
 	line-height: 1.5em;
 }
 
-#bha p.scale_label {
+#feedback p.scale_label {
 	margin-right: 10px;
 	display: inline;
 	margin-bottom: 40px;
 	font: .8em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
-#bha .form .question {
+#feedback .form .question {
 	border: 1px solid #888;
 	padding: 10px;
 	border-radius: 10px;
 }
 
-#bha .form .question input {
+#feedback .form .question input {
 	width: 20px;
 }
 
-#bha p.small {
+#feedback p.small {
 	font-size: .7em;
 	margin-bottom: 30px;
 }
 
-#bha_back .applicationSuccess {
+#feedback_back .applicationSuccess {
 	margin-top: 100px;
 }
 
-/* --------  Mailing List ------------  */
+#feedbackBlank #yw0 div.items div.view {
+	margin-bottom: 30px;
+}
+
+/* @end */
+
+/* @group Mailing List */
 
 #mailing_list {
 	width: 950px;
@@ -1607,15 +1860,66 @@ span.kebelo_italic {
 	background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
 }
 
-/*---------- Competition ------------------*/
+/* @end */
+
+/* @group Competition */
 
 #competition {
 	width: 950px;
-	height: 100%;
-	background: #f5f5f5 url('../images/competition/comp_back.jpg') no-repeat right top;
-	background-position-y: -5.2px;
+	height: 900px;
+	background: #f5f5f5 url('../images/competition/valentine2.jpg') no-repeat right top;
 	padding-top: 250px;
 	padding-bottom: 200px;
+	background-size: cover;
+}
+
+#competitionBlank {
+	width: 850px;
+	height: 100%;
+	background-image: none;
+	background-color: #f5f5f5;
+	padding-top: 250px;
+	padding-bottom: 200px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#competition img {
+	margin-left: 60pxpx;
+}
+
+#valentine {
+	width: 950px;
+	height: 900px;
+	background: #f5f5f5 url('../images/competition/valentine2.jpg') no-repeat right top;
+	padding-top: 250px;
+	padding-bottom: 200px;
+	background-size: cover;
+}
+
+#competition_copy {
+	width: 400px;
+	margin-left: 100px;
+}
+
+#competition_form {
+	width: 450px;
+	margin-left: 80px;
+}
+
+#competition_form p.question {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#competition_copy h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	font-size: 1.8em;
+}
+
+#competition_copy a {
+	font-size: 1.4em;
+	border-bottom: 1px dashed;
 }
 
 #competition_admin {
@@ -1625,54 +1929,6 @@ span.kebelo_italic {
 	background-position-y: -5.2px;
 	padding-top: 250px;
 	padding-bottom: 200px;
-}
-
-#competition_entry {
-	width: 475px;
-	min-height: 698px;
-	margin-left: 0px;
-	margin-top: -50px;
-	margin-bottom: 80px;
-	padding: 50px;
-	padding-right: 30px;
-	background-color: rgb(45, 2, 8);
-	background-color: rgba(20, 1, 4, 0.7);
-}
-
-#competition #competition_entry h1 {
-	font-size: 2.6em;
-	font-weight: bold;
-	color: #FFF;
-	margin-bottom: .3em;
-}
-
-#competition #competition_entry h2 {
-	color: #FFF;
-	font-size: 1.4em;
-	margin-top: 0;
-}
-
-#competition #competition_entry p {
-	font-size: 1em;
-	color: #FFF;
-}
-
-#competition #competition_entry p:first-of-type {
-	font-size: 1.1em;
-}
-
-#competition #competition_entry a {
-	color: #FFF;
-	font-size: 1.5em;
-	font-weight: bold;
-	font-style: italic;
-	line-height: 2em;
-	border-bottom: 2px dashed #FFF;
-	opacity: .8;
-}
-
-#competition #competition_entry a:hover {
-	opacity: 1;
 }
 
 .row input {
@@ -1686,26 +1942,33 @@ span.kebelo_italic {
 
 .competition_success {
 	width: 475px;
-	height: 698px;
-	margin-left: 0px;
-	margin-top: -50px;
-	margin-bottom: 80px;
-	padding: 50px;
-	padding-right: 30px;
-	background-color: rgb(45, 2, 8);
-	background-color: rgba(20, 1, 4, 0.7);
+	height: 500px;
 }
 
 .competition_success p{
 	font-size: 1.6em;
-	color: #FFF;
 }
 
 #competition #competition_entry #competition-form_es_ p {
 	color: #000;
 }
 
-/*---------- Footer ------------------*/
+.comp_closed {
+	color: #a42a46;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+.ghd {
+	position: absolute;
+	top: 760px;
+	right: 200px;
+	border-radius: 20px;
+}
+
+/* @end */
+
+/* @group Footer */
 
 footer {
 	position: absolute;
@@ -1764,14 +2027,7 @@ ul.tinytext {
 	opacity: 1;
 }
 
-
-
-
-
-
-
-
-
+/* @end */
 
 
 

@@ -16,11 +16,11 @@
 	<?php echo CHtml::encode($data->second_name); ?>
 	<br />
 	
-	<?php /*
-	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('age')); ?>:</b>
 	<?php echo CHtml::encode($data->age); ?>
 	<br />
+	
+	<?php /*
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('address1')); ?>:</b>
 	<?php echo CHtml::encode($data->address1); ?>
@@ -51,9 +51,13 @@
 	<?php echo CHtml::encode($data->mobile); ?>
 	<br />
 
+	*/ ?>
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('current_position')); ?>:</b>
-	<?php echo CHtml::encode($data->current_position); ?>
+	<?php echo CHtml::encode($data->getPositionText()); ?>
 	<br />
+	
+	<?php /*
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('in_salon')); ?>:</b>
 	<?php echo CHtml::encode($data->in_salon); ?>
@@ -81,6 +85,10 @@
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('colouring')); ?>:</b>
 	<?php echo CHtml::encode($data->colouring); ?>
+	<br />
+	
+	<b><?php echo CHtml::encode($data->getAttributeLabel('men')); ?>:</b>
+	<?php echo CHtml::encode($data->men); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('extensions')); ?>:</b>

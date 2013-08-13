@@ -1,4 +1,4 @@
-<div id="application">
+<div id="recruitAdmin">
 <?php
 $this->breadcrumbs=array(
 	'Stylists'=>array('index'),
@@ -54,6 +54,16 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'email',
 		/*'phone',
 		'mobile',
+		'current_emp', 
+		'current_emp_des', 
+		'school_qual', 
+		'qual_non_hair', 
+		'adex_stock', 
+		'adex_manage', 
+		'adex_train', 
+		'adex_reception', 
+		'adex_marketing', 
+		'adex_cservice'
 		'experience',
 		'current_position',
 		'client_base',
@@ -61,8 +71,8 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'cutting_skills',
 		'colour_knowledge',
 		'colour_skills',
+		'men',
 		'extensions_weave',
-		'extensions_ind',
 		'extensions_other',
 		'chem_straighten',
 		'braz_blow',
@@ -77,4 +87,4 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		),
 	),
 )); ?>
-</div> <!--application-->
+</div> <!--recruitAdmin-->

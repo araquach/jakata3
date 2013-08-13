@@ -10,4 +10,23 @@ jakata3.esproj/user.adamcarter.espressostorage
 
 jakata3.esproj/user.adamcarter.espressostorage
 
-images/home/.DS_Store
+
+.DS_Store
+
+*.espressostorage
+
+*.log
+
+*.espressostorage
+
+*.DS_Store
+
+jakata3.esproj/user.adamcarter.espressostorage
+
+*.espressostorage
+
+jakata3.esproj/Project.espressostorage
+
+*.log
+
+images/.DS_Store

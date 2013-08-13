@@ -72,9 +72,10 @@ class ApprenticeController extends Controller
 				if($model->save())
 					{
 					$message = new YiiMailMessage;
-					$message->setBody('There is a new apprentice applicant for Jakata.<br>Name: '.$model->first_name.' '.$model->second_name.'<br>Age: '.$model->age.'<br>Email: '.$model->email.'<br>Mobile: '.$model->mobile, 'text/html');
+					$message->setBody('There is a new apprentice applicant for Jakata.<br>Name: '.$model->first_name.' '.$model->second_name.'<br>Age: '.$model->age.'<br>Email: '.$model->email.'<br>Mobile: '.$model->mobile.'<br>http://www.jakatasalon.co.uk/apprentice/'.$model->apprentice_id, 'text/html');
 					$message->subject = 'New Apprentice Application';
 					$message->addTo('adamcarter@jakatasalon.co.uk');
+					$message->addTo('jimmy@jakatasalon.co.uk');
 					$message->from = Yii::app()->params['adminEmail'];
 					
 					Yii::app()->mail->send($message);
@@ -135,7 +136,15 @@ class ApprenticeController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$dataProvider=new CActiveDataProvider('Apprentice');
+		$criterea=new CDbCriteria;
+		$criteria->order = 'apprentice_id DESC';
+		
+		$dataProvider=new CActiveDataProvider('Apprentice', array('criteria'=>$criteria, 
+		'pagination'=>array(
+			'pageSize'=>'5',
+			),			
+		));
+			
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
 		));

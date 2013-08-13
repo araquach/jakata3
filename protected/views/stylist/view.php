@@ -1,4 +1,4 @@
-<div id="application">
+<div id="recruitBlank">
 
 <?php
 
@@ -16,14 +16,91 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'stylist_id',
-		'date',
+		array(
+			'name'=>'date',
+			'value'=>Yii::app()->dateFormatter->formatDateTime($model->date,"medium",""),
+			),
 		'first_name',
 		'second_name',
+		'address1',
+		'address2',
+		'address3',
+		'postcode',
+		'email',
+		'phone',
+		'mobile',
+		
+		array(
+			'name'=>'current_emp',
+			'value'=>CHtml::encode($model->getEmploymentText())
+			),
+		
+		'current_emp_des', 
+		array(
+			'name'=>'school_qual',
+			'value'=>CHtml::encode($model->getQualSchoolText())
+			),
+		
+		'qual_non_hair',
+		
+		array(
+			'name'=>'adex_stock',
+			'type'=>'boolean'
+			),
+		array(
+			'name'=>'adex_manage',
+			'type'=>'boolean'
+			),
+		array
+			('name'=>'adex_train',
+			'type'=>'boolean'
+			),
+		array(
+			'name'=>'adex_reception',
+			'type'=>'boolean'
+			),
+		array(
+			'name'=>'adex_marketing',
+			'type'=>'boolean'
+			),
+		array(
+			'name'=>'adex_cservice',
+			'type'=>'boolean'
+			),
+	
+		array(
+			'name'=>'experience', 
+			'value'=>CHtml::encode($model->getExperianceText())
+			),
+		array(
+			'name'=>'position', 
+			'value'=>CHtml::encode($model->getPositionText())
+			),
+		array(
+			'name'=>'client_base', 
+			'value'=>CHtml::encode($model->getClientBaseText())
+			),
+		array(
+			'name'=>'qualifications', 
+			'value'=>CHtml::encode($model->getQualificationText())
+			),
+			
+		'cutting_skills',
+		'colour_knowledge',
+		'colour_skills',
+		'men',
+		'extensions_weave',
+		'extensions_other',
+		'chem_straighten',
+		'braz_blow',
+		'hair_up',
+		'awards',
 		'about_you',
 		'why_hairdressing',
 		'why_jakata',
+		
 	),
 )); ?>
 
-</div> <!--application-->
+</div> <!--recruitBlank-->
 

@@ -13,6 +13,61 @@ window.addEvent('domready', function(){
 <section id="news">
 
 <section id="accordion">
+
+<article class="article">
+<a name="daniel_anderson" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/dan_logo.jpg" alt="Hairdressers Journal" width="135" height="115">
+ <h2>Daniel Anderson Hairdressing Now at Jakata</h2>
+ <p>After weeks of speculation, we can now confirm that <em>Daniel Anderson</em> has joined <em>Jakata &amp; Paul Kemp Hairdressing</em>.
+  	Adam and Danny have been in recent discussions to finalise the move which had to be kept under wraps until all the details were confirmed. Danny's Winwick Street salon closed last week and the task of making sure the transition was as smooth as possible was implemented. Dan and team members are now located between Jakata (Bridge Street) and Paul Kemp Hairdressing (Sankey Street).</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/danny.jpg" alt="Daniel Anderson" width="150" height="210">
+<p>The two hairdressers have known each other for 15 years,  having completed their initial training together and a few years later worked side by side in another Warrington based salon.</p>
+	<p>Adam said <em>'Danny and I go way back, we both have a mutual respect for each others work. This move marks exciting times ahead for the companies involved. The Jakata/Paul Kemp Brands are going from strength to strength and now with Danny on board we can expect great things to happen!'</em></p> 
+	<p>Danny Said <em>'It's an exciting time, I want to offer our customers the best experience. Between myself, Adam &amp; Paul we have the ultimate hairdressing team in Warrington!'</em></p>
+<p><strong>We'll keep you up to date with the latest developments</strong></p>
+</section> <!--end .hidden-->
+<time datetime="2012-03-23" pubdate="pubdate"><p>23rd March 2012</p></time>
+</article> <!--end #article-->
+
+
+<article class="article">
+<a name="candy_fixations" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/Candy-Fixations.jpg" alt="Bedhead Candy Fixations" width="135" height="97">
+<hgroup>
+  	<h2>NEW Bedhead 'Candy Fixations'</h2>
+  	<p><strong>begging to be whipped, teased, scrunched and smelt</strong></p>
+  </hgroup>
+  <p>Tigi have taken inspiration from the world of sweets and created an incredible texture range to deliver volume, flexible hold, definition and root lift. Sugar was originally used in the punk era to keep the mohawks standing upright and this new range is all about the ultimate texture.</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>There are five products in Candy Fixations range: Mega Whip, Glaze Haze, Totally Baked, Sugar Shock and Sugar Dust.</p>
+
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/megawhip.jpg" alt="Mega Whip" width="70" height="70" class="image_list">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/glaze_haze.jpg" alt="Glaze Haze" width="70" height="70" class="image_list">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/totally-baked.jpg" alt="Totally Baked" width="70" height="70" class="image_list">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/sugarshock.jpg" alt="Sugar Shock" width="70" height="70" class="image_list">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/sugar-dust.jpg" alt="Sugar Dust" width="70" height="70" class="image_list">
+
+<ul>
+	<li><h5>Mega Whip</h5><p>whips into dry hair for light texture with a flexible hold for shorter styles, or use throughout longer layers for a piecey style definition.</p></li>
+	<li><h5>Glaze Haze</h5><p>a sweet treat that candy-coats each strand to fight humidity, adds shine and helps speed up drying time.</p></li>
+	<li><h5>Totally Baked</h5><p>Prep your blow-dry with TIGI Bed Head Candy Fixations Totally Baked, a tasty hair meringue, for long-lasting boost of hold, volume and texture.</p></li>
+	<li><h5>Sugar Shock</h5><p>Sweet waves, shocking body! Mist TIGI Bed Head Candy Fixations Sugar Shock into hair for a tousled look, or later throughout for extreme texture, fullness and hold.</p></li>
+	<li><h5>Sugar Dust</h5><p>a quick fix for your style addiction. Sprinkle into roots to absorb oil and tease for instant volume, or sprinkle throughout layers for texture with staying power.</p></li>
+</ul>
+
+<p>Check out this promo video for the range</p>
+<p><iframe width="300" height="200" src="http://www.youtube.com/embed/4YSxuWloiqw" frameborder="0" allowfullscreen class="right"></iframe></p>
+<p><strong>All product in the range are just £9.50 for a limited time</strong></p>
+</section> <!--end .hidden-->
+<time datetime="2012-03-15" pubdate="pubdate"><p>15th March 2012</p></time>
+</article> <!--end #article-->
 <article class="article">
 <a name="oils" class="anchor"></a>
 <section class="visible">

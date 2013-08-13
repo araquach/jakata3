@@ -89,15 +89,15 @@
 		<?php echo $form->label($model,'colour_skills'); ?>
 		<?php echo $form->textField($model,'colour_skills'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->label($model,'men'); ?>
+		<?php echo $form->textField($model,'men'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->label($model,'extensions_weave'); ?>
 		<?php echo $form->textField($model,'extensions_weave'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'extensions_ind'); ?>
-		<?php echo $form->textField($model,'extensions_ind'); ?>
 	</div>
 
 	<div class="row">
