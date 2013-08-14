@@ -15,7 +15,9 @@
  * @property integer $stylist_appearance
  * @property integer $prod_advice
  * @property integer $styling_advice
- * @property integer $internal_marketing
+ * @property integer $mk1
+ * @property integer $mk2
+ * @property integer $mk3
  * @property integer $value_for_money
  * @property integer $whole_experience
  * @property integer $end_result
@@ -51,7 +53,7 @@ class Feedback extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, stylist_id', 'required'),
+			array('client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mk1, mk2, mk3, value_for_money, whole_experience, end_result, stylist_id', 'required'),
 			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, stylist_id', 'numerical', 'integerOnly'=>true),
 			array('allow', 'boolean'),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
@@ -62,7 +64,7 @@ class Feedback extends CActiveRecord
 			array('extra', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, allow, date, client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, extra, stylist_id', 'safe', 'on'=>'search'),
+			array('id, allow, date, client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mk1, mk2, mk3, value_for_money, whole_experience, end_result, extra, stylist_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -127,7 +129,9 @@ class Feedback extends CActiveRecord
 		$criteria->compare('stylist_appearance',$this->stylist_appearance);
 		$criteria->compare('prod_advice',$this->prod_advice);
 		$criteria->compare('styling_advice',$this->styling_advice);
-		$criteria->compare('internal_marketing',$this->internal_marketing);
+		$criteria->compare('mk1',$this->mk1);
+		$criteria->compare('mk2',$this->mk2);
+		$criteria->compare('mk1',$this->mk2);
 		$criteria->compare('value_for_money',$this->value_for_money);
 		$criteria->compare('whole_experience',$this->whole_experience);
 		$criteria->compare('end_result',$this->end_result);
@@ -148,16 +152,15 @@ class Feedback extends CActiveRecord
 		$d = $this->stylist_appearance;
 		$e = $this->prod_advice;
 		$f = $this->styling_advice;
-		$g = $this->internal_marketing;
-		$h = $this->value_for_money;
-		$i = $this->whole_experience;
-		$j = $this->end_result;
+		$g = $this->mk1;
+		$h = $this->mk2;
+		$i = $this->mk3;
+		$j = $this->value_for_money;
+		$k = $this->whole_experience;
+		$l = $this->end_result;
 		
-		$score = $a+$b+$c+$d+$e+$f+$g+$h+$i+$j;
+		$score = $a+$b+$c+$d+$e+$f+$g+$h+$i+$j+$k+$l;
 		
 		return $score;
 	}
-	
-	
-	
 }

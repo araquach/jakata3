@@ -195,27 +195,27 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'styling_advice'); ?>
 		</div>
-	
-		<div class="row question">
-			<?php echo $form->labelEx($model,'internal_marketing'); ?>
-			<?php echo '<p class="scale_label">None</p>' ?>
-			<?php echo $form->radioButton($model,'internal_marketing', array(
-			'value'=>-2,
-			'uncheckValue'=>null)); ?>
-			<?php echo '<p class="scale_label">One</p>' ?>
-			<?php echo $form->radioButton($model,'internal_marketing', array(
-			'value'=>-1,
-			'uncheckValue'=>null)); ?>
-			<?php echo '<p class="scale_label">Two</p>' ?>
-			<?php echo $form->radioButton($model,'internal_marketing', array(
-			'value'=>1,
-			'uncheckValue'=>null)); ?>
-			<?php echo '<p class="scale_label">Three</p>' ?>
-			<?php echo $form->radioButton($model,'internal_marketing', array(
-			'value'=>2,
-			'uncheckValue'=>null)); ?>
-			<?php echo $form->error($model,'internal_marketing'); ?>
+			
+		<div class="mkt">
+		<?php echo $form->labelEx($model,'internal_marketing'); ?>
+		<div class="adexBox">
+			<?php echo $form->labelEx($model,'mkt1'); ?>
+			<?php echo $form->checkBox($model,'mkt1'); ?>
+			<?php echo $form->error($model,'mkt1'); ?>
 		</div>
+		
+		<div class="adexBox">
+			<?php echo $form->labelEx($model,'mkt2'); ?>
+			<?php echo $form->checkBox($model,'mkt2'); ?>
+			<?php echo $form->error($model,'mkt2'); ?>
+		</div>
+		
+		<div class="adexBox">
+			<?php echo $form->labelEx($model,'mkt3'); ?>
+			<?php echo $form->checkBox($model,'mkt3'); ?>
+			<?php echo $form->error($model,'mkt3'); ?>
+		</div>
+		</div> <!--end mkt-->
 	
 		<div class="row question">
 			<?php echo $form->labelEx($model,'value_for_money'); ?>
