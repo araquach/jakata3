@@ -15,9 +15,9 @@
  * @property integer $stylist_appearance
  * @property integer $prod_advice
  * @property integer $styling_advice
- * @property integer $mk1
- * @property integer $mk2
- * @property integer $mk3
+ * @property integer $mkt1
+ * @property integer $mkt2
+ * @property integer $mkt3
  * @property integer $value_for_money
  * @property integer $whole_experience
  * @property integer $end_result
@@ -53,8 +53,8 @@ class Feedback extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mk1, mk2, mk3, value_for_money, whole_experience, end_result, stylist_id', 'required'),
-			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, internal_marketing, value_for_money, whole_experience, end_result, stylist_id', 'numerical', 'integerOnly'=>true),
+			array('client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, stylist_id', 'required'),
+			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, stylist_id', 'numerical', 'integerOnly'=>true),
 			array('allow', 'boolean'),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('client_first, client_second', 'length', 'max'=>50),
@@ -64,7 +64,7 @@ class Feedback extends CActiveRecord
 			array('extra', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, allow, date, client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mk1, mk2, mk3, value_for_money, whole_experience, end_result, extra, stylist_id', 'safe', 'on'=>'search'),
+			array('id, allow, date, client_first, client_second, mobile, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, extra, stylist_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -97,7 +97,10 @@ class Feedback extends CActiveRecord
 			'stylist_appearance' => '4. How do you rate your stylists appearance',
 			'prod_advice' => '5. Rate the level of product advice given to you by your stylist.',
 			'styling_advice' => '6. Rate the level of styling advice given to you by your stylist.',
-			'internal_marketing' => '7. We have 3 schemes in place to save you money on your visits to the salon? We have a Recommend a friend scheme, 10 percent pre-booking discount and a reward points system. How many of these were you informed about?',
+			'internal_marketing' => '7. We have 3 schemes in place to save you money on your visits to the salon? Which ones were you informed about?',
+			'mkt1' => 'Recommend a friend',
+			'mkt2' => 'Loyalty Points',
+			'mkt3' => 'Pre-booking discount',
 			'value_for_money' => '8. How do you rate the your stylists pricing and value for money?',
 			'whole_experience' => '9. How do you rate the experience as a whole on your last visit?',
 			'end_result' => '10. How happy were you with the end result of your hair?',
@@ -129,9 +132,9 @@ class Feedback extends CActiveRecord
 		$criteria->compare('stylist_appearance',$this->stylist_appearance);
 		$criteria->compare('prod_advice',$this->prod_advice);
 		$criteria->compare('styling_advice',$this->styling_advice);
-		$criteria->compare('mk1',$this->mk1);
-		$criteria->compare('mk2',$this->mk2);
-		$criteria->compare('mk1',$this->mk2);
+		$criteria->compare('mkt1',$this->mkt1);
+		$criteria->compare('mkt2',$this->mkt2);
+		$criteria->compare('mkt3',$this->mkt3);
 		$criteria->compare('value_for_money',$this->value_for_money);
 		$criteria->compare('whole_experience',$this->whole_experience);
 		$criteria->compare('end_result',$this->end_result);
@@ -152,9 +155,9 @@ class Feedback extends CActiveRecord
 		$d = $this->stylist_appearance;
 		$e = $this->prod_advice;
 		$f = $this->styling_advice;
-		$g = $this->mk1;
-		$h = $this->mk2;
-		$i = $this->mk3;
+		$g = $this->mkt1;
+		$h = $this->mkt2;
+		$i = $this->mkt3;
 		$j = $this->value_for_money;
 		$k = $this->whole_experience;
 		$l = $this->end_result;

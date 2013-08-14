@@ -196,26 +196,26 @@
 			<?php echo $form->error($model,'styling_advice'); ?>
 		</div>
 			
-		<div class="mkt">
+		<div class="row question group">
 		<?php echo $form->labelEx($model,'internal_marketing'); ?>
-		<div class="adexBox">
+		<div class="mktBox">
 			<?php echo $form->labelEx($model,'mkt1'); ?>
 			<?php echo $form->checkBox($model,'mkt1'); ?>
 			<?php echo $form->error($model,'mkt1'); ?>
 		</div>
 		
-		<div class="adexBox">
+		<div class="mktBox">
 			<?php echo $form->labelEx($model,'mkt2'); ?>
 			<?php echo $form->checkBox($model,'mkt2'); ?>
 			<?php echo $form->error($model,'mkt2'); ?>
 		</div>
 		
-		<div class="adexBox">
+		<div class="mktBox">
 			<?php echo $form->labelEx($model,'mkt3'); ?>
 			<?php echo $form->checkBox($model,'mkt3'); ?>
 			<?php echo $form->error($model,'mkt3'); ?>
 		</div>
-		</div> <!--end mkt-->
+		</div> <!--row question-->
 	
 		<div class="row question">
 			<?php echo $form->labelEx($model,'value_for_money'); ?>
@@ -299,7 +299,7 @@
 			<?php echo $form->error($model,'extra'); ?>
 		</div>
 		
-		<div class="row">
+		<div class="row permission">
 			<?php echo $form->labelEx($model,'allow'); ?>
 			<?php echo $form->checkBox($model,'allow'); ?>
 			<?php echo $form->error($model,'allow'); ?>
