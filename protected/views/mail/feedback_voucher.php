@@ -1,0 +1,2 @@
+<?php echo 'Voucher No. ' . rand ( 1000, 9999 ) . ' : entitles ' . ucfirst($model->client_first) . ' ' . ucfirst($model->client_second) . ' to £10 off any retail product at Jakata. Present this voucher at reception. One per person'
+?>
