@@ -7,6 +7,7 @@
  * @property integer $id
  * @property string $stylist
  * @property integer $salon
+ * @property integer $active
  */
 class FeedbackStylist extends CActiveRecord
 {
@@ -36,12 +37,13 @@ class FeedbackStylist extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('stylist, salon', 'required'),
+			array('stylist, salon, active', 'required'),
 			array('salon', 'numerical', 'integerOnly'=>true),
 			array('stylist', 'length', 'max'=>120),
+			//array('active', 'boolean', 'integerOnly'=>true)
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, stylist, salon', 'safe', 'on'=>'search'),
+			array('id, stylist, salon, active', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -66,6 +68,7 @@ class FeedbackStylist extends CActiveRecord
 			'id' => 'ID',
 			'stylist' => 'Your Stylist',
 			'salon' => 'Salon',
+			'active' => 'Active?',
 		);
 	}
 
@@ -83,6 +86,7 @@ class FeedbackStylist extends CActiveRecord
 		$criteria->compare('id',$this->id);
 		$criteria->compare('stylist',$this->stylist,true);
 		$criteria->compare('salon',$this->salon);
+		$criteria->compare('active',$this->active);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
