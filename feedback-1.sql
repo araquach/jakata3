@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Aug 21, 2013 at 11:22 AM
+-- Generation Time: Aug 21, 2013 at 01:34 PM
 -- Server version: 5.1.44
 -- PHP Version: 5.3.1
 
@@ -52,4 +52,4 @@ CREATE TABLE IF NOT EXISTS `feedback` (
 --
 
 INSERT INTO `feedback` (`id`, `date`, `intro`, `consultation`, `styling_area`, `stylist_appearance`, `prod_advice`, `styling_advice`, `mkt1`, `mkt2`, `mkt3`, `value_for_money`, `whole_experience`, `end_result`, `extra`, `client_id`, `allow`) VALUES
-(1, '2013-08-14 13:18:52', 2, 2, 2, 2, 2, 2, 0, 1, 0, 2, 3, 3, '', 1102, 1);
+(1, '2013-08-14 13:18:52', 2, 2, 2, 2, 2, 2, 0, 1, 0, 2, 3, 3, '', 1, 1);
