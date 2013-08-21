@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Aug 21, 2013 at 10:28 AM
+-- Generation Time: Aug 21, 2013 at 11:22 AM
 -- Server version: 5.1.44
 -- PHP Version: 5.3.1
 
@@ -41,18 +41,15 @@ CREATE TABLE IF NOT EXISTS `feedback` (
   `whole_experience` int(11) NOT NULL COMMENT 'how do you rate the experience as a whole on your last visit 1to5 1poor -2pts 3 average 0pts 5 being excellent 2pts',
   `end_result` int(11) NOT NULL COMMENT 'how happy were you with the end result of your hair 1to10 1 being poor -5pts 5 average 0pts 10 extremely satisfied 5pts',
   `extra` varchar(300) NOT NULL COMMENT 'any extra comments you would like to make (text format for admin use only)',
-  `stylist_id` int(11) NOT NULL,
+  `client_id` int(11) NOT NULL,
   `allow` tinyint(1) NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `stylist_id` (`stylist_id`)
+  KEY `stylist_id` (`client_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 --
--- Constraints for dumped tables
+-- Dumping data for table `feedback`
 --
 
---
--- Constraints for table `feedback`
---
-ALTER TABLE `feedback`
-  ADD CONSTRAINT `feedback_ibfk_3` FOREIGN KEY (`stylist_id`) REFERENCES `feedback_stylist` (`id`) ON UPDATE CASCADE;
+INSERT INTO `feedback` (`id`, `date`, `intro`, `consultation`, `styling_area`, `stylist_appearance`, `prod_advice`, `styling_advice`, `mkt1`, `mkt2`, `mkt3`, `value_for_money`, `whole_experience`, `end_result`, `extra`, `client_id`, `allow`) VALUES
+(1, '2013-08-14 13:18:52', 2, 2, 2, 2, 2, 2, 0, 1, 0, 2, 3, 3, '', 1102, 1);
