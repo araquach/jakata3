@@ -18,24 +18,6 @@
 	<div class="row">
 		<?php echo $form->hiddenField($model,'date'); ?>
 	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'client_first'); ?>
-		<?php echo $form->textField($model,'client_first',array('size'=>25,'maxlength'=>50)); ?>
-		<?php echo $form->error($model,'client_first'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'client_second'); ?>
-		<?php echo $form->textField($model,'client_second',array('size'=>25,'maxlength'=>50)); ?>
-		<?php echo $form->error($model,'client_second'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'mobile'); ?>
-		<?php echo $form->textField($model,'mobile',array('size'=>25,'maxlength'=>25)); ?>
-		<?php echo $form->error($model,'mobile'); ?>
-	</div>
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'stylist_id'); ?>
