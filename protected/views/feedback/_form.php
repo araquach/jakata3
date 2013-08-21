@@ -18,15 +18,6 @@
 	<div class="row">
 		<?php echo $form->hiddenField($model,'date'); ?>
 	</div>
-	
-	<div class="row">
-		<?php echo $form->labelEx($model,'stylist_id'); ?>
-		<?php echo $form->dropDownList($model, 'stylist_id', CHtml::listData(
-		FeedbackStylist::model()->findAll('active=1'), 'id', 'stylist'),
-		array('prompt' => 'Select your Stylist')
-		); ?>
-		<?php echo $form->error($model,'stylist_id'); ?>
-	</div>
 
 	<div class="row question">
 			<?php echo $form->labelEx($model,'intro'); ?>

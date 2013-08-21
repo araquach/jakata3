@@ -33,7 +33,7 @@ $this->menu=array(
 		'FeedbackClient.first_name',
 		'feedbackClient.last_name',
 		'feedbackClient.mobile',	
-		'FeedbackStylist.stylist',
+		'FeedbackClient.stylist',
 		'intro',
 		'consultation',
 		'styling_area',
