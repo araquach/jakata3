@@ -13,11 +13,11 @@
 	<?php echo CHtml::encode(Yii::app()->dateFormatter->formatDateTime($data->date, "medium","")); ?>
 	<br />
 	
-	<b><?php echo CHtml::encode($data->getAttributeLabel('client_id')); ?>:</b>
-	<?php echo CHtml::encode($data->FeedbackClient->getFullName); ?>
+	<b><?php echo CHtml::encode($data->FeedbackClient->getAttributeLabel('client_id')); ?>:</b>
+	<?php echo CHtml::encode($data->FeedbackClient->getFullName()); ?>
 	<br />
 	
-	<b><?php echo CHtml::encode($data->getAttributeLabel('mobile')); ?>:</b>
+	<b><?php echo CHtml::encode($data->FeedbackClient->getAttributeLabel('mobile')); ?>:</b>
 	<?php echo CHtml::encode($data->FeedbackClient->mobile); ?>
 	<br />
 	

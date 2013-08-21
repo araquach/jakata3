@@ -6,6 +6,7 @@
  * The followings are the available columns in table 'feedback_client':
  * @property integer $id
  * @property integer $iris_id
+ * @property integer $stylist
  * @property string $first_name
  * @property string $last_name
  * @property string $mobile
@@ -38,14 +39,15 @@ class FeedbackClient extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('iris_id, first_name, last_name, mobile', 'required'),
+			array('iris_id, stylist, first_name, last_name, mobile', 'required'),
 			array('iris_id', 'numerical', 'integerOnly'=>true),
 			array('first_name', 'length', 'max'=>30),
 			array('last_name', 'length', 'max'=>40),
+			array('stylist', 'lenghth', 'max'=>60),
 			array('mobile', 'length', 'max'=>20),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, iris_id, first_name, last_name, mobile', 'safe', 'on'=>'search'),
+			array('id, iris_id, stylist, first_name, last_name, mobile', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -69,6 +71,7 @@ class FeedbackClient extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'iris_id' => 'Iris',
+			'stylist' => 'Stylist',
 			'first_name' => 'First Name',
 			'last_name' => 'Last Name',
 			'mobile' => 'Mobile',
@@ -88,6 +91,7 @@ class FeedbackClient extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('iris_id',$this->iris_id);
+		$criteria->compare('stylist',$this->stylist,true);
 		$criteria->compare('first_name',$this->first_name,true);
 		$criteria->compare('last_name',$this->last_name,true);
 		$criteria->compare('mobile',$this->mobile,true);
@@ -96,4 +100,10 @@ class FeedbackClient extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
+	public function getFullName()
+	{
+		return $this->first_name . ' ' . $this->last_name;
+	}
+	
 }

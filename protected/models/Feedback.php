@@ -154,13 +154,4 @@ class Feedback extends CActiveRecord
 		return $score;
 	}
 	
-	public function getFullName()
-	{
-		return FeedbackClient::model()->first_name . ' ' . FeedbackClient::model()->last_name;
-	}
-	
-	public function getMobile() 
-	{
-		return FeedbackClient::model()->mobile;
-	}
 }
