@@ -82,7 +82,7 @@ class FeedbackController extends Controller
 				
 				Yii::app()->mail->send($message);
 			
-				Yii::app()->user->setFlash('Feedback','Thank you for your feedback ' . ucfirst($model->client_first) . ', it\'s really appreciated.<br>Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
+				Yii::app()->user->setFlash('Feedback','Thank you for your feedback ' . ucfirst($model->feedbaclClient->first_name) . ', it\'s really appreciated.<br>Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
 			}
 		
 		}
@@ -168,7 +168,7 @@ class FeedbackController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=Feedback::model()->with('FeedbackStylist')->findByPk($id);
+		$model=Feedback::model()->with('FeedbackClient')->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
