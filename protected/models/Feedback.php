@@ -19,6 +19,7 @@
  * @property integer $whole_experience
  * @property integer $end_result
  * @property string $extra
+ * @property string $client_id
  * @property bool $allow
  */
 class Feedback extends CActiveRecord
@@ -49,14 +50,14 @@ class Feedback extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result', 'required'),
-			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result', 'numerical', 'integerOnly'=>true),
+			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, client_id', 'required'),
+			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, client_id', 'numerical', 'integerOnly'=>true),
 			array('allow', 'boolean'),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('extra', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, allow, date, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, extra', 'safe', 'on'=>'search'),
+			array('id, allow, date, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, extra, client_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -123,6 +124,7 @@ class Feedback extends CActiveRecord
 		$criteria->compare('value_for_money',$this->value_for_money);
 		$criteria->compare('whole_experience',$this->whole_experience);
 		$criteria->compare('end_result',$this->end_result);
+		$criteria->compare('client_id',$this->client_id);
 		$criteria->compare('extra',$this->extra,true);
 		$criteria->compare('allow',$this->allow);
 

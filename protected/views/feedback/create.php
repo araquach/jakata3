@@ -16,8 +16,9 @@
 <?php else: ?>
 <div id="feedback">
 
+
 <div id="feedback_copy">
-	<h1>FREE &pound;10 <br>Product Voucher</h1>
+	<h1>Hi <?php echo $client->first_name; ?> - get a <br>FREE &pound;10 <br>Product Voucher</h1>
 	<h2>We want your feedback</h2>
 	<p><strong>We would love to find out how your experience was in the salon</strong></p>
 	<p>We strive to offer the best possible service, plus give you a hairstyle that you're 100% happy with!</p>
@@ -28,7 +29,9 @@
 	Your information will not be shared with anyone and is purely for us to ensure we are offering the best possible service along with looking at ways to improve our offering</p>
 </div> <!--feedback_copy-->
 
-<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+
+
+<?php echo $this->renderPartial('_form', array('model'=>$model, 'client'=>$client)); ?>
 
 </div> <!--feedback-->
 </div> <!--feedback_back-->

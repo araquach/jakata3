@@ -54,7 +54,7 @@ class FeedbackController extends Controller
 	
 	public function actionFeedbackVoucher ()
 	{
-		$this->render('//mail/feedback_voucher',array('model'=>$model));
+		$this->render('//mail/feedback_voucher',array('model'=>$client));
 	}
 
 	/**
@@ -77,14 +77,14 @@ class FeedbackController extends Controller
 			{
 				$message = new YiiMailMessage;
 				$message->view = 'feedback_voucher';
-				$message->setBody(array('model'=>$model), 'text');
+				$message->setBody(array('client'=>$client), 'text');
 				$message->subject = 'Jakata';
-				$message->addTo($model->mobile.'@smsid.textapp.net');
+				$message->addTo($client->mobile.'@smsid.textapp.net');
 				$message->from = ('enquiries@jakatasalon.co.uk');
 				
 				Yii::app()->mail->send($message);
 			
-				Yii::app()->user->setFlash('Feedback','Thank you for your feedback ' . ucfirst($model->feedbaclClient->first_name) . ', it\'s really appreciated.<br>Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
+				Yii::app()->user->setFlash('Feedback','Thank you for your feedback ' . ucfirst($client->first_name) . ', it\'s really appreciated.<br>Your voucher is on it\'s way plus you have been entered into our next prize draw for the chance to win some great prizes.<br>See you in the salon soon!');
 			}
 		
 		}
