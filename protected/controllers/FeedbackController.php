@@ -61,8 +61,10 @@ class FeedbackController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
+	public function actionCreate($id)
 	{
+		
+		$client=$this->loadClient($id);
 		$model=new Feedback;
 
 		// Uncomment the following line if AJAX validation is needed
@@ -89,6 +91,7 @@ class FeedbackController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
+			'client'=>$this->loadClient($id),
 		));
 	}
 
@@ -173,7 +176,15 @@ class FeedbackController extends Controller
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
 	}
-
+	
+	public function loadClient($id)
+	{
+		$client=FeedbackClient::model()->findByPk($id);
+		if($client===null)
+			throw new CHttpException(404,'The requested client does not exist.');
+		return $client;
+	}
+	
 	/**
 	 * Performs the AJAX validation.
 	 * @param CModel the model to be validated

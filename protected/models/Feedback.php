@@ -20,7 +20,6 @@
  * @property integer $end_result
  * @property string $extra
  * @property bool $allow
- * @property integer $stylist_id
  */
 class Feedback extends CActiveRecord
 {
@@ -50,14 +49,14 @@ class Feedback extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, stylist_id', 'required'),
-			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, stylist_id', 'numerical', 'integerOnly'=>true),
+			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result', 'required'),
+			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result', 'numerical', 'integerOnly'=>true),
 			array('allow', 'boolean'),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('extra', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, allow, date, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, extra, stylist_id', 'safe', 'on'=>'search'),
+			array('id, allow, date, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, extra', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -96,7 +95,6 @@ class Feedback extends CActiveRecord
 			'end_result' => '10. How happy were you with the end result of your hair?',
 			'extra' => 'Do you have any extra comments you would like to make?',
 			'allow' => 'Please tick the box if you give permission to use your comments on our testimonials page',
-			'stylist_id' => 'Your Last Stylist',
 		);
 	}
 
@@ -127,7 +125,6 @@ class Feedback extends CActiveRecord
 		$criteria->compare('end_result',$this->end_result);
 		$criteria->compare('extra',$this->extra,true);
 		$criteria->compare('allow',$this->allow);
-		$criteria->compare('stylist_id',$this->stylist_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
