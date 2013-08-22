@@ -24,6 +24,7 @@
  */
 class Feedback extends CActiveRecord
 {
+	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -132,6 +133,7 @@ class Feedback extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+
 	
 	public function score()
 	{

@@ -61,10 +61,10 @@ class FeedbackController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate($id)
+	public function actionCreate($cid)
 	{
 		
-		$client=$this->loadClient($id);
+		$client=$this->loadClient($cid);
 		$model=new Feedback;
 
 		// Uncomment the following line if AJAX validation is needed
@@ -91,7 +91,7 @@ class FeedbackController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
-			'client'=>$this->loadClient($id),
+			'client'=>$this->loadClient($cid),
 		));
 	}
 
