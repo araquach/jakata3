@@ -54,6 +54,7 @@ class Feedback extends CActiveRecord
 			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, client_id', 'required'),
 			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, client_id', 'numerical', 'integerOnly'=>true),
 			array('allow', 'boolean'),
+			array('client_id', 'unique', 'message'=>'Sorry - you can only enter once'),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('extra', 'length', 'max'=>300),
 			// The following rule is used by search().
