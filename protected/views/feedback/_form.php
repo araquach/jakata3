@@ -16,34 +16,11 @@
 	<?php echo $form->errorSummary($model); ?>
 	
 	<div class="row">
-		<?php echo $form->hiddenField($model,'date'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'client_first'); ?>
-		<?php echo $form->textField($model,'client_first',array('size'=>25,'maxlength'=>50)); ?>
-		<?php echo $form->error($model,'client_first'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'client_second'); ?>
-		<?php echo $form->textField($model,'client_second',array('size'=>25,'maxlength'=>50)); ?>
-		<?php echo $form->error($model,'client_second'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'mobile'); ?>
-		<?php echo $form->textField($model,'mobile',array('size'=>25,'maxlength'=>25)); ?>
-		<?php echo $form->error($model,'mobile'); ?>
+		<?php echo $form->hiddenField($model,'client_id'); ?>
 	</div>
 	
 	<div class="row">
-		<?php echo $form->labelEx($model,'stylist_id'); ?>
-		<?php echo $form->dropDownList($model, 'stylist_id', CHtml::listData(
-		FeedbackStylist::model()->findAll('active=1'), 'id', 'stylist'),
-		array('prompt' => 'Select your Stylist')
-		); ?>
-		<?php echo $form->error($model,'stylist_id'); ?>
+		<?php echo $form->hiddenField($model,'date'); ?>
 	</div>
 
 	<div class="row question">

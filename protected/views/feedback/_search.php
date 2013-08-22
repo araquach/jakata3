@@ -22,21 +22,6 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->label($model,'client_first'); ?>
-		<?php echo $form->textField($model,'client_first',array('size'=>50,'maxlength'=>50)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'client_second'); ?>
-		<?php echo $form->textField($model,'client_second',array('size'=>50,'maxlength'=>50)); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->label($model,'mobile'); ?>
-		<?php echo $form->textField($model,'mobile',array('size'=>25,'maxlength'=>25)); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->label($model,'intro'); ?>
 		<?php echo $form->textField($model,'intro'); ?>
 	</div>

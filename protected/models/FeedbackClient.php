@@ -1,20 +1,22 @@
 <?php
 
 /**
- * This is the model class for table "feedback_stylist".
+ * This is the model class for table "feedback_client".
  *
- * The followings are the available columns in table 'feedback_stylist':
+ * The followings are the available columns in table 'feedback_client':
  * @property integer $id
- * @property string $stylist
- * @property integer $salon
- * @property integer $active
+ * @property integer $iris_id
+ * @property integer $stylist
+ * @property string $first_name
+ * @property string $last_name
+ * @property string $mobile
  */
-class FeedbackStylist extends CActiveRecord
+class FeedbackClient extends CActiveRecord
 {
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
-	 * @return FeedbackStylist the static model class
+	 * @return FeedbackClient the static model class
 	 */
 	public static function model($className=__CLASS__)
 	{
@@ -26,7 +28,7 @@ class FeedbackStylist extends CActiveRecord
 	 */
 	public function tableName()
 	{
-		return 'feedback_stylist';
+		return 'feedback_client';
 	}
 
 	/**
@@ -37,13 +39,15 @@ class FeedbackStylist extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('stylist, salon, active', 'required'),
-			array('salon', 'numerical', 'integerOnly'=>true),
-			array('stylist', 'length', 'max'=>120),
-			//array('active', 'boolean', 'integerOnly'=>true)
+			array('iris_id, stylist, first_name, last_name, mobile', 'required'),
+			array('iris_id', 'numerical', 'integerOnly'=>true),
+			array('first_name', 'length', 'max'=>30),
+			array('last_name', 'length', 'max'=>40),
+			array('stylist', 'lenghth', 'max'=>60),
+			array('mobile', 'length', 'max'=>20),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, stylist, salon, active', 'safe', 'on'=>'search'),
+			array('id, iris_id, stylist, first_name, last_name, mobile', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -55,7 +59,7 @@ class FeedbackStylist extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'Feedback' => array(self::HAS_MANY, 'FeedbackStylist', 'stylist_id')
+			'Feedback' => array(self::HAS_ONE, 'Feedback', 'client_id'),
 		);
 	}
 
@@ -66,9 +70,12 @@ class FeedbackStylist extends CActiveRecord
 	{
 		return array(
 			'id' => 'ID',
-			'stylist' => 'Your Stylist',
-			'salon' => 'Salon',
-			'active' => 'Active?',
+			'iris_id' => 'Iris',
+			'stylist' => 'Stylist',
+			'first_name' => 'First Name',
+			'last_name' => 'Last Name',
+			'mobile' => 'Mobile',
+			'client_id' => 'Client Name',
 		);
 	}
 
@@ -84,12 +91,20 @@ class FeedbackStylist extends CActiveRecord
 		$criteria=new CDbCriteria;
 
 		$criteria->compare('id',$this->id);
+		$criteria->compare('iris_id',$this->iris_id);
 		$criteria->compare('stylist',$this->stylist,true);
-		$criteria->compare('salon',$this->salon);
-		$criteria->compare('active',$this->active);
+		$criteria->compare('first_name',$this->first_name,true);
+		$criteria->compare('last_name',$this->last_name,true);
+		$criteria->compare('mobile',$this->mobile,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
 		));
 	}
+	
+	public function getFullName()
+	{
+		return $this->first_name . ' ' . $this->last_name;
+	}
+	
 }
