@@ -21,7 +21,7 @@
 	<?php echo CHtml::encode($data->FeedbackClient->mobile); ?>
 	<br />
 	
-	<b><?php /*echo CHtml::encode($data->getAttributeLabel('intro')); ?>:</b>
+	<?php /*echo CHtml::encode($data->getAttributeLabel('intro')); ?>:</b>
 	<?php echo CHtml::encode($data->intro); ?>
 	<br />
 
@@ -68,7 +68,7 @@
 	
 	*/  ?>
 	
-	<b><?php echo CHtml::encode($data->getAttributeLabel('stylist_id')); ?>:</b>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('stylist')); ?>:</b>
 	<?php echo CHtml::encode($data->FeedbackClient->stylist); ?>
 	<br />
 	<b><?php echo CHtml::encode('Score'); ?>:</b>

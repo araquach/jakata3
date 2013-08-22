@@ -75,6 +75,7 @@ class FeedbackClient extends CActiveRecord
 			'first_name' => 'First Name',
 			'last_name' => 'Last Name',
 			'mobile' => 'Mobile',
+			'client_id' => 'Client Name',
 		);
 	}
 

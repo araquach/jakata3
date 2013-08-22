@@ -2,10 +2,6 @@
 
 class FeedbackController extends Controller
 {
-
-	private $_client = null;
-	
-	
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
@@ -145,6 +141,7 @@ class FeedbackController extends Controller
 	public function actionIndex()
 	{
 		$criteria=new CDbCriteria();
+			$criteria->with = 'FeedbackClient';
 			$criteria->order = 't.id DESC';
 			
 		$dataProvider=new CActiveDataProvider('Feedback', array(
@@ -185,16 +182,10 @@ class FeedbackController extends Controller
 	
 	public function loadClient($id)
 	{
-		if ($this->_client===null)
-		{
-			$this->_client=FeedbackClient::model()->findByPk($id);
-			if ($this->_client===null)
-			{
-				throw new CHttpException(404,'The requested client does not exist.');
-			}
-		}
-		
-		return $this->_client;
+		$client=FeedbackClient::model()->with('Feedback')->findByPk($id);
+		if($client===null)
+			throw new CHttpException(404,'The requested client does not exist.');
+		return $client;
 	}
 	
 	/**
