@@ -2,6 +2,10 @@
 
 class FeedbackController extends Controller
 {
+
+	private $_client = null;
+	
+	
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
@@ -61,11 +65,12 @@ class FeedbackController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate($cid)
+	public function actionCreate($id)
 	{
 		
-		$client=$this->loadClient($cid);
+		$client=$this->loadClient($id);
 		$model=new Feedback;
+		
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
@@ -73,6 +78,7 @@ class FeedbackController extends Controller
 		if(isset($_POST['Feedback']))
 		{
 			$model->attributes=$_POST['Feedback'];
+			$model->client_id = $client->id;
 			if($model->save())
 			{
 				$message = new YiiMailMessage;
@@ -91,7 +97,7 @@ class FeedbackController extends Controller
 
 		$this->render('create',array(
 			'model'=>$model,
-			'client'=>$this->loadClient($cid),
+			'client'=>$this->loadClient($id),
 		));
 	}
 
@@ -179,10 +185,16 @@ class FeedbackController extends Controller
 	
 	public function loadClient($id)
 	{
-		$client=FeedbackClient::model()->findByPk($id);
-		if($client===null)
-			throw new CHttpException(404,'The requested client does not exist.');
-		return $client;
+		if ($this->_client===null)
+		{
+			$this->_client=FeedbackClient::model()->findByPk($id);
+			if ($this->_client===null)
+			{
+				throw new CHttpException(404,'The requested client does not exist.');
+			}
+		}
+		
+		return $this->_client;
 	}
 	
 	/**

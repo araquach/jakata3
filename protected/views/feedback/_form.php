@@ -16,7 +16,7 @@
 	<?php echo $form->errorSummary($model); ?>
 	
 	<div class="row">
-		<?php echo $form->textField($model,'client_id'); ?>
+		<?php echo $form->hiddenField($model,'client_id'); ?>
 	</div>
 	
 	<div class="row">

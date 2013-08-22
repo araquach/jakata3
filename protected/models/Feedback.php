@@ -155,4 +155,5 @@ class Feedback extends CActiveRecord
 		return $score;
 	}
 	
+	
 }
