@@ -93,7 +93,7 @@ class Feedback extends CActiveRecord
 			'mkt1' => 'Recommend a friend',
 			'mkt2' => 'Loyalty Points',
 			'mkt3' => 'Pre-booking discount',
-			'value_for_money' => '8. How do you rate the your stylists pricing and value for money?',
+			'value_for_money' => '8. How do you rate your stylists pricing and value for money?',
 			'whole_experience' => '9. How do you rate the experience as a whole on your last visit?',
 			'end_result' => '10. How happy were you with the end result of your hair?',
 			'extra' => 'Do you have any extra comments you would like to make?',
