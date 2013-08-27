@@ -71,7 +71,7 @@ class Feedback extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'FeedbackClient' => array(self::BELONGS_TO, 'FeedbackClient', 'id'),
+			'FeedbackClient' => array(self::BELONGS_TO, 'FeedbackClient', 'client_id'),
 		);
 	}
 
