@@ -1,2 +1,2 @@
-<?php echo 'Voucher No. ' . $client->id . ' : entitles ' . ucfirst($client->first_name) . ' ' . ucfirst($client->last_name) . ' to £10 off any retail product at Jakata. Present this voucher at reception. One per person'
+<?php echo 'Voucher No. ' . $client->id . ' : entitles ' . ucfirst($client->first_name) . ' ' . ucfirst($client->last_name) . ' to ABSOLUTELY NOTHING off any retail product at Jakata. Present this voucher at reception. One per person'
 ?>
