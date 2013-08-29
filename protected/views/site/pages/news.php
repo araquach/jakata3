@@ -16,6 +16,98 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="VikkiInterview" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/vikki.jpg" width="135" height="180" alt="Vikki Rowland">
+<h2>Get to know the team: Meet Vikki</h2>
+<p>This month we our team member focus is on Jakata team leader Vikki Rowland.</p>
+<p>As ever, we through a ton of questions at her to try and find out what makes her tick!.</p>
+<p>Click below to read the full interview &hellip; </p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<dl>
+	<dt>How long have you been hairdressing for Vikki?</dt>
+	<dd>I have been hairdressing for 14 years now.</dd>
+	
+	<dt>When did you join the Jakata team?</dt>
+	<dd>I joined Jakata in November 2011. I previously worked at HCUK (formally Haircuttery) for 8 years before joining the Jakata team.</dd>
+	
+	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
+	<dd>I think I always wanted to be a hairdresser, which I know sounds like a cliché. When I was little I used to style my Barbie dolls hair as I didn’t have a girls world. I even gave one a crue cut! My mum still has it in the attic.</dd>
+	
+	<dt>If you had chosen another profession what would it have been?</dt>
+	<dd>I did want to be a climatologist/meteorologist (storm chaser), I have always been fascinated by the weather since I was little, I used to be able to look at the sky and tell you the name of every cloud up there and its purpose.</dd>
+	
+	<dt>What key points make Jakata good at developing new stylists?</dt>
+	<dd>I think Jakata has a nurturing environment that you can learn from every stylist that works here as everyone’s skills are so varied. This makes every member just as valuable as the last.</dd>
+	
+	<dt>What's your favourite hairstyle of all time and why?</dt>
+	<dd>I would say its hairstyle's plural as opposed to a single style.  The classic styles of the 1940/50s are among the most elegant and intricate styles I’ve seen, specifically focusing on the way people of the time pin curled their hair to achieve some of those styles. I believe that pin curling can be adapted to almost any hair type and can be worked to fit any style no matter what the era.</dd>
+	
+	<dt>If you could cut anyone's hair who would it be and why?</dt>
+	<dd>It would have to be Tom Hardy, I admire him as an incredible method actor and it would be an absolute honour to meet him.
+	If I could go back in time it would have to be Bettie Page. To be the person to cut that fringe! Her hairstyle and modelling style is what has made her an icon of a new generation, who’s reputation will still live long after her passing.
+	</dd>
+	
+	<dt>How do you go about creating your cutting/colour styles? Is it difficult to think up new ideas and keep up with the latest trends?</dt>
+	<dd>I am always looking at fashion magazines, on line at catwalks and fashion weeks for new seasons trends. I like to look into photographers and models for current styles. I also like to keep in touch with modern art for inspiration with new colour and cut ideas, I think it is important to keep up to date on the latest up and coming trends.</dd>
+	
+	<dt>Whats the secret to a good haircut/style?</dt>
+	<dd>The secret is to make sure you adapt the haircut to your client, whatever style they want, pay attention to their hair type whether it be thick or fine hair and to  take their face shape into account, is it round, oval or heart shape etc, and equally as important their lifestyle - do they spend a lot of time on their hair or are they looking for a low maintenance look. All these factors are really important to the end result.</dd>
+		
+	<dt>What tips can you give to up and coming hairstylists?</dt>
+	<dd>For hairstylists just starting out I'd say never stop watching and learning from your more senior colleague or even newly qualified ones for that matter. This also applies to experienced stylists - you should never stop learning, the industry changes on a daily basis, therefore you need to always be on your toes.</dd>
+	
+	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
+	<dd>I had a client once that had very low self-esteem, she didn’t know what to do with her hair. I advised her on what colour and cut would suit her best, she had a very busy life style and needed something low maintenance. As her cut was already short we went for a pixie crop and coloured it a rich red shade to compliment the natural red tone in her hair. During the time she was in the salon I mentioned in passing that I liked to dabble in making my own garments. With her being a seamstress she found this interesting and proceded to have an in-depth conversation about vintage fashion which was an interest to the both of us. After the service was finished she stated how much she had enjoyed her time with me and that I'd see her again.
+	The next time I saw her she came back with a sewing machine as a gift. It was a thank you for giving her her confidence back. It felt fantastic to make someone feel that good about themselves, that’s what it’s all about at the end of the day.
+	</dd>
+	
+	<dt>What do you think sets Jakata apart from other salons?</dt>
+	<dd>I believe Jakata is a family - we all work well together as a team, we strive to keep that homely welcoming environment within the salon. It's also very nurturing - when you want to achieve something they will push you to make it happen with all the support you could ask for.</dd>
+	
+	<dt>Whats the best thing for you about being a stylist at Jakata?</dt>
+	<dd>Just to be a part of a wonderful team who believe that the client’s needs come first above all else.
+	It may sound corny but I do believe Jakata is more than a ‘team’ it’s a family.</dd>
+	
+	<dt>What do you think is the most exciting new autumn/winter 2013 hair trend?</dt>
+	<dd>The trend I’m most interested in at the moment is film noir but with a modern twist encapsulating a cinematic appearance, I like the fact that there is a blend of eras coming together melding the 1940’s and 1970’s to achieve a wearable but fashion forward look.</dd>
+	
+	
+	<dt>What thought process do you go through when styling someone for a photo shoot?</dt>
+	<dd>The planning process starts months before the photo shoot date,
+	At first we discuss and set a theme for the shoot for e.g. summer trends.
+	We then set about designing the complete look, I usually preferred to set a style to the model I am doing to compliment them and make the shoot work better overall, once I have a look I then practise, practise, practise until the photo shoot day.</dd>
+		
+	<dt>Out of the product ranges which is your favourite and why?</dt>
+	<dd>out of all the ones we stock I have to say Tigi Bed Head is my favourite, I think there is level of versatility with Bed Haad as you can cocktail most of the products to achieve a look that works for everyone. They appeal to a wide variety of people of any age or hair type.</dd>
+	
+	<dt>Is there a certain time period or style icon you look to for inspiration?</dt>
+	<dd>I am a very big fan of vintage styling as a whole, anything ranging from 1920’s-60’s, I think there is something about those eras that to me is aesthetically pleasing and are still used as inspiration for many people so many years later. I personally like to style myself towards the 1940’s-early 1950’s. I look to the likes of Rita Hayworth, Grace Kelly, and Lauren Bacall for my own person inspiration.</dd>
+	
+	<dt>Is there a celebrity that inspires you? Who and why?</dt>
+	<dd>I have to say Jamie Oliver for all the work he's done to improve our health and diets, he's gone on to make vital changes in government and has gone to inspire other celebrity chefs to do the same. He uses his celebrity status positively to try to make a difference.</dd>
+	
+	<dt>Do you have a signature hairstyle? If so, describe it.</dt>
+	<dd>I do have to say I enjoy doing hair up, especially vintage hair up. If I had a signature hairstyle it would probably be when I do a hair up I always create a swirl detail within the style, be it big or small, just to give the hair style a bit of character.</dd>
+	
+	<dt>What pushes your buttons in the world of fashion hair and beauty?</dt>
+	<dd>I love to look at what’s new in fashion and hair on the catwalks. When fashion week starts there’s always something interesting to see. For beauty I do enjoy watching U Tube for on trend make up looks and how to recreate them.</dd>
+	
+	<dt>Tell me your strengths and weaknesses as a hairdresser.</dt>
+	<dd>I’d like to think my strengths are with hair up and vintage styling i.e. pin curl setting, victory rolls etc.
+	Although I do enjoy every aspect of hairdressing.<br>My weakness is that I talk too much! It’s a definite weakness because I get so engrossed into a conversation that I forget where I am. </dd>
+</dl>
+
+<p class="offer">Many thank's to Vikki for taking the time out to answer our questions.</p>
+<p class="offer">If you'd like to book an appointment with Vikki, just call 01925 242960</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2013-08-29">29<sup>th</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="ConditioningTreatments" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/glam_chic.jpg" width="135" height="190" alt="Glam Chic">
@@ -493,53 +585,6 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <time datetime="2013-01-04">4<sup>th</sup> January 2013</time>
 </article> <!--end #article-->
 
-<article class="article">
-<a id="AutumnColour" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend2.jpg" width="135" height="190" alt="Colour Trend 1">
-<h2>Autumn Colour Trends</h2>
-<p>Autumn is setting in fast, and with the change of season comes a change of wardrobe! The key to ensuring your looking your best this season is to ensure your hair is working in sync with the rest of your style.</p>
-<p>Jakata hairdressers Natalie and Mikala have compiled their  insights into this seasons tips for choosing the right colour …</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend1.jpg" width="135" height="190" alt="Colour Trend 2">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_freeze.jpg" width="135" height="190" alt="Colour Trend 3">
-<p>This years autumn hair colours are all about finding the perfect shade to suit your skin tone along with inventive colour placement that can enhance the overall look of your colour.</p>
-<p>It’s the season of the soft and natural. Subtle highlights, soft dip dies and rich chocolate tones.</p>
-<p>If you're precious about your blonde, and the thought of going darker is a no no, try adding a few biscuit or caramel tones beneath your parting to soften off and update your look for autumn.</p>
-<p>As ever this time of year, rich browns, auburn and copper hues are all on trend. For the ultimate healthy shine, try a blend of two or three shades of your chosen tones overlaying each other to mix things up.</p>
-<p><em>The key to maintaining your new colour is to always use a good colour save shampoo and conditioner to ensure your colour will last.</em></p>
-<p><strong>We recommend the Schwarzkopf Colour Freeze range to maintain your colour for ultimate longevity.</strong></p>
-</section> <!--end .hidden-->
-<p class="author">Published by Nat &amp; Mikala</p>
-<time datetime="2012-10-06">6<sup>th</sup> October 2012</time>
-</article> <!--end #article-->
-
-<article class="article">
-<a id="Maisie" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/maisie2.jpg" width="135" height="190" alt="Maisie Thompson">
-<h2>New Senior Stylist Joins the team</h2>
-<p>This week we welcomed <strong>Maisie Thompson</strong> to the team. We've been on the look out for experienced stylists to compliment our existing team, someone with a natural flair and passion.</p>
-<p>Maisie came along and fit the bill perfectly...</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<p>Maisie spent the majority of her time as a hairdresser in Stockton Heath. She trained in a village centre salon and continued through the ranks there. After spending seven years  at the same company she was ready for a change.</p>
-<p>She took a short break to do some traveling and afterwards was eager to get back to doing what she loves best - hairdressing.</p>
-<p>Maisie started hairdressing at a young age and has developed a wealth of experience in a short time. The qualities that have made her build up such a loyal client base over the years are her warm, friendly personality, fantastic ability to understand each individuals specific needs plus her natural passion and flair for hairdressing.</p>
-<p><strong>As ever when a new stylist joins us, we're looking to quickly build Maisie's client base, so we're offering some great first time visit offers:</strong></p>
-<p class="offerTitle">£55 Colour &amp; Cut, Dry &amp; Style or</p>
-<p class="offer">£25 Cut, Dry &amp; Style or</p>
-<p class="offer">£15 Blow Dry/Hair Up</p>
-<p>Call 01925 242960 to book your appointment</p>
-<p class="small">Skin test required 48 hours prior to any colour service</p>
-<p class="small">offers end 17/11/12<br>New Clients Only<br>Not with any other offer</p>
-</section> <!--end .hidden-->
-<p class="author">Published by Jakata</p>
-<time datetime="2012-10-03">3<sup>rd</sup> October 2012</time>
-</article> <!--end #article-->
 
 </section> <!--end #accordion-->
 

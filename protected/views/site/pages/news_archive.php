@@ -15,6 +15,55 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="AutumnColour" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend2.jpg" width="135" height="190" alt="Colour Trend 1">
+<h2>Autumn Colour Trends</h2>
+<p>Autumn is setting in fast, and with the change of season comes a change of wardrobe! The key to ensuring your looking your best this season is to ensure your hair is working in sync with the rest of your style.</p>
+<p>Jakata hairdressers Natalie and Mikala have compiled their  insights into this seasons tips for choosing the right colour …</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_trend1.jpg" width="135" height="190" alt="Colour Trend 2">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_freeze.jpg" width="135" height="190" alt="Colour Trend 3">
+<p>This years autumn hair colours are all about finding the perfect shade to suit your skin tone along with inventive colour placement that can enhance the overall look of your colour.</p>
+<p>It’s the season of the soft and natural. Subtle highlights, soft dip dies and rich chocolate tones.</p>
+<p>If you're precious about your blonde, and the thought of going darker is a no no, try adding a few biscuit or caramel tones beneath your parting to soften off and update your look for autumn.</p>
+<p>As ever this time of year, rich browns, auburn and copper hues are all on trend. For the ultimate healthy shine, try a blend of two or three shades of your chosen tones overlaying each other to mix things up.</p>
+<p><em>The key to maintaining your new colour is to always use a good colour save shampoo and conditioner to ensure your colour will last.</em></p>
+<p><strong>We recommend the Schwarzkopf Colour Freeze range to maintain your colour for ultimate longevity.</strong></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Nat &amp; Mikala</p>
+<time datetime="2012-10-06">6<sup>th</sup> October 2012</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="Maisie" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/maisie2.jpg" width="135" height="190" alt="Maisie Thompson">
+<h2>New Senior Stylist Joins the team</h2>
+<p>This week we welcomed <strong>Maisie Thompson</strong> to the team. We've been on the look out for experienced stylists to compliment our existing team, someone with a natural flair and passion.</p>
+<p>Maisie came along and fit the bill perfectly...</p>
+<p class="reveal">Read More ></p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>Maisie spent the majority of her time as a hairdresser in Stockton Heath. She trained in a village centre salon and continued through the ranks there. After spending seven years  at the same company she was ready for a change.</p>
+<p>She took a short break to do some traveling and afterwards was eager to get back to doing what she loves best - hairdressing.</p>
+<p>Maisie started hairdressing at a young age and has developed a wealth of experience in a short time. The qualities that have made her build up such a loyal client base over the years are her warm, friendly personality, fantastic ability to understand each individuals specific needs plus her natural passion and flair for hairdressing.</p>
+<p><strong>As ever when a new stylist joins us, we're looking to quickly build Maisie's client base, so we're offering some great first time visit offers:</strong></p>
+<p class="offerTitle">£55 Colour &amp; Cut, Dry &amp; Style or</p>
+<p class="offer">£25 Cut, Dry &amp; Style or</p>
+<p class="offer">£15 Blow Dry/Hair Up</p>
+<p>Call 01925 242960 to book your appointment</p>
+<p class="small">Skin test required 48 hours prior to any colour service</p>
+<p class="small">offers end 17/11/12<br>New Clients Only<br>Not with any other offer</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Jakata</p>
+<time datetime="2012-10-03">3<sup>rd</sup> October 2012</time>
+</article> <!--end #article-->
+
+
+<article class="article">
 <a name="Winners" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/christmas.jpg" width="135" height="180">
