@@ -23,6 +23,10 @@ $this->menu=array(
 	'data'=>$model,
 	'attributes'=>array(
 		'id',
+		array(
+			'name'=>'date',
+			'value'=>Yii::app()->dateFormatter->formatDateTime($model->date,"medium",""),
+			),
 		'first_name',
 		'second_name',
 		'company',

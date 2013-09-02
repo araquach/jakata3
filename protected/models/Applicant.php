@@ -10,6 +10,7 @@
  * @property string $company
  * @property string $mobile
  * @property string $email
+ * @property string $date
  */
 class Applicant extends CActiveRecord
 {
@@ -41,11 +42,12 @@ class Applicant extends CActiveRecord
 		return array(
 			array('first_name, second_name, company, mobile, email', 'required'),
 			array('first_name, second_name, company, email', 'length', 'max'=>128),
+			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('mobile', 'length', 'max'=>16),
 			array('mobile', 'unique'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, first_name, second_name, company, mobile, email', 'safe', 'on'=>'search'),
+			array('id, first_name, second_name, company, mobile, email, date', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -72,6 +74,7 @@ class Applicant extends CActiveRecord
 			'company' => 'Company',
 			'mobile' => 'Mobile (no spaces)',
 			'email' => 'Email',
+			'date' => 'Application Date',
 		);
 	}
 
@@ -92,6 +95,7 @@ class Applicant extends CActiveRecord
 		$criteria->compare('company',$this->company,true);
 		$criteria->compare('mobile',$this->mobile,true);
 		$criteria->compare('email',$this->email,true);
+		$criteria->compare('date',$this->date,true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
