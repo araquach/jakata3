@@ -36,6 +36,7 @@ body {
 	position: relative;
 	position: relative;
 	border: 1px solid #333;
+	background-color: #FFF;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -68,7 +69,9 @@ a:hover {
 
 header {
 	position: absolute;
-	top: 20px
+	top: 20px;
+	z-index: 3;
+	
 }
 
 header h1, header h2 {
@@ -2013,6 +2016,17 @@ span.kebelo_italic {
 	background: #f5f5f5 url('../images/competition/kebelo.jpg') no-repeat right top;
 	padding-top: 250px;
 	padding-bottom: 200px;
+	opacity: .4;
+}
+
+#overlay {
+	background: url('../images/competition/overlay.png') left top no-repeat;
+	width: 950px;
+	height: 1200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
 }
 
 #competition h1 {

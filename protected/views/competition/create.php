@@ -2,6 +2,9 @@
 /* @var $this CompetitionController */
 /* @var $model Competition */
 ?>
+
+<div id="overlay"></div> <!--competition closed overlay-->
+
 <section id="competition">
 
 <div id="competition_form">
