@@ -21,7 +21,7 @@ window.addEvent('domready', function(){
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/vikki.jpg" width="135" height="180" alt="Vikki Rowland">
 <h2>Get to know the team: Meet Vikki</h2>
 <p>This month we our team member focus is on Jakata team leader Vikki Rowland.</p>
-<p>As ever, we through a ton of questions at her to try and find out what makes her tick!.</p>
+<p>As ever, we threw a ton of questions at her to try and find out what makes her tick!.</p>
 <p>Click below to read the full interview &hellip; </p>
 <p class="reveal">Read More ></p>
 </section> <!--end .visible-->
@@ -60,7 +60,7 @@ window.addEvent('domready', function(){
 	<dd>For hairstylists just starting out I'd say never stop watching and learning from your more senior colleague or even newly qualified ones for that matter. This also applies to experienced stylists - you should never stop learning, the industry changes on a daily basis, therefore you need to always be on your toes.</dd>
 	
 	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
-	<dd>I had a client once that had very low self-esteem, she didn’t know what to do with her hair. I advised her on what colour and cut would suit her best, she had a very busy life style and needed something low maintenance. As her cut was already short we went for a pixie crop and coloured it a rich red shade to compliment the natural red tone in her hair. During the time she was in the salon I mentioned in passing that I liked to dabble in making my own garments. With her being a seamstress she found this interesting and proceded to have an in-depth conversation about vintage fashion which was an interest to the both of us. After the service was finished she stated how much she had enjoyed her time with me and that I'd see her again.
+	<dd>I had a client once that had very low self-esteem, she didn’t know what to do with her hair. I advised her on what colour and cut would suit her best, she had a very busy life style and needed something low maintenance. As her cut was already short we went for a pixie crop and coloured it a rich red shade to compliment the natural red tone in her hair. During the time she was in the salon I mentioned in passing that I liked to dabble in making my own garments. With her being a seamstress she found this interesting and proceeded to have an in-depth conversation about vintage fashion which was an interest to the both of us. After the service was finished she stated how much she had enjoyed her time with me and that I'd see her again.
 	The next time I saw her she came back with a sewing machine as a gift. It was a thank you for giving her her confidence back. It felt fantastic to make someone feel that good about themselves, that’s what it’s all about at the end of the day.
 	</dd>
 	
@@ -102,6 +102,8 @@ window.addEvent('domready', function(){
 
 <p class="offer">Many thank's to Vikki for taking the time out to answer our questions.</p>
 <p class="offer">If you'd like to book an appointment with Vikki, just call 01925 242960</p>
+<p class="offer"><?php echo CHtml::link('Find out more about the Jakata team members here',array('site/page', 'view'=>'team')); ?></p>
+
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="2013-08-29">29<sup>th</sup> August 2013</time>

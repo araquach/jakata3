@@ -1023,7 +1023,7 @@ div.row textarea {
 	height: 100%;
 	background: #f5f5f5 url('../images/contact/dark_angel.jpg') no-repeat left top;
 	padding-top: 250px;
-	padding-bottom: 200px;
+	padding-bottom: 250px;
 }
 
 #details_copy {
@@ -1046,6 +1046,15 @@ div.row textarea {
 #details_copy a:hover {
 	border-bottom: 1px dashed #333;
 }
+
+#times {
+	list-style-type: none;
+	padding-left: 0;
+	color: #343348;
+	line-height: 1.3em;
+}
+
+
 
 /* @end */
 
