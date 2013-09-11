@@ -16,6 +16,29 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="KebeloWinners" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/kebelo2.jpg" width="135" height="180" alt="Kebelo Smoothing System">
+<h2>Kebelo Competition Winner</h2>
+<p><strong>Last month we gave you the opportunity to win one of three Kebelo smoothing treatments. <?php echo CHtml::link('(if you don\'t know what Kebelo is click here)',array('kebelo/advantage')); ?></strong></p>
+<p>Find out if you've won below&hellip;</p>
+<p class="reveal">The Winners &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<ul>
+	<li><strong>Hilary  Bromley</strong></li>
+	<li><strong>Millicent Jones</strong></li>
+	<li><strong>Raquel Greveson</strong></li>
+</ul>
+<p class="offer_heading">Congratulations! You will have the smoothest, shiniest hair in the area!</p>
+<p class="offer">We will contact you soon to arrange for you to come in and have this amazing treatment.</p>
+<p class="offer">A brand new competition will be launched soon!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2013-10-11">11<sup>th</sup> September 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="VikkiInterview" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/vikki.jpg" width="135" height="180" alt="Vikki Rowland">
