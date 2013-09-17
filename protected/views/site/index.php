@@ -14,10 +14,10 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 <div id="home_news">
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
-<h3 class="newsheader">Meet the team: <br>Vikki Rowland</h3>
-<p class="newspara">This month we caught up with Jakata team leader Vikki to ask her some questions&hellip;</p>
+<h3 class="newsheader">New Client Offers</h3>
+<p class="newspara">This month we\'ve launched some fantastic offers open to clients new to the salon</p>
 <p class="newscenter"><strong>Find out here &gt;</strong></p>
-</aside>',array('site/page','view'=>'news','#'=>'VikkiInterview')); ?>
+</aside>',array('site/page','view'=>'offers')); ?>
 	
 <?php echo CHtml::link('<aside id="news1" class="home_news">
 <h3 class="newsheader">The Ultimate Smoothing Treatment</h3>

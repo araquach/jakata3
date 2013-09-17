@@ -41,21 +41,21 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Ch
 	<h2>&pound;50 Colour &amp; Cut package<br>for new clients</h2>
 	<p><strong>with a Senior Stylist</strong></p>
 	<p>Call 01925 242960 to take advantage of this limited offer!</p>
-	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service.<br> Ends <time datetime="2013-10-13">29/10/13</time></small>
+	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service.<br> Ends <time datetime="2013-09-27">27/09/13</time></small>
 	</section>
 	
 	<section id="offer2" class"group">
 	<h2>&pound;30 Colour &amp; Cut Package<br>for new clients</h2>
 	<p><strong>with a Stylist/Graduate Stylist</strong></p>
 	<p>Call 01925 242960 to take advantage of this limited offer!</p>
-	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service.<br> Ends <time datetime="2013-10-13">29/10/13</time></small>
+	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service.<br> Ends <time datetime="2013-09-27">27/09/13</time></small>
 	</section>
 	
-	<section id="offer2" class"group">
+	<section id="offer3" class"group">
 	<h2>&pound;10 Blow Dry<br>for new clients</h2>
 	<p><strong>Weekdays until 4.30pm</strong></p>
 	<p>Call 01925 242960 to book in!<br> (limited availability)</p>
-	<small>Excludes Saturday and evenings. First visit only. Not with any other offer. <br /> Ends <time datetime="2013-10-13">29/10/13</time></small>
+	<small>Excludes Saturday and evenings. First visit only. Not with any other offer. <br /> Ends <time datetime="2013-09-27">27/09/13</time></small>
 	</section>
 	
 	

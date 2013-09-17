@@ -208,10 +208,10 @@ li.active a {
 
 
 #news2 {
-	background: url('../images/home/vikki.jpg') no-repeat rgba(249, 249, 250, 0.8);
+	background: url('../images/home/claire.jpg') no-repeat rgba(249, 249, 250, 0.8);
 }
 .no-rgba #news2 {
-	background: url('../images/home/vikki.jpg') no-repeat rgb(249, 249, 250);
+	background: url('../images/home/claire.jpg') no-repeat rgb(249, 249, 250);
 }
 
 
@@ -1161,16 +1161,16 @@ div.row textarea {
 
 #offer1 {
 	margin-top: 50px;
-	background: url(../images/offers/white_angles.jpg) no-repeat #fefefe;
+	background: url(../images/offers/claire.jpg) no-repeat #fefefe;
 }
 
 #offer2 {
-	background: url(../images/offers/caterina.jpg) no-repeat #fefefe;
+	background: url(../images/offers/nina.jpg) no-repeat #fefefe;
 }
 
 #offer3 {
 	margin-bottom: 30px;
-	background: url(../images/offers/bc.jpg) no-repeat #fefefe;
+	background: url(../images/offers/rebecca.jpg) no-repeat #fefefe;
 }
 
 #offer4 {
