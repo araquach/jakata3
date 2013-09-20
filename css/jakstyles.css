@@ -734,12 +734,13 @@ a.anchor {
 	color: #33306c;
 }
 
-p.author {
+#accordion article.article p.author {
 	font-family: 'PT Sans', sans-serif;
 	font-size: .8em;
 	opacity: .8;
-	position: absolute;
-	left: 230px;
+	float: left;
+	margin-left: 200px;
+	margin-top: 0px;
 }
 
 #accordion article.article section.hidden iframe {
