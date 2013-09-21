@@ -64,20 +64,20 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	</section> <!- -team_member_copy - -*>
 	</section> <!- -team member vicky- -*>-->
 	
-	<section class="team_member" id="shelly">
-	<div class="team_button"><p>About<br>Shelly</p></div>
-	<a id="Shelly" class="anchor"></a>
-	<h2>Michelle French</h2>
+	<section class="team_member" id="shell">
+	<div class="team_button"><p>About<br>Michelle</p></div>
+	<a id="Shell" class="anchor"></a>
+	<h2>Michelle Ash</h2>
 	<section class="team_member_copy">
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Michelle French">
-	<p><strong>Senior Stylist Shelly has been a Jakata Team member since September 2011. She has over 10 years experience.</strong></p> 
-	<p>Her hairdressing background with Tony &amp; Guy ensured a good foundation, and she is always striving to push to the next level. </p> 
-	<p>Shelly says the secret to a good haircut is correct assessment of the hair type and texture, suitability and manageability.</p>
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Michelle Ash">
+	<p><strong>Senior Stylist Michelle is one of the longest serving members of the Jakata Team, with over 15 years experience in the industry. </strong></p> 
+	<p>Michelle is highly skilled in all aspects of hairdressing, She particularly enjoys short cuts and bobs, plus creative colouring.</p> 
+	<p></p>
 	<p><strong>Favourite Style: </strong>Classic Bob's</p>
-	<p><strong>Favourite Product: </strong> Osis Shape Shifters</p>
+	<p><strong>Favourite Product: </strong>Tigi After Party </p>
 	<p class="price">Average Cut &amp; Colour <br>with Michelle: &pound;90</p>
 	</section> <!--team_member_copy -->
-	</section> <!--team member shelly-->
+	</section> <!--team member shell-->
 	
 	<section class="team_member" id="maisie">
 	<div class="team_button"><p>About<br>Maisie</p></div>

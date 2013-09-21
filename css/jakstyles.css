@@ -454,8 +454,8 @@ li.active a {
 	
 }
 
-#shelly {
-	background: #FFF url('../images/team/shelly.jpg') no-repeat left top;
+#shell {
+	background: #FFF url('../images/team/shell.jpg') no-repeat left top;
 	transform:rotate(-3deg);
 	-ms-transform:rotate(-3deg); /* IE 9 */
 	-moz-transform:rotate(-3deg); /* Firefox */

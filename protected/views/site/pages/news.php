@@ -463,68 +463,6 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <time datetime="2013-02-15">15<sup>th</sup> March 2013</time>
 </article> <!--end #article-->
 
-<article class="article">
-<a id="ShellyInterview" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/shelly.jpg" width="135" height="160" alt="Michelle French">
-<h2>Get to know the team: Meet Shelly</h2>
-<p>This month we're continuing our 'Meet the Team' series with a question and answer session with Jakata senior stylist Michelle French.</p>
-<p>Michelle (AKA Shelly) gives an insight into what makes her tick as a hairdresser, what inspires her and her experiences working with Jakata</p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<dl>
-	<dt>How long have you been hairdressing for?</dt>
-	<dd>Ive been a hairdresser for over 10 years now.</dd>
-	
-	<dt>When did you join the Jakata team?</dt>
-	<dd>I've been at Jakata since September 2011 so I'm a relative newbie!</dd>
-	
-	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
-	<dd>I've always enjoyed experimenting and playing around with hair from being very young. I applied for an apprentice position in 2002 where I trained with Jo Mahoney (who now works at our sister salon 'Paul Kemp Hairdressing')</dd>
-	
-	<dt>If you had chosen another profession what would it have been?</dt>
-	<dd>I originally started a childcare qualification. I left after a year as it didn't live up to my expectations.</dd>
-	
-	<dt>What key points make Jakata good at developing new stylists?</dt>
-	<dd>There is such a wide range of personalities, influences and hairdressing styles and techniques within the salon. The apprentices pick up a vast array of skills and knowledge from us all as a whole.</dd>
-	
-	<dt>What's your favourite hairstyle of all time and why?</dt>
-	<dd>The Graduated Bob. It will never go out of style and there are many ways to change and tailor the basic shape to suit most clients. I enjoy the precision of the cut and love to see it taking shape throughout the blow-dry.</dd>
-	
-	<dt>If you could cut anyone's hair who would it be and why?</dt>
-	<dd>Eddie Vedder (lead singer of Pearl Jam) I'd love him to serenade me while I'm cutting his hair, plus he's gorgeous!!</dd>
-	
-	<dt>How do you go about creating your cutting/colour styles? Is it difficult to think up new ideas and keep up with the latest trends?</dt>
-	<dd>First I assess what my client wants to achieve, what is suitable and what will work with their hair type, texture and face shape. I then determine the best shape to suit and then use modern cutting and texturising techniques to to create the updated look. I take a similar approach with colour, looking at skin tone and determining the best techniques to compliment the cut.</dd>
-	
-	<dt>Whats the secret to a good haircut/style?</dt>
-	<dd>Correct assessment of hair type, texture, suitability and manageability. Precision cutting combined with perfect texturising plus suitable aftercare advice and products so the style can easily be recreated and maintained.</dd>
-	
-	<dt>What tips can you give to up and coming hairstylists?</dt>
-	<dd>Shadowing stylists in a busy salon will give you far more knowledge than submerging yourself in text books. Never be afraid of asking questions and always remember, no matter how much experience you have, there is always something new to learn.</dd>
-	
-	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
-	<dd>Myself and a few friends gave someone we knew a full makeover, including hair,wardrobe and make-up after she lost her mum and split from her partner. She loved the transformation and seeing her back to her usual happy and confident self was the most rewarding payment I have ever received.</dd>
-	
-	<dt>What do you think sets Jakata apart from other salons?</dt>
-	<dd>The fun, laid back atmosphere. The element of professionalism is still there but it's the right balance. I worked for a while in another town centre salon who's focus was purely on professionalism and customer service but It wasn't until I started at Jakata I realised how It lacked the personal touches which meant the salon lacked life and atmosphere. Jakata still has the same focus on client care but there is much more warmth and friendliness.</dd>
-	
-	<dt>Whats the best thing for you about being a stylist at Jakata?</dt>
-	<dd>The creative focus of the staff rubs off on each other and the friendly but competitive personalities means we are constantly building and growing as a team and pushing things forward.</dd>
-	
-	<dt>Out of the product ranges which is your favourite and why?</dt>
-	<dd>I'm a big fan of Schwarzkopf Osis 'Shape Shifters'. They come in three different strength and hold factors, which make it a very versatile product suitable for very hair type. They are great for applying to wet hair and blow drying in for strong hold. They are also great on dry hair to create texture with hold. I also love using them on my male clients to give strong definition. My favourite overall product range is Tigi Bedhead. The eye-catching packaging along with the sweet, fruity scents are a favourite among clients too. The range has a lot to offer from strong, matt creams to intensely volumizing and shine enhancing blow dry lotions</dd>
-	
-</dl>
-
-<p class="offer">Thanks to Shelly for taking the time out to answer these questions</p>
-<p class="offer">Next month we'll be probing another team member!</p>
-</section> <!--end .hidden-->
-<p class="author">Published by Adam</p>
-<time datetime="2013-01-04">15<sup>th</sup> February 2013</time>
-</article> <!--end #article-->
-
 
 <article class="article">
 <a id="Valentine" class="anchor"></a>
