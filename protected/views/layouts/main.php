@@ -7,27 +7,17 @@
 		<meta name="keywords" content="hair, hairdressers, hairdressing, hairdressers in Warrington, men's hairdresing, fashion colour, brazilian blowdry, wedding hair, Daniel Anderson, Warrington, Lymm, Stockton Heath, Culcheth, Great Sankey, Widnes and Runcorn">
 		<meta name="author" content="Contra Design">
 		<meta property="og:image" content="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men1.jpg"/>
+		<meta name="viewport" content="width=device-width" /> <!--mobile fixed width-->
 		
  <?php $this->widget('ext.widgets.googleAnalytics.EGoogleAnalyticsWidget',
 		array('account'=>'UA-2487518-1','domainName'=>'jakatasalon.co.uk')
  );?>
  
- <?php
-   $browser = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
-     if ($browser == true){
-     $browser = 'iphone';
-   }
- ?>
- 
- <?php if($browser == 'iphone'){ ?>
-   <meta name="viewport"
-   content="width=device-width,
-   minimum-scale=1.0, maximum-scale=1.0" />
- <?php } ?>
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/fonts/fonts.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jakstyles.css" />
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="<?php echo Yii::app()->request->baseUrl; ?>/css/mobile.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
 	
 	
