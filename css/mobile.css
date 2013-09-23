@@ -1,15 +1,236 @@
-@media only screen and (max-device-width: 480px) {
-	
-	body {
-		margin: 0 auto;
-		width: 480px;
-		background: url('../images/main/titanium.jpg') repeat-x left top rgb(81, 86, 95);
-	}
-	
-	
-	
-	
-	
-	
-		
+@charset "UTF-8";
+
+/* CSS Document */
+
+/* @group general styling */
+
+body {
+	width: 100%;
+	background: none;
+	margin: 0;
+	padding: 0;
 }
+
+.container {
+	width: 100%;
+	position: relative;
+}
+
+/* @end */
+
+/* @group header */
+
+header {
+	position: absolute;
+	background-color: #424259;
+	width: 100%;
+	top: 0;
+}
+	
+#logo {
+	width: 150px;
+	height: 60px;
+	background:  url('../images/main/jakata_logo.png') no-repeat center center;
+}
+
+header h1, header h2 {
+	font-size: 3px;
+	text-indent: -9999px;
+	margin: 0;
+	padding: 0;
+}
+
+header img {
+	margin-left: 80px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+nav {
+	width: 400px;
+	height: 500px;
+	background-color: #424259;
+	position: absolute;
+	right: 0;
+	display: none;
+}
+
+nav ul {
+	line-height: 20px;
+}
+
+nav li {
+	list-style-type: none;
+	display: block;
+	font-size: 4em;
+	margin-bottom: 60px;
+}
+
+nav li a {
+	color: #FFF;
+	text-decoration: none;
+	margin: 10px 10px;
+	opacity: .7;
+	-webkit-transition: none;
+	-moz-transition: none;
+	transition: none;
+}
+
+nav li a:link {
+
+}
+
+nav li a:visited {
+
+}
+
+nav li a:hover {
+	opacity: 1;
+	border-bottom: none;
+	color: #FFF;
+}
+
+li.active a {
+	opacity: 1;
+}
+
+/* @end */
+
+/* @group home */
+
+#home {
+	width: 100%;
+	height: 100%;
+	background: url('../images/home/electric_youth.jpg') no-repeat left top #f5f5f5;
+	padding-top: 190px;
+	padding-bottom: 190px;
+}
+
+#home_news {
+	width: 80%;
+	margin: 0;
+}
+
+.home_news {
+	width: 100%;
+	height: 120px;
+	padding: 0px;
+	background-color: rgba(248, 247, 247);
+	margin-bottom: 20px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	position: relative;
+}
+
+.newscenter {
+	position: absolute;
+	top: 140px;
+}
+
+.home_news h3 {
+	font-family: NotethisRegular;
+	font-size: 2.5em;
+	color: #2f2f69;
+	margin: 0;
+	margin-bottom: 7px;
+}
+
+.home_news p {
+	font-size: 2.5em;
+	color: #424259;
+	margin: 0;
+}
+
+#home_news a {
+	text-decoration: none;
+}
+
+#news1 {
+	background: url('../images/home/kebelo.jpg') no-repeat rgba(249, 249, 250, 0.8);
+}
+.no-rgba #news1 {
+	background: url('../images/home/kebelo.jpg') no-repeat rgb(249, 249, 250);
+}
+
+
+#news2 {
+	background: url('../images/home/white_angles.jpg') no-repeat rgba(249, 249, 250, 0.8);
+}
+.no-rgba #news2 {
+	background: url('../images/home/white_angles.jpg') no-repeat rgb(249, 249, 250);
+}
+
+
+#news3 {
+	background: url('../images/home/recruit.jpg') no-repeat rgba(249, 249, 250, 0.8);
+}
+.no-rgba #news3 {
+	background: url('../images/home/recruit.jpg') no-repeat rgb(249, 249, 250);
+}
+
+/* @end */
+
+/* @group footer */
+
+footer {
+	position: relative;
+	bottom: 0px;
+	background-color: #424259;
+	height: 100px;
+	width: 100%;
+}
+
+#aboutus.group ul {
+	width: 250px;
+}
+
+#aboutus.group ul li {
+	display: inline;
+}
+
+#prodlogos {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#prodcomps {
+	width: 100px;
+}
+
+#prodcomps li {
+	display: inline;
+	margin: 30px;
+	
+}
+
+#prodcomps li a img {
+	opacity: 0.7;
+	-webkit-transition: opacity 0.5s ease-in-out;
+	-moz-transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s ease-in-out;
+
+}
+
+#prodcomps li a img:hover {
+	opacity: 1;
+}
+
+
+ul.tinytext {
+	font-size: .4em;
+	color: #b9bac4;
+	margin-left: 0;
+}
+
+#facebook {
+	position: absolute;
+	right: 80px;
+	bottom: 50px;
+	opacity: .7;
+}
+
+#facebook:hover {
+	opacity: 1;
+}
+
+/* @end */

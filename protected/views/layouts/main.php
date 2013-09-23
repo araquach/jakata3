@@ -11,6 +11,19 @@
  <?php $this->widget('ext.widgets.googleAnalytics.EGoogleAnalyticsWidget',
 		array('account'=>'UA-2487518-1','domainName'=>'jakatasalon.co.uk')
  );?>
+ 
+ <?php
+   $browser = strpos($_SERVER['HTTP_USER_AGENT'],"iPhone");
+     if ($browser == true){
+     $browser = 'iphone';
+   }
+ ?>
+ 
+ <?php if($browser == 'iphone'){ ?>
+   <meta name="viewport"
+   content="width=device-width,
+   minimum-scale=1.0, maximum-scale=1.0" />
+ <?php } ?>
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/fonts/fonts.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/normalize.css" />
@@ -36,7 +49,7 @@
 
 <header class="group">
 
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/main/jakata_logo.png" width="388" height="78" alt="" />
+	<div id="logo"></div>
 
 	<h1>Jakata Salon</h1>
 	<h2>Hairdressers in Warrington</h2>
