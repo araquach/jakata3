@@ -1,0 +1,15 @@
+@media only screen and (max-device-width: 480px) {
+	
+	body {
+		margin: 0 auto;
+		width: 480px;
+		background: url('../images/main/titanium.jpg') repeat-x left top rgb(81, 86, 95);
+	}
+	
+	
+	
+	
+	
+	
+		
+}
