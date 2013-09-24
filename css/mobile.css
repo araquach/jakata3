@@ -154,34 +154,7 @@ p.newscenter {
 	padding: 0;
 }
 
-#news1 {
-	background: url('../images/home/kebelo.jpg') no-repeat center 20px rgba(249, 249, 250, 0.9);
-	background-size: 85%;
-}
-.no-rgba #news1 {
-	background: url('../images/home/kebelo.jpg') no-repeat rgb(249, 249, 250);
-	background-size: 85%;
-}
 
-
-#news2 {
-	background: url('../images/home/white_angles.jpg') no-repeat center 20px rgba(249, 249, 250, 0.9);
-	background-size: 85%;
-}
-.no-rgba #news2 {
-	background: url('../images/home/white_angles.jpg') no-repeat rgb(249, 249, 250);
-	background-size: 85%;
-}
-
-
-#news3 {
-	background: url('../images/home/recruit.jpg') no-repeat center 20px rgba(249, 249, 250, 0.9);
-	background-size: 85%;
-}
-.no-rgba #news3 {
-	background: url('../images/home/recruit.jpg') no-repeat rgb(249, 249, 250);
-	background-size: 85%;
-}
 
 /* @end */
 
@@ -537,6 +510,320 @@ p#book_button {
 	-o-transform:rotate(1deg); /* Opera */
 	-webkit-backface-visibility: hidden; /* Fixes jagged edges */
 	
+}
+
+/* @end */
+
+/* @group News */
+
+#news {
+	width: auto;
+	margin: auto;
+	float: none;
+	padding: 0;
+	height: 100%;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+#news img {
+	border-top: 1px solid #e9e7e7;
+	border-right: 1px solid #999;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #d3d1d1;
+}
+
+#accordion {
+	width: auto;
+	margin: 0;
+	
+}
+
+#accordion article.article:first-of-type {
+	margin-top: 0;
+}
+
+#accordion article.article {
+	margin: 10px;
+	padding: 10px;
+	background-color: #FFF;
+	border: 1px solid #999;
+	float: none;
+	position: relative;
+}
+
+.visible {
+	min-height: 200px;
+}
+
+a.anchor { 
+	position: absolute;
+	top: -150px;
+}
+
+
+.hidden {
+	margin-bottom: 20px;
+
+}
+
+#accordion article p {
+	font-size: .8em;
+}
+
+#accordion article.article section.hidden img.image_list {
+	margin-bottom: 15px;
+	margin-left: 0;
+	float: none;
+}
+
+#accordion article.article section.hidden ul li {
+	list-style-type: none;
+	margin-left: 0;
+}
+
+#accordion article.article section.hidden ul li,
+#accordion article.article section.hidden ul li p,
+#accordion article.article section.hidden ul li h5 {
+	margin-left: 0;
+}
+
+
+
+
+#accordion article.article section.visible p,
+#accordion article.article section.visible h2,
+#accordion article.article section.visible h3,
+#accordion article.article section.visible h4 {
+	margin-left: 0;
+}
+
+#accordion article.article section.hidden p,
+#accordion article.article section.hidden h3,
+#accordion article.article section.hidden h4,
+#accordion article.article section.hidden h5,
+#accordion article.article section.hidden iframe {
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+
+#accordion article.article section.hidden ul,
+#accordion article.article section.hidden dl {
+	margin-left: 0;
+	padding: 0;
+}
+
+#accordion article.article section.hidden dl dt {
+	color: #33306c;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#accordion article.article section.hidden dl dd {
+	color: #555b6c;
+	margin-left: 0;
+	margin-bottom: 8px;
+	line-height: 1.4em;
+}
+
+#accordion article.article section.hidden ul li {
+	padding-bottom: 10px;
+	color: #343348;
+}
+
+#accordion article.article section.visible h2 {
+	font-size: 1.3em;
+}
+
+#accordion article.article section.hidden h3 {
+	font-size: 1.3em;
+}
+
+#accordion article.article section.hidden h4 {
+	font-size: 1.1em;
+}
+
+#accordion article.article time {
+	font-family: 'PT Sans', sans-serif;
+	font-size: .8em;
+	opacity: .8;
+	text-align: right;
+	float: right;
+	color: #33306c;
+}
+
+p.author {
+	font-family: 'PT Sans', sans-serif;
+	font-size: .8em;
+	opacity: .8;
+	position: absolute;
+	left: 230px;
+}
+
+#accordion article.article section.hidden iframe {
+	margin: 10px 0 20px 0px;
+	border: 1px solid #333;
+	padding: 5px;
+	
+}
+
+#accordion article.article section.hidden ul.tigilist li {
+	display: block;
+	margin-left: 0;
+}
+
+#accordion article.article section.visible img {
+	margin: 0;
+	padding: 0;
+	margin-right: 10px;
+	float: left;
+}
+
+#accordion article.article section.hidden img {
+	float: left;
+	margin: 10px 10px 10px 0;
+	padding: 0;
+}
+
+
+p.reveal {
+	font-size: 1em;
+	display: block;
+	width: auto;
+	opacity: .7;
+}
+
+
+.reveal:hover {
+	
+	cursor: pointer;
+	opacity: 1;
+}
+
+#accordion article.article section p a {
+	color: #585050;
+	text-decoration: none;
+}
+
+#newspage h2 {
+	margin-left: 40px;
+	font-size: 1.5em;
+}
+
+#newspage article.article h3 a {
+	margin-left: -40px;
+	font-size: 1.3em;
+}
+
+
+#accordion article.article section p a:hover {
+	border-bottom: 1px dotted #585050;
+}
+
+#accordion article.article section.hidden table {
+	width: 500px;
+	margin-left: 200px;
+}
+
+#accordion article.article section.hidden p.big {
+	font-size: 1.5em;
+}
+
+/* @end */
+
+/* @group Details (contact) */
+
+#details {
+	width: auto;
+	height: 100%;
+	margin: auto;
+	background: #f5f5f5 url('../images/contact/dark_angel.jpg') no-repeat left top;
+	padding-top: 80px;
+	padding-bottom: 50;
+	float: none;
+}
+
+#details_copy {
+	width: auto;
+	height: 800px;
+	padding: 20px;
+}
+
+.details_text {
+	font-size: 1.2em;
+	margin-top: .5em;
+}
+
+#details_copy a {
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #424259;
+}
+
+#details_copy a:hover {
+	border-bottom: 1px dashed #333;
+}
+
+/* @end */
+
+/* @group Contact */
+
+#contact {
+	width: auto;
+	margin: auto;
+	float: none;
+	height: 100%;
+	background: #f5f5f5 url('../images/contact/dark_angel.jpg') no-repeat left top;
+	padding: 0;
+	margin: 0;
+}
+
+#contact p {
+	width: auto;
+}
+
+#formWrap {
+	width: auto;
+	margin: 0;
+}
+
+.row input,
+.row textarea {
+	line-height: 1.2em;
+	padding: 10px;
+	font-size: 1.2em;
+	width: 70%;
+}
+
+.row.buttons input {
+	width: 100px;
+}
+
+.row label{
+	font-size: 1em;
+	color: #424259;
+	margin-bottom: 8px;
+	margin-top: 10px;
+}
+.row label.required {
+	font-size: 1em;
+	color: #424259;
+	margin-bottom: 8px;
+	margin-top: 10px;
+}
+
+#contact-form_es_.errorSummary {
+	width: 70%;
+}
+
+#contact #success {
+	height: 700px;
+}
+
+#contact #success p {
+	margin-left: 0;
+	font-size: 1.3em;
+	width: auto;
 }
 
 /* @end */
