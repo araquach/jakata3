@@ -173,6 +173,10 @@ li.active a {
 	padding-bottom: 190px;
 }
 
+#home h4.slogan {
+	display: none;
+}
+
 #info {
 	display: none;
 }
