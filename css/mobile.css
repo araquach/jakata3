@@ -157,7 +157,7 @@ li.active a {
 
 p.newscenter {
 	position: absolute;
-	top: 520px;
+	top: 560px;
 }
 
 .home_news h3 {
@@ -203,14 +203,14 @@ p.newscenter {
 
 #actual_offers {
 	width: auto;
-	padding: 20px;
+	padding: 15px;
 	margin: auto;
 }
 
 #offer1, #offer2, #offer3, #offer4 {
 	width: auto;
 	margin: auto;
-	height: 480px;
+	height: 490px;
 	margin-top: 20px;
 	border-radius: 20px;
 	-moz-box-shadow: 2px 2px 6px #050505;
@@ -248,7 +248,7 @@ p.newscenter {
 
 #offer1 h2, #offer2 h2, #offer3 h2, #offer4 h2 {
 	text-align: left;
-	margin-top: 270px;
+	margin-top: 300px;
 	margin-left: 0;
 	margin-right: 0;
 	margin-bottom: .5em;
