@@ -146,7 +146,7 @@ li.active a {
 	width: auto;
 	height: 200px;
 	padding: 25px;
-	padding-top: 360px;
+	padding-top: 380px;
 	background-color: rgba(248, 247, 247);
 	margin-bottom: 20px;
 	border: 1px solid #999;
@@ -181,7 +181,11 @@ p.newscenter {
 	padding: 0;
 }
 
-
+#news1,
+#news2,
+#news3 {
+	background-size: contain;
+}
 
 /* @end */
 
