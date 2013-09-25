@@ -5,8 +5,13 @@
 
 <div class="view">
 
+
 	<b><?php echo CHtml::encode($data->getAttributeLabel('id')); ?>:</b>
 	<?php echo CHtml::link(CHtml::encode($data->id), array('view', 'id'=>$data->id)); ?>
+	<br />
+	
+	<b><?php echo CHtml::encode($data->getAttributeLabel('date')); ?>:</b>
+	<?php echo CHtml::encode(Yii::app()->dateFormatter->formatDateTime($data->date, "medium","")); ?>
 	<br />
 
 	<b><?php echo CHtml::encode($data->getAttributeLabel('first_name')); ?>:</b>

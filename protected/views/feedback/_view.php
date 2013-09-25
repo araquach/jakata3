@@ -12,20 +12,16 @@
 	<b><?php echo CHtml::encode($data->getAttributeLabel('date')); ?>:</b>
 	<?php echo CHtml::encode(Yii::app()->dateFormatter->formatDateTime($data->date, "medium","")); ?>
 	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('client_first')); ?>:</b>
-	<?php echo CHtml::encode($data->client_first); ?>
+	
+	<b><?php echo CHtml::encode($data->FeedbackClient->getAttributeLabel('client_id')); ?>:</b>
+	<?php echo CHtml::encode($data->FeedbackClient->getFullName()); ?>
 	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('client_second')); ?>:</b>
-	<?php echo CHtml::encode($data->client_second); ?>
+	
+	<b><?php echo CHtml::encode($data->FeedbackClient->getAttributeLabel('mobile')); ?>:</b>
+	<?php echo CHtml::encode($data->FeedbackClient->mobile); ?>
 	<br />
-	<?php /*
-	<b><?php echo CHtml::encode($data->getAttributeLabel('mobile')); ?>:</b>
-	<?php echo CHtml::encode($data->mobile); ?>
-	<br />
-
-	<b><?php echo CHtml::encode($data->getAttributeLabel('intro')); ?>:</b>
+	
+	<?php /*echo CHtml::encode($data->getAttributeLabel('intro')); ?>:</b>
 	<?php echo CHtml::encode($data->intro); ?>
 	<br />
 
@@ -72,8 +68,8 @@
 	
 	*/  ?>
 	
-	<b><?php echo CHtml::encode($data->getAttributeLabel('stylist_id')); ?>:</b>
-	<?php echo CHtml::encode($data->FeedbackStylist->stylist); ?>
+	<b><?php echo CHtml::encode($data->getAttributeLabel('stylist')); ?>:</b>
+	<?php echo CHtml::encode($data->FeedbackClient->stylist); ?>
 	<br />
 	<b><?php echo CHtml::encode('Score'); ?>:</b>
 	<?php echo CHtml::encode($data->score()); ?>

@@ -16,34 +16,11 @@
 	<?php echo $form->errorSummary($model); ?>
 	
 	<div class="row">
-		<?php echo $form->hiddenField($model,'date'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'client_first'); ?>
-		<?php echo $form->textField($model,'client_first',array('size'=>25,'maxlength'=>50)); ?>
-		<?php echo $form->error($model,'client_first'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'client_second'); ?>
-		<?php echo $form->textField($model,'client_second',array('size'=>25,'maxlength'=>50)); ?>
-		<?php echo $form->error($model,'client_second'); ?>
-	</div>
-
-	<div class="row">
-		<?php echo $form->labelEx($model,'mobile'); ?>
-		<?php echo $form->textField($model,'mobile',array('size'=>25,'maxlength'=>25)); ?>
-		<?php echo $form->error($model,'mobile'); ?>
+		<?php echo $form->hiddenField($model,'client_id'); ?>
 	</div>
 	
 	<div class="row">
-		<?php echo $form->labelEx($model,'stylist_id'); ?>
-		<?php echo $form->dropDownList($model, 'stylist_id', CHtml::listData(
-		FeedbackStylist::model()->findAll(), 'id', 'stylist'),
-		array('prompt' => 'Select your Stylist')
-		); ?>
-		<?php echo $form->error($model,'stylist_id'); ?>
+		<?php echo $form->hiddenField($model,'date'); ?>
 	</div>
 
 	<div class="row question">
@@ -195,27 +172,27 @@
 			'uncheckValue'=>null)); ?>
 			<?php echo $form->error($model,'styling_advice'); ?>
 		</div>
-	
-		<div class="row question">
-			<?php echo $form->labelEx($model,'internal_marketing'); ?>
-			<?php echo '<p class="scale_label">None</p>' ?>
-			<?php echo $form->radioButton($model,'internal_marketing', array(
-			'value'=>-2,
-			'uncheckValue'=>null)); ?>
-			<?php echo '<p class="scale_label">One</p>' ?>
-			<?php echo $form->radioButton($model,'internal_marketing', array(
-			'value'=>-1,
-			'uncheckValue'=>null)); ?>
-			<?php echo '<p class="scale_label">Two</p>' ?>
-			<?php echo $form->radioButton($model,'internal_marketing', array(
-			'value'=>1,
-			'uncheckValue'=>null)); ?>
-			<?php echo '<p class="scale_label">Three</p>' ?>
-			<?php echo $form->radioButton($model,'internal_marketing', array(
-			'value'=>2,
-			'uncheckValue'=>null)); ?>
-			<?php echo $form->error($model,'internal_marketing'); ?>
+			
+		<div class="row question group">
+		<?php echo $form->labelEx($model,'internal_marketing'); ?>
+		<div class="mktBox">
+			<?php echo $form->labelEx($model,'mkt1'); ?>
+			<?php echo $form->checkBox($model,'mkt1'); ?>
+			<?php echo $form->error($model,'mkt1'); ?>
 		</div>
+		
+		<div class="mktBox">
+			<?php echo $form->labelEx($model,'mkt2'); ?>
+			<?php echo $form->checkBox($model,'mkt2'); ?>
+			<?php echo $form->error($model,'mkt2'); ?>
+		</div>
+		
+		<div class="mktBox">
+			<?php echo $form->labelEx($model,'mkt3'); ?>
+			<?php echo $form->checkBox($model,'mkt3'); ?>
+			<?php echo $form->error($model,'mkt3'); ?>
+		</div>
+		</div> <!--row question-->
 	
 		<div class="row question">
 			<?php echo $form->labelEx($model,'value_for_money'); ?>
@@ -299,7 +276,7 @@
 			<?php echo $form->error($model,'extra'); ?>
 		</div>
 		
-		<div class="row">
+		<div class="row permission">
 			<?php echo $form->labelEx($model,'allow'); ?>
 			<?php echo $form->checkBox($model,'allow'); ?>
 			<?php echo $form->error($model,'allow'); ?>

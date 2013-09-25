@@ -49,7 +49,7 @@
 			array('label'=>'Team', 'url'=>array('/site/page', 'view'=>'team')),
 			array('label'=>'News', 'url'=>array('/site/page', 'view'=>'news')),
 			array('label'=>'Prices', 'url'=>array('/site/page', 'view'=>'prices')),
-			//array('label'=>'Recruitment', 'url'=>array('/site/page', 'view'=>'recruitment')),
+			// array('label'=>'Recruitment', 'url'=>array('/site/page', 'view'=>'recruitment')),
 			array('label'=>'Contact', 'url'=>array('/site/page','view'=>'details')),
 		),
 	)); ?>
@@ -116,7 +116,7 @@
 	 </section> <!--aboutus-->
 	 
 	 </footer>
-		<div id="facebook"><a href="http://www.facebook.com/JakataSalon" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/main/facebook_logo.png" alt="Facebook" width="25" height="25"></a>
+		<div id="facebook"><a href="http://www.facebook.com/JakataSalon" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/home/facebook_logo.png" alt="Facebook" width="35" height="36"></a>
 		</div> <!--facebook-->
 </div><!-- page -->
 
