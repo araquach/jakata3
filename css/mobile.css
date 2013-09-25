@@ -6,6 +6,8 @@
 
 body {
 	width: auto;
+	max-width: 400px;
+	min-width: 300px;
 	background: none;
 	margin: auto;
 	padding: 0;
@@ -141,19 +143,19 @@ li.active a {
 	position: absolute;
 	top: 120px;
 	left: 30px;
-	width: 100px;
+	width: 30%;
 	font-size: 1.5em;
 }
 
 #home_news {
 	width: auto;
-	margin: 0;
+	height: auto;
+	margin: auto;
 	padding: 10px;
 }
 
 .home_news {
 	width: auto;
-	height: 200px;
 	padding: 25px;
 	padding-top: 0px;
 	background-color: rgba(248, 247, 247);
@@ -174,7 +176,7 @@ p.newscenter {
 	font-size: 1.4em;
 	color: #2f2f69;
 	margin: 0;
-	margin-top: 100px;
+	padding-top: 100px;
 	margin-bottom: 7px;
 }
 
