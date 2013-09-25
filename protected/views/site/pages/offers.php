@@ -22,13 +22,11 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Ch
 	
 	</section>', array('site/page','view'=>'catwalk2')); */?>
 	
-<<<<<<< HEAD
-<div id="actual_offers">	
-	<section id="offer1">
-=======
+
+<div id="actual_offers">
+
 	
 	<!--<section id="offer1">
->>>>>>> Development
 	  <h2>FREE Colour <br>with every<br>Cut, Dry &amp; Style</h2>
 	  <p>For new clients<br>until the end of August</p>
 	    <small><time datetime="2013-08-30">until 30/08/13</time><br>
@@ -40,12 +38,11 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Ch
 	  <p>Throughout the month of August</p>
 	    <small>until <time datetime="2013-08-30">30/08/13</time><br>
 	    Not with any other offer. Excludes Saturday<br></small>
-<<<<<<< HEAD
+
 	</section>', array('kebelo/index')); ?>
 </div> <!--actual_offers-->
-=======
+
 	</section>', array('kebelo/index'));*/ ?>
->>>>>>> Development
 	
 	<section id="offer1" class="group">
 	<h2>&pound;50 Colour &amp; Cut package<br>for new clients</h2>
