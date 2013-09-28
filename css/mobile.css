@@ -6,11 +6,12 @@
 
 body {
 	width: auto;
-	max-width: 350px;
 	min-width: 300px;
+	max-width: 360px;
 	background: none;
 	margin: auto;
 	padding: 0;
+	background-color: black;
 }
 
 .container {
@@ -156,6 +157,7 @@ li.active a {
 
 .home_news {
 	width: auto;
+	margin: auto;
 	max-width: 280px;
 	height: 300px;
 	padding: 25px;
