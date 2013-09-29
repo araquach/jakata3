@@ -18,7 +18,7 @@
 	
 	
 	<?php echo CHtml::link("<div id=\"silk_link\">
-	<h4>SILK ON THE BEACH</h4><p>SUN, SEA, SAND &amp; KEBELO SILK</p></div>", array('kebelo/silk'));?>
+	<h4>SILK ON THE BEACH</h4><p>SUN, SEA, SAND &amp; KEBELO SILK</p><p>Click here &gt;</p></div>", array('kebelo/silk'));?>
 	
 	
 	<?php echo CHtml::link("<div id=\"questions_link\">

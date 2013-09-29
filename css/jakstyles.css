@@ -1702,6 +1702,7 @@ span.kebelo_italic {
 	font-family: 'Rosarivo', serif;
 	font-size: 1.8em;
 	line-height: 1.2em;
+	margin: 0;
 }
 
 #silk_link:hover {
@@ -1880,29 +1881,36 @@ span.kebelo_italic {
 	top: 650px;
 	left: 730px;
 	width: 200px;
-}
-
-#questions_link a {
-	color: #FFF;
-	font-size: 1.8em;
-	line-height: 1.2em;
-	font-family: 'Rosarivo', serif;
 	-moz-transition: all .2s ease-in-out 0s;;
 	-webkit-transition: all .2s ease-in-out 0s;
 	transition: all .2s ease-in-out 0s;
 }
 
-#questions_link a:hover {
+#questions_link h4 {
+	color: #FFF;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	font-family: 'Rosarivo', serif;
+	margin: 0;
+}
+
+#questions_link:hover {
 	text-shadow: 0 0 20px;
 }
 
 #questions_link p {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.2em;
+	line-height: 1.2em;
 	color: #FFF;
 	line-height: 1.2em;
 	width: 200px;
 	padding-top: 7px;
+}
+
+#questions_link p:last-of-type {
+	margin-top: -20px;
+	font-size: 1em;
 }
 
 #questions_copy {
