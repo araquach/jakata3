@@ -7,7 +7,6 @@
 body {
 	width: auto;
 	min-width: 300px;
-	max-width: 360px;
 	background: none;
 	margin: auto;
 	padding: 0;
@@ -626,6 +625,7 @@ a.anchor {
 #accordion article.article section.hidden ul li {
 	list-style-type: none;
 	margin-left: 0;
+	font-size: .8em;
 }
 
 #accordion article.article section.hidden ul li,
@@ -661,12 +661,14 @@ a.anchor {
 
 #accordion article.article section.hidden dl dt {
 	color: #33306c;
+	font-size: .8em;
 	margin-bottom: 5px;
 	font-weight: bold;
 }
 
 #accordion article.article section.hidden dl dd {
 	color: #555b6c;
+	font-size: .8em;
 	margin-left: 0;
 	margin-bottom: 8px;
 	line-height: 1.4em;
@@ -763,7 +765,7 @@ p.reveal {
 }
 
 
-#accordion article.article section p a:hover {
+#accordion article.article section p a {
 	border-bottom: 1px dotted #585050;
 }
 
@@ -772,9 +774,67 @@ p.reveal {
 	margin-left: 0;
 }
 
-#accordion article.article section.hidden p.big {
-	font-size: 1.5em;
+#accordion article.article section.hidden td {
+	font-size: .7em;
+	font-weight: bold;
+	padding: 5px;
 }
+
+#accordion article.article section.hidden p.big {
+	font-size: 1em;
+}
+
+/* @end */
+
+/* @group Prices */
+
+#prices {
+	width: auto;
+	margin: auto;
+	float: none;
+	height: 100%;
+	padding: 20px;
+	background-color: #f5f5f5;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#mob_price {
+	display: block;
+}
+
+#priceheader {
+	width: auto;
+	height: auto;
+	padding-top: 0;
+	float: none;
+	margin-left: 0;
+	margin-bottom: 0;
+}
+
+#priceheader h1.priceheader {
+	margin: 0;
+	font-size: 2em;
+}
+
+
+
+#priceleft {
+	display: none;
+}
+
+#pricemiddle {
+	display: none;
+}
+
+#priceright {
+	display: none;
+}
+	
+#pricebottom {
+	display: none;
+}
+
 
 /* @end */
 
@@ -786,7 +846,7 @@ p.reveal {
 	margin: auto;
 	background: #f5f5f5 url('../images/contact/dark_angel.jpg') no-repeat left top;
 	padding-top: 10px;
-	padding-bottom: 50px;
+	padding-bottom: 200px;
 	float: none;
 }
 

@@ -519,7 +519,9 @@ li.active a {
 	padding-bottom: 200px;
 }
 
-
+#mob_price {
+	display: none;
+}
 
 #priceheader {
 	width: 730px;
@@ -555,7 +557,6 @@ li.active a {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 140%;
-
 }
 
 h4.price_director {
@@ -575,7 +576,6 @@ h4.price_stylist {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 12px;
 	line-height: 140%;
-	
 }
 	
 #pricebottom {
