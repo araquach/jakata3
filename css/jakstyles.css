@@ -1692,30 +1692,35 @@ span.kebelo_italic {
 	top: 950px;
 	left: 50px;
 	width: 200px;
+	-moz-transition: all .2s ease-in-out 0s;;
+	-webkit-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
 }
 
-#silk_link a {
+#silk_link h4 {
 	color: #FFF;
 	font-family: 'Rosarivo', serif;
 	font-size: 1.8em;
 	line-height: 1.2em;
-	-moz-transition: all .2s ease-in-out 0s;;
-	-webkit-transition: all .2s ease-in-out 0s;
-	transition: all .2s ease-in-out 0s;
-	
 }
 
-#silk_link a:hover {
+#silk_link:hover {
 	text-shadow: 0 0 20px;
 	}
 
 #silk_link p {
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1.2em;
+	line-height: 1.2em;
 	color: #FFF;
 	line-height: 1.2em;
 	width: 200px;
 	padding-top: 7px;
+}
+
+#silk_link p:last-of-type {
+	margin-top: -20px;
+	font-size: 1em;
 }
 
 
@@ -1782,18 +1787,20 @@ span.kebelo_italic {
 	top: 650px;
 	left: 50px;
 	width: 200px;
-}
-
-#advantage_link a {
-	color: #FFF;
-	font-family: 'Rosarivo', serif;
-	font-size: 1.8em;
 	-moz-transition: all .2s ease-in-out 0s;;
 	-webkit-transition: all .2s ease-in-out 0s;
 	transition: all .2s ease-in-out 0s;
 }
 
-#advantage_link a:hover {
+#advantage_link h4 {
+	color: #FFF;
+	margin-bottom: 0;
+	font-family: 'Rosarivo', serif;
+	font-size: 1.8em;
+	
+}
+
+#advantage_link:hover {
 	text-shadow: 0 0 20px;
 }
 
@@ -1805,6 +1812,11 @@ span.kebelo_italic {
 	line-height: 1.2em;
 	width: 200px;
 	padding-top: 7px;
+}
+
+#advantage_link p:last-of-type {
+	margin-top: -20px;
+	font-size: 1em;
 }
 
 #advantage #three_advantages {

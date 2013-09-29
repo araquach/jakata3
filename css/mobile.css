@@ -1116,9 +1116,16 @@ span.kebelo_italic {
 
 
 #advantage {
-	background: url('../images/kebelo/advantage-bikini.jpg') left -200px / contain no-repeat #040404;
+	background: url('../images/kebelo/advantage-bikini.jpg') left -100px / contain no-repeat #040404;
 	padding-top: 0;
 	padding-bottom: 0;
+}
+
+#advantage h3 {
+	margin: 0;
+	margin-left: 20px;
+	color: #FFF;
+	font-size: 2em;
 }
 
 #advantage_copy p:first-of-type {
@@ -1128,19 +1135,21 @@ span.kebelo_italic {
 	width: auto;
 	background-color: rgb(75, 35, 108);
 	color: #FFF;
-	margin-top: 450px;
-	margin-bottom: 40px;
+	margin-top: 480px;
+	margin-bottom: 0px;
 }
 
 #advantage_copy p {
 	background-color: #FFF;
 	padding: 20px;
+	margin: 0;
 }
 
 #advantage_copy p:last-of-type {
 	text-align: center;
 	font-size: 1.2em;
 	padding-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 #advantage_copy a {
@@ -1152,20 +1161,25 @@ span.kebelo_italic {
 #questions #kebelo_top_links,
 #silk #kebelo_top_links {
 	position: absolute;
-	top: 250px;
-	left: 65px;
+	top: 500px;
+	left: 20px;
 }
 
 
 #advantage #kebelo_top_links a,
 #questions #kebelo_top_links a,
 #silk #kebelo_top_links a {
-	font-size: 1em;
-	color: #4f516a;
-	border-right: 1px solid #4f516a;
-	padding-right: 10px;
+	font-size: 1.5em;
+	color: rgb(75, 35, 108);
+	border-right: none;
+	border-left: none;
+	padding-right: 0;
 	margin: 0;
 	margin-left: 5px;
+	float: left;
+	clear: left;
+	margin-top: 10px;
+	border-bottom: 1px dashed rgb(75, 35, 108);
 }
 
 #advantage #kebelo_top_links a:hover,
