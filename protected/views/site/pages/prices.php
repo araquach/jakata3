@@ -13,8 +13,9 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Prices - Hairdressers in Ch
 <!--mobile price list-->
 
 <div id="mob_price">
-<h3>Cutting &amp; Styling</h3>
 <p>Prices depend on level of stylist</p>
+<h3>Cutting &amp; Styling</h3>
+
 <table>
 	<tr><td>Cut, Dry &amp; Style</td> <td>&pound;21.95 - &pound;55.95</td></tr>
 	<tr><td>Dry &amp; Style</td> <td>&pound;14.95 - &pound;35.95</td></tr>
@@ -43,12 +44,12 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Prices - Hairdressers in Ch
 	<tr><td>Long</td> <td>&pound;40.95 - &pound;59.95</td></tr>
 	<tr><td>Root Regrowth</td> <td>&pound;30.95 - &pound;48.95</td></tr>
 	<tr><td>Root &amp; Refresh</td> <td>&pound;41.95 - &pound;56.95</td></tr>
-	<tr><td><strong>'Vibrance'<br>Fresh, intense ammomia free colours</strong></td></tr>
+	<tr><td><strong>'Vibrance'<br>Fresh, intense <br>ammonia free colours</strong></td></tr>
 	<tr><td>Short</td> <td>&pound;26.95 - &pound;44.95</td></tr>
 	<tr><td>Long</td> <td>&pound;30.95 - &pound;61.95</td></tr>
 	<tr><td><strong>Full Colour Change</strong></td></tr>
-	<tr><td>Light to Dark (inc. pre-pigmentation)</td> <td>&pound;35.95 - &pound;72.95</td></tr>
-	<tr><td>Dark to Light (inc. pre-lightening/colour cleansing)</td> <td>&pound;40.95 - &pound;90.95</td></tr>
+	<tr><td>Light to Dark<br>(inc. pre-pigmentation)</td> <td>&pound;35.95 - &pound;72.95</td></tr>
+	<tr><td>Dark to Light<br>(inc. colour cleansing)</td> <td>&pound;40.95 - &pound;90.95</td></tr>
 </table>
 <h3>Corrective Colour</h3>
 <p>If you've had a home hair colouring disaster, or a bad colour experience in another salon, we will correct &amp; transform your hair to how you wanted it in the first place! Our expert colour team will give you a price on consultation.</p>

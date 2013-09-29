@@ -803,6 +803,15 @@ p.reveal {
 	display: block;
 }
 
+#mob_price table {
+	width: 100%;
+}
+
+#mob_price td {
+	font-size: .7em;
+	padding: 5px;
+}
+
 #priceheader {
 	width: auto;
 	height: auto;
@@ -939,6 +948,388 @@ p.reveal {
 	margin-left: 0;
 	font-size: 1.3em;
 	width: auto;
+}
+
+/* @end */
+
+/* @group Kebelo */
+
+#kebeloMain {
+	width: auto;
+	margin: auto;
+	float: none;
+	height: 100%;
+	padding: 0;
+	background-color: #f5f5f5;
+	padding-bottom: 0px;
+}
+
+#kebelo_top_links {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+#kebelo #kebelo_top_links a {
+	font-family: 'Rosarivo', serif;
+	font-size: 1em;
+	color: #FFF;
+	color: rgba(246, 246, 246, 0.99);
+	border-left: 1px solid #FFF;
+	padding-left: 10px;
+	margin: 0;
+	margin-left: 5px;
+}
+
+#kebelo #kebelo_top_links a:hover {
+	color: #FFF;
+	color: rgba(255, 255, 255, 0.7);
+}
+
+#kebeloMain h2 {
+	text-indent: -9999px;
+}
+
+#kebeloMain h3 {
+	font-family: 'Rosarivo', serif;
+	font-size: 3em;
+}
+
+span.kebelo_italic {
+	font-size: .5em;
+	font-style: italic;
+}
+
+#kebeloMain p {
+	width: auto;
+}
+
+#kebeloMain a {
+	margin-right: 20px;
+}
+
+.kebelo_italic {
+	font-size: 1.2em;
+	font-style: italic;
+}
+
+#kebelo_offer {
+	position: relative;
+	width: 270px;
+	height: 270px;
+	bottom: 0;
+	right: 0;
+	background-color: #FFF;
+	background-color: rgba(255, 255, 255, 0.65);
+	border-radius: 50%;
+	border: 1px solid #FFF;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+#kebelo_offer p {
+	margin-right: 40px;
+	text-align: center;
+	font-size: .8em;
+	width: 270px;
+	color: rgb(3, 3, 3);
+	font-weight: bold;
+}
+
+#kebelo_offer p.bold {
+	font-weight: bolder;
+}
+
+#kebelo_offer p.big_offer {
+	font-size: 5em;
+	margin: 0;
+	line-height: .7em;
+}
+
+#kebelo {
+	width: auto;
+	background: url('../images/kebelo/kebelo_cover.jpg') left -80px / contain no-repeat #040404;
+	height: 100%;
+	padding-top: 220px;
+	padding-bottom: 180px;
+}
+
+#silk {
+	background: #f5f5f5 url('../images/kebelo/silk-bikini.jpg') no-repeat right top;
+	padding-top: 180px;
+	padding-bottom: 200px;
+}
+
+#silk p strong {
+	font-weight: bold;
+}
+
+#silk_copy {
+	width: 500px;
+	padding: 70px;
+}
+
+#silk_copy p:first-of-type {
+	border: 0px solid #333;
+	padding: 20px;
+	font-size: .9em;
+	width: 370px;
+	background-color: rgb(178, 119, 59);
+	color: #FFF;
+	margin-bottom: 40px;
+}
+
+
+#silk_link {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 20px;
+	border-bottom: 1px solid #FFF;
+}
+
+#silk_link a {
+	color: #FFF;
+	font-family: 'Rosarivo', serif;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	-moz-transition: all .2s ease-in-out 0s;;
+	-webkit-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+	
+}
+
+#silk_link a:hover {
+	text-shadow: 0 0 20px;
+	}
+
+#silk_link p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	line-height: 1.2em;
+	width: 200px;
+	padding-top: 7px;
+}
+
+
+#advantage {
+	background: url('../images/kebelo/advantage-bikini.jpg') left -200px / contain no-repeat #040404;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#advantage_copy p:first-of-type {
+	border: 0px solid #333;
+	padding: 20px;
+	font-size: 1em;
+	width: auto;
+	background-color: rgb(75, 35, 108);
+	color: #FFF;
+	margin-top: 450px;
+	margin-bottom: 40px;
+}
+
+#advantage_copy p {
+	background-color: #FFF;
+	padding: 20px;
+}
+
+#advantage_copy p:last-of-type {
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 20px;
+}
+
+#advantage_copy a {
+	font-size: 1.2em;
+	display: block;
+}
+
+#advantage #kebelo_top_links,
+#questions #kebelo_top_links,
+#silk #kebelo_top_links {
+	position: absolute;
+	top: 250px;
+	left: 65px;
+}
+
+
+#advantage #kebelo_top_links a,
+#questions #kebelo_top_links a,
+#silk #kebelo_top_links a {
+	font-size: 1em;
+	color: #4f516a;
+	border-right: 1px solid #4f516a;
+	padding-right: 10px;
+	margin: 0;
+	margin-left: 5px;
+}
+
+#advantage #kebelo_top_links a:hover,
+#questions #kebelo_top_links a:hover,
+#silk #kebelo_top_links a:hover {
+	color: rgba(79, 81, 106, 0.7);
+}
+
+#advantage_copy {
+	width: auto;
+	padding: 0;
+}
+
+#advantage_link {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: auto;
+	margin-top: 180px;
+	margin-left: 20px;
+	border-bottom: 1px solid #FFF;
+}
+
+#advantage_link a {
+	color: #FFF;
+	font-family: 'Rosarivo', serif;
+	font-size: 1.8em;
+	-moz-transition: all .2s ease-in-out 0s;;
+	-webkit-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+}
+
+#advantage_link a:hover {
+	text-shadow: 0 0 20px;
+}
+
+#advantage_link p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	color: #FFF;
+	line-height: 1.2em;
+	width: 200px;
+	padding-top: 7px;
+}
+
+#advantage #three_advantages {
+	width: auto;
+	height: 100%;
+	background-color: #FFF;
+	padding: 30px;
+}
+
+#advantage #three_advantages h3 {
+	font-size: 1.8em;
+}
+
+#advantage #three_advantages p {
+	width: auto;
+	font-family: 'PT Sans', sans-serif;
+	font-size: .9em;
+	line-height: 1.3em;
+	float: none;
+	margin: 0;
+}
+
+#advantage #three_advantages ol {
+	width: auto;
+	float: none;
+	margin: 0;
+	margin-top: 30px;
+	padding-left: 20px;
+}
+
+#advantage #three_advantages ol li {
+	width: 155px;
+	padding: 0 20px;
+	float: none;
+	font-family: 'PT Sans', sans-serif;
+	font-size: .9em;
+	line-height: 1.3em;
+	border-bottom: 1px solid #333;
+	border-left: none;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+#advantage #three_advantages li strong{
+	font-weight: bold;
+}
+
+
+#questions {
+	background: #f5f5f5 url('../images/kebelo/red-2.jpg') no-repeat right top;
+	padding-top: 160px;
+	padding-bottom: 200px;
+}
+
+#questions p:first-of-type {
+	font-size: 1.2em;
+}
+
+#questions p {
+	font-size: .8em;
+}
+
+#questions_link {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 30px;
+	border-bottom: 1px solid #FFF;
+}
+
+#questions_link a {
+	color: #FFF;
+	font-size: 1.8em;
+	line-height: 1.2em;
+	font-family: 'Rosarivo', serif;
+	-moz-transition: all .2s ease-in-out 0s;;
+	-webkit-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+}
+
+#questions_link a:hover {
+	text-shadow: 0 0 20px;
+}
+
+#questions_link p {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1.2em;
+	color: #FFF;
+	line-height: 1.2em;
+	width: 200px;
+	padding-top: 7px;
+}
+
+#questions_copy {
+	width: 500px;
+	padding: 70px;
+}
+
+#questions_copy dl dt {
+	cursor: pointer;
+	background-color: #4f516a;
+	color: #fff;
+	padding: 5px;
+	margin-bottom: 5px;
+	line-height: 1.4em;
+	-webkit-transition: all .2s ease-in-out 0s;
+	-moz-appearance-transition: all .2s ease-in-out 0s;
+	transition: all .2s ease-in-out 0s;
+}
+
+#questions_copy dl dt:hover {
+	color: black;
+	background-color: #d7d8e1;
+}
+
+#questions_copy dl dd {
+	margin: 10px 0;
+	line-height: 1.4em;
 }
 
 /* @end */
