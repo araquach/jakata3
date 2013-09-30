@@ -1055,9 +1055,14 @@ span.kebelo_italic {
 }
 
 #silk {
-	background: #f5f5f5 url('../images/kebelo/silk-bikini.jpg') no-repeat right top;
-	padding-top: 180px;
-	padding-bottom: 200px;
+	background: url('../images/kebelo/silk-bikini.jpg') left top / contain no-repeat #040404;
+	padding-top: 0;
+	padding-bottom: 0;
+	width: auto;
+}
+
+#silk #kebelo_top_links {
+	margin-top: 120px;
 }
 
 #silk p strong {
@@ -1065,20 +1070,42 @@ span.kebelo_italic {
 }
 
 #silk_copy {
-	width: 500px;
-	padding: 70px;
+	width: auto;
+	padding: 0;
+	padding-top: 360px;
+}
+
+#silk_copy h3 {
+	margin: 0;
+	margin-left: 20px;
+	color: #FFF;
+	font-size: 4em;
+}
+
+#silk_copy p {
+	background-color: #FFF;
+	padding: 20px;
+	margin: 0;
 }
 
 #silk_copy p:first-of-type {
 	border: 0px solid #333;
 	padding: 20px;
-	font-size: .9em;
-	width: 370px;
+	font-size: 1em;
+	width: auto;
 	background-color: rgb(178, 119, 59);
 	color: #FFF;
-	margin-bottom: 40px;
+	margin-top: 200px;
+	margin-bottom: 0;
+	float: none;
 }
 
+#silk_copy p:last-of-type {
+	text-align: center;
+	font-size: 1.2em;
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+}
 
 #silk_link {
 	position: relative;
@@ -1179,7 +1206,9 @@ span.kebelo_italic {
 	float: left;
 	clear: left;
 	margin-top: 10px;
-	border-bottom: 1px dashed rgb(75, 35, 108);
+	border-bottom: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 5px;
 }
 
 #advantage #kebelo_top_links a:hover,
