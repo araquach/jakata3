@@ -786,6 +786,225 @@ p.reveal {
 
 /* @end */
 
+/* @group Recruitment */
+
+/*---- general ----*/
+
+#recruitment {
+	width: auto;
+	margin: auto;
+	float: none;
+	padding: 0;
+	height: 100%;
+	padding-top: 400px;
+	padding-bottom: 50px;
+	background: url('../images/recruitment/recruitment.jpg') -250px 0px no-repeat #FFF;
+	background-size: 190%;
+}
+
+#recruitBlank {
+	width: auto;
+	margin: auto;
+	float: none;
+	padding: 20px;
+	height: 100%;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#recruitAdmin {
+	width: auto;
+	margin: auto;
+	float: none;
+	padding: 20px;
+	height: 100%;
+	padding-top: 10px;
+	padding-bottom: 50px;
+}
+
+#recruitAdmin h1, 
+#recruitAdmin p,
+#recruitAdmin a.search-button  {
+	margin: 0;
+}
+
+#recruitAdmin div.pager {
+	margin-right: 40px;
+	margin-top: 20px;
+}
+
+#recruitAdmin div.summary {
+	margin: 0;
+}
+
+#recruitBlank #yw0 div.items div.view {
+	margin-bottom: 30px;
+}
+
+#recruitment h1,
+#recruitment h2,
+#recruitment h3,
+#recruitment p {
+	width: auto;
+	margin: 0;
+	padding: 20px;
+	line-height: 1.3em;
+	background-color: #FFF;
+}
+
+section#recruitment h1 {
+	padding-top: 20px;
+	margin-left: 0;
+}
+
+#recruitment h2 {
+	margin-top: 0;
+}
+
+#recruitment p {
+	font-size: 1em;
+}
+
+#recruitment p.last {
+	padding-bottom: 15px;
+}
+
+#recruitment p.recruit_button {
+	margin-left: 0;
+	margin-top: 0;
+}
+
+#recruitment a {
+	font-size: .8em;
+	margin: 0;
+	padding: 9px;
+	background-color: #4f516a;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 10px;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-moz-transition: all .3s ease-in-out 0s;	
+	transition: all .3s ease-in-out;
+	
+}
+
+#recruitment a:hover {
+	color: black;	
+	background-color: #d7d8e1;
+}
+
+#recruitment .fancy {
+	font-size: 2em;
+	font-style: italic;
+	margin-top: 0;
+}
+
+/*---- recruitment - create ----*/
+
+#application {
+	width: 950px;
+	padding-top: 250px;
+	padding-bottom: 200px;
+	background: #f5f5f5 url('../images/recruitment/create.jpg') no-repeat right top;
+	background-size: cover;
+}
+
+#application h2 {
+	width: 80%;
+	background-color: rgba(79, 81, 106, 0.7);
+	color: #FFF;
+	padding: 10px;
+	border-radius: 5px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.no-rgba #application h2 {
+	background-color: #4f516a;
+}
+
+.no-rgba #application h2:hover {
+	background-color: #2c2e3c;
+}
+
+#application h2:hover {
+	background-color: #4f516a;
+}
+
+#application-form {
+	width: 500px;
+	margin-left: 30px;
+	padding-left: 5px;
+}
+
+div.accordion div.elements {
+	padding-left: 5px;
+}
+
+div.accordion div.elements div.row label {
+	font-size: 1em;
+}
+
+div.accordion div.elements div.row.buttons input {
+	width: 200px;
+	font-size: .9em;
+}
+
+#application-form a {
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #4f516a;
+	font-weight: bold;
+}
+
+#application-form a:hover {
+	border-bottom: 1px dashed #4f516a;
+}
+
+div.row input,
+div.row textarea {
+	background-color: #FFF;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.applicationSuccess {
+	width: 450px;
+	height: 500px;
+	font-size: 1.4em;
+	margin-left: 40px;
+	padding: 10px;
+	line-height: 1.3em;
+}
+
+#adex {
+	width: 350px;
+	margin: 10px 0;
+	padding: 5px 20px 20px 20px;
+	height: 180px;
+	background-color: rgba(255, 255, 255, 0.8);
+	border: 1px solid #333;
+}
+
+#adex .adexBox {
+	float: right;
+	width: 150px;
+	margin-right: 25px;
+	margin-bottom: 15px;
+	
+}
+
+#adex label {
+	float: left;
+	color: #4f516a;
+}
+
+#adex input {
+	float: right;
+}
+
+/* @end */
+
 /* @group Prices */
 
 #prices {
@@ -1227,7 +1446,7 @@ span.kebelo_italic {
 	top: 0;
 	left: 0;
 	width: auto;
-	margin-top: 180px;
+	margin-top: 0px;
 	margin-left: 20px;
 	border-bottom: 1px solid #FFF;
 }
@@ -1302,13 +1521,34 @@ span.kebelo_italic {
 
 
 #questions {
-	background: #f5f5f5 url('../images/kebelo/red-2.jpg') no-repeat right top;
-	padding-top: 160px;
-	padding-bottom: 200px;
+	background: url('../images/kebelo/red-2.jpg') left -100px / contain no-repeat #040404;
+	padding-top: 0px;
+	padding-bottom: 0;
 }
 
-#questions p:first-of-type {
-	font-size: 1.2em;
+#questions_copy h3 {
+	margin: 0;
+	margin-left: 20px;
+	color: #FFF;
+	font-size: 2em;
+	margin-top: 10px;
+}
+
+#questions_copy p:first-of-type {
+	border: 0px solid #333;
+	padding: 20px;
+	font-size: 1em;
+	width: auto;
+	background-color: rgb(75, 35, 108);
+	color: #FFF;
+	margin-top: 200px;
+	margin-bottom: 0px;
+}
+
+#questions_copy p:last-of-type {
+	background-color: #FFF;
+	margin: 0;
+	padding: 20px;
 }
 
 #questions p {
@@ -1349,16 +1589,24 @@ span.kebelo_italic {
 }
 
 #questions_copy {
-	width: 500px;
-	padding: 70px;
+	width: auto;
+	padding: 0;
+	margin-top: 0;
+	padding-top: 300px;
+}
+
+#questions_copy dl {
+	margin: 0;
 }
 
 #questions_copy dl dt {
 	cursor: pointer;
+	border-top: 3px solid #FFF;
+	border-bottom: 3px solid #FFF;
 	background-color: #4f516a;
 	color: #fff;
-	padding: 5px;
-	margin-bottom: 5px;
+	padding: 20px;
+	margin-bottom: 0px;
 	line-height: 1.4em;
 	-webkit-transition: all .2s ease-in-out 0s;
 	-moz-appearance-transition: all .2s ease-in-out 0s;
@@ -1371,8 +1619,10 @@ span.kebelo_italic {
 }
 
 #questions_copy dl dd {
-	margin: 10px 0;
+	margin: 0;
 	line-height: 1.4em;
+	background-color: #FFF;
+	padding: 20px;
 }
 
 /* @end */
