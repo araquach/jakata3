@@ -969,7 +969,7 @@ div.row textarea {
 #adex {
 	width: auto;
 	margin: 10px 0;
-	padding: 5px 20px 20px 20px;
+	padding: 5px;
 	height: 180px;
 	background-color: rgba(255, 255, 255, 0.8);
 	border: 1px solid #333;
@@ -1612,6 +1612,279 @@ span.kebelo_italic {
 	line-height: 1.4em;
 	background-color: #FFF;
 	padding: 20px;
+}
+
+/* @end */
+
+/* @group Feedback */
+
+#feedbackBlank {
+	width: auto;
+	margin: auto;
+	float: none;
+	height: 100%;
+	padding: 0px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#feedback_back {
+	width: auto;
+	margin: auto;
+	float: none;
+	height: 100%;
+	padding: 0px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	background-image: none;
+}
+
+#feedback {
+	margin-top: 20px;
+	padding: 20px;
+	width: auto;
+}
+
+#feedback_copy {
+	width: auto;
+}
+
+#feedback h1 {
+	font-size: 2.5em;
+}
+
+#feedback h2 {
+	font-size: 1.5em;
+}
+
+#feedback p {
+	font-size: 1.1em;
+}
+
+#feedback p strong {
+	font-weight: bold;
+}
+
+#feedback input, #feedback label, #feedback .errorSummary, #feedback .errorMessage, #feedback select, #feedback textarea, #feedback h1, #feedback p.note {
+	margin-left: 0;
+}
+
+#feedback input {
+	margin-right: 20px;
+}
+
+#feedback .permission label {
+	display: inline;
+}
+
+#feedback #Feedback_allow {
+	width: 40px;
+	display: inline;
+	margin-left: 20px;
+	margin-bottom: 40px;
+}
+
+#feedback label,
+#feedback label.required {
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 10px;
+	margin-top: 0;
+	font-style: normal;
+	line-height: 1.5em;
+}
+
+#feedback p.scale_label {
+	margin-right: 10px;
+	display: block;
+	font: 1.3em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	float: left;
+	clear: left;
+	margin-bottom: 14px;
+	margin-left: 10px;
+}
+
+#feedback .form .question {
+	border: 1px solid #888;
+	padding: 10px;
+	border-radius: 10px;
+	display: block;
+	float: left;
+	clear: left;
+}
+
+#feedback .form .question input {
+	width: 20px;
+	height: 20px;
+	display: block;
+	float: right;
+	clear: right;
+	margin-top: 1.3em;
+}
+
+#feedback .mktBox {
+	width: 100%;
+	float: left;
+	clear: left;
+	margin-right: 20px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.mktBox .form .question input {
+	float: right;
+	clear: right;
+}
+
+#feedback .mktBox label.required {
+	position: absolute;
+	font-size: 1em;
+	top: 25px;
+	left: 10px;
+}
+
+#feedback p.small {
+	font-size: .7em;
+	margin-bottom: 30px;
+}
+
+#feedback_back .applicationSuccess {
+	margin-top: 100px;
+}
+
+#feedbackBlank #yw0 div.items div.view {
+	margin-bottom: 30px;
+}
+
+/* @end */
+
+/* @group Competition */
+
+#competition {
+	width: auto;
+	margin: auto;
+	float: none;
+	height: 100%;
+	padding: 0;
+	background-color: #f5f5f5;
+	padding-top: 500px;
+	padding-bottom: 50px;
+}
+
+#overlay {
+	background: url('../images/competition/overlay.png') left top no-repeat;
+	background-size: contain;
+	width: auto;
+	height: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+#competition h1 {
+	margin-bottom: -20px;
+}
+
+#competition h2 {
+	font-size: 1.2em;
+}
+
+#competitionBlank {
+	width: auto;
+	height: 100%;
+	background-image: none;
+	background-color: #f5f5f5;
+	padding: 0;
+}
+
+#competition img {
+	margin-left: 60px;
+}
+
+#competition_copy {
+	width: auto;
+	margin-left: 0;
+	background-color: #FFF;
+}
+
+#competition_form {
+	width: auto;
+	margin-left: 0;
+	padding: 20px;
+	background-color: #FFF;
+}
+
+#competition_form p.question {
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+#competition_copy h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	font-size: 1.8em;
+}
+
+#competition_copy a {
+	font-size: 1.4em;
+	border-bottom: 1px dashed;
+}
+
+#competition_admin {
+	width: auto;
+	height: 100%;
+	background: #f5f5f5 url('../images/bg.jpg') no-repeat left top;
+	background-position-y: -5.2px;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.row input {
+	background-color: #FFF;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+#competition label.required {
+	color: #333;
+}
+
+#competition div.row input#Competition_regular {
+	width: 20px;
+	float: right;
+	height: 30px;
+	margin-right: 30px;
+}
+
+#competition div.form label {
+	width: auto;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.competition_success {
+	width: auto;
+	height: 500px;
+}
+
+.competition_success p{
+	font-size: 1.6em;
+}
+
+#competition #competition_entry #competition-form_es_ p {
+	color: #000;
+}
+
+.comp_closed {
+	color: #a42a46;
+	font-size: 1.6em;
+	font-weight: bold;
+}
+
+.ghd {
+	position: absolute;
+	top: 760px;
+	right: 200px;
+	border-radius: 20px;
 }
 
 /* @end */
