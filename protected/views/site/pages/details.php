@@ -37,7 +37,7 @@ WA1 2RF</p>
 
 <h2>Enquiry Form</h2>
 <p>If you would like to make an enquiry or make a booking, please click the link below:</p>
-<?php echo CHtml::link('Online enquiry and booking form',, array('class'=>'toForm')); ?>
+<?php echo CHtml::link('Online enquiry and booking form',array('site/contact'), array('class'=>'toForm')); ?>
 
 </div> <!--details-->
 </section> <!--end contact-->
