@@ -2,7 +2,7 @@
 window.addEvent('domready', function(){
 	  
 	  var myAccordion = new Fx.Accordion($$('dt'), $$('dd'), {
-	      display: 0,
+	      display: false,
 	      alwaysHide: true
 	  });
 	  
