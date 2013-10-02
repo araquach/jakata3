@@ -13,8 +13,9 @@ $this->pageTitle=Yii::app()->name . ' - Admin Page - Hairdressers in Cheshire';
 			array('label'=>'Feedback', 'url'=>array('feedback/index')),
 			array('label'=>'Stylist Job Applicants', 'url'=>array('stylist/index')),
 			array('label'=>'Apprentice Job Applicants', 'url'=>array('apprentice/index')),
+			array('label'=>'Saturday Staff Job Applicants', 'url'=>array('helper/index')),
 			array('label'=>'Company Offer Entries', 'url'=>array('applicant/index')),
-			array('label'=>'Competition Entrants', 'url'=>array('competition/index')),			
+			array('label'=>'Competition Entrants', 'url'=>array('competition/index')),		
 		),
 	)); ?>
 
