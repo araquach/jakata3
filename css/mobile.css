@@ -124,6 +124,16 @@ li.active a {
 
 /* @end */
 
+/* @group Login */
+
+#login {
+	width: auto;
+	margin: 0;
+	padding: 20px;
+}
+
+/* @end */
+
 /* @group home */
 
 #home {
