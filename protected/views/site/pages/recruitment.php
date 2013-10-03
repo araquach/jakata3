@@ -12,13 +12,13 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Jobs - Hairdressers in Ches
 <h2>Stylist Position</h2>
 <p>Jakata is a hot-bed of creative talent. Our ethos is to let each stylist's individuality shine. If you're creative, ambitious and have a natural flair for hairdressing then Jakata could be the perfect environment to push your skills to the next level.</p>
 <p><strong>If you're looking to push your abilities to the next level, apply now!</strong></p>
-<p class="recruit_button"><?php echo CHtml::link('Click Here to apply for a stylist position',array('roleStylist/create')); ?></p>
+<p class="recruit_button"><?php echo CHtml::link('Click Here to apply for a stylist position',array('stylist/create')); ?></p>
 
 <h2>Apprentice Position</h2>
 <p>If you're just starting out on the road to becoming a hairdresser, choosing the right place to train and develop is one of the most important decisions you'll ever make!</p>
 <p>If you've already started out and feeling you're current training provider isn't fulfilling you're needs then we can step in and accelerate you're development.</p>
 <p><strong>If you have the passion to do whatever it takes to be a top stylist then apply now!</strong></em></p>
-<p class="recruit_button"><?php echo CHtml::link('Click Here to apply for an apprentice position',array('roleApprentice/create')); ?></p>
+<p class="recruit_button"><?php echo CHtml::link('Click Here to apply for an apprentice position',array('apprentice/create')); ?></p>
 
 <p class="fancy">A great hairdressing career starts here</p>
 

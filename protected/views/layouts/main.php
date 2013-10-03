@@ -7,6 +7,7 @@
 		<meta name="keywords" content="hair, hairdressers, hairdressing, hairdressers in Warrington, men's hairdresing, fashion colour, brazilian blowdry, wedding hair, Daniel Anderson, Warrington, Lymm, Stockton Heath, Culcheth, Great Sankey, Widnes and Runcorn">
 		<meta name="author" content="Contra Design">
 		<meta property="og:image" content="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/men1.jpg"/>
+		<meta name="viewport" content="width=device-width" /> <!--mobile fixed width-->
 		
  <?php $this->widget('ext.widgets.googleAnalytics.EGoogleAnalyticsWidget',
 		array('account'=>'UA-2487518-1','domainName'=>'jakatasalon.co.uk')
@@ -16,13 +17,15 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/normalize.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jakstyles.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css" />
-	
+	<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="<?php echo Yii::app()->request->baseUrl; ?>/css/mobile.css" />
 	
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/mootools-core.js " type="text/javascript"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/mootools-more.js " type="text/javascript"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/modernizr.js " type="text/javascript"></script>
 	<script src="<?php echo Yii::app()->request->baseUrl; ?>/scripts/selectivizr-min.js " type="text/javascript"></script>
 	
+	<?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
+	<?php Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/scripts/mobile-nav.js'); ?>	
 	
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
@@ -36,7 +39,7 @@
 
 <header class="group">
 
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/main/jakata_logo.png" width="388" height="78" alt="" />
+	<?php echo CHtml::link('<div id="logo"></div>', array('site/index'), array('class' => 'logo')); ?>
 
 	<h1>Jakata Salon</h1>
 	<h2>Hairdressers in Warrington</h2>
