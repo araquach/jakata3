@@ -1204,6 +1204,8 @@ div.row textarea {
 
 #kebeloMain h2 {
 	text-indent: -9999px;
+	margin: 0;
+	padding: 0;
 }
 
 #kebeloMain h3 {
@@ -1223,7 +1225,7 @@ span.kebelo_italic {
 #kebeloMain a {
 	padding-left: 20px;
 	margin: 0;
-	background-color: black;
+	padding: 0;
 }
 
 .kebelo_italic {
@@ -1266,10 +1268,10 @@ span.kebelo_italic {
 
 #kebelo {
 	width: auto;
-	background: url('../images/kebelo/kebelo-cover-02-mob.jpg') left top / auto no-repeat #040404;
+	background: url('../images/kebelo/kebelo-cover-02-mob.jpg') center top / auto no-repeat #040404;
 	height: 100%;
-	padding-top: 220px;
-	padding-bottom: 180px;
+	padding-top: 0;
+	padding-bottom: 50px;
 }
 
 #silk {
@@ -1298,6 +1300,7 @@ span.kebelo_italic {
 	margin-left: 20px;
 	color: #FFF;
 	font-size: 4em;
+	text-shadow: 0 0 2px #050505;
 }
 
 #silk_copy p {
@@ -1329,10 +1332,12 @@ span.kebelo_italic {
 	position: relative;
 	top: 0;
 	left: 0;
-	width: 200px;
-	margin-top: 30px;
-	margin-left: 20px;
+	width: auto;
+	margin-top: 0;
+	margin-left: 0;
+	padding: 20px;
 	border-bottom: 1px solid #FFF;
+	background-color: #111;
 }
 
 #silk_link a {
@@ -1402,11 +1407,21 @@ span.kebelo_italic {
 	display: block;
 }
 
-#advantage #kebelo_top_links,
-#questions #kebelo_top_links,
-#silk #kebelo_top_links {
+#advantage #kebelo_top_links {
 	position: absolute;
 	top: 550px;
+	left: 20px;
+}
+
+#questions #kebelo_top_links {
+	position: absolute;
+	top: 500px;
+	left: 20px;
+}
+
+#silk #kebelo_top_links {
+	position: absolute;
+	top: 500px;
 	left: 20px;
 }
 
@@ -1445,9 +1460,11 @@ span.kebelo_italic {
 	top: 0;
 	left: 0;
 	width: auto;
-	margin-top: 0px;
-	margin-left: 20px;
+	margin-top: 500px;
+	margin-left: 0;
+	padding: 20px;
 	border-bottom: 1px solid #FFF;
+	background-color: #111;
 }
 
 #advantage_link a {
@@ -1531,6 +1548,7 @@ span.kebelo_italic {
 	color: #FFF;
 	font-size: 2em;
 	margin-top: 10px;
+	text-shadow: 0 0 2px #050505;
 }
 
 #questions_copy p:first-of-type {
@@ -1558,10 +1576,13 @@ span.kebelo_italic {
 	position: relative;
 	top: 0;
 	left: 0;
-	width: 200px;
-	margin-left: 20px;
-	margin-top: 30px;
+	width: auto;
+	margin-top: 10px;
+	margin-left: 0;
+	padding: 20px;
 	border-bottom: 1px solid #FFF;
+	background-color: #111;
+	
 }
 
 #questions_link a {
