@@ -1025,6 +1025,10 @@ div.row textarea {
 	padding-bottom: 50px;
 }
 
+#norm_price {
+	display: none;
+}
+
 #mob_price {
 	display: block;
 }
@@ -1050,24 +1054,6 @@ div.row textarea {
 #priceheader h1.priceheader {
 	margin: 0;
 	font-size: 2em;
-}
-
-
-
-#priceleft {
-	display: none;
-}
-
-#pricemiddle {
-	display: none;
-}
-
-#priceright {
-	display: none;
-}
-	
-#pricebottom {
-	display: none;
 }
 
 
