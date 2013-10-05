@@ -78,24 +78,27 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Prices - Hairdressers in Ch
 	<tr><td>Girls's Cut, Dry &amp; Style (Under 12)</td> <td>&pound;16.95 - &pound;35.95</td> <td>&pound;37.95</td></tr>
 	<tr><th class="s_type">Colouring</th> <td>&nbsp;</td> <td>&nbsp;</td></tr>
 	<tr><td><strong>Highlights &amp; Lowlights</strong></td></tr>
-	<tr><td>Top/Parting</td> <td>&pound;25.95 - &pound;51.95</td> <td>&pound;??</td></tr>
-	<tr><td>Half Head</td> <td>&pound;41.95 - &pound;59.95</td> <td>&pound;??</td></tr>
-	<tr><td>Full Head</td> <td>&pound;48.95 - &pound;69.95</td> <td>&pound;??</td></tr>
+	<tr><td>Top/Parting</td> <td>&pound;26.60 - &pound;41.95</td> <td>&pound;48.30</td></tr>
+	<tr><td>Half Head</td> <td>&pound;34.95 - &pound;58.50</td> <td>&pound;67.20</td></tr>
+	<tr><td>Full Head</td> <td>&pound;43.25 - &pound;74.50</td> <td>&pound;86.10</td></tr>
 	<tr><td><strong>Full Head Tint</strong></td></tr>
-	<tr><td>Short</td> <td>&pound;30.95 - &pound;44.95</td> <td>&pound;??</td></tr>
-	<tr><td>Long</td> <td>&pound;40.95 - &pound;59.95</td> <td>&pound;??</td></tr>
-	<tr><td>Root Regrowth</td> <td>&pound;30.95 - &pound;48.95</td> <td>&pound;??</td></tr>
-	<tr><td>Root &amp; Refresh</td> <td>&pound;41.95 - &pound;56.95</td> <td>&pound;??</td></tr>
-	<tr><td><strong>'Vibrance'<br>Fresh, intense <br>ammomia free colours</strong></td></tr>
-	<tr><td>Short</td> <td>&pound;26.95 - &pound;44.95</td> <td>&pound;??</td></tr>
-	<tr><td>Long</td> <td>&pound;30.95 - &pound;61.95</td> <td>&pound;??</td></tr>
+	<tr><td>Short</td> <td>&pound;34.95 - &pound;58.50</td> <td>&pound;67.20</td></tr>
+	<tr><td>Long</td> <td>&pound;43.25 - &pound;74.50</td> <td>&pound;86.10</td></tr>
+	<tr><td>Root Regrowth</td> <td>&pound;26.60 - &pound;41.95</td> <td>&pound;86.10</td></tr>
+	<tr><td>Root &amp; Refresh</td> <td>&pound;41.95 - &pound;56.95</td> <td>&pound;48.30</td></tr>
+	<tr><td><strong>'Vibrance'<br>Fresh, intense ammomia free colours</strong></td></tr>
+	<tr><td>Short</td> <td>&pound;26.60 - &pound;41.95</td> <td>&pound;48.30</td></tr>
+	<tr><td>Long</td> <td>&pound;34.95 - &pound;58.50</td> <td>&pound;67.20</td></tr>
 	<tr><td><strong>Full Colour Change</strong></td></tr>
-	<tr><td>Light to Dark<br>(inc. pre-pigmentation)</td> <td>&pound;35.95 - &pound;72.95</td> <td>&pound;??</td></tr>
-	<tr><td>Dark to Light<br>(inc. colour cleansing)</td> <td>&pound;40.95 - &pound;90.95</td> <td>&pound;??</td></tr>
+	<tr><td>Light to Dark<br>(inc. pre-pigmentation)</td> <td>&pound;43.25 - &pound;74.50</td> <td>&pound;86.10</td></tr>
+	<tr><td>Dark to Light<br>(inc. colour cleansing)</td> <td>&pound;64.95 - &pound;111.30</td> <td>&pound;129.15</td></tr>
 </table>
+<section id="corrective">
 <h3>Corrective Colour</h3>
 <p>If you've had a home hair colouring disaster, or a bad colour experience in another salon, we will correct &amp; transform your hair to how you wanted it in the first place! Our expert colour team will give you a price on consultation.</p>
+</section> <!--#corrective-->
 
-</div>
+<p>Please note: A patch test is required 48 hours prior to any colour service if you have not had colour with us before. It only takes a couple of minutes to carry out.</p>
+</div> <!--#norm_price-->
 
 </section> <!--end prices-->

@@ -566,7 +566,7 @@ li.active a {
 
 #norm_price h3,
 #norm_price p {
-	margin-left: 60px;
+	margin: 60px;
 	float: left;
 	clear: left;
 }
@@ -577,6 +577,24 @@ h4.price_director {
 
 h4.price_stylist {
 	margin: 0;
+}
+
+#corrective {
+	width: 600px;
+	padding: 30px;
+	height: 100%;
+	float: left;
+	background-color: #424259;
+	margin-left: 60px;
+	border-radius: 20px;
+	margin-top: 70px;
+}
+
+#corrective p,
+#corrective h3 {
+	color: #FFF;
+	margin: 0;
+	margin-bottom: 20px;
 }
 
 
