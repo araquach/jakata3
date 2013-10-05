@@ -523,13 +523,9 @@ li.active a {
 	display: none;
 }
 
-#norm_price {
-	
-}
-
 #norm_price table {
-	width: 750px;
-	margin-left: 60px;
+	width: 700px;
+	margin-left: 100px;
 	float: left;
 	clear: left;
 }
@@ -585,9 +581,9 @@ h4.price_stylist {
 	height: 100%;
 	float: left;
 	background-color: #424259;
-	margin-left: 60px;
-	border-radius: 20px;
+	margin-left: 100px;
 	margin-top: 70px;
+	border-radius: 20px;
 }
 
 #corrective p,
@@ -595,6 +591,11 @@ h4.price_stylist {
 	color: #FFF;
 	margin: 0;
 	margin-bottom: 20px;
+}
+
+#prices p.patch-test {
+	width: 700px;
+	margin-left: 100px;
 }
 
 

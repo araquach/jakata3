@@ -98,7 +98,7 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Prices - Hairdressers in Ch
 <p>If you've had a home hair colouring disaster, or a bad colour experience in another salon, we will correct &amp; transform your hair to how you wanted it in the first place! Our expert colour team will give you a price on consultation.</p>
 </section> <!--#corrective-->
 
-<p>Please note: A patch test is required 48 hours prior to any colour service if you have not had colour with us before. It only takes a couple of minutes to carry out.</p>
+<p class="patch-test">Please note: A patch test is required 48 hours prior to any colour service if you have not had colour with us before. It only takes a couple of minutes to carry out.</p>
 </div> <!--#norm_price-->
 
 </section> <!--end prices-->
