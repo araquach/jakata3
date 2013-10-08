@@ -31,7 +31,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	<p>Jimmy was recently a member of the Schwarzkopf Young Artistic Team</p>
 	<p><strong>Favourite Style: </strong>Short hair cuts</p>
 	<p><strong>Favourite Product: </strong>Schwarzkopf Flex Wax</p>
-	<p class="price">Average Cut &amp; Colour <br>with Jimmy: &pound;90</p>
+	<p class="price">Average Cut &amp; Colour <br>with Jimmy: &pound;106</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member jimmy-->
 	
@@ -46,7 +46,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	<p>Vicky's unique personal style definitely reflects in her innovative creations in the salon. </p>
 	<p><strong>Favourite Style: </strong> Anything Vintage</p>
 	<p><strong>Favourite Product: </strong>Catwalk Weightless Shine Spray</p>
-	<p class="price">Average Cut &amp; Colour <br>with Vicky: &pound;90</p>
+	<p class="price">Average Cut &amp; Colour <br>with Vicky: &pound;89</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member vicky-->
 	
@@ -75,7 +75,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	<p></p>
 	<p><strong>Favourite Style: </strong>Classic Bob's</p>
 	<p><strong>Favourite Product: </strong>Tigi After Party </p>
-	<p class="price">Average Cut &amp; Colour <br>with Michelle: &pound;90</p>
+	<p class="price">Average Cut &amp; Colour <br>with Michelle: &pound;97</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member shell-->
 	
@@ -91,7 +91,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	<p>She has an advanced diploma in Colour Correction through La Biostetique</p>
 	<p><strong>Favourite Style: </strong>Big, tousled hair</p>
 	<p><strong>Favourite Product: </strong>Tigi 'Totally Baked'</p> 
-	<p class="price">Average Cut &amp; Colour <br>with Maisie: &pound;90</p>
+	<p class="price">Average Cut &amp; Colour <br>with Maisie: &pound;97</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member maisie-->
 	
@@ -106,7 +106,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	<p>Laura strongly believes using the right products is the key to maintaining a new hairstyle.</p>
 	<p><strong>Favourite Style: </strong>Any kind of hair-up</p>
 	<p><strong>Favourite Product:</strong> Any of the Tigi Candy Fixations Range</p>
-	 <p class="price">Average Cut &amp; Colour <br>with Laura: &pound;80</p>
+	 <p class="price">Average Cut &amp; Colour <br>with Laura: &pound;89</p>
 	</section> <!--team_member_copy --> 
 	</section> <!--team member laura-->
 		
@@ -121,7 +121,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	<p>She loves men's hair cutting, creative colouring, extensions and hair up.</p>
 	<p><strong>Favourite Style: </strong> Frankie from the Saturdays</p>
 	<p><strong>Favourite Product: </strong>Session Series Dry Shampoo</p>
-	<p class="price">Average Cut &amp; Colour <br>with Natalie: &pound;60</p>
+	<p class="price">Average Cut &amp; Colour <br>with Natalie: &pound;89</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member nat-->
 	
@@ -136,7 +136,7 @@ $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshi
 	<p><em>Graduate Stylists don't stay at this level for long, so take advantage of this great price before she gets promoted!!</em></p>
 	<p><strong>Favourite Style: </strong>Curly Blow Dry's</p>
 	<p><strong>Favourite Product: </strong>Tigi 'Mega Whip'</p>
-	<p class="price">Average Cut &amp; Colour <br>with Mikala: &pound;60</p>
+	<p class="price">Average Cut &amp; Colour <br>with Mikala: &pound;59</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member mikala-->
 	 
