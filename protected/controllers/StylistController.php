@@ -76,6 +76,7 @@ class StylistController extends Controller
 					$message->subject = 'New Stylist Application';
 					$message->addTo('adamcarter@jakatasalon.co.uk');
 					$message->addTo('jimmy@jakatasalon.co.uk');
+					$message->addTo('vikki@jakatasalon.co.uk');
 					$message->from = Yii::app()->params['adminEmail'];
 					
 					Yii::app()->mail->send($message);
