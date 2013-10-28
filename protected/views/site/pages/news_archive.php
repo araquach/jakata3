@@ -3,6 +3,9 @@
 $this->pageTitle=Yii::app()->name . ' - Hairdressing News Archive - Hairdressers in Cheshire';
 ?>
 
+<?php Yii::app()->facebook->ogTags['og:title'] = "Jakata News Archive"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Archived news stories from the Jakata Team"; ?>
+
 <script type="text/javascript">
 window.addEvent('domready', function(){
 	  new Fx.Accordion($('accordion'), '#accordion .reveal', '#accordion .hidden')

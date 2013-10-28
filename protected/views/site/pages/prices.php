@@ -3,6 +3,8 @@
 $this->pageTitle=Yii::app()->name . ' - Hairdressing Prices - Hairdressers in Cheshire';
 ?>
 
+<?php Yii::app()->facebook->ogTags['og:title'] = "Jakata Prices"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Cutting, colouring and technical service prices"; ?>
 
 <section id="prices">
 

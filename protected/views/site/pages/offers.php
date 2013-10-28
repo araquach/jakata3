@@ -2,6 +2,10 @@
 /* @var $this SiteController */
 $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Cheshire';
 ?>
+
+<?php Yii::app()->facebook->ogTags['og:title'] = "Jakata Special Offers"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "This months great offers"; ?>
+
 <section id="offers">
 
 

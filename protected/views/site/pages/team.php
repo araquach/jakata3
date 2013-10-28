@@ -3,6 +3,10 @@
 $this->pageTitle=Yii::app()->name . ' - The Jakata Team - Hairdressers in Cheshire';
 ?>
 
+<?php Yii::app()->facebook->ogTags['og:title'] = "Jakata Team"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "The Jakata team comprises of ten skilled stylists, all from different hairdressing backgrounds, all displaying a diverse range of skills.
+Over the years Jakata has trained and developed a number of people to exceptional standards, whilst taking on already established stylists. This mix of talent creates a dynamic team with stylists well suited to anyone with a desire for a fashion forward look."; ?>
+
 <?php
 	Yii::app()->clientScript->registerCoreScript('jquery');
 	Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/scripts/team.js');
