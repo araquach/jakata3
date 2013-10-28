@@ -5,6 +5,8 @@ $this->pageTitle=Yii::app()->name . ' - Collections - Hairdressers in Cheshire';
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Jakata Photoshoots"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "This years latest collection"; ?>
+<?php // Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/" ; ?>
+<section id="offers">
 
 <?php 
 Yii::app()->clientScript->registerCoreScript('jquery');

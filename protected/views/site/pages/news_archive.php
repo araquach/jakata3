@@ -5,6 +5,7 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing News Archive - Hairdressers
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Jakata News Archive"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "Archived news stories from the Jakata Team"; ?>
+<?php // Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/" ; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
