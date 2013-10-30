@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Oct 30, 2013 at 10:31 PM
+-- Generation Time: Oct 30, 2013 at 11:31 PM
 -- Server version: 5.1.44
 -- PHP Version: 5.3.1
 
@@ -27,6 +27,7 @@ SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
 CREATE TABLE IF NOT EXISTS `survey` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `type` varchar(256) NOT NULL,
   `first_name` varchar(30) NOT NULL,
   `last_name` varchar(40) NOT NULL,
   `age` enum('16-20','21-30','31-40','41-50','51-60','61-70','Over 70') NOT NULL,
@@ -53,9 +54,4 @@ CREATE TABLE IF NOT EXISTS `survey` (
   `boredom` int(11) NOT NULL,
   `products` enum('My Stylist','Another Salon','Salon Wholesale','Supermarket/Chemist','Other') NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
-
---
--- Dumping data for table `survey`
---
-
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=4 ;
