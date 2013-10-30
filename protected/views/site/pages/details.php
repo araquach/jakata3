@@ -8,7 +8,7 @@ $this->pageTitle=Yii::app()->name . ' - Contact Us - hairdressers in Cheshire';
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Jakata Contact Details and Opening Times"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "Jakata is located in the centre of Warrington on Bridge Street. We're extremely close to the Warrington Market multi-storey car park and only a short walk from <em>Golden Square shopping centre."; ?>
-<?php // Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/" ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/main/jakata_logo_meta.jpg"; ?>
 
 <section id="details">
 

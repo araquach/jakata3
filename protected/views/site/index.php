@@ -4,6 +4,8 @@
 $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 ?>
 
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/main/jakata_logo_meta.jpg"; ?>
+
 <div id="home">
 <h4 class="slogan">Fashion forward, award winning hairdressing</h4>
 <section id="info">

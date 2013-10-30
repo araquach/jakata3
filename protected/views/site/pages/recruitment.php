@@ -6,7 +6,7 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing Jobs - Hairdressers in Ches
 <?php Yii::app()->facebook->ogTags['og:title'] = "Jakata Recruitment"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "The ever evolving Jakata Salon is always looking for new talent to expand our already diverse team of hairdressers.
 We have positions for stylists of all levels with ongoing internal and external training to help you push the boundaries in your career."; ?>
-<?php // Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/" ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/main/jakata_logo_meta.jpg"; ?>
 
 <section id="recruitment">
 

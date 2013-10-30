@@ -5,7 +5,7 @@ $this->pageTitle=Yii::app()->name . ' - Hairdressing News - Hairdressers in Ches
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Jakata News"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "All the latest news from the salon"; ?>
-<?php // Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/" ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/main/jakata_logo_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
