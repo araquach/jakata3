@@ -71,6 +71,7 @@ class SurveyFemale extends Survey
 			array('frequency, salon', 'length', 'max'=>21),
 			array('cut_spend', 'length', 'max'=>14),
 			array('products', 'length', 'max'=>19),
+			array('type','default','value'=>'female','setOnEmpty'=>false,'on'=>'insert'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, first_name, last_name, age, mobile, email, location, frequency, stylist, salon, other_salon, cut_spend, colour_spend, stylist_skill, friendliness, price, customer_service, environment, convenience, reputation, end_result, poor_service, comp_offer, hygiene, boredom, products', 'safe', 'on'=>'search'),

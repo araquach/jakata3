@@ -2218,8 +2218,12 @@ span.kebelo_italic {
 }
 
 #survey_copy {
-	width: 400px;
+	width: 500px;
+	padding: 30px;
 	margin-left: 50px;
+	background-color: rgba(255, 255, 255, 0.9);
+	border: 2px solid #424259;
+	border-radius: 20px;
 }
 
 #survey input, #survey label, #survey .errorSummary, #survey .errorMessage, #survey select, #survey textarea, #survey h1, #survey p.note {

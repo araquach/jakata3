@@ -384,6 +384,12 @@
 		<?php echo $form->error($model,'boredom'); ?>
 	</div>
 	
+	<div class="row">
+		<?php echo $form->labelEx($model,'products'); ?>
+		<?php echo ZHtml::enumDropDownList($model,'products',array('prompt' => 'Please Select')); ?>
+		<?php echo $form->error($model,'products'); ?>
+	</div>
+	
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
 	</div>
