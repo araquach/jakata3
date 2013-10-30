@@ -60,7 +60,8 @@ class SurveyFemaleController extends Controller
 		{
 			$model->attributes=$_POST['SurveyFemale'];
 			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
+				
+				Yii::app()->user->setFlash('survey','Thank you for taking our survey ' . ucfirst($model->first_name) . '.' . '<br>You will find out your prize within the next 2 weeks.<br>' . 'Thanks again.');
 		}
 
 		$this->render('create',array(

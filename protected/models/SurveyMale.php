@@ -60,7 +60,7 @@ class SurveyMale extends Survey
 		return array(
 			array('first_name, last_name, age, mobile, email, location, frequency, stylist, salon, cut_spend, stylist_skill, friendliness, price, customer_service, environment, convenience, reputation, end_result, poor_service, comp_offer, hygiene, boredom, products', 'required'),
 			array('stylist, other_salon, stylist_skill, friendliness, price, customer_service, environment, convenience, reputation, end_result, poor_service, comp_offer, hygiene, boredom', 'numerical', 'integerOnly'=>true),
-			array('mobile','unique'),
+			array('email, mobile', 'unique'),
 			array('email','email'),
 			array('first_name', 'length', 'max'=>30),
 			array('last_name', 'length', 'max'=>40),
