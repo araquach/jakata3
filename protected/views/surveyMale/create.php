@@ -16,8 +16,7 @@
 
 <h1>The Great Jakata Autumn Giveaway - Entry Form</h1>
 
-<p>To receive one of these great freebies you simply have to currently have your hair done professionally (either in a salon or by a mobile hairdresser).</p>
-<p>Complete the short questionnaire and we'll let you know your prize within 2 weeks!</p>
+<p>To receive one of these great freebies just complete this short questionnaire and we'll let you know your prize within 2 weeks!</p>
 <p><em>Don't forget to tell your friends and family to enter too! </em></p>
 
 <small>One entry per person. Must be over 16 to enter</small>
@@ -29,6 +28,7 @@
    'show_faces'=>true,
    'send' => true
 ));  ?>	
+
 </div> <!--survey_copy-->
 </div> <!--survey-->
 

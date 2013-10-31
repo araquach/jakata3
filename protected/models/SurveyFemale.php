@@ -69,7 +69,7 @@ class SurveyFemale extends Survey
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			/*array('first_name, last_name, age, mobile, email, location, frequency, stylist, salon, cut_spend, colour_spend, stylist_skill, friendliness, price, customer_service, environment, convenience, reputation, end_result, poor_service, comp_offer, hygiene, boredom, products', 'required'),*/
+			array('first_name, last_name, age, mobile, email, location, frequency, stylist, salon, cut_spend, stylist_skill, friendliness, price, customer_service, environment, convenience, reputation, end_result, poor_service, comp_offer, hygiene, boredom, products', 'required'),
 			array('stylist, other_salon, colour_spend, stylist_skill, friendliness, price, customer_service, environment, convenience, reputation, end_result, poor_service, comp_offer, hygiene, boredom', 'numerical', 'integerOnly'=>true),
 			array('email, mobile', 'unique'),
 			array('email','email'),
@@ -126,7 +126,7 @@ class SurveyFemale extends Survey
 	
 	public function getPriceOptions() {
 		return array(
-			self::PRICE_10=>'£10',
+			self::PRICE_10=>'£10 or less',
 			self::PRICE_10_20=>'£10-£20',
 			self::PRICE_21_30=>'£21-£30',
 			self::PRICE_31_40=>'£31-£40',
@@ -139,7 +139,7 @@ class SurveyFemale extends Survey
 	
 	public function getColPriceOptions() {
 		return array(
-			self::PRICE_10=>'£10',
+			self::PRICE_10=>'£10 or less',
 			self::PRICE_10_20=>'£10-£20',
 			self::PRICE_21_30=>'£21-£30',
 			self::PRICE_31_40=>'£31-£40',

@@ -2235,8 +2235,12 @@ span.kebelo_italic {
 	background-color: #FFF;
 }
 
-#survey	 p:first-of-type {
+#survey p:first-of-type {
 	font-size: 1.2em;
+}
+
+#survey p.last {
+	margin-bottom: 40px;
 }
 
 #survey_copy ul {
@@ -2342,6 +2346,9 @@ span.kebelo_italic {
 	margin-bottom: 30px;
 }
 
+#survey .fb_edge_widget_with_comment {
+  margin-top: 30px;
+}
 /* @end */
 
 /* @group Exit */
