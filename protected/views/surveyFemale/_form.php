@@ -61,11 +61,11 @@
 		<?php echo $form->labelEx($model,'stylist'); ?>
 		<?php echo '<p class="scale_label">Yes</p>' ?>
 		<?php echo $form->radioButton($model,'stylist', array(
-		'value'=>'Yes',
+		'value'=>1,
 		'uncheckValue'=>null)); ?>
 		<?php echo '<p class="scale_label">No</p>' ?>
 		<?php echo $form->radioButton($model,'stylist', array(
-		'value'=>'No',
+		'value'=>2,
 		'uncheckValue'=>null)); ?>
 		<?php echo $form->error($model,'stylist'); ?>
 	</div>

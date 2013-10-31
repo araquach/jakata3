@@ -2208,10 +2208,15 @@ span.kebelo_italic {
 
 /* @end */
 
+/* @group Survey */
+
 #survey {
 	width: 950px;
 	height: 100%;
-	background: #f5f5f5 url('../images/survey/autumn_background.jpg') no-repeat right top;
+	background-color: #f5f5f5;
+	background-image: url('../images/survey/autumn_survey_small.jpg'), url('../images/survey/autumn_background.jpg');
+	background-repeat: repeat-y, no-repeat;
+	background-position: 630px top, left top;
 	padding-top: 250px;
 	padding-bottom: 0px;
 	padding-bottom: 200px;
@@ -2220,14 +2225,18 @@ span.kebelo_italic {
 #survey_copy {
 	width: 500px;
 	padding: 30px;
-	margin-left: 50px;
+	margin-left: 30px;
 	background-color: rgba(255, 255, 255, 0.9);
 	border: 2px solid #424259;
 	border-radius: 20px;
 }
 
-#survey p:first-of-type {
-	font-size: 1.3em;
+.no-rgba #survey_copy {
+	background-color: #FFF;
+}
+
+#survey	 p:first-of-type {
+	font-size: 1.2em;
 }
 
 #survey_copy ul {
@@ -2324,13 +2333,15 @@ span.kebelo_italic {
 }
 
 #survey .applicationSuccess {
-	margin-top: 100px;
+	margin-top: 0;
+	height: 100%;
 }
 
 #surveyBlank #yw0 div.items div.view {
 	margin-bottom: 30px;
 }
 
+/* @end */
 
 /* @group Exit */
 

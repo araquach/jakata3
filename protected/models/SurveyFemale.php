@@ -69,7 +69,7 @@ class SurveyFemale extends Survey
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name, last_name, age, mobile, email, location, frequency, stylist, salon, cut_spend, colour_spend, stylist_skill, friendliness, price, customer_service, environment, convenience, reputation, end_result, poor_service, comp_offer, hygiene, boredom, products', 'required'),
+			/*array('first_name, last_name, age, mobile, email, location, frequency, stylist, salon, cut_spend, colour_spend, stylist_skill, friendliness, price, customer_service, environment, convenience, reputation, end_result, poor_service, comp_offer, hygiene, boredom, products', 'required'),*/
 			array('stylist, other_salon, colour_spend, stylist_skill, friendliness, price, customer_service, environment, convenience, reputation, end_result, poor_service, comp_offer, hygiene, boredom', 'numerical', 'integerOnly'=>true),
 			array('email, mobile', 'unique'),
 			array('email','email'),
@@ -78,8 +78,8 @@ class SurveyFemale extends Survey
 			array('age', 'length', 'max'=>7),
 			array('mobile', 'length', 'max'=>20),
 			array('email', 'length', 'max'=>55),
-			array('location', 'length', 'max'=>26),
-			array('frequency, salon', 'length', 'max'=>21),
+			array('location', 'length', 'max'=>256),
+			array('frequency', 'length', 'max'=>21),
 			array('cut_spend', 'length', 'max'=>14),
 			array('products', 'length', 'max'=>19),
 			array('type','default','value'=>'female','setOnEmpty'=>false,'on'=>'insert'),
