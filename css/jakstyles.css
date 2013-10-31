@@ -2226,6 +2226,10 @@ span.kebelo_italic {
 	border-radius: 20px;
 }
 
+#survey p:first-of-type {
+	font-size: 1.3em;
+}
+
 #survey_copy ul {
 	margin-top: 40px;
 	margin-bottom: 40px;
@@ -2258,7 +2262,7 @@ span.kebelo_italic {
 	margin-right: 40px;
 }
 
-#survey input:last-of-type {
+#survey .row.buttons input {
 	margin-top: 30px;
 }
 
