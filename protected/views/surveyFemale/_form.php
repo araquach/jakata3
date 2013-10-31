@@ -57,7 +57,7 @@
 		<?php echo $form->error($model,'frequency'); ?>
 	</div>
 
-	<div class="row">
+	<div class="row stylist">
 		<?php echo $form->labelEx($model,'stylist'); ?>
 		<?php echo '<p class="scale_label">Yes</p>' ?>
 		<?php echo $form->radioButton($model,'stylist', array(
@@ -84,7 +84,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cut_spend'); ?>
-		<?php echo $form->dropDownList($model,'cut_spend',array('prompt' => 'Select your answer')); ?>
+		<?php echo $form->dropDownList($model,'cut_spend', $model->getPriceOptions(),array('prompt' => 'Select your answer')); ?>
 		<?php echo $form->error($model,'cut_spend'); ?>
 	</div>
 
@@ -93,7 +93,8 @@
 		<?php echo ZHtml::enumDropDownList($model,'colour_spend',array('prompt' => 'Select your answer')); ?>
 		<?php echo $form->error($model,'colour_spend'); ?>
 	</div>
-	<p>Rate the following 1-5 as how important each item is to you:</p>
+	<p class="rate">Rate the following 1 - 5 as how important each item is to you (1 being not important 5 being very important):</p>
+	
 	<div class="row question">
 		<?php echo $form->labelEx($model,'stylist_skill'); ?>
 		<?php echo '<p class="scale_label">1</p>' ?>
@@ -294,7 +295,7 @@
 		<?php echo $form->error($model,'end_result'); ?>
 	</div>
 	
-	<p>Rate the following factors 1-5 on which would sway you to go to another salon/hairdresser :</p>
+	<p class="rate">Rate the following factors 1-5 on which would sway you to go to another salon/hairdresser (1 being least likely to make you change salon/stylist, 5 being most likely):</p>
 	
 	<div class="row question">
 		<?php echo $form->labelEx($model,'poor_service'); ?>

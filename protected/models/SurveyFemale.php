@@ -33,6 +33,14 @@
  */
 class SurveyFemale extends Survey
 {
+	const PRICE_10 = 1;
+	const PRICE_10_20 = 2;
+	const PRICE_21_30 = 3;
+	const PRICE_31_40 = 4;
+	const PRICE_41_50 = 5;
+	const PRICE_51_60 = 6;
+	const PRICE_60_PLUS = 7;
+	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -88,7 +96,7 @@ class SurveyFemale extends Survey
 			'first_name' => 'First Name',
 			'last_name' => 'Last Name',
 			'age' => 'Age',
-			'mobile' => 'Mobile',
+			'mobile' => 'Mobile Number',
 			'email' => 'Email',
 			'location' => 'Where do you live?',
 			'frequency' => 'How frequently do you have your hair done?',
@@ -98,7 +106,7 @@ class SurveyFemale extends Survey
 			'cut_spend' => 'What is your average spend on a cut & blow?',
 			'colour_spend' => 'If you have a colour service, what is your average spend on your colour?',
 			'stylist_skill' => 'Stylist Skill',
-			'friendliness' => 'Friendliness',
+			'friendliness' => 'Friendliness of Stylist',
 			'price' => 'Price',
 			'customer_service' => 'Customer Service',
 			'environment' => 'Environment',
@@ -106,11 +114,24 @@ class SurveyFemale extends Survey
 			'reputation' => 'Reputation',
 			'end_result' => 'End Result',
 			'poor_service' => 'Poor Service',
-			'comp_offer' => 'Comp Offer',
-			'hygiene' => 'Hygiene',
-			'boredom' => 'Boredom',
-			'products' => 'Products',
+			'comp_offer' => 'Offers at another salon',
+			'hygiene' => 'Hygiene standards',
+			'boredom' => 'Not being given new style ideas',
+			'products' => 'Where do you mainly buy your hair products from?',
 		);
+	}
+	
+	public function getPriceOptions() {
+		return array(
+			self::PRICE_10=>'£10',
+			self::PRICE_10_20=>'£10-£20',
+			self::PRICE_21_30=>'£21-£30',
+			self::PRICE_31_40=>'£31-£40',
+			self::PRICE_41_50=>'£41-£50',
+			self::PRICE_51_60=>'£51-£60',
+			self::PRICE_60_PLUS=>'More than £60',
+		);
+		
 	}
 	
 
