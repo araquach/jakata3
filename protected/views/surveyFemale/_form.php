@@ -84,13 +84,13 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cut_spend'); ?>
-		<?php echo $form->dropDownList($model,'cut_spend', $model->getPriceOptions(),array('prompt' => 'Select your answer')); ?>
+		<?php echo $form->dropDownList($model,'cut_spend', $model->getPriceOptions(),array('prompt' => 'Select your cut spend')); ?>
 		<?php echo $form->error($model,'cut_spend'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'colour_spend'); ?>
-		<?php echo ZHtml::enumDropDownList($model,'colour_spend',array('prompt' => 'Select your answer')); ?>
+		<?php echo $form->dropDownList($model,'colour_spend', $model->getColPriceOptions(),array('prompt' => 'Select your colour spend')); ?>
 		<?php echo $form->error($model,'colour_spend'); ?>
 	</div>
 	<p class="rate">Rate the following 1 - 5 as how important each item is to you (1 being not important 5 being very important):</p>
@@ -404,7 +404,7 @@
 	</div>
 
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Send' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>

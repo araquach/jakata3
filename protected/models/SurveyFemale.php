@@ -39,7 +39,10 @@ class SurveyFemale extends Survey
 	const PRICE_31_40 = 4;
 	const PRICE_41_50 = 5;
 	const PRICE_51_60 = 6;
-	const PRICE_60_PLUS = 7;
+	const PRICE_61_70 = 7;
+	
+	const PRICE_60_PLUS = 8;
+	const PRICE_70_PLUS = 9;
 	
 	/**
 	 * Returns the static model of the specified AR class.
@@ -130,6 +133,20 @@ class SurveyFemale extends Survey
 			self::PRICE_41_50=>'£41-£50',
 			self::PRICE_51_60=>'£51-£60',
 			self::PRICE_60_PLUS=>'More than £60',
+		);
+		
+	}
+	
+	public function getColPriceOptions() {
+		return array(
+			self::PRICE_10=>'£10',
+			self::PRICE_10_20=>'£10-£20',
+			self::PRICE_21_30=>'£21-£30',
+			self::PRICE_31_40=>'£31-£40',
+			self::PRICE_41_50=>'£41-£50',
+			self::PRICE_51_60=>'£51-£60',
+			self::PRICE_61_70=>'£61-£70',
+			self::PRICE_70_PLUS=>'More than £70',
 		);
 		
 	}

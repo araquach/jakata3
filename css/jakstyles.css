@@ -2258,6 +2258,10 @@ span.kebelo_italic {
 	margin-right: 40px;
 }
 
+#survey input:last-of-type {
+	margin-top: 30px;
+}
+
 #survey .permission label {
 	display: inline;
 }

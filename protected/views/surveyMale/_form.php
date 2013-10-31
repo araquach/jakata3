@@ -84,7 +84,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'cut_spend'); ?>
-		<?php echo $form->dropDownList($model,'cut_spend', $model->getPriceOptions(),array('prompt' => 'Select your answer')); ?>
+		<?php echo $form->dropDownList($model,'cut_spend', $model->getPriceOptions(),array('prompt' => 'Select your cut spend')); ?>
 		<?php echo $form->error($model,'cut_spend'); ?>
 	</div>
 
@@ -399,7 +399,7 @@
 	</div>
 	
 	<div class="row buttons">
-		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Send' : 'Save'); ?>
 	</div>
 
 <?php $this->endWidget(); ?>
