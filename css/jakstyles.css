@@ -2222,6 +2222,10 @@ span.kebelo_italic {
 	padding-bottom: 200px;
 }
 
+.no-multiplebgs #survey {
+	background: #f5f5f5 url('../images/survey/autumn_background.jpg') no-repeat left top;
+}
+
 #survey_copy {
 	width: 500px;
 	padding: 30px;
