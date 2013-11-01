@@ -232,11 +232,11 @@ li.active a {
 
 
 #news2 {
-	background: url('../images/home/claire.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
+	background: url('../images/home/nina.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
 	background-size: contain;
 }
 .no-rgba #news2 {
-	background: url('../images/home/claire_small.jpg') no-repeat left top rgb(249, 249, 250);
+	background: url('../images/home/nina_small.jpg') no-repeat left top rgb(249, 249, 250);
 }
 
 
