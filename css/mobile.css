@@ -1958,6 +1958,8 @@ span.kebelo_italic {
 #survey_copy ul {
 	margin-top: 40px;
 	margin-bottom: 40px;
+	margin-left: 0;
+	padding-left: 20px;
 }
 
 #survey_copy ul li {
@@ -1965,14 +1967,16 @@ span.kebelo_italic {
 	font-weight: bold;
 	margin-bottom: 1.2em;
 	color: rgb(81, 86, 95);
+	margin-left: 0;
+	padding-left: 0;
 }
 
 #survey_copy a {
 	display: block;
-	font-size: 1.2em;
+	font-size: 1em;
 	font-weight: bold;
 	margin-bottom: 20px;
-	margin-left: 30px;
+	margin-left: 0;
 }
 
 #survey p.rate {
@@ -1984,7 +1988,7 @@ span.kebelo_italic {
 }
 
 #survey input {
-	margin-right: 40px;
+	margin-right: 10px;
 }
 
 #survey .row.buttons input {
@@ -2013,10 +2017,10 @@ span.kebelo_italic {
 }
 
 #survey p.scale_label {
-	margin-right: 10px;
+	margin-right: 5px;
 	display: inline;
 	margin-bottom: 40px;
-	font: 1.2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: 1em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
 }
 
 #survey .form .stylist input {
@@ -2025,9 +2029,9 @@ span.kebelo_italic {
 }
 
 #survey .form .question {
-	border: 1px solid #888;
-	padding: 10px;
-	border-radius: 10px;
+	border: none;
+	padding: 0;
+	border-radius: 0;
 }
 
 #survey .form .question input {
@@ -2050,7 +2054,8 @@ span.kebelo_italic {
 }
 
 #survey .applicationSuccess {
-	margin-top: 0;
+	margin: 0;
+	padding: 0;
 	height: 100%;
 }
 

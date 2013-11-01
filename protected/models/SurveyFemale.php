@@ -30,6 +30,7 @@
  * @property integer $hygiene
  * @property integer $boredom
  * @property string $products
+ * @property integer $date
  */
 class SurveyFemale extends Survey
 {
@@ -77,6 +78,7 @@ class SurveyFemale extends Survey
 			array('last_name', 'length', 'max'=>40),
 			array('age', 'length', 'max'=>7),
 			array('mobile', 'length', 'max'=>20),
+			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('email', 'length', 'max'=>55),
 			array('location', 'length', 'max'=>256),
 			array('frequency', 'length', 'max'=>21),

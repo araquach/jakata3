@@ -23,10 +23,10 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 </aside>',array('site/page','view'=>'offers')); ?>
 	
 <?php echo CHtml::link('<aside id="news1" class="home_news">
-<h3 class="newsheader">The Ultimate Smoothing Treatment</h3>
-<p class="newspara">Kebelo Advantage could change your hair styling routine forever!</p>
+<h3 class="newsheader">The Great Jakata Giveaway</h3>
+<p class="newspara">We\'re giving away loads of free products &amp; services this month</p>
 <p class="newscenter"><strong>Click here for details &gt;</strong></p>
-	</aside>',array('kebelo/advantage')); ?>
+	</aside>',array('site/page','view'=>'survey')); ?>
 
 <?php echo CHtml::link('<aside id="news3" class="home_news">
 <h3 class="newsheader">Great career opportunities at Jakata</h3>

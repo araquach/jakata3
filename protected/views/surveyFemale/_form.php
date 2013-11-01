@@ -8,6 +8,11 @@
 
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'survey-form',
+	'enableClientValidation'=>true,
+	'clientOptions'=>array(
+		'validateOnSubmit'=>true,
+	),
+	
 	'enableAjaxValidation'=>false,
 )); ?>
 

@@ -23,11 +23,12 @@
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
 
-<?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
+<?php /* $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
    'href' => 'http://www.jakatasalon.co.uk/giveaway', 
    'show_faces'=>true,
-   'send' => true
-));  ?>	
+   'send' => true,
+   'width' => '250px'
+)); */ ?>	
 
 </div> <!--survey_copy-->
 </div> <!--survey-->

@@ -1,9 +1,11 @@
 <?php
 /* @var $this SurveyController */
 /* @var $model SurveyMale */
-
-// Remember to put OG tags in!!!!
 ?>
+
+<?php Yii::app()->facebook->ogTags['og:title'] = "The Great Jakata Autumn Giveaway"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Wouldn't it be great to have some free pampering or maybe get some of the latest hair products handed to you for free! Over the next couple of months we're going to be giving away 100's of pounds worth of hair products and services that YOU can get your hands on!"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/survey/autumn_meta.jpg"; ?>
 
 <div id="survey">
 <div id="survey_img"></div>
@@ -32,7 +34,8 @@
 <?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
    'href' => 'http://www.jakatasalon.co.uk/giveaway', 
    'show_faces'=>true,
-   'send' => true
+   'send' => true,
+   'width' => '250px'
 ));  ?>	
 
 </div> <!--survey_copy-->
