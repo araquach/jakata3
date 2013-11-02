@@ -18,7 +18,7 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
 <h3 class="newsheader">New Client Offers</h3>
-<p class="newspara">This month we\'ve extended our special offers that are open to new clients to the salon</p>
+<p class="newspara">We\'ve extended our special new client offers all this month</p>
 <p class="newscenter"><strong>Find out here &gt;</strong></p>
 </aside>',array('site/page','view'=>'offers')); ?>
 	
