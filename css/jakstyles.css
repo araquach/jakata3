@@ -249,6 +249,32 @@ li.active a {
 	background-size: contain;
 }
 
+#feedback_feed {
+	width: 350px;
+	text-align: right;
+	position: absolute;
+	font-size: 1.2em;
+	right: 40px;
+	bottom: 200px;
+	display: none;
+}
+
+#feedback_feed ul {
+	
+}
+
+#feedback_feed ul li {
+	color: #FFF;
+	list-style-type: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	text-shadow: 0 0 3px #0a0a0a;
+}
+
+#feedback_feed ul li .client {
+	font: .7em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
 /* @end */
 
 /* @group Salon */
@@ -278,7 +304,7 @@ li.active a {
 	width: 300px;
 	position: absolute;
 	top: 30px;
-	right: 30px;
+	right: 20px;
 	border-radius: 5px;
 	border: 1px solid #999;
 }

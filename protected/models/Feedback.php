@@ -21,6 +21,7 @@
  * @property string $extra
  * @property string $client_id
  * @property bool $allow
+ * @property bool $publish
  */
 class Feedback extends CActiveRecord
 {
@@ -53,13 +54,14 @@ class Feedback extends CActiveRecord
 		return array(
 			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, client_id', 'required'),
 			array('intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, client_id', 'numerical', 'integerOnly'=>true),
+			array('publish', 'boolean'),
 			array('allow', 'boolean'),
 			array('client_id', 'unique', 'message'=>'Sorry - you can only enter once'),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('extra', 'length', 'max'=>300),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, allow, date, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, extra, client_id', 'safe', 'on'=>'search'),
+			array('id, allow, date, intro, consultation, styling_area, stylist_appearance, prod_advice, styling_advice, mkt1, mkt2, mkt3, value_for_money, whole_experience, end_result, extra, client_id, publish', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -98,6 +100,7 @@ class Feedback extends CActiveRecord
 			'end_result' => '10. How happy were you with the end result of your hair?',
 			'extra' => 'Do you have any extra comments you would like to make?',
 			'allow' => 'Please tick the box if you give permission to use your comments on our testimonials page',
+			'publish' => 'Publish to website?',
 		);
 	}
 
@@ -129,6 +132,7 @@ class Feedback extends CActiveRecord
 		$criteria->compare('client_id',$this->client_id);
 		$criteria->compare('extra',$this->extra,true);
 		$criteria->compare('allow',$this->allow);
+		$criteria->compare('publish',$this->allow);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
