@@ -1,5 +1,6 @@
 <?php
 /* @var $this SiteController */
+/* @var $model Feedback */
 
 $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 ?>

@@ -212,6 +212,32 @@ p.newscenter {
 	background-size: contain;
 }
 
+#feedback_feed {
+	width: 350px;
+	text-align: right;
+	position: absolute;
+	font-size: 1.2em;
+	bottom: 200px;
+	display: none;
+	visibility: hidden;
+}
+
+#feedback_feed ul {
+	
+}
+
+#feedback_feed ul li {
+	color: #FFF;
+	list-style-type: none;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style: italic;
+	text-shadow: 0 0 3px #0a0a0a;
+}
+
+#feedback_feed ul li .client {
+	font: .7em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
 /* @end */
 
 /* @group Offers */
