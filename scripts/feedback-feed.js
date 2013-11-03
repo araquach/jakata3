@@ -4,8 +4,8 @@ jQuery.noConflict();
 			function InOut( elem )
 			{
 			 elem.delay()
-			     .fadeIn()
-			     .delay(6000)
+			     .fadeIn('slow')
+			     .delay(7000)
 			     .fadeOut(
 			          function(){
 			             if(elem.next().length > 0) // if there is a next element
@@ -19,7 +19,7 @@ jQuery.noConflict();
 			}
 			$('#feedback_feed').css('display','block');
 			$('#feedback_feed li').hide();
-			InOut( $('#feedback_feed li:first') );
+			InOut( $('#feedback_feed li:first'));
 		});
 })(jQuery);
 

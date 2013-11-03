@@ -253,14 +253,10 @@ li.active a {
 	width: 350px;
 	text-align: right;
 	position: absolute;
-	font-size: 1.2em;
+	font-size: 1em;
 	right: 40px;
 	bottom: 200px;
 	display: none;
-}
-
-#feedback_feed ul {
-	
 }
 
 #feedback_feed ul li {

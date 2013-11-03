@@ -46,7 +46,7 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 	<ul>
 	<?php foreach ($model as $key => $value): ?>
 		
-		<?php echo '<li>'. $value->extra . '<br>' . '<span class="client">' . $value->FeedbackClient->first_name . ' ' . $value->FeedbackClient->last_name . ' - hair by ' . strstr($value->FeedbackClient->stylist, ' ', true) . '</span></li>'?>
+		<?php echo '<li>&quot;'. $value->extra . '&quot;<br>' . '<span class="client">' . ucfirst($value->FeedbackClient->first_name) . ' ' . ucfirst($value->FeedbackClient->last_name) . ' - hair by ' . strstr($value->FeedbackClient->stylist, ' ', true) . '</span></li>'?>
 	
 	<?php endforeach; ?>
 	</ul>

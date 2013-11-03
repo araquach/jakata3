@@ -31,7 +31,12 @@ class SiteController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		// loads feedback::model for feed
 		
-		$model=Feedback::model()->with('FeedbackClient')->findAll('publish=1');
+		$model=Feedback::model()->with('FeedbackClient')->findAll(array(
+		'condition'=>'publish=1',
+		'select'=>'*, rand() as rand',
+		'order'=>'rand'
+		));
+		
 		$this->render('index',array('model'=>$model));
 	}
 	
