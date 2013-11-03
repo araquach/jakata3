@@ -6,6 +6,11 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 
 <?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/main/jakata_logo_meta.jpg"; ?>
 
+<?php
+	Yii::app()->clientScript->registerCoreScript('jquery');
+	Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/scripts/feedback-feed.js');
+?>
+
 <div id="home">
 <h4 class="slogan">Fashion forward, award winning hairdressing</h4>
 <section id="info">
@@ -34,8 +39,17 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 <p class="newscenter"><strong>Find out more here &gt;</strong></p>
 </aside>',array('site/page','view'=>'recruitment')); ?>
 
-
 </div> <!--news-->
 
+<div id="feedback_feed">
+	<ul>
+	<?php foreach ($model as $key => $value): ?>
+		
+		<?php echo '<li>'. $value->extra . '<br>' . '<span class="client">' . $value->FeedbackClient->first_name . ' ' . $value->FeedbackClient->last_name . ' - hair by ' . strstr($value->FeedbackClient->stylist, ' ', true) . '</span></li>'?>
+	
+	<?php endforeach; ?>
+	</ul>
+	
+</div> <!--#feedback_feed-->
 
 </div> <!--#home-->
