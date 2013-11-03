@@ -213,17 +213,19 @@ p.newscenter {
 }
 
 #feedback_feed {
-	width: 350px;
-	text-align: right;
+	width: auto;
+	text-align: left;
 	position: absolute;
-	font-size: 1.2em;
-	bottom: 200px;
+	font-size: .9em;
+	bottom: 0;
+	bottom: 2065px;
+	left: 20px;
 	display: none;
-	visibility: hidden;
+	vertical-align: middle;
 }
 
 #feedback_feed ul {
-	
+	padding: 0;
 }
 
 #feedback_feed ul li {
@@ -231,7 +233,7 @@ p.newscenter {
 	list-style-type: none;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
-	text-shadow: 0 0 3px #0a0a0a;
+	text-shadow: 0 0 10px #030303;
 }
 
 #feedback_feed ul li .client {
