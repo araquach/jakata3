@@ -25,6 +25,12 @@
 			<?php echo $form->error($model,'extra'); ?>
 		</div>
 		
+		<div class="row">
+			<?php echo $form->labelEx($model,'extra_edit'); ?>
+			<?php echo $form->textArea($model,'extra_edit',array('rows'=>10,'cols'=>55)); ?>
+			<?php echo $form->error($model,'extra_edit'); ?>
+		</div>
+		
 		<div class="row permission">
 			<?php echo $form->labelEx($model,'allow'); ?>
 			<?php echo $form->checkBox($model,'allow'); ?>
