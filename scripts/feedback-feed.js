@@ -5,7 +5,7 @@ jQuery.noConflict();
 			{
 			 elem.delay()
 			     .fadeIn('slow')
-			     .delay(7000)
+			     .delay(6000)
 			     .fadeOut(
 			          function(){
 			             if(elem.next().length > 0) // if there is a next element

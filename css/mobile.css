@@ -216,7 +216,6 @@ p.newscenter {
 	width: auto;
 	text-align: left;
 	position: absolute;
-	font-size: .9em;
 	bottom: 0;
 	bottom: 2065px;
 	left: 20px;
@@ -231,13 +230,12 @@ p.newscenter {
 #feedback_feed ul li {
 	color: #FFF;
 	list-style-type: none;
-	font-family: Georgia, "Times New Roman", Times, serif;
 	font-style: italic;
 	text-shadow: 0 0 10px #030303;
 }
 
 #feedback_feed ul li .client {
-	font: .7em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	
 }
 
 /* @end */

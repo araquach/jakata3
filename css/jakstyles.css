@@ -250,25 +250,29 @@ li.active a {
 }
 
 #feedback_feed {
-	width: 350px;
+	width: 310px;
 	text-align: right;
 	position: absolute;
-	font-size: 1em;
 	right: 40px;
 	bottom: 200px;
 	display: none;
 }
 
+#feedback_feed ul {
+	padding: 0;
+}
+
 #feedback_feed ul li {
 	color: #FFF;
+	font-size: .9em;
 	list-style-type: none;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	
 	font-style: italic;
 	text-shadow: 0 0 3px #0a0a0a;
 }
 
 #feedback_feed ul li .client {
-	font: .7em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	font: .7em Georgia, "Times New Roman", Times, serif;
 }
 
 /* @end */
