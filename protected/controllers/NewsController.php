@@ -127,8 +127,7 @@ class NewsController extends Controller
 		// loads news::model for feed
 		
 		$model=news::model()->findAll(array(
-		'select'=>'*, rand() as rand',
-		'order'=>'rand'
+		'order'=>'id desc',
 		));
 		
 		$this->render('index',array('model'=>$model));

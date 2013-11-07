@@ -706,6 +706,10 @@ a.anchor {
 	margin-left: 200px;
 }
 
+#accordion article.article section.visible p:first-of-type {
+	font-weight: bold;
+}
+
 #accordion article.article section.hidden p,
 #accordion article.article section.hidden h3,
 #accordion article.article section.hidden h4,

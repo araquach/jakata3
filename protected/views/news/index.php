@@ -28,7 +28,7 @@ window.addEvent('domready', function(){
 CHtml::encode($value->unhid_img) .
 '<h2>' . CHtml::encode($value->title) . '</h2>' .
 $value->unhidden .
-'<p class="reveal">Read more is &gt;</p>
+'<p class="reveal">Read more &gt;</p>
 </section>
 <section class="hidden">' .
 CHtml::encode($value->hidden_img) .
