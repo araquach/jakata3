@@ -676,7 +676,6 @@ a.anchor {
 
 .hidden {
 	margin-bottom: 20px;
-
 }
 
 #accordion article.article section.hidden img.image_list {
@@ -750,6 +749,11 @@ a.anchor {
 
 #accordion article.article section.hidden h4 {
 	font-size: 1.1em;
+}
+
+#accordion article.article section.hidden div.fb-like {
+	margin-left: 200px;
+	padding-bottom: 10px;
 }
 
 #accordion article.article time {
