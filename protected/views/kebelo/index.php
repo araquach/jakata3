@@ -1,5 +1,9 @@
 <?php  $this->pageTitle=Yii::app()->name . ' - Kebelo System'; ?>
 
+<?php Yii::app()->facebook->ogTags['og:title'] = "Kebelo at Jakata"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "We know how bad hair days can be stressful. We know years of styling and colouring can leave it prone to frizzing, and we know how much time and effort it takes to keep it looking beautiful. Those days are now over with Kebelo Advantage"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/kebelo/kebelo_meta.jpg"; ?>
+
 <div id="kebeloMain">
 
 	<div id="kebelo">
