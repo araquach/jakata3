@@ -22,6 +22,12 @@
 	</div>
 	
 	<div class="row">
+		<?php echo $form->labelEx($model,'anchor'); ?>
+		<?php echo $form->textField($model,'anchor',array('size'=>60,'maxlength'=>256)); ?>
+		<?php echo $form->error($model,'anchor'); ?>
+	</div>
+	
+	<div class="row">
 			<?php echo $form->labelEx($model,'date'); ?>
 			<?php echo $form->hiddenField($model,'date'); ?>
 			<?php 

@@ -37,6 +37,11 @@ window.addEvent('domready', function(){
 <?php echo $value->hidden_img ;?>
 <?php echo $value->hidden ;?>
 <?php echo '<p class="offer">' . $value->offer . '</p>';?>
+<?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
+   'href' => 'http://www.jakatasalon.co.uk/news#' . $value->author, 
+   'show_faces'=>true,
+   'send' => true,
+));  ?>	
 <?php echo '</section>' ;?> 
 <?php echo '<p class="author">Published by ' . $value->author . '</p>';?>
 <?php echo '<time datetime="2013-10-11">' . $value->date . '</time>';?>

@@ -6,6 +6,7 @@
  * The followings are the available columns in table 'news':
  * @property integer $id
  * @property string $title
+ * @property string $anchor
  * @property string $date
  * @property string $author
  * @property string $unhidden
@@ -43,13 +44,13 @@ class News extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('date, author, unhidden, unhid_img, hidden, hidden_img, offer, publish', 'required'),
+			array('date, title, anchor, author, unhidden, unhid_img, hidden, hidden_img, offer, publish', 'required'),
 			array('publish', 'numerical', 'integerOnly'=>true),
-			array('title, author, unhid_img, hidden_img', 'length', 'max'=>256),
+			array('title, anchor, author, unhid_img, hidden_img', 'length', 'max'=>256),
 			array('offer', 'length', 'max'=>500),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, title, date, author, unhidden, unhid_img, hidden, hidden_img, offer, publish', 'safe', 'on'=>'search'),
+			array('id, title, anchor, date, author, unhidden, unhid_img, hidden, hidden_img, offer, publish', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -72,6 +73,7 @@ class News extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'title' => 'Title',
+			'anchor' => 'Anchor Tag (no spaces)',
 			'date' => 'Date',
 			'author' => 'Author',
 			'unhidden' => 'Unhidden',
@@ -96,6 +98,7 @@ class News extends CActiveRecord
 
 		$criteria->compare('id',$this->id);
 		$criteria->compare('title',$this->title,true);
+		$criteria->compare('anchor',$this->anchor,true);
 		$criteria->compare('date',$this->date,true);
 		$criteria->compare('author',$this->author,true);
 		$criteria->compare('unhidden',$this->unhidden,true);
