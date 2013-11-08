@@ -69,8 +69,20 @@ class NewsController extends Controller
 
 		if(isset($_POST['News']))
 		{
+			$rnd = rand(0,9999);  // generate random number between 0-9999
 			$model->attributes=$_POST['News'];
+			
+			$uploadedFile1=CUploadedFile::getInstance($model,'unhid_img');
+			$uploadedFile2=CUploadedFile::getInstance($model,'hidden_img');
+			
+			$fileName1 = "{$rnd}-{$uploadedFile1}";
+			$fileName2 = "{$rnd}-{$uploadedFile2}"; 
+			$model->unhid_img = $fileName1;
+			$model->hidden_img = $fileName2;
+			
 			if($model->save())
+				$uploadedFile1->saveAs(Yii::app()->basePath.'/../images/newspics/'.$fileName1);
+				$uploadedFile2->saveAs(Yii::app()->basePath.'/../images/newspics/'.$fileName2);  
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
@@ -78,7 +90,8 @@ class NewsController extends Controller
 			'model'=>$model,
 		));
 	}
-
+	
+	
 	/**
 	 * Updates a particular model.
 	 * If update is successful, the browser will be redirected to the 'view' page.

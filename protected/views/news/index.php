@@ -25,13 +25,13 @@ window.addEvent('domready', function(){
 <?php echo '<article class="article">
 <a id=" '. CHtml::encode($value->anchor) .' " class="anchor"></a><a id="'. CHtml::encode($value->anchor) .'" class="anchor"></a>
 <section class="visible">' .
-CHtml::encode($value->unhid_img) .
+CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$value->unhid_img,"image",array("width"=>135)) .
 '<h2>' . CHtml::encode($value->title) . '</h2>' .
 $value->unhidden .
 '<p class="reveal">Read more &gt;</p>
 </section>
 <section class="hidden">' .
-CHtml::encode($value->hidden_img) .
+CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$value->hidden_img,"image",array("width"=>135)) .
 $value->hidden .
 '<p class="offer">' . CHtml::encode($value->offer) . '</p>';?>
 

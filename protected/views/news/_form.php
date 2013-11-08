@@ -9,6 +9,9 @@
 <?php $form=$this->beginWidget('CActiveForm', array(
 	'id'=>'news-form',
 	'enableAjaxValidation'=>false,
+	'htmlOptions' => array(
+	        'enctype' => 'multipart/form-data',
+	    ),
 )); ?>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
@@ -62,12 +65,18 @@
 	    			),
 	    ),
 	)); ?>
-
+	
 	<div class="row">
-		<?php echo $form->labelEx($model,'unhid_img'); ?>
-		<?php echo $form->textField($model,'unhid_img',array('size'=>60,'maxlength'=>256)); ?>
-		<?php echo $form->error($model,'unhid_img'); ?>
+	        <?php echo $form->labelEx($model,'unhid_img'); ?>
+	        <?php echo CHtml::activeFileField($model, 'unhid_img'); ?>
+	        <?php echo $form->error($model,'unhid_img'); ?>
 	</div>
+	<?php if($model->isNewRecord!='1'):?>
+	<div class="row">
+	     <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics'.$model->unhid_img,"image",array("width"=>135)); ?>
+	</div>
+	<?php endif; ?>
+
 
 	<?php $this->widget('ext.editMe.widgets.ExtEditMe', array(
 	    'model'=>$model,
@@ -80,10 +89,15 @@
 	)); ?>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'hidden_img'); ?>
-		<?php echo $form->textField($model,'hidden_img',array('size'=>60,'maxlength'=>256)); ?>
-		<?php echo $form->error($model,'hidden_img'); ?>
+	        <?php echo $form->labelEx($model,'hidden_img'); ?>
+	        <?php echo CHtml::activeFileField($model, 'hidden_img'); ?>
+	        <?php echo $form->error($model,'hidden_img'); ?>
 	</div>
+	<?php if($model->isNewRecord!='1'):?>
+	<div class="row">
+	     <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics'.$model->hidden_img,"image",array("width"=>135)); ?>
+	</div>
+	<?php endif; ?>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'offer'); ?>
