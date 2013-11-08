@@ -32,7 +32,7 @@ class FeedbackController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete','index','update','view'),
+				'actions'=>array('admin','delete','index','update','view','scores'),
 				'users'=>array('manager'),
 			),
 			array('deny',  // deny all users
@@ -142,7 +142,7 @@ class FeedbackController extends Controller
 	{
 		$criteria=new CDbCriteria();
 			$criteria->with = 'FeedbackClient';
-			$criteria->order = 't.id DESC';
+			$criteria->order = 'stylist DESC';
 			
 		$dataProvider=new CActiveDataProvider('Feedback', array(
 			'criteria'=>$criteria));
