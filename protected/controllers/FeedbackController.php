@@ -166,6 +166,18 @@ class FeedbackController extends Controller
 			'model'=>$model,
 		));
 	}
+	
+	/**
+	 * Displays the total scores for each stylist.
+	 */
+	public function actionScores()
+	{
+		
+		
+		$this->render('scores',array(
+			
+		));
+	}
 
 	/**
 	 * Returns the data model based on the primary key given in the GET variable.
