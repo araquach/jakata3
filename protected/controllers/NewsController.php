@@ -32,7 +32,7 @@ class NewsController extends Controller
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('create','update','list','delete','admin'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
@@ -97,24 +97,33 @@ class NewsController extends Controller
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
+	
 	public function actionUpdate($id)
-	{
-		$model=$this->loadModel($id);
-
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['News']))
-		{
-			$model->attributes=$_POST['News'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id));
-		}
-
-		$this->render('update',array(
-			'model'=>$model,
-		));
-	}
+	    {
+	        $model=$this->loadModel($id);
+	 
+	        if(isset($_POST['News']))
+	        {
+	            $_POST['News']['unhid_image'] = $model->unhid_img;
+	            $model->attributes=$_POST['News'];
+	 
+	            $uploadedFile=CUploadedFile::getInstance($model,'unhid_img');
+	 
+	            if($model->save())
+	            {
+	                if(!empty($uploadedFile))  // check if uploaded file is set or not
+	                {
+	                    $uploadedFile->saveAs(Yii::app()->basePath.'/../images/newspics/'.$model->unhid_img);
+	                }
+	                $this->redirect(array('index'));
+	            }
+	 
+	        }
+	 
+	        $this->render('update',array(
+	            'model'=>$model,
+	        ));
+	    }
 
 	/**
 	 * Deletes a particular model.
@@ -144,6 +153,22 @@ class NewsController extends Controller
 		));
 		
 		$this->render('index',array('model'=>$model));
+	}
+	
+	public function actionList()
+	{
+		// renders the view file 'protected/views/news/list.php'
+		// using the default layout 'protected/views/layouts/main.php'
+				
+		$criteria=new CDbCriteria();
+			$criteria->order = 'id DESC';
+			
+		$dataProvider=new CActiveDataProvider('News', array(
+			'criteria'=>$criteria));
+			
+		$this->render('list',array(
+			'dataProvider'=>$dataProvider,
+		));
 	}
 	
 

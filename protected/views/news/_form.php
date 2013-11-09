@@ -107,7 +107,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'publish'); ?>
-		<?php echo $form->textField($model,'publish'); ?>
+		<?php echo $form->checkBox($model,'publish'); ?>
 		<?php echo $form->error($model,'publish'); ?>
 	</div>
 

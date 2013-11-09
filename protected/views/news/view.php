@@ -3,7 +3,7 @@
 /* @var $model News */
 ?>
 
-<section id="news">
+<section id="news_admin">
 
 <h1>View News #<?php echo $model->id; ?></h1>
 
@@ -21,5 +21,15 @@
 		'publish',
 	),
 )); ?>
+
+<?php  $this->widget('zii.widgets.CMenu', array(
+	'items'=>array(
+		array('label'=>'Delete News Item', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
+		array('label'=>'Update News Item', 'url'=>array('update', 'id'=>$model->id)),
+	),
+	'htmlOptions'=>array('id'=>'news_menu'),
+));
+?>
+
 
 </section>

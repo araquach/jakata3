@@ -3,10 +3,10 @@
 /* @var $model News */
 ?>
 
-<section id="news">
+<section id="news_admin">
 
 <h1>Create News</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
 
-</section> <!--#news-->
+</section> <!--#news_admin-->

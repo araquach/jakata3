@@ -25,7 +25,7 @@ $('.search-form form').submit(function(){
 });
 ");
 ?>
-
+<section id="news_admin">
 <h1>Manage News</h1>
 
 <p>
@@ -61,3 +61,5 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		),
 	),
 )); ?>
+
+</section>
