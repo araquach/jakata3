@@ -73,7 +73,7 @@
 	</div>
 	<?php if($model->isNewRecord!='1'):?>
 	<div class="row">
-	     <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics'.$model->unhid_img,"image",array("width"=>135)); ?>
+	     <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$model->unhid_img,"image",array("width"=>135)); ?>
 	</div>
 	<?php endif; ?>
 
@@ -95,7 +95,7 @@
 	</div>
 	<?php if($model->isNewRecord!='1'):?>
 	<div class="row">
-	     <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics'.$model->hidden_img,"image",array("width"=>135)); ?>
+	     <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$model->hidden_img,"image",array("width"=>135)); ?>
 	</div>
 	<?php endif; ?>
 

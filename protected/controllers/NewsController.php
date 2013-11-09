@@ -104,23 +104,27 @@ class NewsController extends Controller
 	 
 	        if(isset($_POST['News']))
 	        {
-	            $_POST['News']['unhid_image'] = $model->unhid_img;
+	            $_POST['News']['unhid_img'] = $model->unhid_img;
+	            $_POST['News']['hidden_img'] = $model->hidden_img;
 	            $model->attributes=$_POST['News'];
 	 
-	            $uploadedFile=CUploadedFile::getInstance($model,'unhid_img');
-	 
+	            $uploadedFile1=CUploadedFile::getInstance($model,'unhid_img');
+	            $uploadedFile2=CUploadedFile::getInstance($model,'hidden_img');
+	            
 	            if($model->save())
 	            {
-	                if(!empty($uploadedFile))  // check if uploaded file is set or not
+	                if(!empty($uploadedFile1))  // check if uploaded file1 is set or not
 	                {
-	                    $uploadedFile->saveAs(Yii::app()->basePath.'/../images/newspics/'.$model->unhid_img);
+	                    $uploadedFile1->saveAs(Yii::app()->basePath.'/../images/newspics/'.$model->unhid_img);
 	                }
-	                $this->redirect(array('index'));
+	                elseif(!empty($uploadedFile2))
+	                {
+	                	$uploadedFile2->saveAs(Yii::app()->basePath.'/../images/newspics/'.$model->hidden_img);
+	                }
+	                $this->redirect(array('list'));
 	            }
-	 
-	        }
-	 
-	        $this->render('update',array(
+	 		}
+	 		$this->render('update',array(
 	            'model'=>$model,
 	        ));
 	    }

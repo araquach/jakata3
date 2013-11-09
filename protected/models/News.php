@@ -44,10 +44,10 @@ class News extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('date, title, anchor, author, unhidden, unhid_img, hidden, hidden_img, offer, publish', 'required'),
+			array('date, title, anchor, author, unhidden, unhid_img, hidden, publish', 'required'),
 			array('publish', 'numerical', 'integerOnly'=>true),
 			array('unhid_img, hidden_img', 'file','types'=>'jpg, gif, png', 'allowEmpty'=>true, 'on'=>'update'),
-			array('title, anchor, author, unhid_img, hidden_img', 'length', 'max'=>256),
+			array('title, anchor, author, unhid_img, hidden_img', 'length', 'max'=>256, 'on'=>'insert,update'),
 			array('offer', 'length', 'max'=>500),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.

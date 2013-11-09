@@ -30,10 +30,11 @@ CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$value->unhid_img,
 $value->unhidden .
 '<p class="reveal">Read more &gt;</p>
 </section>
-<section class="hidden">' .
-CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$value->hidden_img,"image",array("width"=>135)) .
-$value->hidden .
-'<p class="offer">' . CHtml::encode($value->offer) . '</p>';?>
+<section class="hidden">'; ?>
+<?php if (!isset($value->hidden_img)) :?>
+<?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$value->hidden_img,"image",array("width"=>135)); ?>
+<?php endif; ?>
+<?php echo $value->hidden . '<p class="offer">' . CHtml::encode($value->offer) . '</p>';?>
 
 <?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
    'href' => 'http://www.jakatasalon.co.uk/news#' . CHtml::encode($value->anchor),
