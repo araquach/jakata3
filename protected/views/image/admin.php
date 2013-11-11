@@ -25,6 +25,7 @@ $('.search-form form').submit(function(){
 });
 ");
 ?>
+<div id="blank">
 
 <h1>Manage Images</h1>
 
@@ -56,3 +57,5 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		),
 	),
 )); ?>
+	
+</div>

@@ -2,15 +2,13 @@
 /* @var $this ImageController */
 /* @var $dataProvider CActiveDataProvider */
 
-$this->breadcrumbs=array(
-	'Images',
-);
-
 $this->menu=array(
 	array('label'=>'Create Image', 'url'=>array('create')),
 	array('label'=>'Manage Image', 'url'=>array('admin')),
 );
 ?>
+
+<div id="blank">
 
 <h1>Images</h1>
 
@@ -18,3 +16,5 @@ $this->menu=array(
 	'dataProvider'=>$dataProvider,
 	'itemView'=>'_view',
 )); ?>
+
+</div> <!--#blank-->

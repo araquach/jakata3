@@ -63,6 +63,14 @@ a:hover {
 	color: #2e2b60;
 }
 
+#blank {
+	width: 950px;
+	height: 100%;
+	background: #f5f5f5 url('../images/') no-repeat left top;
+	padding-top: 280px;
+	padding-bottom: 190px;
+}
+
 /* @end */
 
 /* @group Header */

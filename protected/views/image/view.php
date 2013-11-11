@@ -16,16 +16,20 @@ $this->menu=array(
 );
 ?>
 
-<h1>View Image #<?php echo $model->id; ?></h1>
+<div id="blank">
+	
+	<h1>View Image #<?php echo $model->id; ?></h1>
+	
+	<?php $this->widget('zii.widgets.CDetailView', array(
+		'data'=>$model,
+		'attributes'=>array(
+			'id',
+			'path',
+			'alt',
+			'width',
+			'height',
+			'date_added',
+		),
+	)); ?>
 
-<?php $this->widget('zii.widgets.CDetailView', array(
-	'data'=>$model,
-	'attributes'=>array(
-		'id',
-		'path',
-		'alt',
-		'width',
-		'height',
-		'date_added',
-	),
-)); ?>
+</div> <!--#blank-->

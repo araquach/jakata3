@@ -13,6 +13,10 @@ $this->menu=array(
 );
 ?>
 
+<div id="blank">
+	
 <h1>Create Image</h1>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+	
+</div>
