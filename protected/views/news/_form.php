@@ -61,8 +61,20 @@
 	    'attribute'=>'unhidden',
 	    'toolbar'=>array(
 	    	array(
-	    				'Bold', 'Italic', 'Underline',
-	    			),
+	    			'Source',
+	    		),
+	    	array(
+	    			'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo',
+	    		),
+	    	array(
+	    			'Bold', 'Italic', 'Underline',
+	    		),
+	    	array(
+	    			'NumberedList', 'BulletedList', '-', 'Blockquote', 'CreateDiv', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock',
+	    		),
+	    	array(
+	    			'Link', 'Unlink', 'Anchor',
+	    		),
 	    ),
 	)); ?>
 	
@@ -83,9 +95,22 @@
 	    'attribute'=>'hidden',
 	    'toolbar'=>array(
 	    	array(
-	    				'Bold', 'Italic', 'Underline',
-	    			),
+	    			'Source',
+	    		),
+	    	array(
+	    			'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo',
+	    		),
+	    	array(
+	    			'Bold', 'Italic', 'Underline',
+	    		),
+	    	array(
+	    			'NumberedList', 'BulletedList', '-', 'Blockquote', 'CreateDiv', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock',
+	    		),
+	    	array(
+	    			'Link', 'Unlink', 'Anchor',
+	    		),
 	    ),
+	    
 	)); ?>
 
 	<div class="row">
