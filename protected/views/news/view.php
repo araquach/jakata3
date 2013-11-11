@@ -13,6 +13,8 @@
 		'id',
 		'date',
 		'author',
+		'image.path',
+		'image.width',
 		'unhidden',
 		'unhid_img',
 		'hidden',

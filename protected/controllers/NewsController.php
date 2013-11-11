@@ -63,31 +63,23 @@ class NewsController extends Controller
 	public function actionCreate()
 	{
 		$model=new News;
+		$image=new Image;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['News']))
+		if(isset($_POST['News']) && (isset($_POST['Image'])))
 		{
-			$rnd = rand(0,9999);  // generate random number between 0-9999
 			$model->attributes=$_POST['News'];
+			$image->attributes=$_POST['Image'];
 			
-			$uploadedFile1=CUploadedFile::getInstance($model,'unhid_img');
-			$uploadedFile2=CUploadedFile::getInstance($model,'hidden_img');
-			
-			$fileName1 = "{$rnd}-{$uploadedFile1}";
-			$fileName2 = "{$rnd}-{$uploadedFile2}"; 
-			$model->unhid_img = $fileName1;
-			$model->hidden_img = $fileName2;
-			
-			if($model->save())
-				$uploadedFile1->saveAs(Yii::app()->basePath.'/../images/newspics/'.$fileName1);
-				$uploadedFile2->saveAs(Yii::app()->basePath.'/../images/newspics/'.$fileName2);  
+			if($model->save() && $image->save())  
 				$this->redirect(array('view','id'=>$model->id));
 		}
 
 		$this->render('create',array(
 			'model'=>$model,
+			'image'=>$image,
 		));
 	}
 	
@@ -152,11 +144,16 @@ class NewsController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		// loads news::model for feed
 		
-		$model=news::model()->findAll(array(
-		'order'=>'id desc',
+		$model=News::model()->with('image')->findAll(array(
+		'order'=>'t.id desc',
 		));
 		
-		$this->render('index',array('model'=>$model));
+			$criteria=new CDbCriteria;
+			$criteria->condition='id=2';
+		
+		$images=Image::model()->findAll($criteria);
+		
+		$this->render('index',array('model'=>$model, 'images'=>$images));
 	}
 	
 	public function actionList()
@@ -165,7 +162,8 @@ class NewsController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 				
 		$criteria=new CDbCriteria();
-			$criteria->order = 'id DESC';
+			$criteria->order = 't.id DESC';
+			$criteria->with = 'image';
 			
 		$dataProvider=new CActiveDataProvider('News', array(
 			'criteria'=>$criteria));
@@ -198,7 +196,7 @@ class NewsController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=News::model()->findByPk($id);
+		$model=News::model()->with('image')->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;

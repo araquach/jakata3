@@ -21,19 +21,21 @@ window.addEvent('domready', function(){
 <section id="news">
 
 <section id="accordion">
-<?php foreach ($model as $key => $value):?>
+<?php foreach ($model as $value):?>
 <?php echo '<article class="article">
-<a id=" '. CHtml::encode($value->anchor) .' " class="anchor"></a><a id="'. CHtml::encode($value->anchor) .'" class="anchor"></a>
+</a><a id="'. CHtml::encode($value->anchor) .'" class="anchor"></a>
 <section class="visible">' .
-CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$value->unhid_img,"image",array("width"=>135)) .
+CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$value->image->path, $value->image->alt, array("height"=>$value->image->height)) .
 '<h2>' . CHtml::encode($value->title) . '</h2>' .
 $value->unhidden .
 '<p class="reveal">Read more &gt;</p>
 </section>
 <section class="hidden">'; ?>
-<?php if (!isset($value->hidden_img)) :?>
-<?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$value->hidden_img,"image",array("width"=>135)); ?>
-<?php endif; ?>
+
+<?php foreach ($images as $image) :?>
+<?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$image->path, $image->alt, array("height"=>$image->height)) ?>
+<?php endforeach; ?>
+
 <?php echo $value->hidden . '<p class="offer">' . CHtml::encode($value->offer) . '</p>';?>
 
 <?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
@@ -44,7 +46,7 @@ $value->unhidden .
 
 <?php echo '</section>
 <p class="author">Published by ' . CHtml::encode($value->author) . '</p>
-<time datetime="2013-10-11">' . CHtml::encode(Yii::app()->dateFormatter->formatDateTime($value->date, "long","")) . '</time>
+<time datetime="' . Yii::app()->dateFormatter->format($value->date, 'yyyy-MM-dd') . '">' . CHtml::encode(Yii::app()->dateFormatter->formatDateTime($value->date, "long","")) . '</time>
 </article>'; ?>
 
 <?php endforeach; ?>

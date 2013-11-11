@@ -56,60 +56,99 @@
 		<?php echo $form->error($model,'author'); ?>
 	</div>
 	
-	<?php echo $form->hiddenField($model,'unhid_img',array('size'=>60,'maxlength'=>256)); ?>
-	
 	<div class="row">
-	<?php echo $form->labelEx($model,'unhidden'); ?>
-	<?php $this->widget('ext.editMe.widgets.ExtEditMe', array(
-	    'model'=>$model,
-	    'attribute'=>'unhidden',
-	    'toolbar'=>array(
-	    	array(
-	    			'Source',
-	    		),
-	    	array(
-	    			'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo',
-	    		),
-	    	array(
-	    			'Bold', 'Italic', 'Underline',
-	    		),
-	    	array(
-	    			'NumberedList', 'BulletedList', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock',
-	    		),
-	    	array(
-	    			'Link', 'Unlink', 'Anchor',
-	    		),
-	    ),
-	)); ?>
-	<?php echo $form->error($model,'unhidden'); ?>
+		<?php echo $form->labelEx($model,'unhid_img'); ?>
+		<?php echo $form->textField($model,'unhid_img',array('size'=>60,'maxlength'=>256)); ?>
+		<?php echo $form->error($model,'unhid_img'); ?>
 	</div>
 	
-	<?php echo $form->hiddenField($model,'hidden_img',array('size'=>60,'maxlength'=>256)); ?>
+	<div class="row">
+		<?php echo $form->labelEx($model,'unhidden'); ?>
+		<?php $this->widget('ext.editMe.widgets.ExtEditMe', array(
+		    'model'=>$model,
+		    'attribute'=>'unhidden',
+		    'toolbar'=>array(
+		    	array(
+		    			'Source',
+		    		),
+		    	array(
+		    			'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo',
+		    		),
+		    	array(
+		    			'Bold', 'Italic', 'Underline',
+		    		),
+		    	array(
+		    			'NumberedList', 'BulletedList', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock',
+		    		),
+		    	array(
+		    			'Link', 'Unlink', 'Anchor',
+		    		),
+		    ),
+		)); ?>
+		<?php echo $form->error($model,'unhidden'); ?>
+	</div>
+	
+	<div class="row">
+	<?php echo $form->labelEx($model,'hidden_img'); ?>
+	<?php echo $form->textField($model,'hidden_img',array('size'=>60,'maxlength'=>256)); ?>
+	<?php echo $form->error($model,'hidden_img'); ?>
+	</div>
+	
+	<div class="row">
+			<?php echo $form->labelEx($image,'path'); ?>
+			<?php echo $form->textField($image,'path',array('size'=>60,'maxlength'=>256)); ?>
+			<?php echo $form->error($image,'path'); ?>
+		</div>
+	
+		<div class="row">
+			<?php echo $form->labelEx($image,'alt'); ?>
+			<?php echo $form->textField($image,'alt',array('size'=>60,'maxlength'=>256)); ?>
+			<?php echo $form->error($image,'alt'); ?>
+		</div>
+	
+		<div class="row">
+			<?php echo $form->labelEx($image,'width'); ?>
+			<?php echo $form->textField($image,'width'); ?>
+			<?php echo $form->error($image,'width'); ?>
+		</div>
+	
+		<div class="row">
+			<?php echo $form->labelEx($image,'height'); ?>
+			<?php echo $form->textField($image,'height'); ?>
+			<?php echo $form->error($image,'height'); ?>
+		</div>
+	
+		<div class="row">
+			<?php echo $form->labelEx($image,'date_added'); ?>
+			<?php echo $form->textField($image,'date_added'); ?>
+			<?php echo $form->error($image,'date_added'); ?>
+		</div>
+	
 
 	<div class="row">
-	<?php echo $form->labelEx($model,'hidden'); ?>
-	<?php $this->widget('ext.editMe.widgets.ExtEditMe', array(
-	    'model'=>$model,
-	    'attribute'=>'hidden',
-	    'toolbar'=>array(
-	    	array(
-	    			'Source',
-	    		),
-	    	array(
-	    			'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo',
-	    		),
-	    	array(
-	    			'Bold', 'Italic', 'Underline',
-	    		),
-	    	array(
-	    			'NumberedList', 'BulletedList', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock',
-	    		),
-	    	array(
-	    			'Link', 'Unlink', 'Anchor',
-	    		),
-	    ),    
-	)); ?>
-	<?php echo $form->error($model,'hidden'); ?>
+		<?php echo $form->labelEx($model,'hidden'); ?>
+		<?php $this->widget('ext.editMe.widgets.ExtEditMe', array(
+		    'model'=>$model,
+		    'attribute'=>'hidden',
+		    'toolbar'=>array(
+		    	array(
+		    			'Source',
+		    		),
+		    	array(
+		    			'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo',
+		    		),
+		    	array(
+		    			'Bold', 'Italic', 'Underline',
+		    		),
+		    	array(
+		    			'NumberedList', 'BulletedList', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock',
+		    		),
+		    	array(
+		    			'Link', 'Unlink', 'Anchor',
+		    		),
+		    ),    
+		)); ?>
+		<?php echo $form->error($model,'hidden'); ?>
 	</div>
 
 	<div class="row">
