@@ -45,9 +45,8 @@ class News extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('date, title, anchor, author, unhidden, unhid_img, hidden, publish', 'required'),
-			array('publish', 'numerical', 'integerOnly'=>true),
-			array('unhid_img, hidden_img', 'file','types'=>'jpg, gif, png', 'allowEmpty'=>true, 'on'=>'update'),
-			array('title, anchor, author, unhid_img, hidden_img', 'length', 'max'=>256, 'on'=>'insert,update'),
+			array('publish, unhid_img, hidden_img', 'numerical', 'integerOnly'=>true),
+			array('title, anchor, author', 'length', 'max'=>256),
 			array('offer', 'length', 'max'=>500),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
@@ -77,9 +76,9 @@ class News extends CActiveRecord
 			'anchor' => 'Anchor Tag (no spaces)',
 			'date' => 'Date',
 			'author' => 'Author',
-			'unhidden' => 'Unhidden',
+			'unhidden' => 'This is the visible content',
 			'unhid_img' => 'Unhid Img',
-			'hidden' => 'Hidden',
+			'hidden' => 'This is the hidden content',
 			'hidden_img' => 'Hidden Img',
 			'offer' => 'Offer',
 			'publish' => 'Publish',

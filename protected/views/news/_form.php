@@ -55,7 +55,11 @@
 		<?php echo $form->textField($model,'author',array('size'=>60,'maxlength'=>256)); ?>
 		<?php echo $form->error($model,'author'); ?>
 	</div>
-
+	
+	<?php echo $form->hiddenField($model,'unhid_img',array('size'=>60,'maxlength'=>256)); ?>
+	
+	<div class="row">
+	<?php echo $form->labelEx($model,'unhidden'); ?>
 	<?php $this->widget('ext.editMe.widgets.ExtEditMe', array(
 	    'model'=>$model,
 	    'attribute'=>'unhidden',
@@ -70,26 +74,20 @@
 	    			'Bold', 'Italic', 'Underline',
 	    		),
 	    	array(
-	    			'NumberedList', 'BulletedList', '-', 'Blockquote', 'CreateDiv', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock',
+	    			'NumberedList', 'BulletedList', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock',
 	    		),
 	    	array(
 	    			'Link', 'Unlink', 'Anchor',
 	    		),
 	    ),
 	)); ?>
+	<?php echo $form->error($model,'unhidden'); ?>
+	</div>
 	
-	<div class="row">
-	        <?php echo $form->labelEx($model,'unhid_img'); ?>
-	        <?php echo CHtml::activeFileField($model, 'unhid_img'); ?>
-	        <?php echo $form->error($model,'unhid_img'); ?>
-	</div>
-	<?php if($model->isNewRecord!='1'):?>
-	<div class="row">
-	     <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$model->unhid_img,"image",array("width"=>135)); ?>
-	</div>
-	<?php endif; ?>
+	<?php echo $form->hiddenField($model,'hidden_img',array('size'=>60,'maxlength'=>256)); ?>
 
-
+	<div class="row">
+	<?php echo $form->labelEx($model,'hidden'); ?>
 	<?php $this->widget('ext.editMe.widgets.ExtEditMe', array(
 	    'model'=>$model,
 	    'attribute'=>'hidden',
@@ -104,25 +102,15 @@
 	    			'Bold', 'Italic', 'Underline',
 	    		),
 	    	array(
-	    			'NumberedList', 'BulletedList', '-', 'Blockquote', 'CreateDiv', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock',
+	    			'NumberedList', 'BulletedList', '-', 'Blockquote', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock',
 	    		),
 	    	array(
 	    			'Link', 'Unlink', 'Anchor',
 	    		),
-	    ),
-	    
+	    ),    
 	)); ?>
-
-	<div class="row">
-	        <?php echo $form->labelEx($model,'hidden_img'); ?>
-	        <?php echo CHtml::activeFileField($model, 'hidden_img'); ?>
-	        <?php echo $form->error($model,'hidden_img'); ?>
+	<?php echo $form->error($model,'hidden'); ?>
 	</div>
-	<?php if($model->isNewRecord!='1'):?>
-	<div class="row">
-	     <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$model->hidden_img,"image",array("width"=>135)); ?>
-	</div>
-	<?php endif; ?>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'offer'); ?>
