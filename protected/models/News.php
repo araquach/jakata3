@@ -62,8 +62,8 @@ class News extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'image' => array(self::BELONGS_TO, 'Image', 'unhid_img'),
-			'images' => array(self::MANY_MANY, 'Image', 'news_image(news_id, image_id)'),
+			'unhidImg' => array(self::BELONGS_TO, 'Image', 'unhid_img'),
+			'images' => array(self::MANY_MANY, 'Image', 'news_image(news_id,image_id)'),
 		);
 	}
 

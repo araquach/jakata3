@@ -1,4 +1,4 @@
-<?php
+	<?php
 
 /**
  * This is the model class for table "image".
@@ -56,6 +56,7 @@ class Image extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'news' => array(self::MANY_MANY, 'News', 'news_image(news_id, image_id)'),
 		);
 	}
 

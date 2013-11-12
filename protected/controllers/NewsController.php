@@ -144,14 +144,14 @@ class NewsController extends Controller
 		// using the default layout 'protected/views/layouts/main.php'
 		// loads news::model for feed
 		
-		$model=News::model()->with('image')->findAll(array(
+		$model=News::model()->with('unhidImg')->findAll(array(
 		'order'=>'t.id desc',
 		));
 		
-			$criteria=new CDbCriteria;
-			$criteria->condition='id=2';
+			// $criteria=new CDbCriteria;
+			// $criteria->condition='id=2';
 		
-		$images=Image::model()->findAll($criteria);
+		$images=Image::model()->with('news')->findAll('news_id=news.id');
 		
 		$this->render('index',array('model'=>$model, 'images'=>$images));
 	}

@@ -25,7 +25,7 @@ window.addEvent('domready', function(){
 <?php echo '<article class="article">
 </a><a id="'. CHtml::encode($value->anchor) .'" class="anchor"></a>
 <section class="visible">' .
-CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$value->image->path, $value->image->alt, array("height"=>$value->image->height)) .
+CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$value->unhidImg->path, $value->unhidImg->alt, array("height"=>$value->unhidImg->height)) .
 '<h2>' . CHtml::encode($value->title) . '</h2>' .
 $value->unhidden .
 '<p class="reveal">Read more &gt;</p>
