@@ -32,7 +32,7 @@ $value->unhidden .
 </section>
 <section class="hidden">'; ?>
 
-<?php foreach ($images as $image) :?>
+<?php foreach ($value->images as $image) :?>
 <?php echo CHtml::image(Yii::app()->request->baseUrl.'/images/newspics/'.$image->path, $image->alt, array("height"=>$image->height)) ?>
 <?php endforeach; ?>
 
