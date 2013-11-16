@@ -142,7 +142,7 @@ class FeedbackController extends Controller
 	{
 		$criteria=new CDbCriteria();
 			$criteria->with = 'FeedbackClient';
-			$criteria->order = 'stylist DESC';
+			$criteria->order = 'date DESC';
 			
 		$dataProvider=new CActiveDataProvider('Feedback', array(
 			'criteria'=>$criteria));
