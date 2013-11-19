@@ -114,4 +114,10 @@ class News extends CActiveRecord
 			'criteria'=>$criteria,
 		));
 	}
+	
+	public function behaviors(){
+	        return array('ESaveRelatedBehavior' => array(
+	         'class' => 'application.components.ESaveRelatedBehavior')
+	     );
+	}
 }

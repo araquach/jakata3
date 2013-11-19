@@ -75,6 +75,7 @@ class NewsController extends Controller
 			
 			if($model->save() && $image->save())  
 				$this->redirect(array('view','id'=>$model->id));
+	
 		}
 
 		$this->render('create',array(
