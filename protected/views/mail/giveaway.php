@@ -14,18 +14,18 @@
 		<tr>
 		<td>
 		<img src="http://jakatasalon.co.uk/images/email/jakata_logo.gif" alt="Jakata Salon" />
-		<p>Hi <?php echo ucfirst($model->first_name)  ?>,</p>
-		<p><strong>Thank's for entering our Jakata Autumn Giveaway!</strong> We appreciate you taking the time to fill out our questionnaire - your feedback was really helpful.</p>
+		<p style="font-size: 1.6em;">Hi <?php echo ucfirst($model->first_name)  ?>,</p>
+		<p><strong>Thank's for entering our Jakata Autumn Giveaway!</strong> <br>We appreciate you taking the time to fill out our questionnaire - your feedback was really helpful.</p>
 		<p style="font-size: 1.2em; margin: 0px">As promised you have won a prize&hellip;</p>
 		
 		<?php echo $model->getPrizeText(); ?>
 		<?php echo $model->getOfferText(); ?> 
 		
-		<p style="font-size: 1.5em;"><strong>Prize Code: <?php echo CHtml::encode($model->gift); ?></strong></p>
-		<p style="font-size: .7em;">(please quote code when claiming your reward)</p>
-		 		
+		<p style="font-size: 1em; margin-top: .5em;">Please quote this code when claiming your reward:</p>
+		<p style="font-size: 1.5em; margin-bottom: .5em;"><strong>Prize Code: <?php echo CHtml::encode($model->gift); ?></strong></p>
+		
 		<p>Call into the salon to pick up your prize (our opening hours are here: <a href="http://www.jakatasalon.co.uk/details.php">www.jakatasalon.co.uk/details</a>)</p>
-		<p>If you have any problems picking up your prize then just call 01925 242960 within our opening hours.</p>
+		<p>If you have any problems picking up your prize then just call <strong>01925 242960</strong> within our opening hours.</p>
 		<p><em>We look forward to seeing you in the salon soon!</em></p>
 		</td>
 		</tr>
@@ -46,10 +46,6 @@
 		<td style="padding-left: 30px">
 		</td>
 		<td align="right" style="padding-right: 30px; font-family: Arial, Helvetica, Geneva, sans-serif; font-size: .8em">
-		
-		<img src="http://jakatasalon.co.uk/images/email/jakata_logo_small.gif" width="100" height="24" alt="Jakata" /><br>
-		<a style="color: #29255c;"href="http://jakatasalon.co.uk">jakatasalon.co.uk</a>
-		
 		</td>
 		
 	</tr>
