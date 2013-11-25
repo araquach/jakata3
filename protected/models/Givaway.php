@@ -21,6 +21,7 @@ class Givaway extends CActiveRecord
 	 * @return Givaway the static model class
 	 */
 	 
+	 const PRIZE_0 = 0;
 	 const PRIZE_1 = 1;
 	 const PRIZE_2 = 2;
 	 const PRIZE_3 = 3;
@@ -36,6 +37,11 @@ class Givaway extends CActiveRecord
 	 const PRIZE_13 = 13;
 	 const PRIZE_14 = 14;
 	 const PRIZE_15 = 15;
+	 
+	 const OFFER_0 = 0;
+	 const OFFER_25 = 25;
+	 const OFFER_26 = 26;
+	 
 	 
 	public static function model($className=__CLASS__)
 	{
@@ -124,6 +130,7 @@ class Givaway extends CActiveRecord
 	
 	public function getPrizeOptions() {
 		return array(
+			self::PRIZE_0=>'',
 			self::PRIZE_1=>'<p style="font-size: 1.2em; margin: 0; margin-top: 20px"><strong>A Men\'s Shampoo &amp; Styling product</strong></p>
 			 <p style="font-size: .9em; margin-top: 0; margin-bottom: 10px;"><strong>Worth over &pound;15</strong></p>
 			 <p style="font-size: 1.4em; margin-top: 0; margin-bottom: 5px;"><strong>PLUS</strong></p>
@@ -169,8 +176,32 @@ class Givaway extends CActiveRecord
 		);
 	}
 	
-	public function getPositionText() {
+	public function getPrizeText() {
 		$prizeOptions=$this->prizeOptions;
 		return isset($prizeOptions[$this->gift]) ? $prizeOptions[$this->gift] : "unknown prize ({$this->gift})";
 	}
+	
+	public function getOfferOptions() {
+		return array(
+			self::OFFER_0=>'',
+			self::OFFER_25=>'<p style="font-size: 1.4em; margin-top: 20px; margin-bottom: 5px;"><strong>PLUS</strong></p>
+			 <p style="font-size: 1.6em; margin: 0; margin-top: 20px"><strong>50% off</strong></p>
+			 <p style="font-size: 1.2em; margin-top: 10px; margin-bottom: 0;"><strong>any Colour Service</strong></p>
+			 <p style="font-size: 0.8em; margin-top: 10px; margin-bottom: 0;">before 31/01/2014, not with any other offer</p>',
+			self::OFFER_26=>'<p style="font-size: 1.4em; margin-top: 20px; margin-bottom: 5px;"><strong>PLUS</strong></p>
+			 <p style="font-size: 1.4em; margin: 0; margin-top: 20px"><strong>3 visits to the salon</strong></p>
+			 <p style="font-size: 1.2em; margin-top: 10px; margin-bottom: 0;"><strong>with a fixed price of:</strong></p>
+			 <p style="font-size: 1.2em; margin-top: 10px; margin-bottom: 0;"><strong>&pound;15 for a Cut, Dry &amp; Style</strong></p>
+			 <p style="font-size: 1.2em; margin-top: 10px; margin-bottom: 0;"><strong>&pound;25 for a Colour Service</strong></p>
+			  <p style="font-size: 0.8em; margin-top: 10px; margin-bottom: 0;">(not with any other offer)</p>',
+			
+		);
+	}
+	
+	public function getOfferText() {
+		$offerOptions=$this->offerOptions;
+		return isset($offerOptions[$this->text]) ? $offerOptions[$this->text] : "unknown offer ({$this->text})";
+	}
+	
+	
 }

@@ -18,19 +18,15 @@
 		<p><strong>Thank's for entering our Jakata Autumn Giveaway!</strong> We appreciate you taking the time to fill out our questionnaire - your feedback was really helpful.</p>
 		<p style="font-size: 1.2em; margin: 0px">As promised you have won a prize&hellip;</p>
 		
-		<p style="font-size: 1.2em; margin: 0; margin-top: 20px"><strong>A Men\'s Shampoo &amp; Styling product</strong></p>
-		 <p style="font-size: .9em; margin-top: 0; margin-bottom: 10px;"><strong>Worth over &pound;15</strong></p>
-		 <p style="font-size: 1.4em; margin-top: 0; margin-bottom: 5px;"><strong>PLUS</strong></p>
-		 <p style="font-size: 1.2em; margin-top: 10px; margin-bottom: 0;"><strong>30% off a Men\'s Cut &amp; Style!</strong></p>
-		 
-		 <p style="font-size: 1.2em; margin: 0; margin-top: 20px"><strong>A selection of men\'s products</strong></p>
-		  <p style="font-size: .9em; margin-top: 0; margin-bottom: 10px;"><strong>worth over &pound;20</strong></p>
+		<?php echo $model->getPrizeText(); ?>
+		<?php echo $model->getOfferText(); ?> 
 		
-		 <p style="font-size: 1.2em; margin: 0; margin-top: 20px"><strong>A &pound;10 product voucher</strong></p>
-		  
+		<p style="font-size: 1.5em;"><strong>Prize Code: <?php echo CHtml::encode($model->gift); ?></strong></p>
+		<p style="font-size: .7em;">(please quote code when claiming your reward)</p>
 		 		
 		<p>Call into the salon to pick up your prize (our opening hours are here: <a href="http://www.jakatasalon.co.uk/details.php">www.jakatasalon.co.uk/details</a>)</p>
 		<p>If you have any problems picking up your prize then just call 01925 242960 within our opening hours.</p>
+		<p><em>We look forward to seeing you in the salon soon!</em></p>
 		</td>
 		</tr>
 		</table> <!--column 1 table-->

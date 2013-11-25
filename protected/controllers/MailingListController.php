@@ -88,15 +88,15 @@ class MailingListController extends Controller
 	
 	public function actionEmailer()
 		{
-			$model=new Giveaway;
+			$model=new MailingList;
 			$criteria=new CDbCriteria;
 			//$criteria->condition = "id > 701";
 			//$criteria->limit = 100;
-			$emails = Giveaway::model()->findAll($criteria);
+			$emails = Givaway::model()->findAll($criteria);
 			foreach ($emails as $row)
 			{
 	
-				if(isset($_POST['Giveaway']))
+				if(isset($_POST['MailingList']))
 				{
 						$message = new YiiMailMessage;
 						$message->view = 'giveaway';
