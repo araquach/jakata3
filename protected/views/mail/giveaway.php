@@ -19,10 +19,14 @@
 		<p style="font-size: 1.2em; margin: 0px">As promised you have won a prize&hellip;</p>
 		
 		<?php echo $model->getPrizeText(); ?>
-		<?php echo $model->getOfferText(); ?> 
+		<?php echo $model->getOfferText(); ?>
 		
-		<p style="font-size: 1em; margin-top: .5em;">Please quote this code when claiming your reward:</p>
-		<p style="font-size: 1.5em; margin-bottom: .5em;"><strong>Prize Code: <?php echo CHtml::encode($model->gift); ?></strong></p>
+		<p style="font-size: 1em; margin-top: 0.5em; margin-bottom: 0.3em;">Please quote this code when claiming your reward:</p>
+		<p style="font-size: 1.5em; margin-top: 0.3em; margin-bottom: 0.5em;"><strong>Prize Code: <?php echo CHtml::encode($model->gift); ?></strong></p>
+		<?php if($model->text != 0) : ?>
+		<p style="font-size: 1em; margin-top: .5em; margin-bottom: 0.3em;">Please quote this code when claiming your special offer:</p>
+		<p style="font-size: 1.5em; margin-top: 0.3em; margin-bottom: .5em;"><strong>Offer Code: <?php echo CHtml::encode($model->text); ?></strong></p>
+		<?php endif; ?>
 		
 		<p>Call into the salon to pick up your prize (our opening hours are here: <a href="http://www.jakatasalon.co.uk/details.php">www.jakatasalon.co.uk/details</a>)</p>
 		<p>If you have any problems picking up your prize then just call <strong>01925 242960</strong> within our opening hours.</p>
