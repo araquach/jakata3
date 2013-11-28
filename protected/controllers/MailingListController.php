@@ -82,7 +82,7 @@ class MailingListController extends Controller
 	
 	public function actionEmail()
 	{
-		$this->render('//mail/kebelo_offer',array('model'=>$this->loadModel($id)));
+		$this->render('//mail/giveaway',array('model'=>$this->loadModel($id)));
 	}
 	
 	
@@ -92,16 +92,16 @@ class MailingListController extends Controller
 			$criteria=new CDbCriteria;
 			//$criteria->condition = "id > 701";
 			//$criteria->limit = 100;
-			$emails = MailingList::model()->findAll($criteria);
+			$emails = Givaway::model()->findAll($criteria);
 			foreach ($emails as $row)
 			{
 	
 				if(isset($_POST['MailingList']))
 				{
 						$message = new YiiMailMessage;
-						$message->view = 'kebelo_offer';
+						$message->view = 'giveaway';
 						$message->setBody(array('model'=>$row), 'text/html');
-						$message->subject = 'Jakata Kebelo Offer';
+						$message->subject = 'The Great Jakata Autumn Giveaway';
 						$message->setTo($row->email);
 						$message->from = ('news@jakatasalon.co.uk');
 						Yii::app()->mail->batchSend($message);		
@@ -183,7 +183,7 @@ class MailingListController extends Controller
 	 */
 	public function loadModel($id)
 	{
-		$model=MailingList::model()->findByPk($id);
+		$model=Giveaway::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
 		return $model;
