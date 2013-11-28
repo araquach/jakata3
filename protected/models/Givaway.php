@@ -141,7 +141,7 @@ class Givaway extends CActiveRecord
 			
 			self::PRIZE_3=>'<p style="font-size: 1.4em; margin: 0; margin-top: 20px"><strong>A &pound;10 product voucher</strong></p>',
 			
-			self::PRIZE_4=>'<p style="font-size: 1.4em; margin: 0; margin-top: 20px"><strong>A Shampoo & Conditioner</strong></p>
+			self::PRIZE_4=>'<p style="font-size: 1.4em; margin: 0; margin-top: 20px"><strong>A Shampoo &amp; Conditioner</strong></p>
 			 <p style="font-size: .9em; margin-top: 0; margin-bottom: 10px;"><strong>worth over &pound;20!</strong></p>',
 			
 			self::PRIZE_5=>'<p style="font-size: 1.4em; margin: 0; margin-top: 20px"><strong>A &pound;30 Voucher!</strong></p>
@@ -154,11 +154,11 @@ class Givaway extends CActiveRecord
 			self::PRIZE_8=>'',
 			
 			self::PRIZE_9=>'<p style="font-size: 1.4em; margin: 0; margin-top: 20px"><strong>A Kebelo Smoothing Treatment</strong></p>
-			 <p style="font-size: .9em; margin-top: 0; margin-bottom: 10px;"><strong>worth over &pound;100!</strong></p>
+			 <p style="font-size: .9em; margin-top: 10px; margin-bottom: 10px;"><strong>worth over &pound;100!</strong></p>
 			 <p style="font-size: 1.4em; margin-top: 10px; margin-bottom: 0;"><strong>with any of our stylists</strong></p>',
 			
 			self::PRIZE_10=>'<p style="font-size: 1.4em; margin: 0; margin-top: 20px"><strong>A Tangle Teezer</strong></p>
-			 <p style="font-size: .9em; margin-top: 0; margin-bottom: 10px;"><strong>worth over &pound;10!</strong></p>',
+			 <p style="font-size: .9em; margin-top: 10px; margin-bottom: 10px;"><strong>worth over &pound;10!</strong></p>',
 			
 			self::PRIZE_11=>'',
 			
@@ -172,7 +172,7 @@ class Givaway extends CActiveRecord
 			 <p style="font-size: 1.2em; margin-top: 10px; margin-bottom: 0;"><strong>with any of our stylists</strong></p>',
 			
 			self::PRIZE_15=>'<p style="font-size: 1.4em; margin: 0; margin-top: 20px"><strong>A Styling Product</strong></p>
-			 <p style="font-size: .9em; margin-top: 0; margin-bottom: 10px;"><strong>worth over &pound;10!</strong></p>',
+			 <p style="font-size: .9em; margin-top: 10px; margin-bottom: 10px;"><strong>worth over &pound;10!</strong></p>',
 		);
 	}
 	
@@ -184,11 +184,11 @@ class Givaway extends CActiveRecord
 	public function getOfferOptions() {
 		return array(
 			self::OFFER_0=>'',
-			self::OFFER_25=>'<p style="font-size: 1.4em; margin-top: 20px; margin-bottom: 5px;"><strong>PLUS</strong></p>
+			self::OFFER_25=>'<p style="font-size: 1.4em; margin-top: 20px; margin-bottom: 5px;"><strong>PLUS also claim</strong></p>
 			 <p style="font-size: 1.6em; margin: 0; margin-top: 20px"><strong>50% off</strong></p>
 			 <p style="font-size: 1.4em; margin-top: 10px; margin-bottom: 0;"><strong>any Colour Service</strong></p>
 			 <p style="font-size: 0.8em; margin-top: 10px; margin-bottom: 0;">before 31/01/2014, not with any other offer</p>',
-			self::OFFER_26=>'<p style="font-size: 1.4em; margin-top: 20px; margin-bottom: 5px;"><strong>PLUS</strong></p>
+			self::OFFER_26=>'<p style="font-size: 1.4em; margin-top: 20px; margin-bottom: 5px;"><strong>PLUS also claim</strong></p>
 			 <p style="font-size: 1.4em; margin: 0; margin-top: 20px"><strong>3 visits to the salon</strong></p>
 			 <p style="font-size: 1.2em; margin-top: 10px; margin-bottom: 0;"><strong>with a fixed price of:</strong></p>
 			 <p style="font-size: 1.2em; margin-top: 10px; margin-bottom: 0;"><strong>&pound;15 for a Cut, Dry &amp; Style</strong></p>
