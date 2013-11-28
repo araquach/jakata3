@@ -90,8 +90,8 @@ class MailingListController extends Controller
 		{
 			$model=new MailingList;
 			$criteria=new CDbCriteria;
-			//$criteria->condition = "id > 701";
-			//$criteria->limit = 100;
+			$criteria->condition = "id > 101";
+			$criteria->limit = 100;
 			$emails = Givaway::model()->findAll($criteria);
 			foreach ($emails as $row)
 			{
