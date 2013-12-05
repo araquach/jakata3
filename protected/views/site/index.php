@@ -23,10 +23,10 @@ $this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
 <div id="home_news">
 	
 <?php echo CHtml::link('<aside id="news2" class="home_news">
-<h3 class="newsheader">New Client Offers</h3>
-<p class="newspara">We\'ve extended our special new client offers all this month</p>
+<h3 class="newsheader">Smooth, Frizz Free Hair is yours</h3>
+<p class="newspara">Opti-Smooth straightening system remains a Jakata favourite</p>
 <p class="newscenter"><strong>Find out here &gt;</strong></p>
-</aside>',array('site/page','view'=>'offers')); ?>
+</aside>',array('site/page','view'=>'news','#'=>'optiSmooth')); ?>
 	
 <?php echo CHtml::link('<aside id="news1" class="home_news">
 <h3 class="newsheader">The Great Jakata Giveaway</h3>
