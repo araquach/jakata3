@@ -252,6 +252,22 @@ p.newscenter {
 	padding-bottom: 50px;
 }
 
+#offers #offer1 p.large {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+#offers #offer2 p.large {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+#offer_copy {
+	width: auto;
+	margin: 0;
+	padding: 15px;
+}
+
 #actual_offers {
 	width: auto;
 	padding: 15px;

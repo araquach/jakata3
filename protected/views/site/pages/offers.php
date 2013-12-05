@@ -3,18 +3,25 @@
 $this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Cheshire';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Jakata Special Offers"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "This months great offers: 
-£50 Colour & Cut Package with a Senior Stylist or 
-£30 Colour & Cut package with a Stylist 
-for new clients to the salon"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/offers/claire.jpg" ; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Gap Filler Offers"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "People often have to cancel last minute this time of year - which leaves us with appointment slots that we'd love to fill! Call the salon on the day and if you can fill one of our gaps you'll get your hair done at a special price!
+Emergency Blowdry: if we have a gap - only £10
+Last Minute Men's Cut & Style - only £12 "; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/offers/men.jpg" ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/offers/glam.jpg" ; ?>
 
 <section id="offers">
 
 
-	<h1>Latest Offers</h1>
-
+	<h1>December Offers</h1>
+	<section id="offer_copy">
+	<p>It's Christmas party season again and the salon is already getting mad busy. <em>With most of our clients pre-booking months back, our prime time slots are nearly already gone!</em></p>
+	<p>If you have a tendency to leave things a little last minute don't despair,  there's a chance we can still get you sorted. People often have to cancel last minute this time of year - which leaves us with appointment slots that we'd love to fill!</p>
+	
+	<h3>Gap Filler Offers</h3>
+	<p><strong>Call the salon on the day and if you can fill one of our gaps you'll get your hair done at a special price.</strong> We can't guarantee we'll have availability and you're not able to specify a stylist - but you are guaranteed a fully qualified stylist or senior stylist.</p>
+	</section>
+	
 	<?php /*echo CHtml::link('<section id="offer1" class="group">
 	<h2>Catwalk Makeover <br>Colour &amp; Cut Package</h2>
 	<p>A limited edition package worth &pound;140 <br>for just &pound;70</p>
@@ -46,24 +53,19 @@ for new clients to the salon"; ?>
 	</section>', array('kebelo/index'));*/ ?>
 	
 	<section id="offer1" class="group">
-	<h2>&pound;50 Colour &amp; Cut package<br>for new clients</h2>
-	<p><strong>with a Senior Stylist</strong></p>
-	<p>Call 01925 242960 to take advantage of this limited offer!</p>
-	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service.<br> Extended until <time datetime="2013-11-29">29/11/13</time></small>
+	<h2>Emergency Blowdry</h2>
+	<p><strong>Call on the day:<br></strong> if we have a spare 30-45 minute gap get</p>
+	<p class="large">A Blow-Dry for just £10</p>
+	<p class="large">A Curly Blow for just £15</p>
+	<small>Subject to availability Not with any other offer. Ends <time datetime="2013-12-31">31/12/13</time></small>
 	</section>
 	
 	<section id="offer2" class"group">
-	<h2>&pound;30 Colour &amp; Cut Package<br>for new clients</h2>
-	<p><strong>with a Stylist/Graduate Stylist</strong></p>
-	<p>Call 01925 242960 to take advantage of this limited offer!</p>
-	<small>Excludes Saturday. First visit only. Not with any other offer. <br />Skin test required 48 hrs prior to service.<br> Extended until <time datetime="2013-11-29">29/11/13</time></small>
-	</section>
-	
-	<section id="offer3" class"group">
-	<h2>&pound;10 Blow Dry<br>for new clients</h2>
-	<p><strong>Weekdays until 4.30pm</strong></p>
-	<p>Call 01925 242960 to book in!<br> (limited availability)</p>
-	<small>Excludes Saturday and evenings. First visit only. Not with any other offer. <br /> Extended until <time datetime="2013-11-29">29/11/13</time></small>
+	<h2>Last Minute Men's Cut</h2>
+	<p><strong>Call on the day:<br></strong> if we have availability book in for</p>
+	<p class="large">A Men's Cut &amp; Style for just £12</p>
+	<p class="large">A Men's Express Cut for just £8</p>
+	<small>Not with any other offer. Ends <time datetime="2013-12-31">31/12/13</time></small>
 	</section>
 	
 	
