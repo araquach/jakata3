@@ -31,7 +31,7 @@
 	
 	<tr> <!--Intro-->
 	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;"><p>
-	  <img src="http://www.jakatasalon.co.uk/images/email/christmas.jpg" alt="Cool Hunter" width="135" height="190"></p></td>
+	  <img src="http://www.jakatasalon.co.uk/images/email/christmas.jpg" alt="Christmas" width="135" height="190"></p></td>
 	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	  <strong>Christmas is almost here!</strong></h1>
@@ -168,7 +168,7 @@
 	  <span style="text-align:left;font-size:10px;color:#FFFFFF;font-family:verdana;">
 		Jakata Hair &amp; Beauty Team <br />
 	  <br />
-	  <a href="mailto:enquiries@jakatasalon.co.uk">Unsubscribe</a>: Just Return this e-mail with 'unsubscribe' as the subject <br />
+	  <a href="mailto:adamcarter@jakatasalon.co.uk">Unsubscribe</a>: Just Return this e-mail with 'unsubscribe' as the subject <br />
 	  <p>
 		Jakata Hair &amp; Beauty<br>
 		90/92 Bridge Street<br>
