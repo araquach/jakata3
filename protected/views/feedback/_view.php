@@ -62,11 +62,11 @@
 	<?php echo CHtml::encode($data->end_result); ?>
 	<br />
 	
+	*/  ?>
+	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('extra')); ?>:</b>
 	<?php echo CHtml::encode($data->extra); ?>
 	<br />
-	
-	*/  ?>
 	
 	<b><?php echo CHtml::encode($data->getAttributeLabel('stylist')); ?>:</b>
 	<?php echo CHtml::encode($data->FeedbackClient->stylist); ?>
