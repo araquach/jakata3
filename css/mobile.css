@@ -2271,7 +2271,14 @@ ul.tinytext {
 
 #facebook {
 	position: absolute;
-	right: 20px;
+	right: 30px;
+	bottom: 3px;
+	opacity: 1;
+}
+
+#twitter {
+	position: absolute;
+	left: 30px;
 	bottom: 3px;
 	opacity: 1;
 }
