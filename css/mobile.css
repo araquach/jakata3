@@ -2174,7 +2174,9 @@ span.kebelo_italic {
 	width: auto;
 	background: none;
 	height: 100%;
+	padding: 0;
 	padding-bottom: 50px;
+	
 }
 
 #limited_copy {
@@ -2187,14 +2189,14 @@ span.kebelo_italic {
 }
 
 #limited_copy h1 {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-left: 0;
 	line-height: 1.5em;
 	margin-top: 20px;
 }
 
 #limited_copy p.big {
-	font-size: 2em;
+	font-size: 1.6em;
 	margin-bottom: .3em;
 }
 
@@ -2202,11 +2204,6 @@ span.kebelo_italic {
 	margin: 0;
 	margin-bottom: 2em;
 	margin-bottom: 1em;
-}
-
-#limited_copy strong {
-	font-size: 1.2em;
-	font-weight: bolder;
 }
 
 #limited_copy small {
