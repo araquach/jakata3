@@ -54,7 +54,8 @@ class Offer extends CActiveRecord
 			array('mobile', 'length', 'max'=>16),
 			array('first_visit, last_visit', 'length', 'max'=>22),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'update'),
-			array('submitted', 'validateEntry'),
+			// array('submitted', 'validateEntry'),
+			
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('id, first_name, last_name, mobile, email, first_stylist, last_stylist, first_visit, last_visit, gender, number_visits, optout, date, submitted', 'safe', 'on'=>'search'),
@@ -89,7 +90,7 @@ class Offer extends CActiveRecord
 			'last_visit' => 'Last Visit',
 			'last_visit' => 'Gender',
 			'number_visits' => 'Number Visits',
-			'optout' => 'Alternatively, check the box if you no longer wish to receive any offers then click \'GO\'',
+			'optout' => 'If you no longer wish to receive offers check the box then click \'GO\'',
 			'date' => 'Date',
 		);
 	}
