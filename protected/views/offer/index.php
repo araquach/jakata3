@@ -15,7 +15,7 @@
 
 <p><strong>Hi <?php echo ucfirst($model->first_name); ?>,</strong></p>
 
-<p><strong>With Christmas almost here we're almost fully booked! If you still haven't booked your appointment yet, fear not - we might still be able to get you in.</strong></p>
+<p><strong>With Christmas nearly here we're almost fully booked! If you still haven't made your appointment yet, fear not - we might still be able to get you in.</strong></p>
 <p>This time of year we have a lot of last minute cancellations (which we obviously want to fill!)</p>
 <p><em>If you call the salon on the day and we have availability we'll do your hair at a very special price.</em></p>
 <p>We can't guarantee we'll have availability and you can't request a specific stylist, but your appointment will be with a fully qualified stylist/senior stylist&hellip;</p>
