@@ -1,6 +1,6 @@
 <?php
 /* @var $this SiteController */
-$this->pageTitle=Yii::app()->name . ' - Hairdressing Offers - Hairdressers in Cheshire';
+$this->pageTitle=Yii::app()->name . 'Hairdressing Offers';
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Gap Filler Offers"; ?>

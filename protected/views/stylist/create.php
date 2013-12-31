@@ -9,6 +9,8 @@ window.addEvent('domready', function(){
 });
 </script>
 
+<?php $this->pageTitle=Yii::app()->name. 'Home'; ?>
+
 <div id="application">
 <?php if(Yii::app()->user->hasFlash('stylist')): ?>
 

@@ -3,7 +3,7 @@
 /* @var $model ContactForm */
 /* @var $form CActiveForm */
 
-$this->pageTitle=Yii::app()->name . ' - Contact Us - hairdressers in Cheshire';
+$this->pageTitle=Yii::app()->name . 'Contact Us';
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Jakata Contact Details and Opening Times"; ?>

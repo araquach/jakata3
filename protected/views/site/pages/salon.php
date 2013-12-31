@@ -1,6 +1,6 @@
 <?php
 /* @var $this SiteController */
-$this->pageTitle=Yii::app()->name . ' - The Salon - Hairdressers in Cheshire';
+$this->pageTitle=Yii::app()->name . 'The Salon';
 ?>
 
 <section id= "salon">

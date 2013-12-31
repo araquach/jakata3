@@ -3,7 +3,7 @@
 /* @var $model ContactForm */
 /* @var $form CActiveForm */
 
-$this->pageTitle=Yii::app()->name . ' - Contact Us - Hairdressers in Cheshire';
+$this->pageTitle=Yii::app()->name . 'Contact Us';
 ?>
 
 <section id= "contact">

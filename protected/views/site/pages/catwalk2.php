@@ -1,6 +1,6 @@
 <?php
 /* @var $this SiteController */
-$this->pageTitle=Yii::app()->name . ' - Catwalk Package - Hairdressers in Cheshire';
+$this->pageTitle=Yii::app()->name . 'Catwalk Package';
 ?>
 
 <section id="catwalk_bground">

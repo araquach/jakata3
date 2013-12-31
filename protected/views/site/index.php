@@ -2,7 +2,7 @@
 /* @var $this SiteController */
 /* @var $model Feedback */
 
-$this->pageTitle=Yii::app()->name. ' - Home - Hairdressers in Cheshire';
+$this->pageTitle=Yii::app()->name. 'Home';
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/main/jakata_logo_meta.jpg"; ?>
