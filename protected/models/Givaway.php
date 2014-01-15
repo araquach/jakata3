@@ -39,6 +39,8 @@ class Givaway extends CActiveRecord
 	 const PRIZE_15 = 15;
 	 
 	 const OFFER_0 = 0;
+	 const OFFER_16 = 16;
+	 const OFFER_17 = 17;
 	 const OFFER_25 = 25;
 	 const OFFER_26 = 26;
 	 
@@ -184,6 +186,12 @@ class Givaway extends CActiveRecord
 	public function getOfferOptions() {
 		return array(
 			self::OFFER_0=>'',
+			self::OFFER_16=>'<p style="font-size: 1.4em; margin-top: 20px; margin-bottom: 5px;"><strong>PLUS also claim</strong></p>
+			 <p style="font-size: 1.6em; margin: 0; margin-top: 20px"><strong>A &pound;20 Service Voucher</strong></p>
+			 <p style="font-size: 0.8em; margin-top: 10px; margin-bottom: 0;">to be used before 31/01/2014, not with any other offer</p>',
+			self::OFFER_17=>'<p style="font-size: 1.4em; margin-top: 20px; margin-bottom: 5px;"><strong>PLUS also claim</strong></p>
+			 <p style="font-size: 1.6em; margin: 0; margin-top: 20px"><strong>A &pound;30 Service Voucher</strong></p>
+			 <p style="font-size: 0.8em; margin-top: 10px; margin-bottom: 0;">to be used before 31/01/2014, not with any other offer</p>',
 			self::OFFER_25=>'<p style="font-size: 1.4em; margin-top: 20px; margin-bottom: 5px;"><strong>PLUS also claim</strong></p>
 			 <p style="font-size: 1.6em; margin: 0; margin-top: 20px"><strong>50% off</strong></p>
 			 <p style="font-size: 1.4em; margin-top: 10px; margin-bottom: 0;"><strong>any Colour Service</strong></p>

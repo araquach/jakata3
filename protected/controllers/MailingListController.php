@@ -82,7 +82,7 @@ class MailingListController extends Controller
 	
 	public function actionEmail()
 	{
-		$this->render('//mail/december_news',array('model'=>$this->loadModel($id)));
+		$this->render('//mail/giveaway',array('model'=>$this->loadModel($id)));
 	}
 	
 	
@@ -90,19 +90,19 @@ class MailingListController extends Controller
 		{
 			$model=new MailingList;
 			$criteria=new CDbCriteria;
-			$criteria->condition = "id > 700";
-			$criteria->order = 'id';
-			$criteria->limit = 100;
-			$emails = MailingList::model()->findAll($criteria);
+			// $criteria->condition = "id > 700";
+			// $criteria->order = 'id';
+			// $criteria->limit = 100;
+			$emails = Givaway::model()->findAll($criteria);
 			foreach ($emails as $row)
 			{
 	
 				if(isset($_POST['MailingList']))
 				{
 						$message = new YiiMailMessage;
-						$message->view = 'december_news';
+						$message->view = 'giveaway';
 						$message->setBody(array('model'=>$row), 'text/html');
-						$message->subject = 'Jakata December News';
+						$message->subject = 'Jakata Autumn Giveaway';
 						$message->setTo($row->email);
 						$message->from = ('news@jakatasalon.co.uk');
 						Yii::app()->mail->batchSend($message);		
