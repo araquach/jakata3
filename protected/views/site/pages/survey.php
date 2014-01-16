@@ -25,11 +25,14 @@
 	<li>FREE Product &amp; Service vouchers</li>
 </ul>
 
-<p class="last"><strong>Just click the appropriate link below - fill in the short survey and you're guaranteed to win one of the prizes above!</strong></p>
+<!--<p class="last"><strong>Just click the appropriate link below - fill in the short survey and you're guaranteed to win one of the prizes above!</strong></p>
 
 <?php echo CHtml::link('Click Here to enter if you\'re a girl &gt;',array('surveyFemale/create')); ?>
 
-<?php echo CHtml::link('Click Here to enter if you\'re a guy &gt;',array('surveyMale/create')); ?>
+<?php echo CHtml::link('Click Here to enter if you\'re a guy &gt;',array('surveyMale/create')); ?>-->
+
+<p><strong>The Autumn Giveaway is now finished</strong></p>
+<p>If you entered and still haven't heard back from us call the salon on 01925 242960</p>
 
 <?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
    'href' => 'http://www.jakatasalon.co.uk/giveaway', 
