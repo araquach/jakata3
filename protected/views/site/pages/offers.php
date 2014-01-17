@@ -9,9 +9,8 @@ Emergency Blowdry: if we have a gap - only £10
 Curly Blowdry - only £15 "; ?>
 <?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/offers/men.jpg" ; ?>
 <?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/offers/glam.jpg" ; ?>
-
+<!--
 <section id="offers">
-
 
 	<h1>December Offers</h1>
 	<section id="offer_copy">
@@ -38,12 +37,12 @@ Curly Blowdry - only £15 "; ?>
 	</section>', array('site/page','view'=>'catwalk2')); */?>
 	
 	
-	<!--<section id="offer1">
+	<!- -<section id="offer1">
 	  <h2>FREE Colour <br>with every<br>Cut, Dry &amp; Style</h2>
 	  <p>For new clients<br>until the end of August</p>
 	    <small><time datetime="2013-08-30">until 30/08/13</time><br>
 	    For New Clients - not with any other offer. Excludes Saturday<br>Skin test required 48hrs before any colour service</small>
-	</section>-->
+	</section>- -*>
 	
 	<?php /* echo CHtml::link('<section id="offer2">
 	  <h2>FREE Cut Dry &amp; Style <br>with every<br>Kebelo Advantage Treatment</h2>
@@ -72,9 +71,9 @@ Curly Blowdry - only £15 "; ?>
 	<?php //echo CHtml::link('<p id="book_button">Online enquiry and booking form</p>',array('site/contact')); ?>
 
 
-</section> <!--end #offers-->
-
-<!--<section id="no_offers">
+</section> <!- -end #offers- -*>
+-->
+<section id="no_offers">
 
 <h1>Latest Offers</h1>
 
@@ -83,4 +82,4 @@ Curly Blowdry - only £15 "; ?>
 	<a href="http://www.facebook.com/JakataSalon" target="_blank">Visit our Facebook page<br> to keep up to date with the latest news and offers </a>
 </p>
 
-</section>-->
+</section>
