@@ -268,7 +268,7 @@ li.active a {
 	list-style-type: none;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	
 	font-style: italic;
-	text-shadow: 0 0 3px #0a0a0a;
+	text-shadow: 0 0 20px #0a0436;
 }
 
 #feedback_feed ul li .client {
