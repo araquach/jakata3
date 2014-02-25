@@ -22,17 +22,17 @@ $this->pageTitle=Yii::app()->name. 'Home';
 
 <div id="home_news">
 	
+<?php echo CHtml::link('<aside id="news1" class="home_news">
+<h3 class="newsheader">Great offers this month</h3>
+<p class="newspara">Never been to Jakata before? Check out this months amazing offers</p>
+<p class="newscenter"><strong>Click here for details &gt;</strong></p>
+	</aside>',array('site/page','view'=>'offers')); ?>
+
 <?php echo CHtml::link('<aside id="news2" class="home_news">
 <h3 class="newsheader">Smooth, Frizz Free Hair is yours</h3>
 <p class="newspara">Opti-Smooth straightening system remains a Jakata favourite</p>
 <p class="newscenter"><strong>Find out here &gt;</strong></p>
 </aside>',array('site/page','view'=>'news','#'=>'optiSmooth')); ?>
-	
-<?php echo CHtml::link('<aside id="news1" class="home_news">
-<h3 class="newsheader">The Great Jakata Giveaway</h3>
-<p class="newspara">We\'re giving away loads of free products &amp; services this month</p>
-<p class="newscenter"><strong>Click here for details &gt;</strong></p>
-	</aside>',array('site/page','view'=>'survey')); ?>
 
 <?php echo CHtml::link('<aside id="news3" class="home_news">
 <h3 class="newsheader">Great career opportunities at Jakata</h3>

@@ -222,11 +222,11 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/autumn.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
+	background: url('../images/home/40s_retro.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
 	background-size: contain;
 }
 .no-rgba #news1 {
-	background: url('../images/home/autumn_small.jpg') no-repeat left top rgb(249, 249, 250);
+	background: url('../images/home/40s_retro_small.jpg') no-repeat left top rgb(249, 249, 250);
 	
 }
 
@@ -1222,7 +1222,7 @@ div.row textarea {
 
 #offer1 {
 	margin-top: 50px;
-	background: url(../images/offers/glam.jpg) no-repeat #fefefe;
+	background: url(../images/offers/retro.jpg) no-repeat #fefefe;
 }
 
 #offer2 {
@@ -1231,7 +1231,7 @@ div.row textarea {
 
 #offer3 {
 	margin-bottom: 30px;
-	background: url(../images/offers/rebecca.jpg) no-repeat #fefefe;
+	background: url(../images/offers/kebelo_cover.jpg) no-repeat #fefefe;
 }
 
 #offer4 {
