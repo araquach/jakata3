@@ -214,13 +214,13 @@ p.newscenter {
 
 #feedback_feed {
 	width: auto;
+	height: 300px;
 	text-align: left;
 	position: absolute;
-	bottom: 0;
-	bottom: 2080px;
+	top: 470px;
 	left: 20px;
 	display: none;
-	vertical-align: middle;
+	vertical-align: top;
 }
 
 #feedback_feed ul {
