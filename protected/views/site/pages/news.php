@@ -22,21 +22,21 @@ window.addEvent('domready', function(){
 <article class="article">
 <a id="newBC" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
-<h3>New BC Bonacure launch</h3>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/bonacure.jpg" width="135" height="135">
+<h2>New BC Bonacure launch</h2>
 <p><strong>Tailor Made Care for Ultimate Hair Perfection</strong></p>
 <p>Schwarzkopf have always had a big part to play in the salon. Every colour service we do uses Schwarzkopf's amazing colour range and we've always used their hair care range. In recent years Tigi's products have become more widely used in the salon as the brand really connected with the team and clients alike - making Schwarzkopf's products seem a little dull and dated.</p>
 <p>So we were all really excited to hear that the Schwarzkopf range was getting a much needed relaunch with the packaging getting a facelift and the products getting a complete  overhaul - introducing some amazing new technology.</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
-<p>The new range has now arrived in the salon and I've got to say that so far we're all really impressed. The packaging looks a lot fresher and modern (would look great in any bathroom) and after using a variety of the products on our clients the results have ben great. The newly formulated products definitely have the edge and the range is now a lot more comprehensive.</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/new_bc.jpg" width="135" height="158">
+<p>The new range has now arrived in the salon and I've got to say that so far we're all really impressed. The packaging looks a lot fresher and modern (would look great in any bathroom) and after using a variety of the products on our clients the results have been great. The newly formulated products definitely have the edge and the range is now a lot more comprehensive.</p>
 <p>Schwarzkopf claim the products outperform the market leaders and that they bring your hair closer than ever to natural perfection! If your looking for flawless smoothness, superior colour shine, ultimate body, excellent hydration, stunning rejuvenation, outstanding activation or unmatched replenishment then these could be the products for you!</p>
 <p><strong>Here's an overview of the products:</strong></p>
 
 <h4>BC REPAIR RESCUE<br>for Damaged &amp; Distressed Hair</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/repair-rescue.jpg" width="135" height="164">
 <ul>
 	<li><strong>Repair Rescue Shampoo</strong><br>
 	A caring shampoo for normal to fine damaged hair.</li>
@@ -56,7 +56,7 @@ window.addEvent('domready', function(){
 
 <h4>BC COLOR FREEZE<br>
 For coloured and highlighted hair</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour-freeze.jpg" width="135" height="164">
 <ul>
 	<li><strong>Color Freeze Gloss Serum</strong><br>
 	A crystal clear and lightweight shine serum for colour treated hair.</li>
@@ -80,7 +80,7 @@ For coloured and highlighted hair</h4>
 
 <h4>BC MOISTURE KICK<br>
 For normal to dry, wavy or curly hair that’s coarse or brittle, lacking elasticity and bounce.</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/moisture-kick.jpg" width="135" height="164">
 <ul>
 	<li><strong>Moisture Kick Beauty Balm</strong><br>
 	A moisturising care &amp; styling balm with added heat protection.</li>
@@ -96,7 +96,7 @@ For normal to dry, wavy or curly hair that’s coarse or brittle, lacking elasti
 
 <h4>BC TIME RESTORE<br>
 For mature hair that has lost strength or moisture leaving it weak, dry or brittle</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/time-restore.jpg" width="135" height="164">
 <ul>
 	<li><strong>Time Restore Rejuvenating Serum</strong><br>
 	Ultimate all-in-one scalp and hair serum for protection, care and elasticity.</li>
@@ -112,7 +112,7 @@ For mature hair that has lost strength or moisture leaving it weak, dry or britt
 
 <h4>BC VOLUME BOOST<br>
 For fine to normal hair, lacking body, volume and vitality</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/volume.jpg" width="135" height="164">
 <ul>
 	<li><strong>Volume Boost Shampoo</strong><br>
 	A purifying shampoo for fine and weak hair.</li>
@@ -124,7 +124,7 @@ For fine to normal hair, lacking body, volume and vitality</h4>
 
 <h4>BC SMOOTH SHINE<br>
 For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/smooth.jpg" width="135" height="164">
 <ul>
 	<li><strong>Smooth Perfect Smoothing Cream</strong><br>
 	Smoothing cream with heat protection.</li>
@@ -135,11 +135,9 @@ For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
 	<li><strong>Smooth Perfect Treatment</strong><br>
 	Intensive taming and nourishing treatment for unruly to coarse hair.</li>
 </ul>
-
-
-<p class="offerHeading"></p>
-<p class="offer"></p>
-<?php echo CHtml::link('<p class="offer"></p>',array('site/page','view'=>'')); ?>
+<p class="offerHeading"><strong><em>The full range is available in the salon now!</em></strong></p>
+<p class="offer"><em>Pick up some free samples to try the products out for yourself (while stocks last)</em></p>
+<p><a href="http://www.schwarzkopf-professional.co.uk/skp/uk/en/home/products/care/bc-bonacure/philosophy.html" target="_blank">Visit the Schwarzkopf Professional site for more information</a></p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="2014-03-26">26<sup>th</sup> March 2014</time>
