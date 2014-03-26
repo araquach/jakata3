@@ -36,6 +36,7 @@ window.addEvent('domready', function(){
 <p><strong>Here's an overview of the products:</strong></p>
 
 <h4>BC REPAIR RESCUE<br>for Damaged &amp; Distressed Hair</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
 <ul>
 	<li><strong>Repair Rescue Shampoo</strong><br>
 	A caring shampoo for normal to fine damaged hair.</li>
@@ -55,6 +56,7 @@ window.addEvent('domready', function(){
 
 <h4>BC COLOR FREEZE<br>
 For coloured and highlighted hair</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
 <ul>
 	<li><strong>Color Freeze Gloss Serum</strong><br>
 	A crystal clear and lightweight shine serum for colour treated hair.</li>
@@ -78,6 +80,7 @@ For coloured and highlighted hair</h4>
 
 <h4>BC MOISTURE KICK<br>
 For normal to dry, wavy or curly hair that’s coarse or brittle, lacking elasticity and bounce.</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
 <ul>
 	<li><strong>Moisture Kick Beauty Balm</strong><br>
 	A moisturising care &amp; styling balm with added heat protection.</li>
@@ -93,6 +96,7 @@ For normal to dry, wavy or curly hair that’s coarse or brittle, lacking elasti
 
 <h4>BC TIME RESTORE<br>
 For mature hair that has lost strength or moisture leaving it weak, dry or brittle</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
 <ul>
 	<li><strong>Time Restore Rejuvenating Serum</strong><br>
 	Ultimate all-in-one scalp and hair serum for protection, care and elasticity.</li>
@@ -108,6 +112,7 @@ For mature hair that has lost strength or moisture leaving it weak, dry or britt
 
 <h4>BC VOLUME BOOST<br>
 For fine to normal hair, lacking body, volume and vitality</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
 <ul>
 	<li><strong>Volume Boost Shampoo</strong><br>
 	A purifying shampoo for fine and weak hair.</li>
@@ -119,6 +124,7 @@ For fine to normal hair, lacking body, volume and vitality</h4>
 
 <h4>BC SMOOTH SHINE<br>
 For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
 <ul>
 	<li><strong>Smooth Perfect Smoothing Cream</strong><br>
 	Smoothing cream with heat protection.</li>
