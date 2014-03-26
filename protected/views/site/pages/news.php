@@ -20,30 +20,6 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
-<a id="tigiChristmas" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_gift1.jpg" width="135" height="180">
-<h2>Tigi has Christmas wrapped up</h2>
-<p><strong>With the festive season only a few weeks away, here at Jakata we have been getting all our Christmas packs ready. As usual, Tigi have a whole selection of packs to choose from.</strong></p>
-<p>Bursting with all the best TIGI has to offer, each pack contains specially selected, intermixable,
-versatile products for your use to give you that salon ready style at home.</p>
-<p class="reveal">Read more &gt;</p>
-</section> <!--end .visible-->
-<section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tigi_gift2.jpg" width="135" height="180">
-<p>The packs give you a great opportunity to stock up on your old favourite and try something new for a fraction of the price.
-Or they make a great gift for that friend or family member  who you struggle to buy for.</p>
-<p>With our expert advice we can help you choose the right pack  so you get the most out of your products.</p>
-<p>Every pack contains specially selected products including a range of shampoos and conditioners from our favourite TIGI range, Urban Antidotes, a selection of pre blow-drying products and styling products, from smoothing creams to hairsprays. With every pack you can re-create numerous different styles that your hairdresser does for you in salon.</p>
-<p><em>My personal favourite has to be the “Player” Christmas pack for men, with everything the modern day guy needs to have that in salon style. Containing a peppermint shampoo and conditioner and matt styling wax all wrapped up in a stylish zip bag perfect for weekends away.</em></p>
-<p><em>My second personal fave has to be “Twisted Texture”. With a saving of around &pound;8 this gift pack is  not only saving the pennies around Christmas time but also giving you 2 great styling products. Containing a volumizing blow-drying cream that seems to never run out plus a pliable soft wax to tousle those curls or create lift on your super soft hair.</em></p>
-<p class="offerHeading"><strong>Also this year we have a special offer on all our other Tigi products, buy 2 get one FREE. With free gift wrapping in a stylish TIGI box.</strong></p>
-</section> <!--end .hidden-->
-<p class="author">Published by Natalie</p>
-<time datetime="2013-11-22">22<sup>nd</sup> November 2013</time>
-</article> <!--end #article-->
-
-<article class="article">
 <a id="optiSmooth" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/opti-smooth.jpg" width="135" height="134">
