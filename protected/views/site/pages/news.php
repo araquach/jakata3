@@ -20,6 +20,126 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="newBC" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<h3>New BC Bonacure launch</h3>
+<p><strong>Tailor Made Care for Ultimate Hair Perfection</strong></p>
+<p>Schwarzkopf have always had a big part to play in the salon. Every colour service we do uses Schwarzkopf's amazing colour range and we've always used their hair care range. In recent years Tigi's products have become more widely used in the salon as the brand really connected with the team and clients alike - making Schwarzkopf's products seem a little dull and dated.</p>
+<p>So we were all really excited to hear that the Schwarzkopf range was getting a much needed relaunch with the packaging getting a facelift and the products getting a complete  overhaul - introducing some amazing new technology.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<p>The new range has now arrived in the salon and I've got to say that so far we're all really impressed. The packaging looks a lot fresher and modern (would look great in any bathroom) and after using a variety of the products on our clients the results have ben great. The newly formulated products definitely have the edge and the range is now a lot more comprehensive.</p>
+<p>Schwarzkopf claim the products outperform the market leaders and that they bring your hair closer than ever to natural perfection! If your looking for flawless smoothness, superior colour shine, ultimate body, excellent hydration, stunning rejuvenation, outstanding activation or unmatched replenishment then these could be the products for you!</p>
+<p><strong>Here's an overview of the products:</strong></p>
+
+<h4>BC REPAIR RESCUE<br>for Damaged &amp; Distressed Hair</h4>
+<ul>
+	<li><strong>Repair Rescue Shampoo</strong><br>
+	A caring shampoo for normal to fine damaged hair.</li>
+	<li><strong>Repair Rescue Deep Nourishing Shampoo</strong><br>
+	An intensively caring shampoo for extremely damaged normal to thick hair.</li>
+	<li><strong>Repair Rescue Spray Conditioner</strong><br>
+	A leave-in conditioner with instant repairing action for damaged hair.</li>
+	<li><strong>Repair Rescue Conditioner</strong><br>
+	Intensive creamy conditioner for damaged hair.</li>
+	<li><strong>Repair Rescue Treatment</strong><br>
+	Reconstructing treatment for normal to fine damaged hair.</li>
+	<li><strong>Repair Rescue Deep Nourishing Treatment</strong><br>
+	The most intensive BC treatment for extremely damaged normal to thick hair.</li>
+	<li><strong>Repair Rescue Sealed Ends</strong><br>
+	An intensive cream-serum for hair ends that seals and prevents splitting.</li>
+</ul>
+
+<h4>BC COLOR FREEZE<br>
+For coloured and highlighted hair</h4>
+<ul>
+	<li><strong>Color Freeze Gloss Serum</strong><br>
+	A crystal clear and lightweight shine serum for colour treated hair.</li>
+	<li><strong>Color Freeze Sulfate-Free Shampoo</strong><br>
+	Gentle shampoo for colour treated hair, ideal for use in post-colour service.</li>
+	<li><strong>Color Freeze Rich Shampoo</strong><br>
+	A highly caring shampoo for over-processed and dull colour treated hair.
+	</li>
+	<li><strong>Color Freeze Silver Shampoo</strong><br>
+	Pigmented shampoo for cool colour tones.</li>
+	<li><strong>Color Freeze Spray Conditioner</strong><br>
+	A lightweight conditioning spray for colour treated hair.
+	</li>
+	<li><strong>Color Freeze Conditioner</strong><br>
+	A rich creamy conditioner for colour treated hair.</li>
+	<li><strong>Color Freeze Treatment</strong><br>
+	An intensely restoring, creamy treatment for colour treated hair.</li>
+	<li><strong>Color Freeze Thermo-Protect Cream</strong><br>
+	A weightless leave-in treatment with heat protection.</li>
+</ul>
+
+<h4>BC MOISTURE KICK<br>
+For normal to dry, wavy or curly hair that’s coarse or brittle, lacking elasticity and bounce.</h4>
+<ul>
+	<li><strong>Moisture Kick Beauty Balm</strong><br>
+	A moisturising care &amp; styling balm with added heat protection.</li>
+	<li><strong>Moisture Kick Shampoo</strong><br>
+	A moisturizing shampoo for normal to dry, brittle or curly hair.</li>
+	<li><strong>Moisture Kick Spray Conditioner</strong><br>
+	An instantly hydrating, lightweight spray conditioner for normal to dry, brittle or curly hair.</li>
+	<li><strong>Moisture Kick Treatment</strong><br>
+	Deeply hydrating treatment for normal to dry, brittle or curly hair.</li>
+	<li><strong>Moisture Kick Defining Cream</strong><br>
+	A rich hydrating cream to define curly or coarse hair.</li>
+</ul>
+
+<h4>BC TIME RESTORE<br>
+For mature hair that has lost strength or moisture leaving it weak, dry or brittle</h4>
+<ul>
+	<li><strong>Time Restore Rejuvenating Serum</strong><br>
+	Ultimate all-in-one scalp and hair serum for protection, care and elasticity.</li>
+	<li><strong>Time Restore Shampoo</strong><br>
+	A gently cleansing shampoo for mature hair.</li>
+	<li><strong>Time Restore Conditioner</strong><br>
+	A rich conditioner for dry and brittle mature hair.</li>
+	<li><strong>Time Restore Treatment</strong><br>
+	A strengthening treatment for mature hair.</li>
+	<li><strong>Time Restore Rejuvenating Spray</strong><br>
+	A lightweight 2-phase detangler and volumiser in one.</li>
+</ul>
+
+<h4>BC VOLUME BOOST<br>
+For fine to normal hair, lacking body, volume and vitality</h4>
+<ul>
+	<li><strong>Volume Boost Shampoo</strong><br>
+	A purifying shampoo for fine and weak hair.</li>
+	<li><strong>Volume Boost Perfect Foam</strong><br>
+	Detangling mousse that increases body.</li>
+	<li><strong>Volume Boost Refresher</strong><br>
+	A refreshing spray to boost body of fine and weak hair.</li>
+</ul>
+
+<h4>BC SMOOTH SHINE<br>
+For thick, coarse, wavy, curly, unmanageable and frizzy hair</h4>
+<ul>
+	<li><strong>Smooth Perfect Smoothing Cream</strong><br>
+	Smoothing cream with heat protection.</li>
+	<li><strong>Smooth Perfect Shampoo</strong><br>
+	Taming shampoo for unruly, coarse hair.</li>
+	<li><strong>Smooth Perfect Conditioner</strong><br>
+	An effective taming conditioner for unruly, coarse hair.</li>
+	<li><strong>Smooth Perfect Treatment</strong><br>
+	Intensive taming and nourishing treatment for unruly to coarse hair.</li>
+</ul>
+
+
+<p class="offerHeading"></p>
+<p class="offer"></p>
+<?php echo CHtml::link('<p class="offer"></p>',array('site/page','view'=>'')); ?>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2014-03-26">26<sup>th</sup> March 2014</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="optiSmooth" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/opti-smooth.jpg" width="135" height="134">
