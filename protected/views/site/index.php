@@ -29,10 +29,10 @@ $this->pageTitle=Yii::app()->name. 'Home';
 	</aside>',array('site/page','view'=>'offers')); ?>
 
 <?php echo CHtml::link('<aside id="news2" class="home_news">
-<h3 class="newsheader">Smooth, Frizz Free Hair is yours</h3>
-<p class="newspara">Opti-Smooth straightening system remains a Jakata favourite</p>
+<h3 class="newsheader">NEW BC Bonacure is here!</h3>
+<p class="newspara">The newly revamped Schwarzkopf product range is proving a winner with the team &amp; clients</p>
 <p class="newscenter"><strong>Find out here &gt;</strong></p>
-</aside>',array('site/page','view'=>'news','#'=>'optiSmooth')); ?>
+</aside>',array('site/page','view'=>'news','#'=>'newBC')); ?>
 
 <?php echo CHtml::link('<aside id="news3" class="home_news">
 <h3 class="newsheader">Great career opportunities at Jakata</h3>
