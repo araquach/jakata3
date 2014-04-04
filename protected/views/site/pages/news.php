@@ -20,6 +20,19 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="Jaxson" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/jaxson.jpg" width="135" height="190">
+<h2>New Member of the Jakata Family</h2>
+<p><strong>We'd like to introduce you to the newest member of the Jakata family - Jaxson Welsby. Born on Monday 10th march at 19.50 and weighing in at 6 lb 2 1/2. Proud mum, Jakata stylist Vikki Rowland couldn't be happier.</strong></p>
+<p>The team (and her clients) are missing Vikki, but we're all chuffed that she can spend some valuable time with Jaxson over the next few months.</p>
+<p>I'm sure she'll be dropping into the salon pretty frequently so you might get to meet him soon!</p>
+</section> <!--end .visible-->
+<p class="author">Published by Adam</p>
+<time datetime="2014-04-04">4<sup>th</sup> April 2014</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="newBC" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/bonacure.jpg" width="135" height="135">
