@@ -20,6 +20,25 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="HairUpChallenge" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/hu_challenge.jpg" width="135" height="190" alt="Hair Up Challenge">
+<h2>Jakata Hair Up Challenge</h2>
+<p><strong>The Jakata team are always up for taking on a challenge so we've come up with a new internal competition to keep them on their toes!</strong></p>
+<p>With our Jakata Hair Up Challenge a different stylist will be nominated each time to come up with a hair up style that is given to them (initially by us, but hopefully we'll get Jakata Facebook/twitter followers to send in their ideas).</p>
+<p class="reveal">Read more is &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>The selected stylist is given a deadline to reproduce the look, or create their own interpretation. We'll post the look on our Twitter/Facebook pages and you guy's can mark them out of ten!</p>
+<p>To get the ball rolling we've selected <strong>Laura</strong> to create this look...</p>
+<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/hu_challenge.jpg" class="bigPic" width="350" height="312" alt="Challenge"></p>
+<p class="offer">The result will be posted before Saturday this week. Let's see how she gets on!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="Jaxson" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/jaxson.jpg" width="135" height="190">
@@ -626,92 +645,6 @@ Jakata senior stylist <strong>Maisie Thompson</strong> has compiled information 
 <p class="author">Published by Adam</p>
 <time datetime="2013-02-15">15<sup>th</sup> March 2013</time>
 </article> <!--end #article-->
-
-
-<article class="article">
-<a id="Valentine" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/valentine.jpg" width="135" height="180" alt="Valentine">
-<h2>Valentine Competition Winners</h2>
-<p>We've had a fantastic response to this month's competition. A lucky winner gets a new set of GHD Gold Series styling irons, plus 3 runners up win a Dry &amp; Style in the salon.</p>
-<p>The winners have now been drawn!</p>
-<p class="reveal">Winners ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<h3>The winners are&hellip;</h3>
-<h4>Winner of the GHD's</h4>
-<p>Rebecca Hopwood</p>
-<h4>Runners Up</h4>
-<p>Philippa Bailey</p>
-<p>Samantha Self</p>
-<p>Louise Clarke</p>
-<p class="offer">Congratulations to our winners, we'll be contacting you soon.<br>
-<em>We'll be launching a brand new competition soon - visit our Facebook page or website to keep up to date</em></p>
-</section> <!--end .hidden-->
-<p class="author">Published by Jakata</p>
-<time datetime="2013-02-14">14<sup>th</sup> February 2013</time>
-</article> <!--end #article-->
-
-<article class="article">
-<a id="LauraInterview" class="anchor"></a>
-<section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/laura.jpg" width="135" height="180" alt="Laura Crumplin">
-<h2>Get to know the team: Meet Laura</h2>
-<p>Every month we're going to have a question and answer session with each of our team members.</p>
-<p>This month we're chatting to our longest serving team member, Laura Hall, about how she got into hairdressing and why she loves being a member of the Jakata Team. </p>
-<p class="reveal">Read More ></p>
-</section> <!--end .visible-->
-<section class="hidden">
-<dl>
-	<dt>How long have you been hairdressing for?</dt>
-	<dd>Ive been hairdressing for 8 years now.</dd>
-	
-	<dt>When did you join the Jakata team?</dt>
-	<dd>I joined back in July 2005.</dd>
-	
-	<dt>When did you first realise you wanted to become a hairdresser and where did you start?</dt>
-	<dd>I always knew I wanted to be a hairdresser probably from the age of about 4! I went to South Trafford college in Altrincham and worked as a junior at Rods in Stockton Heath.</dd>
-	
-	<dt>If you had chosen another profession what would it have been?</dt>
-	<dd>I would like to have been a holiday rep. Other than that I always knew I wanted to be a hairdresser.</dd>
-	
-	<dt>What key points make Jakata good at developing new stylists?</dt>
-	<dd>We are always sent on courses and lots of in house training to continually develop our skills. New starters start in the salon from scratch which soon develops them into doing things the Jakata way.</dd>
-	
-	<dt>What's your favourite hairstyle of all time and why?</dt>
-	<dd>Audrey Hepburn's 'Breakfast at Tiffany's' style because its a classic that will never be out of fashion.</dd>
-	
-	<dt>If you could cut anyone's hair who would it be and why?</dt>
-	<dd>Gerard Butler or Johnny Depp, just because they are beautiful. Emma Watson too, because I would have loved to have been the first to chop her mega hair from Harry Potter into the gorgeous little pixie style she now has.</dd>
-	
-	<dt>Whats the secret to a good haircut/style?</dt>
-	<dd>Theres no real secret as long as you have the right core skills and the client has the right products that you recommended to them. The only reason a client says that they can't get the same result when they do their hair themselves is because they haven't got the right products for the job - also an amazing hairdresser!!</dd>
-	
-	<dt>What tips can you give to up and coming hairstylists?</dt>
-	<dd>Offering amazing customer service is key to being a successful stylist. Plus <strong>never</strong> ask the question "same again?"</dd>
-	
-	<dt>Can you describe a particular makeover that gave you the most satisfaction?</dt>
-	<dd>I get satisfaction from doing most of my clients hair. I love doing Opti-Smooth and extensions because you dramatically change the look of your client, I love doing ombre colour techniques too, they look great and are a really creative technique.</dd>
-	
-	<dt>What do you think sets Jakata apart from other salons?</dt>
-	<dd>The atmosphere, the competition work plus I think our team is strong. Clients know how well we work together, our customer service is excellent. Its hard to pin point one thing but we offer so much more and bend over backwards to accommodate.</dd>
-	
-	<dt>Whats the best thing for you about being a stylist at Jakata?</dt>
-	<dd>The people I work with! I love them all, and love working with them. I love the atmosphere, its laid back but still highly professional. I think we have a great team, we work well together.</dd>
-	
-	<dt>Out of the product ranges which is your favourite and why?</dt>
-	<dd>I love Tigi, especially the 'Candy Fixations' range, because they smell amazing and you can create any hairstyle with them.</dd>
-	
-	<dt>What's your favourite part of hairdressing?</dt>
-	<dd>I love doing hair up, if I could do it all day every day I would! Also extensions, Opti-Smooth and Kebelo.</dd>
-</dl>
-
-<p class="offer">Thanks Laura for your answers, we'll be chatting to another team member next month!</p>
-</section> <!--end .hidden-->
-<p class="author">Published by Adam</p>
-<time datetime="2013-01-04">4<sup>th</sup> January 2013</time>
-</article> <!--end #article-->
-
 
 </section> <!--end #accordion-->
 
