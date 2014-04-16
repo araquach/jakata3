@@ -26,12 +26,14 @@ window.addEvent('domready', function(){
 <h2>Jakata Hair Up Challenge</h2>
 <p><strong>The Jakata team are always up for taking on a challenge so we've come up with a new internal competition to keep them on their toes!</strong></p>
 <p>With our Jakata Hair Up Challenge a different stylist will be nominated each time to come up with a hair up style that is given to them (initially by us, but hopefully we'll get Jakata Facebook/twitter followers to send in their ideas).</p>
-<p class="reveal">Read more is &gt;</p>
+<p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
 <p>The selected stylist is given a deadline to reproduce the look, or create their own interpretation. We'll post the look on our Twitter/Facebook pages and you guy's can mark them out of ten!</p>
 <p>To get the ball rolling we've selected <strong>Laura</strong> to create this look...</p>
-<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/challenge.jpg" width="300" height="267" alt="Challenge"></p>
+
+<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/challenge.jpg" class="bigPic" width="300" height="267" alt="Challenge"></p>
+
 <p class="big">The result will be posted before Saturday this week. Let's see how she gets on!</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
