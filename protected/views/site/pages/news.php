@@ -20,6 +20,27 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="JimmyLeap" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/leap_team.jpg" width="135" height="107" alt="alt text">
+<h3>Jimmy Picked to join Schwarzkopf L.E.A.P team</h3>
+<p><strong>The Jakata team is always striving to be at the top of our game. Regular competitions, both internal and external, plus photoshoots and training day's help each team member develop their skills to the highest level. These skills obviously have an impact on the level of work we produce day-to-day in the salon, ensuring everyone that comes in goes out with a modern, fashionable style.</strong></p>
+<p>Over the years we've picked up numerous awards including categories within the prestigious L'oreal Colour Trophy and Redken NYC Awards. We've also had team members chosen to join larger artistic teams.</p>
+<p>A few years ago Jimmy Sharpe was picked to spend a year on the Schwarzkopf Young Artistic team. He had to go through a gruelling selection process to win the place. From the experience he learned a multitude of new skills, from new hair techniques to stage presentation skills. Jimmy has used his knowledge to train and inspire the whole Jakata team.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>Schwarzkopf this year have formed a brand new team called L.E.A.P. The L.E.A.P team is an art team aimed at development and progression towards Schwarzkopf ambassador status. It has a focus on not only creative styling &amp; fashion but other important things often overlooked like how to network, who's who in the industry, presentation work and PR work.</p>
+<p>Jimmy's name was put forward for the team by Schwarzkopf as he stood out when he was on the Young Artistic Team. It's a very select group - just eight people from the whole of the UK! Everyone on the team was selected for having the right mentality and willing to pursue their careers further. The whole team are all previous award winners that have been on artistic teams that were aimed at people under 25.</p>
+<p>Jimmy said "<em>I still can't believe that I've been selected to join this highly prestigious team. The variety of training and inspiration is overwhelming. Not many people get the chance to spend days with industry greats like top session stylists <a href="http://louisbyrne.blogspot.co.uk" target="_blank">Louie Byrne</a> &amp; <a href="http://www.tylerjohnston.com" target="_blank">Tyler Johnson</a>, top hair/fashion photographer <a href="http://www.therawsonpartnership.net" target="_blank">John Rawson</a> , plus loads of others! This is going to be an amazing year!</em>"</p>
+<p><strong>We're all extremely proud that he's been selected and can't wait to soak up some of the new knowledge that he'll be sharing.</strong></p>
+<p class="offer_heading"><strong>Over the course of the year we'll be keeping up to date with Jimmy's experiences on the team. We'll be sharing them on Facebook, Twitter and our sites news page.</strong></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2013-04-16">16<sup>th</sup> April 2014</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="HairUpChallenge" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/hu_challenge.jpg" width="135" height="190" alt="Hair Up Challenge">
