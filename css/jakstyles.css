@@ -817,10 +817,6 @@ p.reveal {
 	opacity: 1;
 }
 
-.bigPic {
-	margin-right: 200px;
-}
-
 #accordion article.article section p a {
 	color: #585050;
 	text-decoration: none;
@@ -847,7 +843,8 @@ p.reveal {
 }
 
 #accordion article.article section.hidden p.big {
-	font-size: 1.5em;
+	font-size: 1.4em;
+	clear: left;
 }
 
 /* @end */

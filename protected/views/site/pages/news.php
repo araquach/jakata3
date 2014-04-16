@@ -22,7 +22,7 @@ window.addEvent('domready', function(){
 <article class="article">
 <a id="HairUpChallenge" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/hu_challenge.jpg" width="135" height="190" alt="Hair Up Challenge">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/hu_challenge.jpg" width="135" height="190" alt="Hair Up Challenge">
 <h2>Jakata Hair Up Challenge</h2>
 <p><strong>The Jakata team are always up for taking on a challenge so we've come up with a new internal competition to keep them on their toes!</strong></p>
 <p>With our Jakata Hair Up Challenge a different stylist will be nominated each time to come up with a hair up style that is given to them (initially by us, but hopefully we'll get Jakata Facebook/twitter followers to send in their ideas).</p>
@@ -31,11 +31,11 @@ window.addEvent('domready', function(){
 <section class="hidden">
 <p>The selected stylist is given a deadline to reproduce the look, or create their own interpretation. We'll post the look on our Twitter/Facebook pages and you guy's can mark them out of ten!</p>
 <p>To get the ball rolling we've selected <strong>Laura</strong> to create this look...</p>
-<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/hu_challenge.jpg" class="bigPic" width="350" height="312" alt="Challenge"></p>
-<p class="offer">The result will be posted before Saturday this week. Let's see how she gets on!</p>
+<p><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/challenge.jpg" width="300" height="267" alt="Challenge"></p>
+<p class="big">The result will be posted before Saturday this week. Let's see how she gets on!</p>
 </section> <!--end .hidden-->
-<p class="author">Published by PK</p>
-<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+<p class="author">Published by Adam</p>
+<time datetime="2014-04-08">8<sup>th</sup> April 2014</time>
 </article> <!--end #article-->
 
 <article class="article">
