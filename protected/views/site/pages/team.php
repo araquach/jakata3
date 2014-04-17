@@ -69,21 +69,6 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	</section> <!- -team_member_copy - -*>
 	</section> <!- -team member vicky- -*>-->
 	
-	<section class="team_member" id="shell">
-	<div class="team_button"><p>About<br>Michelle</p></div>
-	<a id="Shell" class="anchor"></a>
-	<h2>Michelle Ash</h2>
-	<section class="team_member_copy">
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Michelle Ash">
-	<p><strong>Senior Stylist Michelle is one of the longest serving members of the Jakata Team, with over 15 years experience in the industry. </strong></p> 
-	<p>Michelle is highly skilled in all aspects of hairdressing, She particularly enjoys short cuts and bobs, plus creative colouring.</p> 
-	<p></p>
-	<p><strong>Favourite Style: </strong>Classic Bob's</p>
-	<p><strong>Favourite Product: </strong>Tigi After Party </p>
-	<p class="price">Average Cut &amp; Colour <br>with Michelle: &pound;97</p>
-	</section> <!--team_member_copy -->
-	</section> <!--team member shell-->
-	
 	<section class="team_member" id="maisie">
 	<div class="team_button"><p>About<br>Maisie</p></div>
 	<a id="Maisie" class="anchor"></a>
