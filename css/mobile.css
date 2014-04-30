@@ -2221,6 +2221,31 @@ span.kebelo_italic {
 
 /* @end */
 
+/* @group Exit */
+
+#exit {
+	background: url('../images/exit/pk_staff_mob.jpg') no-repeat center 20px #f5f5f5;
+	background-size: 300px auto;
+	height: 100%;
+	width: auto;
+	padding: 20px;
+}
+
+
+#exit_copy {
+	width: auto;
+	padding: 0;
+	margin-left: 0;
+	margin-top: 240px;
+	font-size: 1.1em;
+}
+
+p.exit-offer {
+	font-size: 1.5em;
+}
+
+/* @end */
+
 /* @group footer */
 
 footer {

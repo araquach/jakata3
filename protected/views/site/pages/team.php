@@ -17,7 +17,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 <section id="team">
 	<section id="team_overview">
     <h1>The Team</h1>
-    <p>The Jakata team comprises of ten skilled stylists, all from different hairdressing backgrounds, all displaying a diverse range of skills.</p>
+    <p>The Jakata team comprises of eight skilled stylists, all from different hairdressing backgrounds, all displaying a diverse range of skills.</p>
     <p>Over the years Jakata has trained and developed a number of people to exceptional standards, whilst taking on already established stylists. This mix of talent creates a dynamic team with stylists well suited to anyone with a desire for a fashion forward look.</p>
     <p>A year ago the team divided into two when we opened our sister salon <a href="http://www.paulkemphairdressing.com" target="_blank">Paul Kemp Hairdressing</a> due to outgrowing our Bridge Street premises. Both teams continue to grow both in number and skill.</p>
     <p><em>It's difficult to find a stylist well suited to your needs, take the time to read each staff members profile to find the right fit for you. Prices for each stylist vary dependant on a number of factors (experience, specialised skills, high demand etc.)</em></p>
@@ -115,20 +115,6 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	</section> <!--team_member_copy -->
 	</section> <!--team member nat-->
 	
-	<section class="team_member" id="mikala">
-	<div class="team_button"><p>About<br>Mikala</p></div>
-	<a id="Mikala" class="anchor"></a>
-	<h2>Mikala Sutcliffe</h2>
-	<section class="team_member_copy">
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Mikala Sutcliffe">
-	<p><strong>Mikala is the latest recruit to complete our rigorous training, and is now a qualified Graduate Stylist. </strong></p>
-	<p>She has a talent for creating beautiful styles and has a great eye for the perfect finish.</p>
-	<p><em>Graduate Stylists don't stay at this level for long, so take advantage of this great price before she gets promoted!!</em></p>
-	<p><strong>Favourite Style: </strong>Curly Blow Dry's</p>
-	<p><strong>Favourite Product: </strong>Tigi 'Mega Whip'</p>
-	<p class="price">Average Cut &amp; Colour <br>with Mikala: &pound;59</p>
-	</section> <!--team_member_copy -->
-	</section> <!--team member mikala-->
 	 
 	<!--<section class="team_member" id="dan">
 	<div class="team_button"><p>About<br>Dan</p></div>
