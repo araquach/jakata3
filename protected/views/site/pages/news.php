@@ -20,10 +20,48 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="SummerBlondes" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/blonde_me1.jpg" width="135" height="180" alt="Summer Blonde 1">
+<h2>Ultimate Summer Blondes</h2>
+<p><strong>With summer almost here we'll soon be inundated with requests for dark to lights or brighter lighter blondes. There's just something about summer that makes everyone want to go blonde!</strong></p>
+<p>Before you get excited about the thought of those bright blonde locks, put a little time into thinking about the best steps to take to achieve the perfect result.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/blonde_me3.jpg" width="135" height="180" alt="Summer Blonde 2">
+<p>The first thing you should think about is the preparation of your hair before the service followed by the end result you want and then then how you're going to maintain the colour afterwards.</p>
+<p>For me the biggest importance comes from what you do in the two months in advance of having the in salon service. Ask yourself what really makes one blonde better than another blonde?</p>
+<p>The answer is the products that are used on your hair before, during and after the blonde service.</p>
+<p>If you have really thought it through you would have spoken to you stylist on your last visit and discussed what to do before you have the colours applied. My best advice is you cannot get enough moisture and protein in your hair before you go ahead with the service. Start with Professional products before you go blonde (if you haven’t already) and get the foundations into the hair before you go ahead with the colour service.</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/repair-rescue.jpg" width="135" height="164" alt="Repair Rescue">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/moisture-kick.jpg" width="135" height="164" alt="Moisture Kick">
+<p>Ask advice from your stylist about the best products to use in the months building up to your blonde service. It's vital to load the hair with protein &amp; moisture to ensure the healthiest result. In most cases I would recommend crossing the Schwarzkopf BC Repair range and the Bc Moisture kick range (images). Your going to be investing a fair bit of money on your next colour and cut, if you want the best result then why not spend the extra £40 - £60 on a great shampoo, conditioner, treatment &amp; moisture balm. These products used correctly will last you 3x the amount of time those high street brands, and the outcome of your hair is far superior.</p>
+<p>With these foundations in place, your choices of levels of blondes are far greater and you will maintain the fullness, condition and shine of your hair. If your hair is already damaged then look into going on a recovery regime with Schwarzkopf BC Fibre Force (image). This will bring your hair back from the dead and ready for blondes in up to 10 weeks (depending on how damaged it is of course).</p>
+<p>When it comes to having the actual lightening service, we have the most technologically advanced products available to give you your summer look. Bleaching hair has always had a stigma of being really damaging to the hair, drying it out and causing it to snap  - not anymore! We have two salon products which combine to create a perfect blonde with minimal damage, both from the Schwarzkopf 'Blonde Me' range:</p>
+<h4>Pre lift Kera Protector</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/blonde_me_kera.jpg" width="135" height="180" alt="Blonde Me Kera Protector">
+<p>This is a revolutionary in-salon product that acts as a protective outer layer to your hair whilst allowing the bleaching products in to do their job whilst preventing all the swelling and cuticle damage that normally comes with a bleaching service. By having this applied you really do maintain healthy hair qualities - meaning less damage and more shine. This pre bleaching treatment does come with an additional charge of £5-£10, but it's a no brainer if it's going to keep your hair in fantastic condition.</p>
+<h4>Blonde me Crystal bleach</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/blonde_me_crystal.jpg" width="135" height="180" alt="Blonde Me Crystal Bleach">
+<p>This state of the art bleaching agent is miles ahead of other bleaching products on the market. It's clear in colour so the stylist can really see how your hair is lifting. It's so soft on your hair you will notice the difference immediately, leaving minimal damage  and maximum moisture left in the hair. I find when I use it, it actually leaves the hair feeling better than before! If you want platinum white blonde then dependant on the lift needed this product may not be for you (we have another 'Blonde Me' bleach that lifts 9 levels with minimum damage!) but any other blondes and you will not be left disappointed.</p>
+<p><strong>The main things to take from this are:</strong></p>
+<ul>
+	<li>Use quality professional product's in the run up to the service.</li>
+	<li>Ensure the highest quality salon products are used during the service</li>
+	<li>Maintain the health and condition of your hair by continuing to use the products recommended by your stylist.</li>
+</ul>
+<p class="offer">To book in to talk to one of our stylist's about going lighter call 01925 242960</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Jimmy</p>
+<time datetime="2014-05-20">20<sup>th</sup> May 2014</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="JimmyLeap" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/leap_team.jpg" width="135" height="107" alt="alt text">
-<h3>Jimmy Picked to join Schwarzkopf L.E.A.P team</h3>
+<h2>Jimmy Picked to join Schwarzkopf L.E.A.P team</h2>
 <p><strong>The Jakata team is always striving to be at the top of our game. Regular competitions, both internal and external, plus photoshoots and training day's help each team member develop their skills to the highest level. These skills obviously have an impact on the level of work we produce day-to-day in the salon, ensuring everyone that comes in goes out with a modern, fashionable style.</strong></p>
 <p>Over the years we've picked up numerous awards including categories within the prestigious L'oreal Colour Trophy and Redken NYC Awards. We've also had team members chosen to join larger artistic teams.</p>
 <p>A few years ago Jimmy Sharpe was picked to spend a year on the Schwarzkopf Young Artistic team. He had to go through a gruelling selection process to win the place. From the experience he learned a multitude of new skills, from new hair techniques to stage presentation skills. Jimmy has used his knowledge to train and inspire the whole Jakata team.</p>
