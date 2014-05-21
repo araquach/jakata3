@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+
+<title>Jakata Newsletter - <?php echo date('F');?> 2012</title>
+
+<html>
+<body>
+
+<table width="100%" cellpadding="10" cellspacing="0">
+
+	<tr>
+	<td valign="top" align="center">
+	<table width="657" cellpadding="0" cellspacing="0" style="border: 1px solid #999;">
+	<tr>
+	<td>
+	<table width="657" cellpadding="0" cellspacing="0">
+	<table width="657" cellpadding="0" cellspacing="0">
+	<tr>
+	<a href="http://www.jakatasalon.co.uk/news.php" style="text-decoration: none; font-size: .7em; color: #999; text-align:left;">View these stories in your browser</a>
+	</td>
+	</tr>
+	
+	<!--header-->
+	<tr>
+	<td height="224" align="left" valign="middle" style="background-color:#FFFFFF;border-top:0px solid #333333;"><center>
+	  <a href="http://www.jakatasalon.co.uk"><img src="http://www.jakatasalon.co.uk/images/email/jak_masthead_may_14.jpg" alt="Jakata Hair &amp; Beauty Team. 01925 242960" width="657" height="224" style="border-style: none"></a></td>
+	</tr>
+	</table>
+	<!--end header-->
+	
+	<table width="657" cellpadding="20" cellspacing="0" bgcolor="#FFFFFF">
+	
+	<tr> <!--Intro-->
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;"><p>
+	  <img src="http://www.jakatasalon.co.uk/images/email/christmas.jpg" alt="Christmas" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Hi <?php echo ucfirst($model->first_name);?>,</strong></h1>
+	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Summer is finally here!</strong></h1>
+		<p><strong></strong></P>
+		<p></p>
+		<p></p>
+		<p><strong>We look forward to seeing you in the salon soon!</strong></p>
+	   </td>
+	</tr>
+	
+	<tr> <!-- Title -->
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;"><p>
+	  <img src="http://www.jakatasalon.co.uk/images/newspics/" alt="" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Title</strong></h1>
+		<p></p>
+		<p></p>
+		<p><a href="http://www.jakatasalon.co.uk/news.php#" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
+	   </td>
+	</tr>
+	
+	<tr> <!-- Title -->
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;"><p>
+	  <img src="http://www.jakatasalon.co.uk/images/newspics/" alt="" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Title</strong></h1>
+		<p></p>
+		<p></p>
+		<p><a href="http://www.jakatasalon.co.uk/news.php#" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
+	   </td>
+	</tr>
+	
+	
+	<?php switch ($model->offer){
+	
+	case 1: // for women
+	echo
+	 '<tr> 
+	   <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
+	   <p><img src="http://www.jakatasalon.co.uk/images/email/glam.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	   <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	   <strong>Last Minute Gap Filling Offer</strong></h1>
+	   <p>If you have a tendency to leave things a little last minute don\'t despair, there\'s a chance we can still get you sorted. People often have to cancel last minute this time of year - which leaves us with appointment slots that we\'d love to fill!</p>
+	   <p><strong>Call the salon on the day and if you can fill one of our gaps you\'ll get your hair done at a special price.</strong> We can\'t guarantee we\'ll have availability and you\'re not able to specify a stylist - but you are guaranteed a fully qualified stylist or senior stylist.</p>
+	   <p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your hair services</strong></p>
+	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
+	   <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
+	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: December 31st 2013</p>
+	  </td>
+	 </tr>';
+	break;
+	
+	case 2: // mens offer
+	echo
+	'<tr> 
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
+	  <p><img src="http://www.jakatasalon.co.uk/images/email/men.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Last Minute Gap Filling Offer</strong></h1>
+	  <p>If you have a tendency to leave things a little last minute don\'t despair, there\'s a chance we can still get you sorted. People often have to cancel last minute this time of year - which leaves us with appointment slots that we\'d love to fill!</p>
+	  <p><strong>Call the salon on the day and if you can fill one of our gaps you\'ll get your hair done at a special price.</strong> We can\'t guarantee we\'ll have availability and you\'re not able to specify a stylist - but you are guaranteed a fully qualified stylist or senior stylist.</p>
+	  <p><strong><span style="font-size: 24px; line-height: 1.5em;">Last Minute Men\'s Cut</p>
+	  <p><strong>Call on the day:</strong><br>
+	  	if we have availability book in for</p>
+	  	<p style="font-size:20px;font-weight:bold; line-height:1.6em;">A Men\'s Cut & Style for just &pound;12<br>
+	  	A Men\'s Express Cut for just &pound;8</p>
+	  	
+	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
+	  <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
+	  <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: December 31st 2013</p>
+	 </td>
+	</tr>';
+	break;
+	}
+	?>
+	
+	<tr> <!-- Title -->
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;"><p>
+	  <img src="http://www.jakatasalon.co.uk/images/newspics/" alt="" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Title</strong></h1>
+		<p></p>
+		<p></p>
+		<p><a href="http://www.jakatasalon.co.uk/news.php#" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
+	   </td>
+	</tr>
+	
+	<tr> <!-- Title -->
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;"><p>
+	  <img src="http://www.jakatasalon.co.uk/images/newspics/" alt="" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Title</strong></h1>
+		<p></p>
+		<p></p>
+		<p><a href="http://www.jakatasalon.co.uk/news.php#" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
+	   </td>
+	</tr>
+	
+	<tr> <!-- Title -->
+	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;"><p>
+	  <img src="http://www.jakatasalon.co.uk/images/newspics/" alt="" width="135" height="190"></p></td>
+	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
+	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
+	  <strong>Title</strong></h1>
+		<p></p>
+		<p></p>
+		<p><a href="http://www.jakatasalon.co.uk/news.php#" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
+	   </td>
+	</tr>
+	
+	
+		
+	
+	<!--footer-->
+	
+	<tr>
+	  <td style="background-color: #90CECF;border-top:10px solid #FFFFFF;" valign="top">&nbsp;</td>
+	  <td style="background-color:#90CECF;border-top:10px solid #FFFFFF;" valign="top">
+	  <span style="text-align:left;font-size:10px;color:#FFFFFF;font-family:verdana;">
+		Jakata Hair &amp; Beauty Team <br />
+	  <br />
+	  <a href="mailto:adamcarter@jakatasalon.co.uk">Unsubscribe</a>: Just Return this e-mail with 'unsubscribe' as the subject <br />
+	  <p>
+		Jakata Hair &amp; Beauty<br>
+		90/92 Bridge Street<br>
+		Warrington<br>
+		WA1 2RF
+	  </p>
+	
+		<p>Our telephone:<br />
+		01925 242960</p>
+	  
+	   <p> Copyright (C) <?php echo date('Y');?> Jakata Hair &amp; Beauty. All rights reserved.</p>
+	   </span>
+	   </td>
+	   		</tr>
+			 </table>
+		</td>
+	</tr>
+	</table>
+	</tr>
+
+</table>
+<!--end footer-->
+
+</body>
+</html>
