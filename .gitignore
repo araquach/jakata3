@@ -25,3 +25,5 @@ jakata3.esproj/Project.espressostorage
 *.log
 
 images/.DS_Store
+
+.htaccess
