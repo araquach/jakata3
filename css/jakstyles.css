@@ -2505,6 +2505,29 @@ p.exit-offer {
 
 /* @end */
 
+/* @group Jimmy */
+
+#jimmy_fendi {
+	width: 950px;
+	height: 1500px;
+	background-color: #f5f5f5;
+	padding-top: 270px;
+	padding-bottom: 200px;
+}
+
+
+#jimmy_fendi_copy {
+	margin-left: 25px;
+}
+
+#fendi_article {
+	width: 900px;
+	height: 1265px;
+	background: #f5f5f5 url('../images/newspics/jimmy.png') no-repeat left top;
+}
+
+/* @end */
+
 /* @group Footer */
 
 footer {
