@@ -60,7 +60,7 @@ window.addEvent('domready', function(){
 <article class="article">
 <a id="JimmyLeap" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/leap_team.jpg" width="135" height="107" alt="alt text">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/leap_team.jpg" width="135" height="107" alt="Jimmy with the LEAP team">
 <h2>Jimmy Picked to join Schwarzkopf L.E.A.P team</h2>
 <p><strong>The Jakata team is always striving to be at the top of our game. Regular competitions, both internal and external, plus photoshoots and training day's help each team member develop their skills to the highest level. These skills obviously have an impact on the level of work we produce day-to-day in the salon, ensuring everyone that comes in goes out with a modern, fashionable style.</strong></p>
 <p>Over the years we've picked up numerous awards including categories within the prestigious L'oreal Colour Trophy and Redken NYC Awards. We've also had team members chosen to join larger artistic teams.</p>
