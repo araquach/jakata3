@@ -18,7 +18,7 @@ $this->pageTitle=Yii::app()->name . 'Hairdressing Offers';
 	
 	<section id="offer2">
 	  <h2>30% off Men's Cut &amp; Style</h2>
-	  <p>for new clients<br>throughout May</p>
+	  <p>for new clients<br>throughout June</p>
 	    <small><time datetime="2014-06-27">extended until 27/06/14</time><br>
 	    For New Clients - not with any other offer. Excludes Saturday</small>
 	</section>
@@ -26,7 +26,7 @@ $this->pageTitle=Yii::app()->name . 'Hairdressing Offers';
 	
 	<?php  echo CHtml::link('<section id="offer3">
 	  <h2>FREE Cut Dry &amp; Style <br>with every<br>Kebelo Advantage Treatment</h2>
-	  <p>Throughout the month of May</p>
+	  <p>Throughout the month of June</p>
 	    <small>extended until <time datetime="2014-06-27">27/06/14</time><br>
 	    Not with any other offer. Excludes Saturday<br></small>
 	</section>', array('kebelo/index')); ?>
