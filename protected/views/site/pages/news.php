@@ -20,6 +20,29 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="LauraMatthew" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/laura_matthew.jpg" width="135" height="180" alt="Matthew Lane & Laura Minett">
+<h2>2 New Jakata Team Members</h2>
+<p><strong>Introducing Matthew Lane and Laura Minett. They both joined us at the beginning of the month.</strong></p>
+<p>Mathew is 26 and has been hairdressing for 2 years. He comes on board as a graduate stylist. He said he always wanted to be a hairdresser but always kept putting it off! After getting his own hair done at Jakata for the last few years he was in the right place at the right time to take on the role after completing his NVQ2 at Warrington Collegiate.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/matthew.jpg" width="135" height="180" alt="Matthew Lane">
+<p>Matthew, who is a keen artist and lover of comic books said "I'm really looking forward to working my way through the ranks and becoming a top stylist to gain as much experience as possible".</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/new_laura.jpg" width="135" height="180" alt="Matthew Lane & Laura Minett">
+<p>Laura is 20 and comes from Latchford. She has recently been self employed at a barbers in Altrincham but was desperate to get back into women's hairdressing and after hearing about Jakata's great reputation thought she'd apply.</p>
+<p>She always wanted to be a stylist and started when she was just 14. She loves colouring and styling women's hair and is also a great men's hairdresser.</p>
+<p>Laura, who also joins us as a graduate stylist said "I'm really looking forward to experiencing more of the industry, from hair photo shoots to stage shows. My main aim is to expand my knowledge and build a really strong clientele".</p>
+<p class="big">Both Laura and Matthew are looking to take on new clients so we're running some fantastic offers over the next couple of months to get them up and running!</p>
+<p><?php  echo CHtml::link('Click here for the special offer', array('site/page', 'view'=>'newoffer')); ?></p>
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="SummerBlondes" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/blonde_me1.jpg" width="135" height="180" alt="Summer Blonde 1">

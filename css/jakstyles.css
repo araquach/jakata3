@@ -1325,7 +1325,7 @@ p#book_button {
 	width: 950px;
 	height: 850px;
 	background-color: #f5f5f5;
-	background: #f5f5f5 url('../images/spec_offer/shell.jpg') no-repeat 600px 300px;
+	background: #f5f5f5 url('../images/spec_offer/laura_matthew.jpg') no-repeat 600px 250px;
 	padding-top: 210px;
 	padding-bottom: 200px;
 }
@@ -1356,7 +1356,7 @@ p#book_button {
 }
 
 #specOffer p.so_big {
-	font-size: 2.4em;
+	font-size: 3.5em;
 	margin: 0;
 }
 
@@ -1369,10 +1369,6 @@ p#book_button {
 	font-size: .8em;
 	margin: 0;
 	margin-top: 1em;
-}
-
-#specOffer p:nth-child(5) {
-	margin: 2em 0;
 }
 
 #specOffer p.specOffer_contact {
