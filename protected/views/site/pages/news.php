@@ -4,8 +4,8 @@ $this->pageTitle=Yii::app()->name . 'Hairdressing News';
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Jakata News"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "All the latest news from the salon"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/main/jakata_logo_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Introducing Matthew Lane and Laura Minett. They both joined us at the beginning of the month. Mathew is 26 and has been hairdressing for 2 years. He comes on board as a graduate stylist. He said he always wanted to be a hairdresser but always kept putting it off! After getting his own hair done at Jakata for the last few years he was in the right place at the right time to take on the role after completing his NVQ2 at Warrington Collegiate."; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/spec_offer/matt_laura_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -36,10 +36,14 @@ window.addEvent('domready', function(){
 <p>She always wanted to be a stylist and started when she was just 14. She loves colouring and styling women's hair and is also a great men's hairdresser.</p>
 <p>Laura, who also joins us as a graduate stylist said "I'm really looking forward to experiencing more of the industry, from hair photo shoots to stage shows. My main aim is to expand my knowledge and build a really strong clientele".</p>
 <p class="big">Both Laura and Matthew are looking to take on new clients so we're running some fantastic offers over the next couple of months to get them up and running!</p>
-<p><?php  echo CHtml::link('Click here for the special offer', array('site/page', 'view'=>'newoffer')); ?></p>
+<p class="big">The offers will be launched in the next week or 2.</p>
+
+<!--<p><?php  echo CHtml::link('Click here for the special offer', array('site/page', 'view'=>'newoffer')); ?></p>-->
+
+
 </section> <!--end .hidden-->
-<p class="author">Published by PK</p>
-<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+<p class="author">Published by Adam</p>
+<time datetime="2014-06-13">13<sup>th</sup> June 2014</time>
 </article> <!--end #article-->
 
 <article class="article">
