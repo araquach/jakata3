@@ -14,7 +14,7 @@ $this->pageTitle=Yii::app()->name . 'Special Offer';
 	<h1>Introducing Matthew &amp; Laura</h1>
 	<p>Jakata recently welcomed two new stylists to the team.</p>
 	<p>Laura Minett and Matthew Lane are now on board as Graduate Stylists.</p>
-	<p><strong><em>To get these two great stylists up and running we've launched an amazing introductory offer:</em></strong></p>
+	<p><strong><em>To get these two great stylists up and running we've launched an amazing introductory offer (for a limited time only!):</em></strong></p>
 	
 	<p class="so_big"><strong>40% off</strong></p>
 	<p class="so_med">all services</p>

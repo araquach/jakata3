@@ -36,9 +36,8 @@ window.addEvent('domready', function(){
 <p>She always wanted to be a stylist and started when she was just 14. She loves colouring and styling women's hair and is also a great men's hairdresser.</p>
 <p>Laura, who also joins us as a graduate stylist said "I'm really looking forward to experiencing more of the industry, from hair photo shoots to stage shows. My main aim is to expand my knowledge and build a really strong clientele".</p>
 <p class="big">Both Laura and Matthew are looking to take on new clients so we're running some fantastic offers over the next couple of months to get them up and running!</p>
-<p class="big">The offers will be launched in the next week or 2.</p>
 
-<!--<p><?php  echo CHtml::link('Click here for the special offer', array('site/page', 'view'=>'newoffer')); ?></p>-->
+<p><?php  echo CHtml::link('Click here for the special offer', array('site/page', 'view'=>'newoffer')); ?></p>
 
 
 </section> <!--end .hidden-->
