@@ -20,6 +20,19 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="link" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tweens_new.jpg" width="135" height="180" alt="alt text">
+<h2>Tweens are back!</h2>
+<p><strong>Due to popular demand we are now fully stocked with all the Tigi Tweens. This special edition set of shampoo/conditioner combo's are only released twice a year, and once stock is gone they wont be back for six months!</strong></p>
+<p>Tween's take the most popular Tigi shampoo and conditioners and package them in jumbo sized, pump action bottles (like the ones we use here in the salon) and put them at an unbelievably cheap price. It works out at 3 times the amount compared to the normal sized bottle for just &pound;7 extra! That's &pound;70 worth of products for just &pound;29.95! </p>
+<p>Come and check out the full range in the salon - don't leave it too long because they're flying off the shelves!</p>
+</section> <!--end .visible-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="LauraMatthew" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/laura_matthew.jpg" width="135" height="180" alt="Matthew Lane & Laura Minett">
