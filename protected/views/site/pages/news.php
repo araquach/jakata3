@@ -28,8 +28,8 @@ window.addEvent('domready', function(){
 <p>Tween's take the most popular Tigi shampoo and conditioners and package them in jumbo sized, pump action bottles (like the ones we use here in the salon) and put them at an unbelievably cheap price. It works out at 3 times the amount compared to the normal sized bottle for just &pound;7 extra! That's &pound;70 worth of products for just &pound;29.95! </p>
 <p>Come and check out the full range in the salon - don't leave it too long because they're flying off the shelves!</p>
 </section> <!--end .visible-->
-<p class="author">Published by PK</p>
-<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+<p class="author">Published by Adam</p>
+<time datetime="2014-07-23">23<sup>rd</sup> July 2014</time>
 </article> <!--end #article-->
 
 <article class="article">
