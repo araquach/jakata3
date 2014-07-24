@@ -38,7 +38,7 @@
 	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	  <strong></strong></h1>
 		<p><strong>Summertime is finally here and there has been loads happening in the salon over the last few months.</strong></P>
-		<p>We have 2 new additions to the team plus team leader Vikki had a little baby boy called Jaxson.</p>
+		<p>We have 2 new additions to the team plus team leader Vikki had a little baby boy called Jaxson along with Jimmy being picked to be a member of the Schwarzkopf L.E.A.P team.</p>
 		<p>To get the full stories read on!</p>
 	
 	   </td>
@@ -82,34 +82,35 @@
 	
 	<?php switch ($model->offer){
 	
-	case 1: // for women
+	case 1: // general lapsed offer
 	echo
 	 '<tr> 
 	   <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
-	   <p><img src="http://www.jakatasalon.co.uk/images/email/men.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	   <p><img src="http://www.jakatasalon.co.uk/images/email/candy_dandy.jpg" alt="Special Offer" width="135" height="190"></p></td>
 	   <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	   <strong>Special Offer for you'.ucfirst($model->first_name).'</strong></h1>
 	   <p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
 	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
 	   <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
-	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: June 27th 2014</p>
+	   <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>
 	  </td>
 	 </tr>';
 	break;
 	
-	case 2: // mens offer
+	case 2: // Matt & laura offer
 	echo
 	'<tr> 
 	  <td width="135" height="200" valign="top" bgcolor="#FFFFFF" style="font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms;border-bottom: 1px dashed #999;">
-	  <p><img src="http://www.jakatasalon.co.uk/images/email/men.jpg" alt="Special Offer" width="135" height="190"></p></td>
+	  <p><img src="http://www.jakatasalon.co.uk/images/email/candy_dandy.jpg" alt="Special Offer" width="135" height="190"></p></td>
 	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	  <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	  <strong>Special Offer for you'.ucfirst($model->first_name).'</strong></h1>
-	  <p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
-	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
+	  <p style="font-size: 14px;"><strong>To celebrate the introduction of our new Graduate Stylists we\'re running this special offer&hellip;</strong></p>
+	  <p style="font-size: 22px; line-height: 1.4em"><strong><span style="font-size: 34px; line-height: 1.5em;">40% OFF</span><br>all appointments with Matthew Hall <br>and Laura Minett</strong></p>
+	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable</p>
 	  <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
-	  <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: June 27th 2014</p>
+	  <p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 30th 2014</p>
 	 </td>
 	</tr>';
 	break;
@@ -150,11 +151,10 @@
 	  <td style="background-color: #90CECF;border-top:10px solid #FFFFFF;" valign="top">&nbsp;</td>
 	  <td style="background-color:#90CECF;border-top:10px solid #FFFFFF;" valign="top">
 	  <span style="text-align:left;font-size:10px;color:#FFFFFF;font-family:verdana;">
-		Jakata Hair &amp; Beauty Team <br />
 	  <br />
 	  <a href="mailto:adamcarter@jakatasalon.co.uk">Unsubscribe</a>: Just Return this e-mail with 'unsubscribe' as the subject <br />
 	  <p>
-		Jakata Hair &amp; Beauty<br>
+		<strong>Jakata</strong><br>
 		90/92 Bridge Street<br>
 		Warrington<br>
 		WA1 2RF
@@ -163,7 +163,7 @@
 		<p>Our telephone:<br />
 		01925 242960</p>
 	  
-	   <p> Copyright (C) <?php echo date('Y');?> Jakata Hair &amp; Beauty. All rights reserved.</p>
+	   <p> Copyright (C) <?php echo date('Y');?> Jakata Salon. All rights reserved.</p>
 	   </span>
 	   </td>
 	   		</tr>
