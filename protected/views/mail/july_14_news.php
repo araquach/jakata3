@@ -38,7 +38,7 @@
 	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	  <strong></strong></h1>
 		<p><strong>Summertime is finally here and there has been loads happening in the salon over the last few months.</strong></P>
-		<p>We have 2 new additions to the team plus team leader Vikki had a little baby boy called Jaxson along with Jimmy being picked to be a member of the Schwarzkopf L.E.A.P team.</p>
+		<p>We have 2 new additions to the team - graduate stylists Matthew and Laura. Team leader Vikki had a little baby boy called Jaxson a few months ago and she's doing really well plus Jimmy has been picked to be a member of the Schwarzkopf L.E.A.P team.</p>
 		<p>To get the full stories read on!</p>
 	
 	   </td>
@@ -89,7 +89,7 @@
 	   <p><img src="http://www.jakatasalon.co.uk/images/email/candy_dandy.jpg" alt="Special Offer" width="135" height="190"></p></td>
 	   <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	   <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
-	   <strong>Special Offer for you'.ucfirst($model->first_name).'</strong></h1>
+	   <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
 	   <p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
 	   <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
 	   <p><strong>Call 01925 242960 to book and mention the offer</strong></p>
@@ -105,7 +105,7 @@
 	  <p><img src="http://www.jakatasalon.co.uk/images/email/candy_dandy.jpg" alt="Special Offer" width="135" height="190"></p></td>
 	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:14px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	  <h1 style="font-size:24px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
-	  <strong>Special Offer for you'.ucfirst($model->first_name).'</strong></h1>
+	  <strong>Special Offer for you '.ucfirst($model->first_name).'</strong></h1>
 	  <p style="font-size: 14px;"><strong>To celebrate the introduction of our new Graduate Stylists we\'re running this special offer&hellip;</strong></p>
 	  <p style="font-size: 22px; line-height: 1.4em"><strong><span style="font-size: 34px; line-height: 1.5em;">40% OFF</span><br>all appointments with Matthew Hall <br>and Laura Minett</strong></p>
 	  <p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable</p>
@@ -138,7 +138,7 @@
 	  <strong>Tweens are back!</strong></h1>
 		<p>Due to popular demand we are now fully stocked with all the Tigi Tweens. This special edition set of shampoo/conditioner combo's are only released twice a year, and once stock is gone they wont be back for six months!</p>
 		<p>Tween's take the most popular Tigi shampoo and conditioners and package them in jumbo sized, pump action bottles (like the ones we use here in the salon) and put them at an unbelievably cheap price. It works out at 3 times the amount compared to the normal sized bottle for just &pound;7 extra! That's &pound;70 worth of products for just &pound;29.95!</p>
-		<p>Come and check out the full range in the salon - don't leave it too long because they're flying off the shelves!</p>
+		<p><strong>Come and check out the full range in the salon - don't leave it too long because they're flying off the shelves!</strong></p>
 	   </td>
 	</tr>
 	
