@@ -123,7 +123,7 @@
 	  <td width="440" valign="top" bgcolor="#FFFFFF" style="text-align: left;font-size:12px;color:#000000;line-height:150%;font-family:trebuchet ms; border-bottom: 1px dashed #999; padding-right: 40px;">
 	  <h1 style="font-size:20px;font-weight:bold;color:#666;font-family:arial;line-height:110%;">
 	  <strong>New Member of the Jakata Family</strong></h1>
-		<p>We'd like to introduce you to the newest member of the Jakata family - Jaxson Welsby. Born on Monday 10th march at 19.50 and weighing in at 6 lb 2 1/2. Proud mum, Jakata stylist Vikki Rowland couldn't be happier.</p>
+		<p>We'd like to introduce you to the newest member of the Jakata family - Jaxson Welsby. Born on Monday 10th March at 19.50 and weighing in at 6 lb 2 1/2. Proud mum, Jakata stylist Vikki Rowland couldn't be happier.</p>
 		<p>The team (and her clients) are missing Vikki, but we're all chuffed that she can spend some valuable time with Jaxson over the next few months.</p>
 		<p>I'm sure she'll be dropping into the salon pretty frequently so you might get to meet him soon!</p>
 		<p><a href="http://www.jakatasalon.co.uk/news.php#" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
