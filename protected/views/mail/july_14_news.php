@@ -64,7 +64,7 @@
 	  <strong>2 New Jakata Team Members</strong></h1>
 		<p>Introducing Matthew Lane and Laura Minett. They both joined us last month.</p>
 		<p>They've both quickly settled into the salon and are looking to take on new clients!</p>
-		<p><a href="http://www.jakatasalon.co.uk/news.php#newStaff" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
+		<p><a href="http://www.jakatasalon.co.uk/news.php#LauraMatthew" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
 	   </td>
 	</tr>
 	
@@ -126,7 +126,7 @@
 		<p>We'd like to introduce you to the newest member of the Jakata family - Jaxson Welsby. Born on Monday 10th March at 19.50 and weighing in at 6 lb 2 1/2. Proud mum, Jakata stylist Vikki Rowland couldn't be happier.</p>
 		<p>The team (and her clients) are missing Vikki, but we're all chuffed that she can spend some valuable time with Jaxson over the next few months.</p>
 		<p>I'm sure she'll be dropping into the salon pretty frequently so you might get to meet him soon!</p>
-		<p><a href="http://www.jakatasalon.co.uk/news.php#" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
+		<p><a href="http://www.jakatasalon.co.uk/news.php#Jaxson" target="_blank" style="color: #333;">Find out more here&gt;</a></p>
 	   </td>
 	</tr>
 	
