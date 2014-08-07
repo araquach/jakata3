@@ -16,13 +16,13 @@ $this->pageTitle=Yii::app()->name . 'Special Offer';
 	<p>Laura Minett and Matthew Lane are now on board as Graduate Stylists.</p>
 	<p><strong><em>To get these two great stylists up and running we've launched an amazing introductory offer (for a limited time only!):</em></strong></p>
 	
-	<p class="so_big"><strong>40% off</strong></p>
+	<p class="so_big"><strong>30% off</strong></p>
 	<p class="so_med">all services</p>
 	<p class="so_med">with Laura &amp; Matthew</p>
-	<p class="so_small"><strong>That's just &pound;36 for a typical Colour &amp; Cut</strong> <br>(usual price &pound;60 - guideline only)</p>
+	<p class="so_small"><strong>That's just &pound;42 for a typical Colour &amp; Cut</strong> <br>(usual price &pound;60 - guideline only)</p>
 	
 	<p class="specOffer_contact"><strong>Call: 01925 242960</strong> to book</p>
-	<p class="so_small">ends 31/07/2014, not with any other offer</p>
+	<p class="so_small">ends 29/08/2014, not with any other offer</p>
 	<p>We look forward to seeing you in the salon soon!</p>
 	
 
