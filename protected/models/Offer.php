@@ -21,6 +21,14 @@
  */
 class Offer extends CActiveRecord
 {
+
+	const OFFER_1 = 1;
+	const OFFER_2 = 2;
+	const OFFER_3 = 3;
+	const OFFER_4 = 4;
+	const OFFER_5 = 5;
+	const OFFER_6 = 6;
+	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
