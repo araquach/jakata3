@@ -55,11 +55,10 @@ class OfferController extends Controller
 			{
 				if($model->optout == '1')
 				{
-					Yii::app()->user->setFlash('Offer','Thank\'s for letting us know '.ucfirst($model->first_name).' - you will no longer receive text offers from us.');
+					Yii::app()->user->setFlash('Offer','<p>Thank\'s for letting us know '.ucfirst($model->first_name).'.<br>You will no longer receive text offers from us.</p>');
 				} else {
-					Yii::app()->user->setFlash('Offer','We\'ll see you in the salon soon ' . ucfirst($model->first_name) . '!');
+					Yii::app()->user->setFlash('Offer','<p>Thanks for taking up our offer ' . ucfirst($model->first_name) . '!</p><p>Your offer code is:<br><strong>' . $model->getOfferCodeText() . '</strong></p><p>Call <strong>01925 242960</strong> to book your appointment and quote your code.</p><p><em>We look forward to seeing you soon!</em></p>');
 				}
-				
 			}
 		
 		}

@@ -18,6 +18,7 @@
  * @property boolean $optout
  * @property datetime $date
  * @property integer $submitted
+ * @property integer $offer
  */
 class Offer extends CActiveRecord
 {
@@ -55,12 +56,12 @@ class Offer extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('id, first_name, last_name, first_stylist, last_stylist, first_visit, last_visit, number_visits', 'required'),
+			// array('id, first_name, last_name, first_stylist, last_stylist, first_visit, last_visit, number_visits', 'required'),
 			array('id, number_visits', 'numerical', 'integerOnly'=>true),
 			array('optout', 'boolean'),
-			array('first_name, last_name, email, first_stylist, last_stylist', 'length', 'max'=>256),
-			array('mobile', 'length', 'max'=>16),
-			array('first_visit, last_visit', 'length', 'max'=>22),
+			// array('first_name, last_name, email, first_stylist, last_stylist', 'length', 'max'=>256),
+			// array('mobile', 'length', 'max'=>16),
+			// array('first_visit, last_visit', 'length', 'max'=>22),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'update'),
 			// array('submitted', 'validateEntry'),
 			
@@ -146,6 +147,63 @@ class Offer extends CActiveRecord
 		{
 			$this->addError('submitted', 'Sorry - you can only enter once');
 		}
+	}
+	
+	public function getOfferOptions()
+	{
+		return array(
+			self::OFFER_1=>'<p><strong>Colour &amp; Cut for just &pound;20</strong></p>
+			<p><strong>Colour &amp; Blow Dry for just &pound;15</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;7.50</strong></p>
+			<p>With our trainee stylist Ashley</p>
+			<p><em>All work supervised by a senior stylist</em></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Ashley  Tennant</em> only.<br>Not Transferable, limited to weekdays </p>',
+			
+			self::OFFER_2=>'<p>For appointments with Meg:</p>
+			<p><strong>Colour &amp; Cut for just &pound;40</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;25</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Megan Mullaney</em> only.<br>Not Transferable, limited to weekdays</p>',
+			
+			self::OFFER_3=>'<p>For appointments with Tash:</p>
+			<p><strong>Colour &amp; Cut for just &pound;50</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;30</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Tash Bailey</em> only.<br>Not Transferable, limited to weekdays</p>',
+			
+			self::OFFER_4=>'<p>For appointments with Jack, Leon or Kate:</p>
+			<p><strong>Colour &amp; Cut for just &pound;60</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;35</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jack, Leon or Kate</em> only.<br>Not Transferable, limited to weekdays</p>',
+			
+			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
+			
+			self::OFFER_6=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
+		);
+	}
+	
+	public function getOfferText() {
+		$offerOptions=$this->offerOptions;
+		return isset($offerOptions[$this->offer]) ? $offerOptions[$this->offer] : '<p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
+		<p>Offer exclusively for <strong>'.ucfirst($model->first_name).' '.ucfirst($model->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
+		<p><strong>Call 01925 444488 to book and mention the offer</strong></p>
+		<p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>';
+	}
+	
+	public function getOfferCodeOptions() {
+		return array(
+			self::OFFER_1=>'FFFF for Colour &amp; Cut<br>FFJJ for Colour &amp Blow Dry; Style<br>FFYY for a Cut, Dry &amp; Style',
+			self::OFFER_2=>'FFFF for Colour &amp; Cut<br>FFJJ for Cut, Dry &amp; Style',
+			self::OFFER_3=>'GGGG for Colour &amp; Cut<br>GGJJ for Cut, Dry &amp; Style',
+			self::OFFER_4=>'HHHH for Colour &amp; Cut<br>HHJJ for Cut, Dry &amp; Style',
+			self::OFFER_5=>'XXXX',
+			self::OFFER_6=>'ZZZZ',
+		);
+	}
+	
+	public function getOfferCodeText() {
+		$offerCodeOptions=$this->offerCodeOptions;
+		return isset($offerCodeOptions[$this->offer]) ? $offerCodeOptions[$this->offer] : 'There appears to be a problem';
 	}
 	
 		
