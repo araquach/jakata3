@@ -2170,17 +2170,17 @@ span.kebelo_italic {
 
 /* @group limited offer */
 
-#limited {
+#limited,
+#limitedmale {
 	width: auto;
-	background: none;
 	height: 100%;
 	padding: 0;
-	padding-bottom: 50px;
-	
+	background-position: 0px 0px;
+	padding-bottom: 0;
 }
 
 #limited_copy {
-	background: none;
+	background-color: rgba(255, 255, 255, 0.7);
 	width: auto;
 	padding: 20px;
 	font-size: 1.4em;
@@ -2216,7 +2216,9 @@ span.kebelo_italic {
 	margin-left: 0;
 	padding-top: 0;
 	padding: 20px;
-	height: 500px;
+	height: 100%;
+	min-height: 500px;
+	background-color: rgba(255, 255, 255, 0.7);
 }
 
 /* @end */
