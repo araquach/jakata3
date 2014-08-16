@@ -259,7 +259,8 @@ li.active a {
 }
 
 #feedback_feed ul {
-	padding: 0;
+	padding: 10px;
+	background-color: rgba(81, 86, 95, 0.7);
 }
 
 #feedback_feed ul li {
