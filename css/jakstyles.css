@@ -254,22 +254,25 @@ li.active a {
 	text-align: right;
 	position: absolute;
 	right: 40px;
-	bottom: 200px;
+	bottom: 192px;
 	display: none;
 }
 
 #feedback_feed ul {
-	padding: 10px;
-	background-color: rgba(81, 86, 95, 0.7);
+	padding: 0;
 }
 
 #feedback_feed ul li {
 	color: #FFF;
+	padding: 10px;
+	padding-right: 15px;
 	font-size: .9em;
 	list-style-type: none;
 	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	
 	font-style: italic;
 	text-shadow: 0 0 20px #0a0436;
+	background-color: rgba(81, 86, 95, 0.7);
+	border-radius: 5px;
 }
 
 #feedback_feed ul li .client {
