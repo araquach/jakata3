@@ -30,6 +30,15 @@ class Offer extends CActiveRecord
 	const OFFER_5 = 5;
 	const OFFER_6 = 6;
 	
+	const DATE_1 = 1;
+	const DATE_2 = 2;
+	const DATE_3 = 3;
+	const DATE_4 = 4;
+	const DATE_5 = 5;
+	const DATE_6 = 6;
+	const DATE_7 = 7;
+	const DATE_8 = 8;
+	
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -174,10 +183,10 @@ class Offer extends CActiveRecord
 			<p><strong>Cut, Dry &amp; Style for just &pound;35</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jack, Leon or Kate</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
-			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
+			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill of your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 			
-			self::OFFER_6=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
+			self::OFFER_6=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill of your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 		);
 	}
@@ -205,6 +214,25 @@ class Offer extends CActiveRecord
 		$offerCodeOptions=$this->offerCodeOptions;
 		return isset($offerCodeOptions[$this->offer]) ? $offerCodeOptions[$this->offer] : 'XXXX';
 	}
+	
+	public function getDateOptions() {
+		return array(
+		self::DATE_1=>'11th October 2014',
+		self::DATE_2=>'18th October 2014',
+		self::DATE_3=>'25th October 2014',
+		self::DATE_4=>'7th November 2014',
+		self::DATE_5=>'14th November 2014',
+		self::DATE_6=>'21st November 2014',
+		self::DATE_7=>'28th November 2014',
+		self::DATE_8=>'5th December 2014',
+		);
+	}
+	
+	public function getDateText() {
+		$dateOptions = $this->dateOptions;
+		return isset($dateOptions[$this->batch]) ? $dateOptions[$this->batch] : '21st November 2014';
+	}
+	
 	
 		
 }
