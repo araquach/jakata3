@@ -161,32 +161,26 @@ class Offer extends CActiveRecord
 	public function getOfferOptions()
 	{
 		return array(
-			self::OFFER_1=>'<p><strong>Colour &amp; Cut for just &pound;20</strong></p>
-			<p><strong>Colour &amp; Blow Dry for just &pound;15</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;7.50</strong></p>
-			<p>With our trainee stylist Ashley</p>
-			<p><em>All work supervised by a senior stylist</em></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Ashley  Tennant</em> only.<br>Not Transferable, limited to weekdays </p>',
 			
-			self::OFFER_2=>'<p>For appointments with Meg:</p>
-			<p><strong>Colour &amp; Cut for just &pound;40</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;25</strong></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Megan Mullaney</em> only.<br>Not Transferable, limited to weekdays</p>',
+			self::OFFER_1=>'<p>For appointments with Mat or Laura M:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura M &amp; Mat</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
-			self::OFFER_3=>'<p>For appointments with Tash:</p>
-			<p><strong>Colour &amp; Cut for just &pound;50</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;30</strong></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Tash Bailey</em> only.<br>Not Transferable, limited to weekdays</p>',
+			self::OFFER_2=>'<p>For appointments with Nat or Laura H:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Nat or Laura H</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
-			self::OFFER_4=>'<p>For appointments with Jack, Leon or Kate:</p>
-			<p><strong>Colour &amp; Cut for just &pound;60</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;35</strong></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jack, Leon or Kate</em> only.<br>Not Transferable, limited to weekdays</p>',
+			self::OFFER_3=>'<p>For appointments with Jimmy, Maisie or Dan:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jimmy, Maisie or Dan</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
-			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill of your next visit</strong></p>
+			self::OFFER_4=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill of your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 			
-			self::OFFER_6=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill of your next visit</strong></p>
+			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill of your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 		);
 	}
@@ -201,12 +195,11 @@ class Offer extends CActiveRecord
 	
 	public function getOfferCodeOptions() {
 		return array(
-			self::OFFER_1=>'FFFF for Colour &amp; Cut<br>FFJJ for Colour &amp Blow Dry; Style<br>FFYY for a Cut, Dry &amp; Style',
-			self::OFFER_2=>'FFFF for Colour &amp; Cut<br>FFJJ for Cut, Dry &amp; Style',
-			self::OFFER_3=>'GGGG for Colour &amp; Cut<br>GGJJ for Cut, Dry &amp; Style',
-			self::OFFER_4=>'HHHH for Colour &amp; Cut<br>HHJJ for Cut, Dry &amp; Style',
-			self::OFFER_5=>'XXXX',
-			self::OFFER_6=>'ZZZZ',
+			self::OFFER_1=>'G-IMCCP14 for Colour &amp; Cut<br>G-IMCP14 for a Cut, Dry &amp; Style',
+			self::OFFER_2=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for a Cut, Dry &amp; Style',
+			self::OFFER_3=>'SS-IMCCP14 for Colour &amp; Cut<br>SS-IMCP14 for a Cut, Dry &amp; Style',
+			self::OFFER_4=>'IMPD2514', // women 25%
+			self::OFFER_5=>'IMMPD2514', // men 25%
 		);
 	}
 	
