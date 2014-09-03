@@ -24,7 +24,7 @@ $this->pageTitle=Yii::app()->name. 'Home';
 	
 <?php echo CHtml::link('<aside id="news1" class="home_news">
 <h3 class="newsheader">Don\'t miss out on our offers</h3>
-<p class="newspara">We\'ve launched some fantastic new client offers this month</p>
+<p class="newspara">We\'ve extended our fantastic new client offers into September</p>
 <p class="newscenter"><strong>Find out more &gt;</strong></p>
 	</aside>',array('site/page','view'=>'offers')); ?>
 

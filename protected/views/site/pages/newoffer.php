@@ -22,7 +22,7 @@ $this->pageTitle=Yii::app()->name . 'Special Offer';
 	<p class="so_small"><strong>That's just &pound;42 for a typical Colour &amp; Cut</strong> <br>(usual price &pound;60 - guideline only)</p>
 	
 	<p class="specOffer_contact"><strong>Call: 01925 242960</strong> to book</p>
-	<p class="so_small">ends 29/08/2014, not with any other offer</p>
+	<p class="so_small">ends 29/09/2014, not with any other offer</p>
 	<p>We look forward to seeing you in the salon soon!</p>
 	
 
