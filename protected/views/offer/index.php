@@ -24,7 +24,7 @@
 
 <p><strong>Hi <?php echo ucfirst($model->first_name); ?>,</strong></p>
 
-<p>To help give your hair the care and attention it needs over summer we've put together a great offer for you.</p>
+<p>To help give your hair the care and attention it needs after summer we've put together a great offer for you.</p>
 
 <?php echo $model->getOfferText(); ?>
 
