@@ -177,10 +177,10 @@ class Offer extends CActiveRecord
 			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jimmy, Maisie or Dan</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
-			self::OFFER_4=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill of your next visit</strong></p>
+			self::OFFER_4=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill on your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 			
-			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill of your next visit</strong></p>
+			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill on your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 		);
 	}
