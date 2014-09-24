@@ -29,6 +29,20 @@ class Offer extends CActiveRecord
 	const OFFER_4 = 4;
 	const OFFER_5 = 5;
 	const OFFER_6 = 6;
+	const OFFER_7 = 7;
+	const OFFER_8 = 8;
+	const OFFER_9 = 9;
+	const OFFER_10 = 10;
+	const OFFER_11 = 11;
+	const OFFER_12 = 12;
+	const OFFER_13 = 13;
+	const OFFER_14= 14;
+	const OFFER_15 = 15;
+	const OFFER_16 = 16;
+	const OFFER_17 = 17;
+	const OFFER_18 = 18;
+	const OFFER_18= 19;
+	
 	
 	const DATE_1 = 1;
 	const DATE_2 = 2;
@@ -182,6 +196,34 @@ class Offer extends CActiveRecord
 			
 			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill on your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
+			
+			self::OFFER_6=>'',
+			
+			self::OFFER_7=>'',
+			
+			self::OFFER_8=>'',
+			
+			self::OFFER_9=>'',
+			
+			self::OFFER_10=>'',
+			
+			self::OFFER_11=>'',
+			
+			self::OFFER_12=>'',
+			
+			self::OFFER_13=>'',
+			
+			self::OFFER_14=>'',
+			
+			self::OFFER_15=>'',
+			
+			self::OFFER_16=>'',
+			
+			self::OFFER_17=>'',
+			
+			self::OFFER_18=>'',
+			
+			self::OFFER_19=>'',
 		);
 	}
 	
@@ -189,8 +231,8 @@ class Offer extends CActiveRecord
 		$offerOptions=$this->offerOptions;
 		return isset($offerOptions[$this->offer]) ? $offerOptions[$this->offer] : '<p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
 		<p>Offer exclusively for <strong>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
-		<p><strong>Call 01925 444488 to book and mention the offer</strong></p>
-		<p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: August 29th 2014</p>';
+		<p><strong>Call 01925 242960 to book and mention the offer</strong></p>
+		<p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: November 28th 2014</p>';
 	}
 	
 	public function getOfferCodeOptions() {
