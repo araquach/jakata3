@@ -41,7 +41,7 @@ class Offer extends CActiveRecord
 	const OFFER_16 = 16;
 	const OFFER_17 = 17;
 	const OFFER_18 = 18;
-	const OFFER_18= 19;
+	const OFFER_19= 19;
 	
 	
 	const DATE_1 = 1;
