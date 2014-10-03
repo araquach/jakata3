@@ -176,29 +176,30 @@ class Offer extends CActiveRecord
 	{
 		return array(
 			
+			// Adam -> Maisie
 			self::OFFER_1=>'<p>For appointments with Mat or Laura M:</p>
 			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
 			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura M &amp; Mat</em> only.<br>Not Transferable, limited to weekdays</p>',
-			
+			// Dan
 			self::OFFER_2=>'<p>For appointments with Nat or Laura H:</p>
 			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
 			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Nat or Laura H</em> only.<br>Not Transferable, limited to weekdays</p>',
-			
+			// Jim -> Stylists
 			self::OFFER_3=>'<p>For appointments with Jimmy, Maisie or Dan:</p>
 			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
 			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jimmy, Maisie or Dan</em> only.<br>Not Transferable, limited to weekdays</p>',
-			
+			// Jim -> Keep/Maisie
 			self::OFFER_4=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill on your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
-			
+			// Katie -> stylists
 			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill on your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
-			
+			// Laura -> Back to Laura (high visits)
 			self::OFFER_6=>'',
-			
+			// Laura -> Low Visits to graduates
 			self::OFFER_7=>'',
 			
 			self::OFFER_8=>'',
