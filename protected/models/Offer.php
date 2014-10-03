@@ -236,6 +236,7 @@ class Offer extends CActiveRecord
 			// Vick Low visit to  stylists/grads
 			self::OFFER_18=>'',
 			
+			// Men -> 25% off
 			self::OFFER_19=>'',
 		);
 	}
