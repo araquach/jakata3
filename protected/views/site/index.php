@@ -23,10 +23,10 @@ $this->pageTitle=Yii::app()->name. 'Home';
 <div id="home_news">
 	
 <?php echo CHtml::link('<aside id="news1" class="home_news">
-<h3 class="newsheader">Don\'t miss out on our offers</h3>
-<p class="newspara">We\'ve extended our fantastic new client offers into September</p>
+<h3 class="newsheader">Back from maternity leave</h3>
+<p class="newspara">After a few months out of the salon, Vikki is back! </p>
 <p class="newscenter"><strong>Find out more &gt;</strong></p>
-	</aside>',array('site/page','view'=>'offers')); ?>
+	</aside>',array('site/page','view'=>'news_extra')); ?>
 
 <?php echo CHtml::link('<aside id="news2" class="home_news">
 <h3 class="newsheader">Introducing Matthew &amp; Laura</h3>

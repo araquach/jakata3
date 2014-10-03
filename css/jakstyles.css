@@ -222,11 +222,11 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/candydandy.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
+	background: url('../images/home/vikki_news.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
 	background-size: contain;
 }
 .no-rgba #news1 {
-	background: url('../images/home/candydandy_small.jpg') no-repeat left top rgb(249, 249, 250);
+	background: url('../images/home/vikki_news_small.jpg') no-repeat left top rgb(249, 249, 250);
 	
 }
 

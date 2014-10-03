@@ -9,9 +9,9 @@
 <div id="news_extra_copy">
 
 <h1>Vikki Rowland
-<br>Due back dates</h1>
+<br>Now back in the salon!</h1>
 
-<p>Just a message to keep you updated with Vikki's return to the salon. She returns on <strong>Thursday 11th September</strong> where she'll only be working Thursdays &amp; Saturdays throughout September/October.</p>
+<p>Vikki returned back to work on <strong>Thursday 11th September</strong> and she's working Thursdays &amp; Saturdays throughout September/October.</p>
 <p>By December her hours will increase, but she will remain part-time for the foreseeable future.</p>
 <p>Her new hours from December are:</p>
 <ul>
