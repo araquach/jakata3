@@ -181,11 +181,13 @@ class Offer extends CActiveRecord
 			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
 			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura M &amp; Mat</em> only.<br>Not Transferable, limited to weekdays</p>',
+			
 			// Dan
 			self::OFFER_2=>'<p>For appointments with Nat or Laura H:</p>
 			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
 			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Nat or Laura H</em> only.<br>Not Transferable, limited to weekdays</p>',
+			
 			// Jim -> Stylists
 			self::OFFER_3=>'<p>For appointments with Jimmy, Maisie or Dan:</p>
 			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
@@ -194,34 +196,44 @@ class Offer extends CActiveRecord
 			// Jim -> Keep/Maisie
 			self::OFFER_4=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill on your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
+			
 			// Katie -> stylists
 			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill on your next visit</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
+			
 			// Laura -> Back to Laura (high visits)
 			self::OFFER_6=>'',
 			// Laura -> Low Visits to graduates
 			self::OFFER_7=>'',
 			
+			// Maisie -> High Visits to Maisie
 			self::OFFER_8=>'',
-			
+			// Maisie -> Low Visits to stylists
 			self::OFFER_9=>'',
 			
+			// Michelle Ash -> Maisie
 			self::OFFER_10=>'',
 			
+			// Mikala -> Graduates
 			self::OFFER_11=>'',
 			
+			// Nat 2012 & 2013 low to grads
 			self::OFFER_12=>'',
-			
+			// 2013 High -> Nat
 			self::OFFER_13=>'',
 			
+			// Beauty Therapist -> 25% off
 			self::OFFER_14=>'',
 			
+			// Shelly -> Double Offer? Senior/stylists
 			self::OFFER_15=>'',
 			
+			// Sophie -> Ashley
 			self::OFFER_16=>'',
 			
+			// Vick -> High Visit to Vick
 			self::OFFER_17=>'',
-			
+			// Vick Low visit to  stylists/grads
 			self::OFFER_18=>'',
 			
 			self::OFFER_19=>'',
