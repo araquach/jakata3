@@ -177,10 +177,10 @@ class Offer extends CActiveRecord
 		return array(
 			
 			// Adam -> Maisie
-			self::OFFER_1=>'<p>For appointments with Mat or Laura M:</p>
+			self::OFFER_1=>'<p>For appointments with Maisie:</p>
 			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
 			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura M &amp; Mat</em> only.<br>Not Transferable, limited to weekdays</p>',
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Maisie<br>Not Transferable, limited to weekdays</p>',
 			
 			// Dan
 			self::OFFER_2=>'<p>For appointments with Nat or Laura H:</p>
