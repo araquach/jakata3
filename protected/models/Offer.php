@@ -177,29 +177,18 @@ class Offer extends CActiveRecord
 		return array(
 			
 			// Adam -> Maisie
-			self::OFFER_1=>'<p>For appointments with Maisie:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Maisie<br>Not Transferable, limited to weekdays</p>',
+			self::OFFER_1=>'',
 			
 			// Dan
-			self::OFFER_2=>'<p>For appointments with Nat or Laura H:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Nat or Laura H</em> only.<br>Not Transferable, limited to weekdays</p>',
+			self::OFFER_2=>'',
 			
 			// Jim -> Stylists
-			self::OFFER_3=>'<p>For appointments with Jimmy, Maisie or Dan:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jimmy, Maisie or Dan</em> only.<br>Not Transferable, limited to weekdays</p>',
+			self::OFFER_3=>'',
 			// Jim -> Keep/Maisie
-			self::OFFER_4=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill on your next visit</strong></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
+			self::OFFER_4=>'',
 			
 			// Katie -> stylists
-			self::OFFER_5=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>the total bill on your next visit</strong></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
+			self::OFFER_5=>'',
 			
 			// Laura -> Back to Laura (high visits)
 			self::OFFER_6=>'',
@@ -251,11 +240,25 @@ class Offer extends CActiveRecord
 	
 	public function getOfferCodeOptions() {
 		return array(
-			self::OFFER_1=>'G-IMCCP14 for Colour &amp; Cut<br>G-IMCP14 for a Cut, Dry &amp; Style',
-			self::OFFER_2=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for a Cut, Dry &amp; Style',
-			self::OFFER_3=>'SS-IMCCP14 for Colour &amp; Cut<br>SS-IMCP14 for a Cut, Dry &amp; Style',
-			self::OFFER_4=>'IMPD2514', // women 25%
-			self::OFFER_5=>'IMMPD2514', // men 25%
+			self::OFFER_1=>'',
+			self::OFFER_2=>'',
+			self::OFFER_3=>'',
+			self::OFFER_4=>'',
+			self::OFFER_5=>'',
+			self::OFFER_6=>'',
+			self::OFFER_7=>'',
+			self::OFFER_8=>'',
+			self::OFFER_9=>'',
+			self::OFFER_10=>'',
+			self::OFFER_11=>'',
+			self::OFFER_12=>'',
+			self::OFFER_13=>'',
+			self::OFFER_14=>'',
+			self::OFFER_15=>'',
+			self::OFFER_16=>'',
+			self::OFFER_17=>'',
+			self::OFFER_18=>'',
+			self::OFFER_19=>'',
 		);
 	}
 	
