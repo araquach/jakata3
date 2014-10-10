@@ -177,42 +177,86 @@ class Offer extends CActiveRecord
 		return array(
 			
 			// Adam -> Maisie
-			self::OFFER_1=>'',
+			self::OFFER_1=>'<p>For appointments with Maisie:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Maisie Thompson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Dan
-			self::OFFER_2=>'',
+			self::OFFER_2=>'<p>For appointments with Dan:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Daniel Anderson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Jim -> Stylists
-			self::OFFER_3=>'',
+			self::OFFER_3=>'<p>For appointments with Laura, Natalie &amp; Vikki:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin, Natalie Doxey &amp; Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
+			
 			// Jim -> Keep/Maisie
-			self::OFFER_4=>'',
+			self::OFFER_4=>'<p>For appointments with Jimmy &amp; Maisie:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jimmy Sharpe &amp; Maisie Thompson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Katie -> stylists
-			self::OFFER_5=>'',
+			self::OFFER_5=>'<p>For appointments with Laura, Natalie &amp; Vikki:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin, Natalie Doxey &amp; Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Laura -> Back to Laura (high visits)
-			self::OFFER_6=>'',
+			self::OFFER_6=>'<p>For appointments with Laura C:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin</em> only.<br>Not Transferable, limited to weekdays</p>',
+			
 			// Laura -> Low Visits to graduates
-			self::OFFER_7=>'',
+			self::OFFER_7=>'<p>For appointments with Matthew &amp; Laura M:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Matthew Lane &amp; Laura Minett</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Maisie -> High Visits to Maisie
-			self::OFFER_8=>'',
+			self::OFFER_8=>'<p>For appointments with Maisie:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Maisie Thompson</em> only.<br>Not Transferable, limited to weekdays</p>',
+			
 			// Maisie -> Low Visits to stylists
-			self::OFFER_9=>'',
+			self::OFFER_9=>'<p>For appointments with Laura, Natalie &amp; Vikki:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin, Natalie Doxey &amp; Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Michelle Ash -> Maisie
-			self::OFFER_10=>'',
+			self::OFFER_10=>'<p>For appointments with Jimmy &amp; Maisie:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jimmy Sharpe &amp; Maisie Thompson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Mikala -> Graduates
-			self::OFFER_11=>'',
+			self::OFFER_11=>'<p>For appointments with Matthew &amp; Laura M:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Matthew Lane &amp; Laura Minett</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Nat 2012 & 2013 low to grads
-			self::OFFER_12=>'',
+			self::OFFER_12=>'<p>For appointments with Matthew &amp; Laura M:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Matthew Lane &amp; Laura Minett</em> only.<br>Not Transferable, limited to weekdays</p>',
+			
 			// 2013 High -> Nat
-			self::OFFER_13=>'',
+			self::OFFER_13=>'<p>For appointments with Laura, Natalie &amp; Vikki:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin, Natalie Doxey &amp; Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Beauty Therapist -> 25% off
-			self::OFFER_14=>'',
+			self::OFFER_14=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>your entire bill (including products) on your next visit</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 			
 			// Shelly -> Double Offer? Senior/stylists
 			self::OFFER_15=>'',
