@@ -259,18 +259,34 @@ class Offer extends CActiveRecord
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 			
 			// Shelly -> Double Offer? Senior/stylists
-			self::OFFER_15=>'',
+			self::OFFER_15=>'<p>For appointments with Maisie:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Maisie Thompson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Sophie -> Ashley
-			self::OFFER_16=>'',
+			self::OFFER_16=>'<p><strong>Colour &amp; Cut for just &pound;20</strong></p>
+			<p><strong>Colour &amp; Blow Dry for just &pound;15</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;7.50</strong></p>
+			<p>With our trainee stylist Ashley</p>
+			<p><em>All work supervised by a senior stylist</em></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Ashley Tennant</em> only.<br>Not Transferable, limited to weekdays </p>',
 			
 			// Vick -> High Visit to Vick
-			self::OFFER_17=>'',
+			self::OFFER_17=>'<p>For appointments with Vikki:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
+			
 			// Vick Low visit to  stylists/grads
-			self::OFFER_18=>'',
+			self::OFFER_18=>'<p>For appointments with Laura, Natalie &amp; Vikki:</p>
+			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin, Natalie Doxey &amp; Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Men -> 25% off
-			self::OFFER_19=>'',
+			self::OFFER_19=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>your entire bill (including products) on your next visit</strong></p>
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
 		);
 	}
 	
@@ -284,25 +300,25 @@ class Offer extends CActiveRecord
 	
 	public function getOfferCodeOptions() {
 		return array(
-			self::OFFER_1=>'',
-			self::OFFER_2=>'',
-			self::OFFER_3=>'',
-			self::OFFER_4=>'',
-			self::OFFER_5=>'',
-			self::OFFER_6=>'',
-			self::OFFER_7=>'',
-			self::OFFER_8=>'',
-			self::OFFER_9=>'',
-			self::OFFER_10=>'',
-			self::OFFER_11=>'',
-			self::OFFER_12=>'',
-			self::OFFER_13=>'',
-			self::OFFER_14=>'',
-			self::OFFER_15=>'',
-			self::OFFER_16=>'',
-			self::OFFER_17=>'',
-			self::OFFER_18=>'',
-			self::OFFER_19=>'',
+			self::OFFER_1=>'SS-IMCCP14 for Colour &amp; Cut<br>SS-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_2=>'SS-IMCCP14 for Colour &amp; Cut<br>SS-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_3=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_4=>'SS-IMCCP14 for Colour &amp; Cut<br>SS-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_5=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_6=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_7=>'G-IMCCP14 for Colour &amp; Cut<br>G-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_8=>'SS-IMCCP14 for Colour &amp; Cut<br>SS-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_9=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_10=>'SS-IMCCP14 for Colour &amp; Cut<br>SS-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_11=>'G-IMCCP14 for Colour &amp; Cut<br>G-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_12=>'G-IMCCP14 for Colour &amp; Cut<br>G-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_13=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_14=>'IMPD2514',
+			self::OFFER_15=>'SS-IMCCP14 for Colour &amp; Cut<br>SS-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_16=>'A-IMCCP14 for Colour &amp; Cut<br>A-IMCDP14 for Colour &amp; Blow Dry<br>A-IMCP14 for a Cut, Dry &amp; Style',
+			self::OFFER_17=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_18=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
+			self::OFFER_19=>'IMMPD2514',
 		);
 	}
 	
