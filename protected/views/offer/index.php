@@ -2,7 +2,7 @@
 /* @var $this OfferController */
 ?>
 
-<?php if($model->offer != 6): ?>
+<?php if($model->offer != 19): ?>
 
 <div id="limited">
 
@@ -24,7 +24,7 @@
 
 <p><strong>Hi <?php echo ucfirst($model->first_name); ?>,</strong></p>
 
-<p>To help give your hair the care and attention it needs after summer we've put together a great offer for you.</p>
+<p>To help give your hair the care and attention it needs before winter sets in we've put together a great offer for you.</p>
 
 <?php echo $model->getOfferText(); ?>
 

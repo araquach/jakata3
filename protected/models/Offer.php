@@ -178,80 +178,80 @@ class Offer extends CActiveRecord
 			
 			// Adam -> Maisie
 			self::OFFER_1=>'<p>For appointments with Maisie:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;60</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;25</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Maisie Thompson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Dan
 			self::OFFER_2=>'<p>For appointments with Dan:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;60</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;25</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Daniel Anderson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Jim -> Stylists
 			self::OFFER_3=>'<p>For appointments with Laura, Natalie &amp; Vikki:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;40</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;20</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin, Natalie Doxey &amp; Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Jim -> Keep/Maisie
 			self::OFFER_4=>'<p>For appointments with Jimmy &amp; Maisie:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;60</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;25</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jimmy Sharpe &amp; Maisie Thompson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Katie -> stylists
 			self::OFFER_5=>'<p>For appointments with Laura, Natalie &amp; Vikki:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;50</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;20</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin, Natalie Doxey &amp; Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Laura -> Back to Laura (high visits)
 			self::OFFER_6=>'<p>For appointments with Laura C:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;50</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;20</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Laura -> Low Visits to graduates
 			self::OFFER_7=>'<p>For appointments with Matthew &amp; Laura M:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;40</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;15</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Matthew Lane &amp; Laura Minett</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Maisie -> High Visits to Maisie
 			self::OFFER_8=>'<p>For appointments with Maisie:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;60</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;25</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Maisie Thompson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Maisie -> Low Visits to stylists
 			self::OFFER_9=>'<p>For appointments with Laura, Natalie &amp; Vikki:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;50</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;20</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin, Natalie Doxey &amp; Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Michelle Ash -> Maisie
 			self::OFFER_10=>'<p>For appointments with Jimmy &amp; Maisie:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;60</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;25</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Jimmy Sharpe &amp; Maisie Thompson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Mikala -> Graduates
 			self::OFFER_11=>'<p>For appointments with Matthew &amp; Laura M:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;40</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;15</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Matthew Lane &amp; Laura Minett</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Nat 2012 & 2013 low to grads
 			self::OFFER_12=>'<p>For appointments with Matthew &amp; Laura M:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;40</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;15</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Matthew Lane &amp; Laura Minett</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// 2013 High -> Nat
 			self::OFFER_13=>'<p>For appointments with Laura, Natalie &amp; Vikki:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;50</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;20</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin, Natalie Doxey &amp; Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Beauty Therapist -> 25% off
@@ -260,8 +260,8 @@ class Offer extends CActiveRecord
 			
 			// Shelly -> Double Offer? Senior/stylists
 			self::OFFER_15=>'<p>For appointments with Maisie:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;60</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;25</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Maisie Thompson</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Sophie -> Ashley
@@ -274,14 +274,14 @@ class Offer extends CActiveRecord
 			
 			// Vick -> High Visit to Vick
 			self::OFFER_17=>'<p>For appointments with Vikki:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;50</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;20</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Vick Low visit to  stylists/grads
 			self::OFFER_18=>'<p>For appointments with Laura, Natalie &amp; Vikki:</p>
-			<p><strong>Colour &amp; Cut for just &pound;??</strong></p>
-			<p><strong>Cut, Dry &amp; Style for just &pound;??</strong></p>
+			<p><strong>Colour &amp; Cut for just &pound;50</strong></p>
+			<p><strong>Cut, Dry &amp; Style for just &pound;20</strong></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Laura Crumplin, Natalie Doxey &amp; Vikki Rowland</em> only.<br>Not Transferable, limited to weekdays</p>',
 			
 			// Men -> 25% off
@@ -292,10 +292,10 @@ class Offer extends CActiveRecord
 	
 	public function getOfferText() {
 		$offerOptions=$this->offerOptions;
-		return isset($offerOptions[$this->offer]) ? $offerOptions[$this->offer] : '<p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">30% OFF</span><br>your next visit</strong></p>
+		return isset($offerOptions[$this->offer]) ? $offerOptions[$this->offer] : '<p style="font-size: 22px;"><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>your entire bill (including products) on your next visit</strong></p>
 		<p>Offer exclusively for <strong>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</strong> only.<br>Not Transferable, weekdays only </p>
 		<p><strong>Call 01925 242960 to book and mention the offer</strong></p>
-		<p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)<br>Offer ends: November 28th 2014</p>';
+		<p style="font-size: 10px;">Please present this when paying (either a printout or show it on your smart phone)</p>';
 	}
 	
 	public function getOfferCodeOptions() {
@@ -329,20 +329,18 @@ class Offer extends CActiveRecord
 	
 	public function getDateOptions() {
 		return array(
-		self::DATE_1=>'11th October 2014',
-		self::DATE_2=>'18th October 2014',
-		self::DATE_3=>'25th October 2014',
-		self::DATE_4=>'7th November 2014',
-		self::DATE_5=>'14th November 2014',
-		self::DATE_6=>'21st November 2014',
-		self::DATE_7=>'28th November 2014',
-		self::DATE_8=>'5th December 2014',
+		self::DATE_1=>'7th November 2014',
+		self::DATE_2=>'7th November 2014',
+		self::DATE_3=>'14th November 2014',
+		self::DATE_4=>'21st November 2014',
+		self::DATE_5=>'28th November 2014',
+		self::DATE_6=>'5th December 2014',
 		);
 	}
 	
 	public function getDateText() {
 		$dateOptions = $this->dateOptions;
-		return isset($dateOptions[$this->batch]) ? $dateOptions[$this->batch] : '21st November 2014';
+		return isset($dateOptions[$this->batch]) ? $dateOptions[$this->batch] : '28th November 2014';
 	}
 	
 	
