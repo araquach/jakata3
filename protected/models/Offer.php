@@ -268,7 +268,7 @@ class Offer extends CActiveRecord
 			self::OFFER_16=>'<p><strong>Colour &amp; Cut for just &pound;20</strong></p>
 			<p><strong>Colour &amp; Blow Dry for just &pound;15</strong></p>
 			<p><strong>Cut, Dry &amp; Style for just &pound;7.50</strong></p>
-			<p>With our trainee stylist Ashley</p>
+			<p>With our trainee stylist Ashley (At Paul Kemp Hairdressing)</p>
 			<p><em>All work supervised by a senior stylist</em></p>
 			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em>.<br>With <em>Ashley Tennant</em> only.<br>Not Transferable, limited to weekdays </p>',
 			
