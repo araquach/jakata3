@@ -1243,6 +1243,12 @@ div.row textarea {
 	margin-top: 0;
 }
 
+#offers p.contact {
+	margin-left: 80px;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
 .no-boxshadow #offer1, #offer2, #offer3, #offer4 {
 	border-right: 1px solid #666;
 	border-bottom: 1px solid #333;
@@ -1256,16 +1262,16 @@ div.row textarea {
 
 #offer1 {
 	margin-top: 50px;
-	background: url(../images/offers/candy_lady.jpg) no-repeat #fefefe;
+	background: url(../images/offers/Metal_Chic.jpg) no-repeat #fefefe;
 }
 
 #offer2 {
-	background: url(../images/offers/candy_man.jpg) no-repeat #fefefe;
+	background: url(../images/offers/Undone_Glamour.jpg) no-repeat #fefefe;
 }
 
 #offer3 {
 	margin-bottom: 30px;
-	background: url(../images/offers/mat_laura.jpg) no-repeat #fefefe;
+	background: url(../images/offers/White_Hot_Male.jpg) no-repeat #fefefe;
 }
 
 #offer4 {

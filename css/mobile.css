@@ -284,6 +284,12 @@ p.newscenter {
 	margin: auto;
 }
 
+#offers p.contact {
+	margin-left: 40px;
+	font-weight: bold;
+	font-size: 1em;
+}
+
 #offer1, #offer2, #offer3, #offer4 {
 	width: auto;
 	margin: auto;
@@ -353,7 +359,7 @@ p.newscenter {
 
 p#book_button {
 	margin-top: 40px;
-	margin-left: 80px;
+	margin-left: 40px;
 	width: 160px;
 	text-align: center;
 	color: #FFF;
