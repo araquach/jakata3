@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . 'Hairdressing Offers';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Offers"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "November Offers"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/offers/.jpg" ; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "November Offers"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Massive savings for new clients on Colour & Cut Packages throughout November"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/offers/undone_glamour_meta.jpg" ; ?>
 
 <section id="offers">
 
@@ -29,7 +29,7 @@ $this->pageTitle=Yii::app()->name . 'Hairdressing Offers';
 	  <h2>30% Off</h2>
 	  <p>Men's Cut &amp; Style<br>with any of our Stylists/Senior Stylists</p>
 	    <small><time datetime="2014-11-28">until 28/11/14</time><br>
-	    For New Clients - not with any other offer. Excludes Saturday<br>Skin test required 48hrs before any colour service</small>
+	    For New Clients - not with any other offer. Excludes Saturday</small>
 	</section>
 	
 	<p class="contact">Call 01925 242960 to book</p>
