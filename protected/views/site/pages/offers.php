@@ -35,5 +35,14 @@ $this->pageTitle=Yii::app()->name . 'Hairdressing Offers';
 	<p class="contact">Call 01925 242960 to book</p>
 	
 	<?php echo CHtml::link('<p id="book_button">Online enquiry and booking form</p>',array('site/contact')); ?>
+	
+	<div id="fb_like">
+	<?php  $this->widget('ext.yii-facebook-opengraph.plugins.LikeButton', array(
+	   'href' => 'http://www.jakatasalon.co.uk/offers', 
+	   'show_faces'=>false,
+	   'send' => true,
+	   'width' => '250px'
+	));  ?>
+	</div>
 
 </section> <!--end #offers-->

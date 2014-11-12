@@ -1218,6 +1218,11 @@ div.row textarea {
 	font-weight: bold;
 }
 
+#offers #fb_like {
+	margin-left: 80px;
+	margin-top: 60px;
+}
+
 #offer_copy {
 	width: 550px;
 	margin-left: 70px;
