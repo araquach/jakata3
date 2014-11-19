@@ -1906,15 +1906,71 @@ span.kebelo_italic {
 
 #competition {
 	width: auto;
+	background-size: contain;
+	background-position-y: -130px;
+	position: 100px;
 	margin: auto;
 	float: none;
 	height: 100%;
-	padding: 0;
-	background-color: #f5f5f5;
-	padding-top: 500px;
+	padding: 10px;
+	background-color: rgb(219, 219, 232);
+	padding-top: 50px;
 	padding-bottom: 50px;
 	opacity: 1;
 }
+
+#competition_copy {
+	width: auto;
+	margin-left: 15px;
+	margin-top: 270px;
+	background-color: transparent;
+}
+
+#prizes {
+	width: auto;
+	padding: 0;
+	
+}
+
+#prizes .prize {
+	float: none;
+	width: auto;
+	height: auto;
+	padding: 0 15px;
+	font-size: 1em;
+	border: 1px solid #333;
+	margin-left: 0;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	background-color: white;
+}
+
+#prizes .prize h3 {
+	font-size: 2em;
+	text-align: center;
+}
+
+#prizes .prize p:first-of-type {
+	font-weight: bolder;
+	font-size: 1.4em;
+}
+
+#prizes .prize p:last-of-type {
+	text-align: center;
+	font-weight: bold;
+	font-size: 1.4em;
+}
+
+#prizes .prize ul {
+	padding: 1em;
+}
+
+#prize_entry {
+	margin-left: 0;
+	padding: 10px;
+	font-size: .8em;
+}
+
 
 #overlay {
 	background: url('../images/competition/overlay.png') left top no-repeat;
@@ -1934,9 +1990,10 @@ span.kebelo_italic {
 }
 
 #competition h2 {
-	font-size: 2em;
-	padding: 30px;
+	font-size: 1.5em;
+	padding: 0;
 	padding-bottom: 0;
+	width: 80%;
 }
 
 #competitionBlank {
@@ -1949,12 +2006,6 @@ span.kebelo_italic {
 
 #competition img {
 	margin-left: 60px;
-}
-
-#competition_copy {
-	width: auto;
-	margin-left: 0;
-	background-color: #FFF;
 }
 
 #competition_form {
