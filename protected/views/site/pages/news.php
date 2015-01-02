@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . 'Hairdressing News';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Jakata News"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Introducing Matthew Lane and Laura Minett. They both joined us at the beginning of the month. Mathew is 26 and has been hairdressing for 2 years. He comes on board as a graduate stylist. He said he always wanted to be a hairdresser but always kept putting it off! After getting his own hair done at Jakata for the last few years he was in the right place at the right time to take on the role after completing his NVQ2 at Warrington Collegiate."; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/spec_offer/matt_laura_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Happy 2015!"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Wishing everyone a very happy New Year from the entire team here at Jakata. We hope you all had a great Christmas and saw the New Year in in style! Things are slowly getting back to normal here in the salon after a hectic month! It won't be normal for long though as we'll soon all be heading off to a lodge in Llangollen for a week for our team party!"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/new_year_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -20,7 +20,21 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
-<a id="link" class="anchor"></a>
+<a id="HappyNewYear" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/new_year.jpg" width="135" height="180" alt="Happy New Year">
+<h2>Happy New Year</h2>
+<p><strong>Wishing everyone a very happy New Year from the entire team here at Jakata. We hope you all had a great Christmas and saw the New Year in in style!</strong></p>
+<p>Things are slowly getting back to normal here in the salon after a hectic month! It won't be normal for long though as we'll soon all be heading off to a lodge in Llangollen for a week for our team party!</p>
+<p>The salon will be closed from Tuesday 13th January and we re-open on Saturday 17th January. If you need to book an appointment during this time then calls will still be taken - the phone is being diverted to our sister salon <em>Paul Kemp Hairdressing</em>.</p>
+<p class="offer_heading"><strong>We all look forward to seeing you throughout 2015!</strong></p>
+</section> <!--end .visible-->
+<p class="author">Published by Adam</p>
+<time datetime="2015-01-02">2<sup>nd</sup> January 2015</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="tweens" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/tweens_new.jpg" width="135" height="180" alt="alt text">
 <h2>Tweens are back!</h2>
