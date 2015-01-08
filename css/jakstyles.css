@@ -222,11 +222,11 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/vikki_news.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
+	background: url('../images/home/metal_chic2.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
 	background-size: contain;
 }
 .no-rgba #news1 {
-	background: url('../images/home/vikki_news_small.jpg') no-repeat left top rgb(249, 249, 250);
+	background: url('../images/home/metal_chic2_small.jpg') no-repeat left top rgb(249, 249, 250);
 	
 }
 
@@ -1267,11 +1267,11 @@ div.row textarea {
 
 #offer1 {
 	margin-top: 50px;
-	background: url(../images/offers/Metal_Chic.jpg) no-repeat #fefefe;
+	background: url(../images/offers/gwen.jpg) no-repeat #fefefe;
 }
 
 #offer2 {
-	background: url(../images/offers/Undone_Glamour.jpg) no-repeat #fefefe;
+	background: url(../images/offers/white_hot_man.jpg) no-repeat #fefefe;
 }
 
 #offer3 {
