@@ -3,8 +3,8 @@
 $this->pageTitle=Yii::app()->name . 'Hairdressing Offers';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "New Year Offers"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Half Price Colour with every Cut, Dry & Style and 30% off Mens Cut & Style - for new clients this January"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "February Offers"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Half Price Colour with every Cut, Dry & Style and 30% off Mens Cut & Style - for new clients this February"; ?>
 <?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/offers/metal_chic_meta.jpg" ; ?>
 
 
@@ -12,15 +12,15 @@ $this->pageTitle=Yii::app()->name . 'Hairdressing Offers';
 	
 	<section id="offer1">
 	  <h2>Half Price Colour <br>with every<br>Cut, Dry &amp; Style</h2>
-	  <p>For new clients<br>until the end of January</p>
-	    <small><time datetime="2015-01-30">until 30/01/15</time><br>
+	  <p>For new clients<br>until the end of February</p>
+	    <small><time datetime="2015-02-27">extended until 27/02/15</time><br>
 	    For New Clients - not with any other offer. Excludes Saturday<br>Skin test required 48hrs before any colour service</small>
 	</section>
 	
 	<section id="offer2">
 	  <h2><span class="big">30% off</span><br>Mens Cut &amp; Style<br>For New Clients</h2>
-	  <p>Throughout January</p>
-	    <small>until <time datetime="2015-01-30">30/01/15</time><br>
+	  <p>Extended Throughout February</p>
+	    <small>extended until <time datetime="2015-02-27">27/02/15</time><br>
 	    Not with any other offer. Excludes Saturday<br></small>
 	</section>
 	
