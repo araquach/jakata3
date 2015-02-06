@@ -53,6 +53,12 @@ $this->pageTitle=Yii::app()->name . 'Contact Us';
 		<?php echo $form->emailField($model,'email',array('size'=>30,'maxlength'=>128)); ?>
 		<?php echo $form->error($model,'email'); ?>
 	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'email_confirm'); ?>
+		<?php echo $form->emailField($model,'email_confirm',array('size'=>30,'maxlength'=>128)); ?>
+		<?php echo $form->error($model,'email_confirm'); ?>
+	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'mobile'); ?>

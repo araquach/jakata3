@@ -10,6 +10,7 @@ class ContactForm extends CFormModel
 	public $first_name;
 	public $second_name;
 	public $email;
+	public $email_confirm;
 	public $mobile;
 	public $body;
 
@@ -21,6 +22,8 @@ class ContactForm extends CFormModel
 		return array(
 			// name, email, subject and body are required
 			array('first_name, second_name, email, mobile, body', 'required', 'message'=>'Please enter your {attribute}'),
+			array('email_confirm', 'required', 'message'=>'Please confirm your Email Address'),
+			array('email_confirm', 'compare', 'compareAttribute'=>'email'),
 			array('mobile', 'numerical', 'message'=>'Please enter your mobile number without spaces'),
 			// email has to be a valid email address
 			array('email', 'email', 'message'=>'Please enter a valid email address'),
@@ -38,6 +41,7 @@ class ContactForm extends CFormModel
 			'first_name' => 'First Name',
 			'second_name' => 'Second Name',
 			'email' => 'Email Address',
+			'email_confirm' => 'Confirm Email Address',
 			'mobile' => 'Contact Number',
 			'body' => 'Your Message',
 			
