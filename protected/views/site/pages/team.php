@@ -86,9 +86,9 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	</section> <!--team member maisie-->
 	
 	<section class="team_member" id="laura">
-	<div class="team_button"><p>About<br>Laura</p></div>
+	<div class="team_button"><p>About<br>Laura C</p></div>
 	<a id="Laura" class="anchor"></a>
-	<h2>Laura Hall</h2>
+	<h2>Laura Crumplin</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Laura Hall">
 	<p><strong>Laura has been hairdressing for 8 years and joined Jakata in 2005. That makes her the longest serving team member (apart from Adam).</strong></p>
@@ -115,19 +115,32 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	</section> <!--team_member_copy -->
 	</section> <!--team member nat-->
 	
-	 
-	<!--<section class="team_member" id="dan">
-	<div class="team_button"><p>About<br>Dan</p></div>
-	<h2>Daniel Anderson</h2>
+	<section class="team_member" id="laura_m">
+	<div class="team_button"><p>About<br>Laura M</p></div>
+	<h2>Laura Minett</h2>
 	<section class="team_member_copy">
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Daniel Anderson">
-	<p><strong>Dan isn't officially a Jakatan, but deserves a mention! He is a law unto himself and churns out some super nice cuts and colours</strong></p>
-	<p>He came on board at Jakata and has settled in like part of the furniture.</p>
-	<p><strong>Favourite Style: </strong>Straight Line Graduation</p>
-	<p><strong>Favourite Product: </strong>Totally Baked</p>
-	<p class="price">Average Cut &amp; Colour <br>with Dan: &pound;110</p>
-	</section> <!- -team_member_copy - -*>
-	</section> <!- -team member dan- -*>1-->
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Laura Minett">
+	<p><strong></strong></p>
+	<p></p>
+	<p><strong>Favourite Style: </strong></p>
+	<p><strong>Favourite Product: </strong></p>
+	<p class="price">Average Cut &amp; Colour <br>with Laura M: &pound;???</p>
+	</section> <!--team_member_copy -->
+	</section> <!--team member laura_m -->
+	
+	<section class="team_member" id="matt">
+	<div class="team_button"><p>About<br>Matt</p></div>
+	<h2>Matthew Lane</h2>
+	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Matthew Lane">
+	<p><strong></strong></p>
+	<p></p>
+	<p></p>
+	<p><strong>Favourite Style: </strong></p>
+	<p><strong>Favourite Product: </strong></p>
+	<p class="price">Average Cut &amp; Colour <br>with Matt: &pound;???</p>
+	</section> <!--team_member_copy -->
+	</section> <!--team member vicky-->
 		 
 </div> <!--team_members	-->	  
 </section> <!--team-->
