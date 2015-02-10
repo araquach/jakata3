@@ -33,7 +33,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Jimmy Sharpe">
 	<p><strong>Salon manager Jimmy joined Jakata in October 2007 as an apprentice and quickly worked his way up through the ranks.</strong></p>
 	<p>His passion for hairdressing is infectious. His experimental approach ensures he's always pushing the boundaries in cutting, colouring &amp; styling hair.</p>
-	<p>Jimmy was recently a member of the Schwarzkopf Young Artistic Team</p>
+	<p>Jimmy is currently a member of the Schwarzkopf L.E.A.P Team</p>
 	<p><strong>Favourite Style: </strong>Short hair cuts</p>
 	<p><strong>Favourite Product: </strong>Schwarzkopf Flex Wax</p>
 	<p class="price">Average Cut &amp; Colour <br>with Jimmy: &pound;106</p>
