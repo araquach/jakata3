@@ -115,7 +115,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	</section> <!--team_member_copy -->
 	</section> <!--team member nat-->
 	
-	<section class="team_member" id="laura_m">
+	<!--<section class="team_member" id="laura_m">
 	<div class="team_button"><p>About<br>Laura M</p></div>
 	<h2>Laura Minett</h2>
 	<section class="team_member_copy">
@@ -124,21 +124,21 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<p></p>
 	<p><strong>Favourite Style: </strong></p>
 	<p><strong>Favourite Product: </strong></p>
-	<p class="price">Average Cut &amp; Colour <br>with Laura M: &pound;???</p>
-	</section> <!--team_member_copy -->
-	</section> <!--team member laura_m -->
+	<p class="price">Average Cut &amp; Colour <br>with Laura M: &pound;59</p>
+	</section> <!- -team_member_copy - -*>
+	</section> <!- -team member laura_m - -*>-->
 	
 	<section class="team_member" id="matt">
 	<div class="team_button"><p>About<br>Matt</p></div>
 	<h2>Matthew Lane</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Matthew Lane">
-	<p><strong></strong></p>
-	<p></p>
-	<p></p>
-	<p><strong>Favourite Style: </strong></p>
-	<p><strong>Favourite Product: </strong></p>
-	<p class="price">Average Cut &amp; Colour <br>with Matt: &pound;???</p>
+	<p><strong>Matthew Lane joined the team as a Graduate stylist in 2014 after  previously studying art.</strong></p>
+	<p>He’s quickly establishing himself in the salon thanks to his passion for hairdressing and his friendly personality.</p>
+	<p>His love of art shines through with his bold, expressive colour and cuts.</p>
+	<p><strong>Favourite Style: </strong>Loves tailoring styles to suit the individual</p>
+	<p><strong>Favourite Product: </strong>BC Moisture Kick</p>
+	<p class="price">Average Cut &amp; Colour <br>with Matt: &pound;59</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member vicky-->
 		 
