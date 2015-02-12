@@ -115,18 +115,19 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	</section> <!--team_member_copy -->
 	</section> <!--team member nat-->
 	
-	<!--<section class="team_member" id="laura_m">
+	<section class="team_member" id="laura_m">
 	<div class="team_button"><p>About<br>Laura M</p></div>
 	<h2>Laura Minett</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Laura Minett">
-	<p><strong></strong></p>
-	<p></p>
-	<p><strong>Favourite Style: </strong></p>
-	<p><strong>Favourite Product: </strong></p>
+	<p><strong>Graduate Stylist Laura is a recent addition to the team but has quickly settled in and exhibits loads of natural flair for hairdressing.</strong></p>
+	<p>She particularly enjoys creative colouring &amp; styling whilst adding her own personal touch.</p>
+	<p>She won’t be a graduate stylist for long so take advantage of her low prices before she gets promoted!</p>
+	<p><strong>Favourite Style: </strong>Soft &amp; Natural styles</p>
+	<p><strong>Favourite Product: </strong>Totally Baked &amp; Dust It</p>
 	<p class="price">Average Cut &amp; Colour <br>with Laura M: &pound;59</p>
-	</section> <!- -team_member_copy - -*>
-	</section> <!- -team member laura_m - -*>-->
+	</section> <!--team_member_copy -->
+	</section> <!--team member laura_m -->
 	
 	<section class="team_member" id="matt">
 	<div class="team_button"><p>About<br>Matt</p></div>
