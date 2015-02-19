@@ -36,38 +36,24 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<p>Jimmy is currently a member of the Schwarzkopf L.E.A.P Team</p>
 	<p><strong>Favourite Style: </strong>Short hair cuts</p>
 	<p><strong>Favourite Product: </strong>Schwarzkopf Flex Wax</p>
-	<p class="price">Average Cut &amp; Colour <br>with Jimmy: &pound;106</p>
+	<p class="price">Average Cut &amp; Colour <br>with Jimmy: &pound;106</p>dfggdf
 	</section> <!--team_member_copy -->
 	</section> <!--team member jimmy-->
 	
-	<section class="team_member" id="vicky">
-	<div class="team_button"><p>About<br>Vikki</p></div>
-	<a id="Vicky" class="anchor"></a>
-	<h2>Vicky Rowland</h2>
+	<section class="team_member" id="laura">
+	<div class="team_button"><p>About<br>Laura C</p></div>
+	<a id="Laura" class="anchor"></a>
+	<h2>Laura Crumplin</h2>
 	<section class="team_member_copy">
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Vicky Rowland">
-	<p><strong>Team leader Vicky is a highly experienced stylist with a passion for all things vintage.</strong></p>
-	<p>Her time with the Hair Cuttery gave her a strong customer service focus. After joining Jakata in 2011 she's worked her way up to salon team leader.</p>
-	<p>Vicky's unique personal style definitely reflects in her innovative creations in the salon. </p>
-	<p><strong>Favourite Style: </strong> Anything Vintage</p>
-	<p><strong>Favourite Product: </strong>Catwalk Weightless Shine Spray</p>
-	<p class="price">Average Cut &amp; Colour <br>with Vicky: &pound;89</p>
-	</section> <!--team_member_copy -->
-	</section> <!--team member vicky-->
-	
-	<!--<section class="team_member" id="michelle">
-	<div class="team_button"><p>About<br>Michelle</p></div>
-	<h2>Michelle Ash</h2>
-	<section class="team_member_copy">
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Michelle Ash">
-	<p><strong>Senior Stylist Michelle has been a key Jakata team member for many years.</strong></p>
-	<p>With 17 years experience she's highly skilled in all aspects of hairdressing.</p>
-	<p>She particularly loves technical cutting &amp; Colouring and has been a finalist in the L'Oreal Colour Trophy.</p>
-	<p><strong>Favourite Style: </strong>Any kind of Bob</p>
-	<p><strong>Favourite Product: </strong>Tigi 'Hard To Get'</p>
-	<p class="price">Average Cut &amp; Colour <br>with Michelle: &pound;90??</p>
-	</section> <!- -team_member_copy - -*>
-	</section> <!- -team member vicky- -*>-->
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Laura Hall">
+	<p><strong>Senior stylist Laura has been hairdressing for 9 years and joined Jakata in 2005. That makes her the longest serving team member (apart from Adam).</strong></p>
+	<p>Laura loves classic styling plus technical services like Opti-Smooth and Kebelo.</p>
+	<p>Laura strongly believes using the right products is the key to maintaining a new hairstyle.</p>
+	<p><strong>Favourite Style: </strong>Any kind of hair-up</p>
+	<p><strong>Favourite Product:</strong> Any of the Tigi Candy Fixations Range</p>
+	 <p class="price">Average Cut &amp; Colour <br>with Laura: &pound;97</p>
+	</section> <!--team_member_copy --> kjshjfkshkfjs
+	</section> <!--team member laura-->
 	
 	<section class="team_member" id="maisie">
 	<div class="team_button"><p>About<br>Maisie</p></div>
@@ -75,7 +61,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<h2>Maisie Thompson</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Maisie Thompson">
-	<p><strong>Maisie is Jakata's latest addition to the team. She's a senior stylist and has over 8 years experience.</strong></p>
+	<p><strong>Maisie is a well established Jakata team member. She's a senior stylist and has over 8 years experience.</strong></p>
 	<p>She loves big, messy, tousled styles with loads of bounce and attitude.</p> 
 	<p>Precision, creativity and a strong understanding of an individuals hair are Maisie's focus.</p>
 	<p>She has an advanced diploma in Colour Correction through La Biostetique</p>
@@ -85,20 +71,20 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	</section> <!--team_member_copy -->
 	</section> <!--team member maisie-->
 	
-	<section class="team_member" id="laura">
-	<div class="team_button"><p>About<br>Laura C</p></div>
-	<a id="Laura" class="anchor"></a>
-	<h2>Laura Crumplin</h2>
+	<section class="team_member" id="vicky">
+	<div class="team_button"><p>About<br>Vikki</p></div>
+	<a id="Vicky" class="anchor"></a>
+	<h2>Vicky Rowland</h2>
 	<section class="team_member_copy">
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Laura Hall">
-	<p><strong>Laura has been hairdressing for 8 years and joined Jakata in 2005. That makes her the longest serving team member (apart from Adam).</strong></p>
-	<p>Laura loves classic styling plus technical services like Opti-Smooth and Kebelo.</p>
-	<p>Laura strongly believes using the right products is the key to maintaining a new hairstyle.</p>
-	<p><strong>Favourite Style: </strong>Any kind of hair-up</p>
-	<p><strong>Favourite Product:</strong> Any of the Tigi Candy Fixations Range</p>
-	 <p class="price">Average Cut &amp; Colour <br>with Laura: &pound;89</p>
-	</section> <!--team_member_copy --> 
-	</section> <!--team member laura-->
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Vicky Rowland">
+	<p><strong>Vicky is a highly experienced stylist with a passion for all things vintage.</strong></p>
+	<p>Her time with the Hair Cuttery gave her a strong customer service focus. After joining Jakata in 2011 she's worked her way up to salon team leader.</p>
+	<p>Vicky's unique personal style definitely reflects in her innovative creations in the salon. </p>
+	<p><strong>Favourite Style: </strong> Anything Vintage</p>
+	<p><strong>Favourite Product: </strong>Catwalk Weightless Shine Spray</p>
+	<p class="price">Average Cut &amp; Colour <br>with Vicky: &pound;89</p>
+	</section> <!--team_member_copy -->
+	</section> <!--team member vicky-->
 		
 	<section class="team_member" id="nat">
 	<div class="team_button"><p>About<br>Nat</p></div>
@@ -106,7 +92,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<h2>Natalie Doxey</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Natalie Doxey">
-	<p><strong>Natalie completed her apprenticeship with Jakata in 2008. She's now a fully fledged stylist, exhibiting some incredible creative talent.</strong></p>
+	<p><strong>Natalie has been with Jakata since 2007. She's an extremely talented stylist, exhibiting some incredible creative skills.</strong></p>
 	<p>A key player in the winning team at the Redken NYC Awards, Natalie picked up the Style Innovator Trophy.</p> 
 	<p>She loves men's hair cutting, creative colouring, extensions and hair up.</p>
 	<p><strong>Favourite Style: </strong> Frankie from the Saturdays</p>
