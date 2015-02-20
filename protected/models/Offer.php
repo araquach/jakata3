@@ -286,7 +286,7 @@ class Offer extends CActiveRecord
 			
 			// Men -> 25% off
 			self::OFFER_19=>'<p><strong><span style="font-size: 34px; line-height: 1.5em;">25% OFF</span><br>your entire bill (including products) on your next visit</strong></p>
-			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only </p>',
+			<p>Offer exclusively for <em>'.ucfirst($this->first_name).' '.ucfirst($this->last_name).'</em> only.<br>Not Transferable, weekdays only. Not with any other offer </p>',
 		);
 	}
 	

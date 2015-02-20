@@ -24,9 +24,7 @@
 
 <p><strong>Hi <?php echo ucfirst($model->first_name); ?>,</strong></p>
 
-<p>To help give your hair the care and attention it needs before winter sets in we've put together a great offer for you.</p>
-
-<?php echo $model->getOfferText(); ?>
+<p>As we've not seen you in the salon for a while we'd like to offer you 25% off the total bill of your next visit (including products)</p>
 
 <p>To get your offer code just click 'Go'</p>
 
@@ -34,7 +32,7 @@
 
 <p>Offer Ends: <?php echo $model->getDateText(); ?></p> 
 
-<small>Not with any other offer, subject to availability</small>
+<small>Not with any other offer. Not transferable. Weekdays only</small>
 
 </div> <!--#limited_copy-->
 </div> <!--#limited-->
