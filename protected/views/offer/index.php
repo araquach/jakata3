@@ -24,7 +24,7 @@
 
 <p>As we've not seen you in the salon for a while <?php echo ucfirst($model->first_name); ?>, we'd like to offer you <br><strong>25% off the total bill</strong> <br>of your next visit (including products)</p>
 
-<p>Just quote: <strong>IMPD2514</strong> when booking,</p>
+<p>Just quote: <strong><?php echo $model->getOfferCodeText(); ?></strong> when booking,</p>
 
 <p>If you'd like to take up the offer, click go</p>
 
