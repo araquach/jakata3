@@ -329,9 +329,9 @@ class Offer extends CActiveRecord
 	
 	public function getDateOptions() {
 		return array(
-		self::DATE_1=>'7th November 2014',
-		self::DATE_2=>'7th November 2014',
-		self::DATE_3=>'14th November 2014',
+		self::DATE_1=>'20th March 2015',
+		self::DATE_2=>'27th March 2015',
+		self::DATE_3=>'2nd April 2015',
 		self::DATE_4=>'21st November 2014',
 		self::DATE_5=>'28th November 2014',
 		self::DATE_6=>'5th December 2014',

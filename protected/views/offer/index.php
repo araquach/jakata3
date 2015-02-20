@@ -22,11 +22,11 @@
 <div id="limited_copy">
 <h1><strong>Special Offer for<br> <?php echo ucfirst($model->first_name) . ' ' . ucfirst($model->last_name);?></strong></h1>
 
-<p><strong>Hi <?php echo ucfirst($model->first_name); ?>,</strong></p>
+<p>As we've not seen you in the salon for a while <?php echo ucfirst($model->first_name); ?>, we'd like to offer you <br><strong>25% off the total bill</strong> <br>of your next visit (including products)</p>
 
-<p>As we've not seen you in the salon for a while we'd like to offer you 25% off the total bill of your next visit (including products)</p>
+<p>Just quote: <strong>IMPD2514</strong> when booking,</p>
 
-<p>To get your offer code just click 'Go'</p>
+<p>If you'd like to take up the offer, click go</p>
 
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
 
