@@ -2340,7 +2340,8 @@ span.kebelo_italic {
 	margin: 0;
 }
 
-#limited .limitedSuccess {
+#limited .limitedSuccess,
+#limitedmale .limitedSuccess {
 	width: auto;
 	font-size: 1.4em;
 	margin-left: 0;
