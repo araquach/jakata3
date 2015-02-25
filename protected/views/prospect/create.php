@@ -10,7 +10,7 @@
 <h1>Welcome to Jakata</h1>
 <h2>Fashion forward hairdressing</h2>
 
-<p>Jakata is a fashion forward, award winning hairdressing salon in Warrington, Cheshire. With a team of twelve talented hairdressers looking after you, you know you're in good hands.</p>
+<p>Jakata is a fashion forward, award winning hairdressing salon in Warrington, Cheshire. With a team of 9 talented hairdressers looking after you, you know you're in good hands.</p>
 <p>Based on Bridge street in Warrington Town Centre the salon is located perfectly to serve the whole of Warrington and surrounding areas.</p>
 <p>If you're looking for the most fashion forward hairdressing then look no further. Our hairdressing services will far outweigh your expectations plus you'll be blown away by our friendly, approachable staff.</p>
 
