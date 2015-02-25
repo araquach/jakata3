@@ -41,7 +41,7 @@
 	<?php echo CHtml::link('<div id="logo"></div>', array('site/index'), array('class' => 'logo')); ?>
 
 	<h1>Jakata Salon</h1>
-	<h2>Hairdressers in Warrington</h2>
+	<h2>Fashion Forward Hairdressing</h2>
 
 </header>
 	
