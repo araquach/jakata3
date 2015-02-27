@@ -14,10 +14,10 @@
  * @property string $town
  * @property string $postcode
  * @property integer $regular
- * @property string $hair_texture
- * @property string $hair_condition
- * @property string $cut_spend
- * @property string $colour_spend
+ * @property integer $hair_texture
+ * @property integer $hair_condition
+ * @property integer $cut_spend
+ * @property integer $colour_spend
  * @property integer $date
  */
 class Prospect extends CActiveRecord
