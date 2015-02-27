@@ -61,7 +61,31 @@
 	<div class="row">
 		<?php echo $form->labelEx($model,'postcode'); ?>
 		<?php echo $form->textField($model,'postcode',array('size'=>60,'maxlength'=>256)); ?>
-		<?php echo $form->error($model,'postcosde'); ?>
+		<?php echo $form->error($model,'postcode'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'hair_texture'); ?>
+		<?php echo ZHtml::enumDropDownList($model,'hair_texture',array('prompt' => 'Select your answer')); ?>
+		<?php echo $form->error($model,'hair_texture'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'hair_condition'); ?>
+		<?php echo ZHtml::enumDropDownList($model,'hair_condition',array('prompt' => 'Select your answer')); ?>
+		<?php echo $form->error($model,'hair_condition'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'cut_spend'); ?>
+		<?php echo ZHtml::enumDropDownList($model,'cut_spend',array('prompt' => 'Select your answer')); ?>
+		<?php echo $form->error($model,'cut_spend'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'colour_spend'); ?>
+		<?php echo ZHtml::enumDropDownList($model,'colour_spend',array('prompt' => 'Select your answer')); ?>
+		<?php echo $form->error($model,'colour_spend'); ?>
 	</div>
 
 	<div class="row">
