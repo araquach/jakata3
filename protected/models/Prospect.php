@@ -58,7 +58,7 @@ class Prospect extends CActiveRecord
 			array('email, mobile', 'unique'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('id, first_name, second_name, email, mobile, address1, address2, town, postcode, date, regular', 'safe', 'on'=>'search'),
+			array('id, first_name, second_name, email, mobile, address1, address2, town, postcode, hair_texture, hair_condition, cut_spend, colour_spend, regular, date', 'safe', 'on'=>'search'),
 		);
 	}
 
