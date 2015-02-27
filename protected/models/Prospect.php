@@ -12,9 +12,13 @@
  * @property string $address1
  * @property string $address2
  * @property string $town
- * @property string $postcode 
- * @property integer $date
+ * @property string $postcode
  * @property integer $regular
+ * @property string $hair_texture
+ * @property string $hair_condition
+ * @property string $cut_spend
+ * @property string $colour_spend
+ * @property integer $date
  */
 class Prospect extends CActiveRecord
 {
@@ -44,7 +48,7 @@ class Prospect extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('first_name, second_name, email, mobile, address1, town, postcode, regular', 'required'),
+			array('first_name, second_name, email, mobile, address1, town, postcode, regular, hair_texture, hair_condition, cut_spend, colour_spend', 'required'),
 			array('first_name, second_name, email, address1, address2, town,', 'length', 'max'=>256),
 			array('date','default','value'=>new CDbExpression('NOW()'),'setOnEmpty'=>false,'on'=>'insert'),
 			array('mobile', 'length', 'max'=>22),
@@ -84,8 +88,12 @@ class Prospect extends CActiveRecord
 			'address2' => 'Address 2',
 			'town' => 'Town/City',
 			'postcode' => 'Postcode',
-			'date' => 'Date Entered',
+			'hair_texture' => 'Hair Texture',
+			'hair_condition' => 'Hair Condition',
+			'cut_spend' => 'How much do you normally spend on a haircut?',
+			'colour_spend' => 'How much do you normally spend on a hair colour?',
 			'regular' => 'Check the box if you have been to the salon before',
+			'date' => 'Date',
 		);
 	}
 
@@ -109,8 +117,12 @@ class Prospect extends CActiveRecord
 		$criteria->compare('address2',$this->address2,true);
 		$criteria->compare('town',$this->town,true);
 		$criteria->compare('postcode',$this->postcode,true);
-		$criteria->compare('date',$this->date);
+		$criteria->compare('hair_texture',$this->hair_texture,true);
+		$criteria->compare('hair_condition',$this->hair_condition,true);
+		$criteria->compare('cut_spend',$this->cut_spend,true);
+		$criteria->compare('colour_spend',$this->colour_spend,true);
 		$criteria->compare('regular',$this->regular);
+		$criteria->compare('date',$this->date);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
