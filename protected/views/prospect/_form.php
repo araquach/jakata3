@@ -66,25 +66,25 @@
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'hair_texture'); ?>
-		<?php echo ZHtml::enumDropDownList($model,'hair_texture',array('prompt' => 'Select your answer')); ?>
+		<?php echo ZHtml::enumDropDownList($model,'hair_texture',array('prompt' => 'Select Hair Texture')); ?>
 		<?php echo $form->error($model,'hair_texture'); ?>
 	</div>
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'hair_condition'); ?>
-		<?php echo ZHtml::enumDropDownList($model,'hair_condition',array('prompt' => 'Select your answer')); ?>
+		<?php echo ZHtml::enumDropDownList($model,'hair_condition',array('prompt' => 'Select Hair Condition')); ?>
 		<?php echo $form->error($model,'hair_condition'); ?>
 	</div>
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'cut_spend'); ?>
-		<?php echo ZHtml::enumDropDownList($model,'cut_spend',array('prompt' => 'Select your answer')); ?>
+		<?php echo ZHtml::enumDropDownList($model,'cut_spend',array('prompt' => 'Select Cut Spend')); ?>
 		<?php echo $form->error($model,'cut_spend'); ?>
 	</div>
 	
 	<div class="row">
 		<?php echo $form->labelEx($model,'colour_spend'); ?>
-		<?php echo ZHtml::enumDropDownList($model,'colour_spend',array('prompt' => 'Select your answer')); ?>
+		<?php echo ZHtml::enumDropDownList($model,'colour_spend',array('prompt' => 'Select Colour Spend')); ?>
 		<?php echo $form->error($model,'colour_spend'); ?>
 	</div>
 
