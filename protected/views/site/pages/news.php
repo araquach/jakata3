@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . 'Hairdressing News';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Happy 2015!"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Wishing everyone a very happy New Year from the entire team here at Jakata. We hope you all had a great Christmas and saw the New Year in in style! Things are slowly getting back to normal here in the salon after a hectic month! It won't be normal for long though as we'll soon all be heading off to a lodge in Llangollen for a week for our team party!"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/new_year_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Glad to have her back!"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "After 6 weeks out of the salon, we are happy to announce that senior stylist Maisie Thompson is back tomorrow! Maisie had a minor operation at the end of January and had to take it easy for 6 weeks. It feels like she’s been gone for ages!"; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/maisie_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -18,6 +18,43 @@ window.addEvent('domready', function(){
 <section id="news">
 
 <section id="accordion">
+
+<article class="article">
+<a id="Pearlescence" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/pearlescence.jpg" width="135" height="180" alt="Igora Pearlescence">
+<h2>New Igora Pearlescence Colours</h2>
+<p><strong>We’ve all noticed the growing trend for pastel tones over the last year and it looks like it’s here to stay, especially coming into spring and summer.</strong></p>
+<p>Mixing subtle tones of pink, powder blue or soft lilacs into bleached blonde hair is a great way to update your look.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>Up until now its been difficult to mix a colour to create these effects, often using our creative genius as professional colourists to create unique concoctions!</p>
+<p>That’s all changed now with the launch of Schwarzkopf’s brand new <em>Pearlescence</em> colours. A range of 8 new shades from delicate pastel effects to bold, standout tones.</p>
+<p>We’re all really eager to give these a go, so if you fancy something new then maybe this could be for you!</p>
+<p class="offer">With every Pearlescent colour we do receive a FREE nail varnish (while stocks last)</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="205-03-04">4<sup>th</sup> March 2015</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="MaisieReturn" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/maisie.jpg" width="135" height="180" alt="Maisie">
+<h2>Glad to have her back!</h2>
+<p><strong>After 6 weeks out of the salon, we are happy to announce that senior stylist Maisie Thompson is back tomorrow!</strong></p>
+<p>Maisie had a minor operation at the end of January and had to take it easy for 6 weeks. It feels like she’s been gone for ages!</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>She back in the salon tomorrow and the whole team are really excited for her return - things just aren’t the same without her.</p>
+<p class="offer_heading">So from myself and the rest of the team...</p>
+<p class="offer"><strong>X WELCOME BACK MAISIE X</strong></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2015-03-04">4<sup>th</sup> March 2015</time>
+</article> <!--end #article-->
 
 <article class="article">
 <a id="HappyNewYear" class="anchor"></a>

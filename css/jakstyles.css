@@ -222,21 +222,21 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/metal_chic2.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
+	background: url('../images/home/maisie3.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
 	background-size: contain;
 }
 .no-rgba #news1 {
-	background: url('../images/home/metal_chic2_small.jpg') no-repeat left top rgb(249, 249, 250);
+	background: url('../images/home/maisie3_small.jpg') no-repeat left top rgb(249, 249, 250);
 	
 }
 
 
 #news2 {
-	background: url('../images/home/new_year.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
+	background: url('../images/home/pearlescence.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
 	background-size: contain;
 }
 .no-rgba #news2 {
-	background: url('../images/home/new_year_small.jpg') no-repeat left top rgb(249, 249, 250);
+	background: url('../images/home/pearlescence_small.jpg') no-repeat left top rgb(249, 249, 250);
 }
 
 
