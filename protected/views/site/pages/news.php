@@ -48,7 +48,7 @@ window.addEvent('domready', function(){
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
-<p>She back in the salon tomorrow and the whole team are really excited for her return - things just aren’t the same without her.</p>
+<p>She's back in the salon tomorrow and the whole team are really excited for her return - things just aren’t the same without her.</p>
 <p class="offer_heading">So from myself and the rest of the team...</p>
 <p class="offer"><strong>X WELCOME BACK MAISIE X</strong></p>
 </section> <!--end .hidden-->
