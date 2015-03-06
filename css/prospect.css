@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* CSS Document */
+
+
+/* @group Main styling Group */
+
+body {
+	margin: 10px auto;
+	width: 950px;
+	background-color: white;
+}
+
+.container {
+	width: 100%;
+	position: relative;
+	position: relative;
+	border: 1px solid #333;
+	background-color: #FFF;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: NotethisRegular;
+	color: #4f516a;
+}
+
+header {
+	width: 400px;
+}
+
+
+header h1, header h2 {
+	font-size: 3px;
+	text-indent: -9999px;
+	margin: 0;
+	padding: 0;
+	width: 400px;
+}
+
+#logo {
+	width: 400px;
+	height: 130px;
+	margin-left: 40px;
+	background:  url('../images/main/jakata_logo.png') no-repeat left center;
+}
+
+#prospect {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+#prospect-info {
+	float: left;
+	width: 380px;
+	height: 800px;
+	padding: 40px;
+	background-color: pink;
+	margin-top: 200px;
+	margin-right: 30px;
+}
+
+#prospect-entry {
+	float: right;
+	width: 380px;
+	height: 800px;
+	padding: 40px;
+	background-color: green;
+}
+
+/* @end */
