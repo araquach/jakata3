@@ -2,21 +2,43 @@
 
 /* CSS Document */
 
+/* @group Clear Fix */
+
+.group:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+/*--- ie6*-----*/
+* html .group {
+	height: 1%;
+}
+
+/*----- ie7 -----*/
+*:first-child+html .group {
+	min-height: 1px;
+}
+
+/* @end */
+
+
 
 /* @group Main styling Group */
 
 body {
 	margin: 10px auto;
 	width: 950px;
-	background-color: white;
+	background: url('../images/main/titanium.jpg') repeat-x left top rgb(81, 86, 95);
 }
 
 .container {
 	width: 100%;
 	position: relative;
-	position: relative;
 	border: 1px solid #333;
 	background-color: #FFF;
+	height: 1200px;
 }
 
 
@@ -26,16 +48,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-	width: 400px;
+	width: 500px;
 }
 
-
-header h1, header h2 {
+header h1 {
 	font-size: 3px;
 	text-indent: -9999px;
 	margin: 0;
 	padding: 0;
 	width: 400px;
+}
+
+header h2 {
+	margin-left: 60px;
+	font-size: 1.7em;
+	margin-top: 0;
 }
 
 #logo {
@@ -51,23 +78,70 @@ header h1, header h2 {
 	left: 0;
 }
 
+#tohide {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 380px;
+	height: 1000px;
+	padding: 40px;
+	background-color: white;
+}
+
+#tohide h2 {
+	font: 3.5em Georgia, "Times New Roman", Times, serif;
+	margin: 0;
+}
+
+#tohide p {
+	
+}
+
 
 #prospect-info {
 	float: left;
-	width: 380px;
+	width: 370px;
 	height: 800px;
 	padding: 40px;
-	background-color: pink;
 	margin-top: 200px;
 	margin-right: 30px;
 }
 
 #prospect-entry {
 	float: right;
-	width: 380px;
-	height: 800px;
+	position: relative;
+	width: 384px;
 	padding: 40px;
-	background-color: green;
+	border-left: 3px solid #555;
+	border-bottom: 5px solid #555;
 }
+
+.row input,
+.row textarea {
+	line-height: 1em;
+	padding: 5px;
+	font-size: 1em;
+	width: 90%;
+}
+
+.row.buttons input {
+	width: 100px;
+}
+
+.row label{
+	font-size: .8em;
+	color: #424259;
+	margin-bottom: 8px;
+	margin-top: 10px;
+}
+.row label.required {
+	font-size: .8em;
+	color: #424259;
+	margin-bottom: 8px;
+	margin-top: 10px;
+}
+
+
+
 
 /* @end */
