@@ -47,6 +47,11 @@ h1, h2, h3, h4, h5, h6 {
 	color: #4f516a;
 }
 
+p {
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	line-height: 1.5em;
+}
+
 header {
 	width: 500px;
 }
@@ -83,9 +88,10 @@ header h2 {
 	top: 0;
 	left: 0;
 	width: 380px;
-	height: 1000px;
+	height: 1050px;
 	padding: 40px;
 	background-color: white;
+	z-index: 0;
 }
 
 #tohide h2 {

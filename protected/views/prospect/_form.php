@@ -11,6 +11,8 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
+	<h3>Fill in your details to claim your FREE products</h3>
+
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
 	<?php echo $form->errorSummary($model); ?>
