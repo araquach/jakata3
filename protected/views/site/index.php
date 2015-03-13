@@ -13,7 +13,7 @@ $this->pageTitle=Yii::app()->name. 'Home';
 ?>
 
 <div id="home">
-<h4 class="slogan">Fashion forward, award winning hairdressing</h4>
+<h4 class="slogan">Fashion Forward Hairdressing</h4>
 <section id="info">
 <p>Jakata is a fashion forward, award winning hairdressing salon in Warrington, Cheshire. With a team of twelve talented hairdressers looking after you, you know you're in good hands.</p>
 <p>Based on Bridge street in Warrington Town Centre the salon is located perfectly to serve the whole of Warrington and surrounding areas.</p>
