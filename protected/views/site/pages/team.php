@@ -106,12 +106,12 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<h2>Laura Minett</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Laura Minett">
-	<p><strong>Graduate Stylist Laura is a recent addition to the team but has quickly settled in and exhibits loads of natural flair for hairdressing.</strong></p>
+	<p><strong>Laura has recently been promoted to stylist position. She has quickly settled into the team and exhibits loads of natural flair for hairdressing.</strong></p>
 	<p>She particularly enjoys creative colouring &amp; styling whilst adding her own personal touch.</p>
-	<p>She won’t be a graduate stylist for long so take advantage of her low prices before she gets promoted!</p>
+	<p>She currently has a special low price for a limited time only!</p>
 	<p><strong>Favourite Style: </strong>Soft &amp; Natural styles</p>
 	<p><strong>Favourite Product: </strong>Totally Baked &amp; Dust It</p>
-	<p class="price">Average Cut &amp; Colour <br>with Laura M: &pound;59</p>
+	<p class="price">Average Cut &amp; Colour <br>with Laura M: &pound;74</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member laura_m -->
 	
