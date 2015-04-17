@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . 'Hairdressing News';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Glad to have her back!"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "After 6 weeks out of the salon, we are happy to announce that senior stylist Maisie Thompson is back tomorrow! Maisie had a minor operation at the end of January and had to take it easy for 6 weeks. It feels like she’s been gone for ages!"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/maisie_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "On hand at Fashion Week"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Most hairstylists can only dream of being a part of national, high profile events, and for most the opportunity will never come. Jakata stylist Jimmy Sharpe was lucky enough to get an invite to style hair at London Fashion Week for Jasper Garvida’s Ethologie. He was working alongside the Easton Regal hair team at creating a specific look on the models for the catwalk presentation." ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/jimmy_fw_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -18,6 +18,25 @@ window.addEvent('domready', function(){
 <section id="news">
 
 <section id="accordion">
+
+<article class="article">
+<a id="FashionWeek" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/jimmy_fw.jpg" width="135" height="180" alt="alt text">
+<h2>On hand at Fashion Week</h2>
+<p><strong>Most hairstylists can only dream of being a part of national, high profile events, and for most the opportunity will never come. </strong></p>
+<p>Jakata stylist Jimmy Sharpe was lucky enough to get an invite to style hair at London Fashion Week for Jasper Garvida’s Ethologie. He was working alongside the Easton Regal hair team at creating a specific look on the models for the catwalk presentation.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>Jimmy, who oversees the running of both Jakata &amp; Paul Kemp Hairdressing salons said ‘The team were briefed on creating voluminous ponytail look, with a slick side parting and lots of body at the crown. After the show started I was working closely with Jasper Garvida, ensuring the shape and form of the styles were consistent across the models so they were ready for the runway’.</p>
+<p>He continues ‘It was an extremely high pressure role but I loved every minute of it. To play a part in such a major event was a great experience.’</p>
+<p>Jimmy has been involved in a variety of events since he won his place on the Schwarzkopf L.E.A.P team last year. He is now in the process of putting together a photoshoot with the team that will feature in future Schwarzkopf marketing.</p>
+
+</section> <!--end .hidden-->
+<p class="author">Published by PK</p>
+<time datetime="2013-08-01">2<sup>nd</sup> August 2013</time>
+</article> <!--end #article-->
 
 <article class="article">
 <a id="Pearlescence" class="anchor"></a>
