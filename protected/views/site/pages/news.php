@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . 'Hairdressing News';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "On hand at Fashion Week"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Most hairstylists can only dream of being a part of national, high profile events, and for most the opportunity will never come. Jakata stylist Jimmy Sharpe was lucky enough to get an invite to style hair at London Fashion Week for Jasper Garvida’s Ethologie. He was working alongside the Easton Regal hair team at creating a specific look on the models for the catwalk presentation." ; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/jimmy_fw_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Essential Looks Competition"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Every season Schwarzkopf launch their Essential Looks collections, a set of styles influenced by future hair/fashion trends. Every time the new collections are launched we have an in—salon workshop run by a Schwarzkopf educator to keep everyone up to date with the latest looks. This time we thought we’d mix it up a bit and have an in-house competition. We teamed up with Paul Kemp Hairdressing and paired everyone off. Each pair of stylists had to create their own interpretation of a colour &amp; cut from the latest Essential Looks collections on a training head." ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/comp_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -35,7 +35,7 @@ window.addEvent('domready', function(){
 <p>The competition was judged by Adam, Jimmy and Steve from Schwarzkopf with bronze, silver and gold awards given out for the best interpretations of the styles.</p>
 <p>The winners this time were Leon (from Paul Kemp Hairdressing) and Vikki (from Jakata) who did a bold bob inspired from the ‘Pearlescent Girls’ collection.</p>
 <p>The session was great fun and we’ll have to see who the next winners will be when the next Essential Looks are launched!</p>
-<p><a href="https://www.facebook.com/JakataSalon?ref=hl" class="offer">See all the photos from the day here &gt;</a></p>
+<p><a href="https://www.facebook.com/media/set/?set=a.10153234033291866.1073741827.62812381865&type=1" class="offer" target="_blank">See all the photos from the day here &gt;</a></p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="2013-08-01">5<sup>th</sup> May 2015</time>
