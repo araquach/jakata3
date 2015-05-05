@@ -123,6 +123,8 @@
 		</div> <!--facebook-->
 		<div id="twitter"><a href="https://twitter.com/JakataSalon" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/home/twitter_logo.png" alt="Twitter" width="43" height="36"></a>
 		</div> <!--twitter-->
+		<div id="google"><a href="https://plus.google.com/+JakataWarrington/posts?hl=en" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/home/google_plus_logo.png" alt="Google Plus" width="35" height="36"></a>
+		</div> <!--twitter-->
 </div><!-- page -->
 
 </body>

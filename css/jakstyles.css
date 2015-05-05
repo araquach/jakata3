@@ -2631,7 +2631,7 @@ footer {
 }
 
 #aboutus.group ul {
-	width: 700px;
+	width: 640px;
 }
 
 #aboutus.group ul li {
@@ -2681,7 +2681,7 @@ ul.tinytext {
 
 #twitter {
 	position: absolute;
-	right: 110px;
+	right: 100px;
 	bottom: 34px;
 	opacity: .7;
 }
@@ -2689,6 +2689,18 @@ ul.tinytext {
 #twitter:hover {
 	opacity: 1;
 }
+
+#google {
+	position: absolute;
+	right: 170px;
+	bottom: 34px;
+	opacity: .7;
+}
+
+#google:hover {
+	opacity: 1;
+}
+
 
 /* @end */
 
