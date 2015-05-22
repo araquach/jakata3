@@ -18,6 +18,7 @@ window.addEvent('domready', function(){
 <section id="news">
 
 <section id="accordion">
+
 <article class="article">
 <a id="FibreForce" class="anchor"></a>
 <section class="visible">
