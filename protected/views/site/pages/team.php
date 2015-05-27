@@ -52,7 +52,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<p><strong>Favourite Style: </strong>Any kind of hair-up</p>
 	<p><strong>Favourite Product:</strong> Any of the Tigi Candy Fixations Range</p>
 	 <p class="price">Average Cut &amp; Colour <br>with Laura: &pound;97</p>
-	</section> <!--team_member_copy --> kjshjfkshkfjs
+	</section> <!--team_member_copy -->
 	</section> <!--team member laura-->
 	
 	<section class="team_member" id="maisie">
