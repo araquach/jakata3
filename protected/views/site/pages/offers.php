@@ -5,7 +5,7 @@ $this->pageTitle=Yii::app()->name . 'Hairdressing Offers';
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "Summer Offers"; ?>
 <?php Yii::app()->facebook->ogTags['og:description'] = "Half Price Colour with every Cut, Dry & Style and 30% off Mens Cut & Style - for new clients this August"; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/offers/metal_chic_meta.jpg" ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/offers/Alice_012_meta.jpg" ; ?>
 
 
 <section id="offers">
