@@ -30,12 +30,12 @@
 	
 	
 	
-	<div id="kebelo_offer">
+	<!--<div id="kebelo_offer">
 	<p><span class="bold">Special Offer</span><br>Kebelo Advantage<br>Smoothing Treatment</p>
 	<p class="big_offer">&pound;99</p>
 	<p>includes aftercare products</p>
 	<p>Plus FREE Cut, Dry &amp; Style<br>with every treatment</p>
-	</div>
+	</div>-->
 	
 	
 	</div> <!--end kebelo-->
