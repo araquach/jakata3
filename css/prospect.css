@@ -30,7 +30,7 @@
 body {
 	margin: 10px auto;
 	width: 950px;
-	background: url('../images/main/titanium.jpg') repeat-x left top rgb(81, 86, 95);
+	background: url('../images/prospect/prospect_bground.jpg') repeat left top rgb(81, 86, 95);
 }
 
 .container {
@@ -39,6 +39,10 @@ body {
 	border: 1px solid #333;
 	background-color: #FFF;
 	height: 1200px;
+}
+
+.red {
+	color: #7b1d1d;
 }
 
 
@@ -54,6 +58,7 @@ p {
 
 header {
 	width: 500px;
+	margin-top: 30px;
 }
 
 header h1 {
@@ -95,8 +100,8 @@ header h2 {
 }
 
 #tohide h2 {
-	font: 3.5em Georgia, "Times New Roman", Times, serif;
-	margin: 0;
+	font: 3.3em Georgia, "Times New Roman", Times, serif;
+	margin: 40px 0;
 }
 
 #tohide p {
@@ -119,7 +124,6 @@ header h2 {
 	width: 384px;
 	padding: 40px;
 	border-left: 3px solid #555;
-	border-bottom: 5px solid #555;
 }
 
 .row input,

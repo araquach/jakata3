@@ -3,18 +3,22 @@
 /* @var $model Prospect */
 ?>
 
+<?php
+	Yii::app()->clientScript->registerCoreScript('jquery');
+	Yii::app()->clientScript->registerScriptFile(Yii::app()->baseUrl.'/scripts/prospect.js');
+?>
+
 <section id="prospect">
 
 <section id="prospect-info">
 
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/prospect/boho.jpg" width="350" height="280" alt="Boho">
 
-<p><strong>Jakata is a fashion forward, award winning hairdressing salon in Warrington, Cheshire. With a team of eight talented hairdressers looking after you, you know you're in good hands.</strong></p>
-<p>Based on Bridge street in Warrington Town Centre the salon is located perfectly to serve the whole of Warrington and surrounding areas.</p>
-<p><em>If you're looking for the most fashion forward hairdressing then look no further. Our hairdressing services will far outweigh your expectations plus you'll be blown away by our friendly, approachable staff.</em></p>
-
-<p>The Jakata team comprises of eight skilled stylists, all from different hairdressing backgrounds, all displaying a diverse range of skills.</p>
-<p>Over the years Jakata has trained and developed a number of people to exceptional standards, whilst taking on already established stylists. This mix of talent creates a dynamic team with stylists well suited to anyone with a desire for a fashion forward look.</p>
+<p><strong>Jakata is a fashion forward, award winning hairdressing salon in Warrington.</strong></p>
+<p>The team comprises of eight skilled stylists, all from different hairdressing backgrounds, all displaying a diverse range of skills.</p>
+<p>This mix of talent creates a dynamic salon with stylists well suited to anyone looking for a fashion forward look.</p>
+<p><em>You'll be blown away by how friendly and approachable each of our team members are, and the warm, welcoming environment Jakata offers.</em></p>
+<p><strong>You know you're in good hands at JAKATA.</strong></p>
 
 </section> <!--prospect-info-->
 
@@ -22,12 +26,14 @@
 
 <section id="tohide">
 
-<h2>Claim Your FREE Products</h2>
+<h2>Claim Your <span class="red">FREE</span> Products</h2>
 
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/prospect/bc.jpg" width="380" height="200" alt="Boho">
 
-<p>How would you like to get some products tailored to your hair needs sent out to you absolutely FREE?<br>
-A selection of shampoo’s, conditioners and styling products could be yours - plus a secret surprise gift!</p>
+<p><em>How would you like to get some products tailored to your hair needs sent out to you absolutely <span class="red">FREE?</span><br>
+A selection of shampoo’s, conditioners and styling products could be yours - plus a secret surprise gift!</em></p>
+
+<a href="#" class="prospect-button">Click here to claim yours ></a>
 
 </section>
 
