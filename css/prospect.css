@@ -45,6 +45,11 @@ body {
 	color: #7b1d1d;
 }
 
+.big {
+	font-size: 2.2em;
+	letter-spacing: .16em;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: NotethisRegular;
@@ -99,16 +104,6 @@ header h2 {
 	z-index: 0;
 }
 
-#tohide h2 {
-	font: 3.3em Georgia, "Times New Roman", Times, serif;
-	margin: 40px 0;
-}
-
-#tohide p {
-	
-}
-
-
 #prospect-info {
 	float: left;
 	width: 370px;
@@ -124,6 +119,12 @@ header h2 {
 	width: 384px;
 	padding: 40px;
 	border-left: 3px solid #555;
+	min-height: 900px;
+}
+
+#prospect-entry h2 {
+	font: 3.3em Georgia, "Times New Roman", Times, serif;
+	margin: 40px 0;
 }
 
 .row input,

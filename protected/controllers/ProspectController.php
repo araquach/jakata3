@@ -28,7 +28,7 @@ class ProspectController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to only perform 'create' actions
-				'actions'=>array('create'),
+				'actions'=>array('create', 'form_holder'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow managers to perform 'admin', 'delete', 'update' actions
@@ -59,22 +59,28 @@ class ProspectController extends Controller
 	 */
 	public function actionCreate()
 	{
-		$model=new Prospect;
-
-		// Uncomment the following line if AJAX validation is needed
-		// $this->performAjaxValidation($model);
-
-		if(isset($_POST['Prospect']))
-		{
-			$model->attributes=$_POST['Prospect'];
-			if($model->save())
-				Yii::app()->user->setFlash('entry','<p>Thank\'s for entering ' . ucfirst($model->first_name) . '.' . '<br>We will send your free products out soon!</p>');
-		}
-
-		$this->render('create',array(
-			'model'=>$model,
-		));
+		$this->render('create');
 	}
+	
+	public function actionForm_holder()
+		{
+			$model=new Prospect;
+	
+			// Uncomment the following line if AJAX validation is needed
+			// $this->performAjaxValidation($model);
+	
+			if(isset($_POST['Prospect']))
+			{
+				$model->attributes=$_POST['Prospect'];
+				if($model->save())
+					Yii::app()->user->setFlash('entry','<p>Thank\'s for entering ' . ucfirst($model->first_name) . '.' . '<br>We will send your free products out soon!</p>');
+			}
+	
+			$this->render('form_holder',array(
+				'model'=>$model,
+			));
+		}
+	
 
 	/**
 	 * Lists all models.

@@ -25,15 +25,23 @@
 
 <section id="prospect-entry">
 
-<h2>Claim Your <span class="red">FREE</span> Products</h2>
+<div id="prospect_form">
 
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/prospect/bc.jpg" width="380" height="200" alt="Boho">
+<?php if(Yii::app()->user->hasFlash('entry')): ?>
 
-<p><em>How would you like to get some products tailored to your hair needs sent out to you absolutely <span class="red">FREE?</span><br>
-A selection of shampoo’s, conditioners and styling products could be yours - plus a secret surprise gift!</em></p>
+<div class="prospect_success">
+	<?php echo Yii::app()->user->getFlash('entry'); ?>
+</div>
 
-<?php echo CHtml::link('Click here to claim yours',array('prospect/form_holder')); ?>
+<?php else: ?>
 
-</section>  <!--prospect-entry-->
 
-</section> <!--prospect-->
+<?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
+
+</div> <!--end #prospect_form-->
+
+</section> <!--end prospect-entry-->
+
+</section> <!--end #prospect-->
+
+<?php endif ?>
