@@ -2,43 +2,20 @@
 
 /* CSS Document */
 
-/* @group Clear Fix */
-
-.group:after {
-	content: ".";
-	display: block;
-	height: 0;
-	clear: both;
-	visibility: hidden;
-}
-/*--- ie6*-----*/
-* html .group {
-	height: 1%;
-}
-
-/*----- ie7 -----*/
-*:first-child+html .group {
-	min-height: 1px;
-}
-
-/* @end */
-
-
-
 /* @group Main styling Group */
 
 body {
-	margin: 10px auto;
-	width: 950px;
-	background: url('../images/prospect/prospect_bground.jpg') repeat left top rgb(81, 86, 95);
+	width: auto;
+	min-width: 300px;
+	background: none;
+	margin: auto;
+	padding: 0;
+	background-color: black;
 }
 
 .container {
-	width: 100%;
-	position: relative;
-	border: 1px solid #333;
-	background-color: #FFF;
-	height: 1200px;
+	width: auto;
+	margin: auto;
 }
 
 .red {
@@ -50,64 +27,58 @@ body {
 	letter-spacing: .16em;
 }
 
-
-h1, h2, h3, h4, h5, h6 {
-	font-family: NotethisRegular;
-	color: #4f516a;
-}
-
-p {
-	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
-	line-height: 1.5em;
-}
-
 header {
 	width: 500px;
 	margin-top: 30px;
 }
 
 header h1 {
-	font-size: 3px;
-	text-indent: -9999px;
-	margin: 0;
-	padding: 0;
-	width: 400px;
+	position: relative;
+	background-color: #424259;
+	width: 100%;
+	margin: auto;
+	top: 0;
 }
 
 header h2 {
-	margin-left: 60px;
+	margin-left: 0;
 	font-size: 1.7em;
 	margin-top: 0;
 }
 
 #logo {
-	width: 400px;
-	height: 130px;
-	margin-left: 40px;
-	background:  url('../images/main/jakata_logo.png') no-repeat left center;
+	width: 180px;
+	height: 70px;
+	background:  url('../images/main/Jakata_logo_white.png') no-repeat center center;
 }
 
 #prospect {
-	position: absolute;
-	top: 0;
-	left: 0;
+	width: auto;
+	margin: auto;
+	height: 100%;
+	background: url('') 0 0px no-repeat #d3d0cb;
+	background-size: contain;
+	padding-top: 570px;
+	padding-bottom: 50px;
+	float: none;
+	margin-top: 0;
 }
 
 #prospect-info {
-	float: left;
-	width: 370px;
+	float: none;
+	width: auto;
 	height: 800px;
 	padding: 40px;
 	margin-top: 200px;
-	margin-right: 30px;
+	margin-right: 0;
 }
 
 #prospect-entry {
-	float: right;
+	float: none;
 	position: relative;
-	width: 384px;
-	padding: 40px;
-	border-left: 3px solid #555;
+	width: auto;
+	padding: 0;
+	border-left: none;
 	min-height: 900px;
 }
 
