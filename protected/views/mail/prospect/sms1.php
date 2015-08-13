@@ -1,0 +1,2 @@
+<?php echo 'Thanks for applying '. ucfirst($model->first_name).'. This text entitles you to 25% off your first visit to Jakata. Call 01925 242960 to book your appointment. www.jakatasalon.co.uk. See you soon!'
+?>
