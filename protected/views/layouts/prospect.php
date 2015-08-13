@@ -3,8 +3,8 @@
 <html class="no-js">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="">
-		<meta name="keywords" content="">
+	<meta name="description" content="Jakata is a fashion forward, award winning hairdressing salon in Warrington. The team comprises of eight skilled stylists, each from different hairdressing backgrounds, all displaying a diverse range of skills. This mix of talent creates a dynamic salon with stylists well suited to anyone looking for a fashion forward look. You'll be blown away by how friendly and approachable each of our team members are, and the warm, welcoming environment Jakata offers.">
+		<meta name="keywords" content="hairdresser, hairdressing, salon, Warrington, Cheshire, cutting, styling, stylist, straightening, Schwarzkopf, Tigi, Bedhead, GHD, fashion">
 		<meta name="author" content="Jakata Salon">
 		<meta name="viewport" content="width=device-width" /> <!--mobile fixed width-->
 		

@@ -38,18 +38,11 @@ body {
 	position: relative;
 	border: 1px solid #333;
 	background-color: #FFF;
-	height: 1200px;
 }
 
 .red {
 	color: #7b1d1d;
 }
-
-.big {
-	font-size: 2.2em;
-	letter-spacing: .16em;
-}
-
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: NotethisRegular;
@@ -88,9 +81,7 @@ header h2 {
 }
 
 #prospect {
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: relative;
 }
 
 #prospect-info {
@@ -98,7 +89,7 @@ header h2 {
 	width: 370px;
 	height: 800px;
 	padding: 40px;
-	margin-top: 200px;
+	margin-top: 0;
 	margin-right: 30px;
 }
 
@@ -109,6 +100,7 @@ header h2 {
 	padding: 40px;
 	border-left: 3px solid #555;
 	min-height: 900px;
+	margin-top: -200px;
 }
 
 #prospect-entry h2 {
@@ -132,6 +124,21 @@ header h2 {
 
 #prospect-entry p:last-of-type {
 	margin-bottom: 50px;
+}
+
+#address_info {
+	margin-top: 30px;
+}
+
+#address_info p {
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	letter-spacing: .13em;
+}
+
+#address_info p.big {
+	font: 2.2em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	letter-spacing: .16em;
+	margin-top: 0;
 }
 
 .row input,
