@@ -28,8 +28,8 @@ body {
 }
 
 header {
-	width: 500px;
-	margin-top: 30px;
+	width: auto;
+	margin-top: 0;
 }
 
 header h1 {
@@ -42,14 +42,17 @@ header h1 {
 
 header h2 {
 	margin-left: 0;
-	font-size: 1.7em;
-	margin-top: 0;
+	font-size: 1.5em;
+	margin-top: 20px;
+	text-align: center;
 }
 
 #logo {
-	width: 180px;
-	height: 70px;
-	background:  url('../images/main/Jakata_logo_white.png') no-repeat center center;
+	width: auto;
+	height: 100px;
+	margin: auto;
+	background:  url('../images/main/jakata_logo.png') no-repeat center center;
+	background-size: 80%;
 }
 
 #prospect {
