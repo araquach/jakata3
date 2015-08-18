@@ -45,7 +45,7 @@
 	
 	<section id="prospect-info">
 	
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/prospect/prospect_main.jpg" width="380" height="300" alt="">
+	<section id="prospect-image"></section>
 	
 	<p><strong>Jakata is a fashion forward, award winning hairdressing salon in Warrington.</strong></p>
 	<p>The team comprises of eight skilled stylists, each from different hairdressing backgrounds, all displaying a diverse range of skills.</p>
@@ -63,15 +63,6 @@
 
 	<div class="clear group"></div>
 	
-<footer>
-
-	<div id="facebook"><a href="http://www.facebook.com/JakataSalon" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/home/facebook_logo.png" alt="Facebook" width="35" height="36"></a>
-	</div> <!--facebook-->
-	<div id="twitter"><a href="https://twitter.com/JakataSalon" target="_blank"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/home/twitter_logo.png" alt="Twitter" width="43" height="36"></a>
-	</div> <!--twitter-->
-
-</footer>
-
 </div><!-- page -->
 
 </body>

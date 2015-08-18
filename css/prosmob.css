@@ -59,30 +59,44 @@ header h2 {
 	width: auto;
 	margin: auto;
 	height: 100%;
-	background: url('') 0 0px no-repeat #d3d0cb;
+	background: url('') 0 0px no-repeat #fff;
 	background-size: contain;
-	padding-top: 570px;
+	padding-top: 0;
 	padding-bottom: 50px;
 	float: none;
 	margin-top: 0;
 }
 
+#prospect-image {
+	width: auto;
+	height: 250px;
+	background: #FFF url('../images/prospect/prospect_main.jpg') no-repeat center center;
+	background-size: cover;
+}
+
 #prospect-info {
 	float: none;
 	width: auto;
-	height: 800px;
-	padding: 40px;
-	margin-top: 200px;
+	height: auto;
+	padding: 20px;
+	margin-top: 0;
 	margin-right: 0;
+}
+
+#prospect-offer-image {
+	width: auto;
+	height: 200px;
+	background: #f5f5f5 url('../images/prospect/bc.jpg') no-repeat center center;
+	margin-bottom: 30px;
 }
 
 #prospect-entry {
 	float: none;
 	position: relative;
 	width: auto;
-	padding: 0;
+	padding: 20px;
 	border-left: none;
-	min-height: 900px;
+	min-height: 0;
 }
 
 #prospect-entry h2 {
@@ -96,7 +110,7 @@ header h2 {
 	padding: 15px;
 	text-decoration: none;
 	color: #FFF;
-	font-size: 1.4em;
+	font-size: 1.3em;
 	opacity: 1;
 }
 
@@ -106,6 +120,16 @@ header h2 {
 
 #prospect-entry p:last-of-type {
 	margin-bottom: 50px;
+}
+
+#form h2 {
+	font-size: 1.8em;
+}
+
+#prospect-form {
+	padding-top: 20px;
+	margin-top: -820px;
+	background-color: #FFF;
 }
 
 .row input,

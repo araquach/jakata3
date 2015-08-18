@@ -23,7 +23,6 @@ $this->pageTitle=Yii::app()->name. ' Free Products';
 
 <?php else: ?>
 
-
 <?php echo $this->renderPartial('_form', array('model'=>$model)); ?>
 
 </div> <!--end #prospect_form-->

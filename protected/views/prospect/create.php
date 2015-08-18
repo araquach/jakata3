@@ -17,7 +17,8 @@ $this->pageTitle=Yii::app()->name. ' Free Products';
 
 <h2>Claim Your <span class="red">FREE</span> Products</h2>
 
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/prospect/bc.jpg" width="380" height="200" alt="Boho">
+
+<section id="prospect-offer-image"></section>
 
 <p><em>How would you like to get some products tailored to your hair needs sent out to you absolutely <span class="red">FREE?</span><br>
 A selection of shampoo’s, conditioners and styling products could be yours - plus a secret surprise gift!</em></p>

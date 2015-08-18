@@ -11,7 +11,7 @@
 	'enableAjaxValidation'=>false,
 )); ?>
 
-	<h3>Fill in your details to claim your FREE products</h3>
+	<h2>Fill in your details to claim your <span class="red">FREE</span> products</h2>
 
 	<p class="note">Fields with <span class="required">*</span> are required.</p>
 
