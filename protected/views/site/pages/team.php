@@ -125,7 +125,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<p>His love of art shines through with his bold, expressive colour and cuts.</p>
 	<p><strong>Favourite Style: </strong>Loves tailoring styles to suit the individual</p>
 	<p><strong>Favourite Product: </strong>BC Moisture Kick</p>
-	<p class="price">Average Cut &amp; Colour <br>with Matt: &pound;59</p>
+	<p class="price">Average Cut &amp; Colour <br>with Matt: &pound;74</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member vicky-->
 		 
