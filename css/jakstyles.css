@@ -222,11 +222,11 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/kebelo.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
+	background: url('../images/home/kebelo_new.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
 	background-size: contain;
 }
 .no-rgba #news1 {
-	background: url('../images/home/kebelo_small.jpg') no-repeat left top rgb(249, 249, 250);
+	background: url('../images/home/kebelo_new_small.jpg') no-repeat left top rgb(249, 249, 250);
 	
 }
 
@@ -1892,16 +1892,20 @@ span.kebelo_italic {
 
 
 #advantage {
-	background: #f5f5f5 url('../images/kebelo/advantage-bikini.jpg') no-repeat right top;
+	background: #f5f5f5 url('../images/kebelo/kebelo_new.jpg') no-repeat right top;
 	padding-top: 180px;
 	padding-bottom: 200px;
+}
+
+#advantage_copy p {
+	width: 500px;
 }
 
 #advantage_copy p:first-of-type {
 	border: 0px solid #333;
 	padding: 20px;
 	font-size: .9em;
-	width: 370px;
+	width: 450px;
 	background-color: rgb(75, 35, 108);
 	color: #FFF;
 	margin-bottom: 40px;
@@ -1945,8 +1949,8 @@ span.kebelo_italic {
 }
 
 #advantage_copy {
-	width: 500px;
-	padding: 70px;
+	width: 550px;
+	padding: 50px;
 }
 
 #advantage_link {

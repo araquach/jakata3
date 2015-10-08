@@ -1491,16 +1491,21 @@ span.kebelo_italic {
 
 
 #advantage {
-	background: url('../images/kebelo/advantage-bikini-mob.jpg') -150px top no-repeat #040404;
+	background: url('../images/kebelo/kebelo_new_mobi.jpg') left top no-repeat #FFF;
+	background-size: contain;
 	padding-top: 100px;
 	padding-bottom: 0;
 }
 
 #advantage h3 {
 	margin: 0;
-	margin-left: 20px;
-	color: #FFF;
+	width: auto;
+	margin-top: 200px;
+	margin-bottom: 0;
+	padding: 20px;
+	color: rgb(75, 35, 108);
 	font-size: 2em;
+	background-color: #FFF;
 }
 
 #advantage_copy p:first-of-type {
@@ -1510,7 +1515,7 @@ span.kebelo_italic {
 	width: auto;
 	background-color: rgb(75, 35, 108);
 	color: #FFF;
-	margin-top: 450px;
+	margin-top: 0;
 	margin-bottom: 0px;
 }
 
@@ -1624,6 +1629,7 @@ span.kebelo_italic {
 
 #advantage #three_advantages h3 {
 	font-size: 1.8em;
+	margin-top: 0;
 }
 
 #advantage #three_advantages p {
