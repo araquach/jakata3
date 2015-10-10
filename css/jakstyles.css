@@ -2035,6 +2035,52 @@ span.kebelo_italic {
 	font-weight: bold;
 }
 
+#kebelo-competition {
+	width: 500px;
+	padding: 70px;
+}
+
+#kebelo-competition h3 {
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.4em;
+	margin-bottom: 20px;
+}
+
+#kebelo-competition p {
+	font-size: 1.3em;
+}
+
+#kebelo-competition .kebelo-offer p:nth-child(1) {
+	font-size: 3.5em;
+	margin: 0;
+}
+
+#kebelo-competition .kebelo-offer p:nth-child(2) {
+	font-size: 2em;
+	margin: 0;
+	margin-bottom: 0px;
+}
+
+#kebelo-competition .kebelo-offer small {
+	margin: 0;
+}
+
+#kebelo-competition p:nth-child(4) {
+	border: 0px solid #333;
+	padding: 20px;
+	font-size: 1.1em;
+	width: 370px;
+	background-color: rgb(75, 35, 108);
+	color: #FFF;
+	margin: 40px 0;
+}
+
+#kebelo-competition p.offer {
+	font-size: 1.5em;
+	margin: 10px 0;
+	font-weight: normal;
+}
 
 #questions {
 	background: #f5f5f5 url('../images/kebelo/red-2.jpg') no-repeat right top;
