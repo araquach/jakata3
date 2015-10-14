@@ -1674,7 +1674,7 @@ span.kebelo_italic {
 #kebelo-competition h3 {
 	font-size: 2em;
 	line-height: 1.4em;
-	margin-bottom: 20px;
+	margin-bottom: 0;
 }
 
 #kebelo-competition p {
@@ -1686,16 +1686,17 @@ span.kebelo_italic {
 #kebelo-competition .kebelo-offer p:nth-child(1) {
 	font-size: 3.5em;
 	margin: 0;
+	padding: 0 20px;
 }
 
 #kebelo-competition .kebelo-offer p:nth-child(2) {
-	font-size: 2em;
+	font-size: 1.5em;
 	margin: 0;
-	margin-bottom: 0px;
+	padding: 0 20px;
 }
 
 #kebelo-competition .kebelo-offer small {
-	margin: 0;
+	margin: 0 20px;
 }
 
 #kebelo-competition p:nth-child(4) {
@@ -1710,7 +1711,8 @@ span.kebelo_italic {
 
 #kebelo-competition p.offer {
 	font-size: 1.5em;
-	margin: 10px 0;
+	margin: 0;
+	padding: 5px 20px;
 	font-weight: normal;
 }
 

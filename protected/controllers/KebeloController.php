@@ -30,7 +30,7 @@ class KebeloController extends Controller
 		{
 			return array(
 				array('allow',  // allow all users to perform 'index' and 'view' actions
-					'actions'=>array('index', 'offer'),
+					'actions'=>array('index', 'offer', 'prize'),
 					'users'=>array('*'),
 				),
 				
@@ -52,9 +52,9 @@ class KebeloController extends Controller
 	/**
 	 * Show offer page
 	 */
-	public function actionOffer($id)
+	public function actionPrize($id)
 	{
-		$this->render('offer',array(
+		$this->render('prize',array(
 			'model'=>$this->loadModel($id),
 		));
 	}
