@@ -873,7 +873,9 @@ p.reveal {
 #accordion article.article section.hidden img.news-image {
 	float: left;
 	clear: left;
-	margin: 0;
+	width: 100%;
+	height: auto;
+	margin: 10px 0;
 }
 
 /* @end */

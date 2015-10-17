@@ -22,7 +22,7 @@ window.addEvent('domready', function(){
 <article class="article">
 <a id="Fibreplex" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/image.jpg" width="135" height="180" alt="alt text">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibreplex2.jpg" width="135" height="135" alt="Fibreplex">
 <h2>Love colour but hate the damage?</h2>
 <p><strong>Everyone loves to change their colour from time to time (or for some people every month!) As hairdressers we love the challenge of turning black hair blonde or blonde hair red, but with every colour change there is damage caused by the tint or bleach. 
 A revolutionary new product by Schwarzkopf has just been launched and it is proven to reduce damage by 94%!</strong></p>
@@ -31,6 +31,7 @@ A revolutionary new product by Schwarzkopf has just been launched and it is prov
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibreplex1.jpg" width="135" height="79" alt="Fibreplex">
 <p>We’ve had this almost too-good-to-be-true product in the salon a few weeks now and we’ve been putting it to the test&hellip;</p>
 <p>Senior stylist Maisie says
 <em>“The possibilities for colour now seem endless - it’s an affordable colour booster for all of our clients. It means bigger colour jobs can potentially be carried out in one appointment instead of four or five.”</em></p>
@@ -39,7 +40,7 @@ A revolutionary new product by Schwarzkopf has just been launched and it is prov
 <em>“The condition of my blonde is loads better than normal and the darker colour in my hair seems to be staying in better and not washing out as fast”</em></p>
 <img class="news-image" src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibreplex_nat.jpg" width="400" height="300" alt="FibrePlex">
 <p><strong>The launch of this product is huge for the hairdressing industry. Almost on the scale of the launch of GHD’s!</strong></p>
-<p><em>So can we really put a price on healthy hair?</em></p>
+<p class="big"><em>So can we really put a price on healthy hair?</em></p>
 
 
 <p class="big">For all of our wonderful existing and future colour clients we are offering FibrePlex for just £10 on top of your regular colour service price. This includes a FREE in salon  conditioning treatment.</p>
