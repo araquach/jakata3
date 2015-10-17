@@ -22,25 +22,27 @@ window.addEvent('domready', function(){
 <article class="article">
 <a id="Fibreplex" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/image.jpg" width="135" height="180" alt="alt text">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/image.jpg" width="135" height="180" alt="alt text">
 <h2>Love colour but hate the damage?</h2>
 <p><strong>Everyone loves to change their colour from time to time (or for some people every month!) As hairdressers we love the challenge of turning black hair blonde or blonde hair red, but with every colour change there is damage caused by the tint or bleach. 
 A revolutionary new product by Schwarzkopf has just been launched and it is proven to reduce damage by 94%!</strong></p>
-<p>FibrePlex is Schwarzkopf’s first bond enforcing system to keep our silky, beautiful locks in amazing condition even with the most extreme colour changes. Thanks to the latest innovations in hair care we can all protect our hair from the damaging effect of tint and bleach.</p>
-<p class="reveal">Read more &gt;</p>
+<p><em>FibrePlex</em> is Schwarzkopf’s first bond enforcing system to keep our silky, beautiful locks in amazing condition even with the most extreme colour changes. Thanks to the latest innovations in hair care we can all protect our hair from the damaging effect of tint and bleach.</p>
 <p>At JAKATA we are now offering all of our colour clients this exclusive, in-salon, colour service booster as an add-on.</p>
+<p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
 <p>We’ve had this almost too-good-to-be-true product in the salon a few weeks now and we’ve been putting it to the test&hellip;</p>
 <p>Senior stylist Maisie says
 <em>“The possibilities for colour now seem endless - it’s an affordable colour booster for all of our clients. It means bigger colour jobs can potentially be carried out in one appointment instead of four or five.”</em></p>
-<p>Suzi (Surname) recently had FibrePlex as part of her colour visit after Natalie explained the benefits. She said
+<p><iframe src="https://www.youtube.com/embed/HeN7iiDRpME" width="90%" height="315" class="right" allowFullScreen></iframe></p>
+<p>Suzi Thompson recently had FibrePlex as part of her colour visit after Natalie explained the benefits. She said
 <em>“The condition of my blonde is loads better than normal and the darker colour in my hair seems to be staying in better and not washing out as fast”</em></p>
+<img class="news-image" src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibreplex_nat.jpg" width="400" height="300" alt="FibrePlex">
 <p><strong>The launch of this product is huge for the hairdressing industry. Almost on the scale of the launch of GHD’s!</strong></p>
 <p><em>So can we really put a price on healthy hair?</em></p>
 
 
-<p class="offer_heading">For all of our wonderful existing and future colour clients we are offering FibrePlex for just £10 on top of your regular colour service price. This includes a FREE in salon  conditioning treatment.</p>
+<p class="big">For all of our wonderful existing and future colour clients we are offering FibrePlex for just £10 on top of your regular colour service price. This includes a FREE in salon  conditioning treatment.</p>
 <p class="offer">And as if that’s not enough protection there is also a take home treatment for only £12.50. Use this twice a week and it will build and prep your hair for your next colour adventure!</p>
 </section> <!--end .hidden-->
 <p class="author">Published by Natalie</p>

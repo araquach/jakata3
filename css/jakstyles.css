@@ -829,6 +829,13 @@ p.reveal {
 	clear: left;
 }
 
+#accordion article.article section.hidden img.news-image {
+	float: left;
+	clear: left;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
 /* @end */
 
 /* @group News Extra */

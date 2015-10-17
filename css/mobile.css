@@ -870,6 +870,12 @@ p.reveal {
 	font-size: 1em;
 }
 
+#accordion article.article section.hidden img.news-image {
+	float: left;
+	clear: left;
+	margin: 0;
+}
+
 /* @end */
 
 /* @group News Extra */
