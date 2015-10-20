@@ -313,12 +313,12 @@ class Offer extends CActiveRecord
 			self::OFFER_11=>'G-IMCCP14 for Colour &amp; Cut<br>G-IMCP14 for Cut, Dry &amp; Style',
 			self::OFFER_12=>'G-IMCCP14 for Colour &amp; Cut<br>G-IMCP14 for Cut, Dry &amp; Style',
 			self::OFFER_13=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
-			self::OFFER_14=>'IMPD2514',
+			self::OFFER_14=>'IMW30',
 			self::OFFER_15=>'SS-IMCCP14 for Colour &amp; Cut<br>SS-IMCP14 for Cut, Dry &amp; Style',
 			self::OFFER_16=>'A-IMCCP14 for Colour &amp; Cut<br>A-IMCDP14 for Colour &amp; Blow Dry<br>A-IMCP14 for a Cut, Dry &amp; Style',
 			self::OFFER_17=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
 			self::OFFER_18=>'S-IMCCP14 for Colour &amp; Cut<br>S-IMCP14 for Cut, Dry &amp; Style',
-			self::OFFER_19=>'IMMPD2514',
+			self::OFFER_19=>'IMM30',
 		);
 	}
 	
@@ -329,10 +329,10 @@ class Offer extends CActiveRecord
 	
 	public function getDateOptions() {
 		return array(
-		self::DATE_1=>'27th March 2015',
-		self::DATE_2=>'2nd April 2015',
-		self::DATE_3=>'10th April 2015',
-		self::DATE_4=>'21st November 2014',
+		self::DATE_1=>'27th November 2015',
+		self::DATE_2=>'27th November 2015',
+		self::DATE_3=>'4th December 2015',
+		self::DATE_4=>'4th December 2015',
 		self::DATE_5=>'28th November 2014',
 		self::DATE_6=>'5th December 2014',
 		);

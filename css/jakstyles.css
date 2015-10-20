@@ -1465,7 +1465,7 @@ p#book_button {
 }
 
 #limited_copy p.big {
-	font: 3em Georgia, "Times New Roman", Times, serif;
+	font: 1.5em Georgia, "Times New Roman", Times, serif;
 	margin-bottom: 10px;
 	margin-top: 10px;
 	font-weight: bold;
