@@ -23,7 +23,7 @@
 <h1><strong>Special Offer for<br> <?php echo ucfirst($model->first_name) . ' ' . ucfirst($model->last_name);?></strong></h1>
 
 <p>We've not seen you in the salon<br> for a while <?php echo ucfirst($model->first_name); ?>, so we'd like to offer you</p> 
-<p class="big">30% off<br>the total bill</p> 
+<p class="big"><strong>30% off</strong><br>the total bill</p> 
 <p>on your next visit (including products)</p>
 
 <p>Just quote: <strong><?php echo $model->getOfferCodeText(); ?></strong> when booking,</p>
