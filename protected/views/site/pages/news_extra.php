@@ -1,7 +1,5 @@
 <?php
 /* @var $this SiteController */
-/* @var $model ContactForm */
-/* @var $form CActiveForm */
 ?>
 
 <section id="news_extra">

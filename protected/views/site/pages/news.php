@@ -20,6 +20,27 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="WinterHair" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/smooth-frizz.jpg" width="135" height="150" alt="Smooth to Frizzy">
+<h2>What does winter do to your hair?</h2>
+<p><strong>As we’re moving into winter and the weather is getting colder and damper, many of us notice significant changes in the condition and texture of our hair. Here at Jakata we have come up with some easy tips for you to follow to keep your hair looking bouncy and static free this Christmas.</strong></p>
+<p>When it’s cold outside we tend to pump our heating up to full blast. This dramatic change from cold to hot ensures our hair gets put through its paces! Cold air can cause the cuticle layer of the hair to lift, and going into a warm, dry interior environment then draws the moisture out of the hair, leaving it dry and frizzy. This also provides the perfect conditions for static, which we all know makes for unruly hair! Wind can also cause hair issues of its own. Exposure to strong winds can cause the hair to tangle. The wind blows the hairs against each other which roughens the cuticle causing the hairs to catch on one another.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/bc_repair_rescue_treatment.jpg" width="135" height="150" alt="BC Repair Rescue Treatment">
+<p>To avoid these winter shocks to the hair, keep up-to date with your conditioning treatments. An intensive treatment is recommended about once a week, which you can carry out at home. Warm up a towel under hot water to wrap around your head after applying your treatment and keep this on for 10 minutes to replenish and lock in all the moisture you will be lacking. We recommend Schwarzkopf Moisture Kick Treatment or Repair Rescue Deep Nourishing Treatment.</p>
+<h3>Hat Hair</h3>
+<p>Nobody wants hat hair but it does seem unavoidable during the winter months. We recommend not applying your finishing products until you have taken your hat off (keeping a small supply in your desk draw at work is always handy).</p>
+<p>Before you put your hat on, tie your hair in a loose bun on top of your head then when you take it out you will have a nice loose bounce to your hair. Alternatively you can platt your hair loosely under your hat to give a soft wave effect when taken out.</p>
+<p class="offer_heading">For more tips on looking after your hair during Winter, just ask your Jakata stylist</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Nat</p>
+<time datetime="2015-11-25">25<sup>th</sup> November 2015</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="Fibreplex" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/fibreplex2.jpg" width="135" height="135" alt="Fibreplex">
