@@ -4,7 +4,7 @@ $this->pageTitle=Yii::app()->name . 'Competitions';
 ?>
 
 <?php Yii::app()->facebook->ogTags['og:title'] = "The Jakata Christmas Give-away"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Hundreds of poundsworth of prizes to be won! Meal for 4 at Las Ramblas PLUS £100 Jakata voucher, Limited Edition GHD Stylers & Hairdryer, PLUS 30 runners up prizes! "; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "Hundreds of pounds-worth of prizes to be won! Meal for 4 at Las Ramblas PLUS £100 Jakata voucher, Limited Edition GHD Stylers & Hairdryer, PLUS 30 runners up prizes! "; ?>
 <?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/competition/christmas_raffle_15_meta.jpg"; ?>
 
 
