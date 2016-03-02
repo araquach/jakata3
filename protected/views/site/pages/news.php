@@ -40,6 +40,27 @@ window.addEvent('domready', function(){
 </article> <!--end #article-->
 
 <article class="article">
+<a id="articleName" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<h2>Colour Masters</h2>
+<p><strong>Last year was a big movement in our education department. Our focus was on putting our stylist through their paces. We have always had a strong focus on eduction and developing our team’s skill sets, but to further this we put all of our senior team members in both salons through a colour master class.</strong></p>
+<p>The Schwarzkopf Professional Colour Master Class represents a gold standard in colour education with an innovative delivery method. The learning units are dedicated to all aspects of colour, from the philosophy of colour, interpretation, selection and application. The focus of this course is not only on theory of colour but also a practical hands-on experience.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<p>Colour isn’t just a trend-led creative process, it’s a technical speciality which requires years of training and constant education to keep you ahead of the game and up to speed on trends, techniques and product updates. A fantastic colourist also needs to have an advanced understanding of the technical aspects of colour and the processes involved, including how best to implement those techniques for each individual client.</p>
+<p>Maisie &amp; Laura travelled to London on a regular basis throughout the year to train with Schwarzkopf’s National technical specialists. Completing a final exam at the end of the year all of our team passed with flying colours… no pun intended! Now qualified colour masters they have brought the education back to the rest of the team. We have really seen a massive step up in our teams colour knowledge.</p>
+<p>Natalie was recently promoted to Senior Stylist level and as part of her movement up the ranks she will also be completing the course over the next 12 months to her in line with the other senior team members.</p>
+<p class="offerHeading"><strong>You can be always be confident in the knowledge that all the team here at JAKATA/PK are trained to the highest levels in hairdressing.</strong></p>
+<?php echo CHtml::link('<p class="offer"></p>',array('site/page','view'=>'')); ?>
+</section> <!--end .hidden-->
+<p class="author">Published by </p>
+<time datetime="2013-08-01">1<sup>st</sup> August 2013</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="WinterHair" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/smooth-frizz.jpg" width="135" height="150" alt="Smooth to Frizzy">
