@@ -20,6 +20,26 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="articleName" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<h2>Natalie Promoted to Senior Stylist</h2>
+<p><strong>We’re proud to announce that our stylist Natalie Doxey has been promoted to Senior Stylist level. Natalie has met the standards required to be given this sought after title.</strong></p>
+<p>She has been with the company for 8 years now working her way up from a 1st year apprentice all the way up to a senior stylist and has firmly embedded herself as key member of the team, playing an important part of our eduction team as well.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<p>To become a Senior Stylist there is a strict criteria that needs to be fulfilled. The stylist’s skill set and the quality of their work is closely monitored, alongside their customer service skills. Natalie is a sought after stylist and her client base is growing at a fast rate with her customer feedback always of the highest level. She has consistently delivered at this exceptionally high standard for the last 6 months it was decided that she would be promoted to Senior Stylist level, to join fellow senior stylists Jimmy, Maisie and Laura H.</p>
+<p><em>Nat said “I’ve been working towards this promotion for about a year and I’m so happy to get it!”</em></p>
+<p class="offerHeading"><strong>If you'd like to book in for a FREE consultation with Natalie or any of our other stylists just call 01925 242960</strong></p>
+<?php echo CHtml::link('<p class="offer"></p>',array('site/page','view'=>'')); ?>
+</section> <!--end .hidden-->
+<p class="author">Published by Jimmy</p>
+<time datetime="2016-03-01">1<sup>st</sup> March 2016</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="WinterHair" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/smooth-frizz.jpg" width="135" height="150" alt="Smooth to Frizzy">
