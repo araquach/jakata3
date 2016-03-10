@@ -61,15 +61,30 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<h2>Maisie Thompson</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Maisie Thompson">
-	<p><strong>Maisie is a well established Jakata team member. She's a senior stylist and has over 8 years experience.</strong></p>
+	<p><strong>Maisie is a well established Jakata team member. She's a senior stylist and has over 9 years experience.</strong></p>
 	<p>She loves big, messy, tousled styles with loads of bounce and attitude.</p> 
 	<p>Precision, creativity and a strong understanding of an individuals hair are Maisie's focus.</p>
-	<p>She has an advanced diploma in Colour Correction through La Biostetique</p>
+	<p>She has advanced Colour diplomas with Schwarzkopf &amp; La Biostetique. She also loves doing the Kebelo smoothing service</p>
 	<p><strong>Favourite Style: </strong>Big, tousled hair</p>
 	<p><strong>Favourite Product: </strong>Tigi 'Totally Baked'</p> 
 	<p class="price">Average Cut &amp; Colour <br>with Maisie: &pound;97</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member maisie-->
+	
+	<section class="team_member" id="nat">
+	<div class="team_button"><p>About<br>Nat</p></div>
+	<a id="Natalie" class="anchor"></a>
+	<h2>Natalie Doxey</h2>
+	<section class="team_member_copy">
+	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Natalie Doxey">
+	<p><strong>Natalie has been with Jakata since 2007. She has recently been promoted to Senior Stylist. She exhibits some incredible creative skills.</strong></p>
+	<p>A key player in the winning team at the Redken NYC Awards, Natalie picked up the Style Innovator Trophy.</p> 
+	<p>She loves all aspects of creative colour and keeping on trend with the latest styles.</p>
+	<p><strong>Favourite Style: </strong> Anything with a creative edge</p>
+	<p><strong>Favourite Product: </strong>FibrePlex to create all colour changes</p>
+	<p class="price">Average Cut &amp; Colour <br>with Natalie: &pound;97</p>
+	</section> <!--team_member_copy -->
+	</section> <!--team member nat-->
 	
 	<section class="team_member" id="vicky">
 	<div class="team_button"><p>About<br>Vikki</p></div>
@@ -85,21 +100,6 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<p class="price">Average Cut &amp; Colour <br>with Vicky: &pound;89</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member vicky-->
-		
-	<section class="team_member" id="nat">
-	<div class="team_button"><p>About<br>Nat</p></div>
-	<a id="Natalie" class="anchor"></a>
-	<h2>Natalie Doxey</h2>
-	<section class="team_member_copy">
-	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Natalie Doxey">
-	<p><strong>Natalie has been with Jakata since 2007. She's an extremely talented stylist, exhibiting some incredible creative skills.</strong></p>
-	<p>A key player in the winning team at the Redken NYC Awards, Natalie picked up the Style Innovator Trophy.</p> 
-	<p>She loves men's hair cutting, creative colouring, extensions and hair up.</p>
-	<p><strong>Favourite Style: </strong> Frankie from the Saturdays</p>
-	<p><strong>Favourite Product: </strong>Session Series Dry Shampoo</p>
-	<p class="price">Average Cut &amp; Colour <br>with Natalie: &pound;89</p>
-	</section> <!--team_member_copy -->
-	</section> <!--team member nat-->
 	
 	<section class="team_member" id="laura_m">
 	<div class="team_button"><p>About<br>Laura M</p></div>
@@ -110,7 +110,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<p>She particularly enjoys creative colouring &amp; styling whilst adding her own personal touch.</p>
 	<p>She currently has a special low price for a limited time only!</p>
 	<p><strong>Favourite Style: </strong>Soft &amp; Natural styles</p>
-	<p><strong>Favourite Product: </strong>Totally Baked &amp; Dust It</p>
+	<p><strong>Favourite Product: </strong>Tigi Totally Baked &amp; Osis Dust It</p>
 	<p class="price">Average Cut &amp; Colour <br>with Laura M: &pound;74</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member laura_m -->
@@ -124,7 +124,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<p>He’s quickly establishing himself in the salon thanks to his passion for hairdressing and his friendly personality.</p>
 	<p>His love of art shines through with his bold, expressive colour and cuts.</p>
 	<p><strong>Favourite Style: </strong>Loves tailoring styles to suit the individual</p>
-	<p><strong>Favourite Product: </strong>BC Moisture Kick</p>
+	<p><strong>Favourite Product: </strong>Tigi Small Talk</p>
 	<p class="price">Average Cut &amp; Colour <br>with Matt: &pound;74</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member vicky-->

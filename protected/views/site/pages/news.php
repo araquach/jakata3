@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . 'Hairdressing News';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Essential Looks Competition"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Every season Schwarzkopf launch their Essential Looks collections, a set of styles influenced by future hair/fashion trends. Every time the new collections are launched we have an in—salon workshop run by a Schwarzkopf educator to keep everyone up to date with the latest looks. This time we thought we’d mix it up a bit and have an in-house competition. We teamed up with Paul Kemp Hairdressing and paired everyone off. Each pair of stylists had to create their own interpretation of a colour &amp; cut from the latest Essential Looks collections on a training head." ; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/comp_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Natalie Promoted to Senior Stylist"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "We’re proud to announce that our stylist Natalie Doxey has been promoted to Senior Stylist level. Natalie has met the standards required to be given this sought after title." ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/nat_senior_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -22,41 +22,39 @@ window.addEvent('domready', function(){
 <article class="article">
 <a id="articleName" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/nat_senior.jpg" width="135" height="180">
 <h2>Natalie Promoted to Senior Stylist</h2>
 <p><strong>We’re proud to announce that our stylist Natalie Doxey has been promoted to Senior Stylist level. Natalie has met the standards required to be given this sought after title.</strong></p>
 <p>She has been with the company for 8 years now working her way up from a 1st year apprentice all the way up to a senior stylist and has firmly embedded herself as key member of the team, playing an important part of our eduction team as well.</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
 <p>To become a Senior Stylist there is a strict criteria that needs to be fulfilled. The stylist’s skill set and the quality of their work is closely monitored, alongside their customer service skills. Natalie is a sought after stylist and her client base is growing at a fast rate with her customer feedback always of the highest level. She has consistently delivered at this exceptionally high standard for the last 6 months it was decided that she would be promoted to Senior Stylist level, to join fellow senior stylists Jimmy, Maisie and Laura H.</p>
 <p><em>Nat said “I’ve been working towards this promotion for about a year and I’m so happy to get it!”</em></p>
 <p class="offerHeading"><strong>If you'd like to book in for a FREE consultation with Natalie or any of our other stylists just call 01925 242960</strong></p>
 <?php echo CHtml::link('<p class="offer"></p>',array('site/page','view'=>'')); ?>
 </section> <!--end .hidden-->
 <p class="author">Published by Jimmy</p>
-<time datetime="2016-03-01">1<sup>st</sup> March 2016</time>
+<time datetime="2016-03-01">3<sup>rd</sup> March 2016</time>
 </article> <!--end #article-->
 
 <article class="article">
 <a id="articleName" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_masters.jpg" width="135" height="160">
 <h2>Colour Masters</h2>
-<p><strong>Last year was a big movement in our education department. Our focus was on putting our stylist through their paces. We have always had a strong focus on eduction and developing our team’s skill sets, but to further this we put all of our senior team members in both salons through a colour master class.</strong></p>
+<p><strong>Last year was a big movement in our education department. Our focus was on putting our stylist through their paces. We have always had a strong focus on eduction and developing our team’s skill sets, but to further this we put all of our senior team members through a colour master class.</strong></p>
 <p>The Schwarzkopf Professional Colour Master Class represents a gold standard in colour education with an innovative delivery method. The learning units are dedicated to all aspects of colour, from the philosophy of colour, interpretation, selection and application. The focus of this course is not only on theory of colour but also a practical hands-on experience.</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/" width="135" height="180">
 <p>Colour isn’t just a trend-led creative process, it’s a technical speciality which requires years of training and constant education to keep you ahead of the game and up to speed on trends, techniques and product updates. A fantastic colourist also needs to have an advanced understanding of the technical aspects of colour and the processes involved, including how best to implement those techniques for each individual client.</p>
 <p>Maisie &amp; Laura travelled to London on a regular basis throughout the year to train with Schwarzkopf’s National technical specialists. Completing a final exam at the end of the year all of our team passed with flying colours… no pun intended! Now qualified colour masters they have brought the education back to the rest of the team. We have really seen a massive step up in our teams colour knowledge.</p>
 <p>Natalie was recently promoted to Senior Stylist level and as part of her movement up the ranks she will also be completing the course over the next 12 months to her in line with the other senior team members.</p>
-<p class="offerHeading"><strong>You can be always be confident in the knowledge that all the team here at JAKATA/PK are trained to the highest levels in hairdressing.</strong></p>
+<p class="offerHeading"><strong>You can be always be confident in the knowledge that all the team here at JAKATA are trained to the highest levels in hairdressing.</strong></p>
 <?php echo CHtml::link('<p class="offer"></p>',array('site/page','view'=>'')); ?>
 </section> <!--end .hidden-->
-<p class="author">Published by </p>
+<p class="author">Published by Jim</p>
 <time datetime="2013-08-01">1<sup>st</sup> August 2013</time>
 </article> <!--end #article-->
 
