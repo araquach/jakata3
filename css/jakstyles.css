@@ -222,11 +222,11 @@ li.active a {
 }
 
 #news1 {
-	background: url('../images/home/kebelo_new.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
+	background: url('../images/home/color_masters.jpg') no-repeat left top rgba(249, 249, 250, 0.8);
 	background-size: contain;
 }
 .no-rgba #news1 {
-	background: url('../images/home/kebelo_new_small.jpg') no-repeat left top rgb(249, 249, 250);
+	background: url('../images/home/color_masters_small.jpg') no-repeat left top rgb(249, 249, 250);
 	
 }
 
@@ -236,7 +236,7 @@ li.active a {
 	background-size: contain;
 }
 .no-rgba #news2 {
-	background: url('../images/home/fibreplex_small.jpg') no-repeat left top rgb(249, 249, 250);
+	background: url('../images/home/color_masters_small.jpg') no-repeat left top rgb(249, 249, 250);
 }
 
 

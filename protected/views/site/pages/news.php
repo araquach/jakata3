@@ -20,7 +20,31 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
-<a id="articleName" class="anchor"></a>
+<a id="PantoneTrends" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/pantone.jpg" width="135" height="135" alt="Pantone Colors of the Year">
+<h2>Pantone &amp; Colour Trends</h2>
+<p><strong>Here at Jakata we like to keep up to date with the latest trends, and when it comes to colour we often look outside of the fashion and hair world for inspiration. A key player in the world of colour in design is ‘Pantone’ who have recently released their latest ‘Color of the Year’.
+</strong></p>
+<p>Pantone was founded in 1963 and is one of the first colour matching systems that most design company's whether it be graphic design, clothing, cosmetics, florists and printers use as a colour matching standard, plus look to for inspiration. They are the definitive authority on colour.</p>
+<p>What better place to look for new trends!</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/rose_quartz.jpg" width="135" height="164" alt="Rose Quartz">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/serenity.jpg" width="135" height="164" alt="Serenity">
+<p>Every year Pantone declares a particular colour "Color of the Year", and this year they have decided to have 2 complimenting colours of the Year</p>
+<p>Introducing ‘Rose quartz’ and ‘Serenity’ - two beautiful pastel colours perfect for anyone looking for soft light and airy colours taking you right on trend for the summer. </p>
+<p><em>“Joined together rose quartz and serenity demonstrate an inherent balance between warmer embracing rose tone and the cooler tranquil blue, reflecting  connection and wellness as well as a soothing sense of order and peace”</em> - Leatrice Eisemen executive director, Pantone Color institute.</p>
+<p class="offer_heading">Schwarkopf have been working hard at creating new colours to keep up with the trend for pastel tones. Last years release of the 'Pearlescence' range created a new palette of beautiful pastels and the upcoming release of 'ColorWorx' will ensure we have even more creative tones to work with!</p>
+<p class="offer"><strong>To book in for a consultation to see if these new tones will suit you, just call us on 01925 242960</strong></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Vikki</p>
+<time datetime="2016-03-12">12<sup>th</sup> March 2016</time>
+</article> <!--end #article-->
+
+<article class="article">
+<a id="NatSenior" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/nat_senior.jpg" width="135" height="180">
 <h2>Natalie Promoted to Senior Stylist</h2>
@@ -39,7 +63,7 @@ window.addEvent('domready', function(){
 </article> <!--end #article-->
 
 <article class="article">
-<a id="articleName" class="anchor"></a>
+<a id="ColorMasters" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/colour_masters.jpg" width="135" height="160">
 <h2>Colour Masters</h2>
