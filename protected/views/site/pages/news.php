@@ -22,18 +22,18 @@ window.addEvent('domready', function(){
 <article class="article">
 <a id="Tweens" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/news_images/tweens_montage.jpg" width="135" height="281" alt="Bed Head Tweens">
-<h3>Bed Head Tweens are back</h3>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/bedhead_montage.jpg" width="135" height="281" alt="Bed Head Tweens">
+<h2>Bed Head Tweens are back</h2>
 <p><strong>Its that time of year again when TIGI release 750ml shampoos and conditioners for you to have at home.
 We personally love this range, there is something for everyone.</strong></p>
-<p>TIGI Bed Head Urban Antidotes Re-Energize Shampoo and Conditioner strengthens and adds shine to your hair while sealing the cuticle and helping retain colour. An effective cleanser, it will condition and thicken your hair, making sure moisture balance levels are regulated. Get your hair looking its best with this hydrating, strengthening and shine enhancing shampoo.</p>
+<p><strong>TIGI Bed Head Urban Antidotes Re-Energize Shampoo and Conditioner</strong> strengthens and adds shine to your hair while sealing the cuticle and helping retain colour. An effective cleanser, it will condition and thicken your hair, making sure moisture balance levels are regulated. Get your hair looking its best with this hydrating, strengthening and shine enhancing shampoo.</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
-<p>TIGI Bed Head Urban Antidotes Recovery Shampoo and Conditioner cleanses and revamps your hair and is great for dry, damaged hair in much need of moisture. It protects colour and keeps heat damage to a minimum. If you need to maintain moisture balance in your hair this is perfect for you.</p>
-<p>The TIGI Bed Head Urban Antidotes Resurrection Shampoo cleanses, conditions and thickens hair in one use! Protect your colour and get that much needed thermal protection. It also provides first aid for less breakage for those who love colour change or blonde.</p>
-<p>All of the team are highly trained with urban antidotes and can prescribe you with the perfect one to suit your needs.
-at only £29.95 you get both shampoo and conditioner, a epic size with a mini price. If used correctly they will last around 5 Months. That works out at 0.20p per wash!</p>
+<p><strong>TIGI Bed Head Urban Antidotes Recovery Shampoo and Conditioner</strong> cleanses and revamps your hair and is great for dry, damaged hair in much need of moisture. It protects colour and keeps heat damage to a minimum. If you need to maintain moisture balance in your hair this is perfect for you.</p>
+<p>The <strong>TIGI Bed Head Urban Antidotes Resurrection Shampoo</strong> cleanses, conditions and thickens hair in one use! Protect your colour and get that much needed thermal protection. It also provides first aid for less breakage for those who love colour change or blonde.</p>
+<p>All of the team are highly trained with Urban Antidotes and can prescribe you with the perfect one to suit your needs.
+at only £29.95 you get both shampoo and conditioner, an epic size with a mini price. If used correctly they will last around 5 Months. That works out at 0.20p per wash!</p>
 <p class="offer_heading"><strong>We know you will love them just as much as us.</strong>  </p>
 <p class="offer"></p>
 </section> <!--end .hidden-->
