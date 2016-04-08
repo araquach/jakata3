@@ -140,7 +140,7 @@ li.active a {
 	width: auto;
 	margin: auto;
 	height: 100%;
-	background: url('../images/home/cool_mob.jpg') 0 0px no-repeat #d3d0cb;
+	background: url('../images/home/backdrop/boglarka_mob.jpg') 0 0px no-repeat #d3d0cb;
 	background-size: contain;
 	padding-top: 570px;
 	padding-bottom: 50px;
@@ -151,7 +151,7 @@ li.active a {
 #home h4.slogan {
 	display: block;
 	position: absolute;
-	top: 140px;
+	top: 200px;
 	left: 30px;
 	width: 30%;
 	font-size: 1.4em;
