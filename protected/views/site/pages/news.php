@@ -20,6 +20,38 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="link" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/groupshot.jpg" width="135" height="133" alt="Essential Looks Entries">
+<h2>Essential Looks Competition</h2>
+<p><strong>A couple of weeks ago we had our 3rd in-salon ‘Essential Looks’ completion - stylists from the Jakata and PK teams paired up to create a look inspired by the latest Schwarzkopf collections. In the previous competitions the stylists carried out the looks on training heads. We thought we’d mix it up a bit this time and have members of the public as models for the teams!</strong></p>
+<p>After a morning session running through the looks with Steve Ward (Schwarzkopf educator) the stylists paired off into 5 teams and came up with a look taking influence from the latest collections - plus choosing something that would suit their models lifestyle.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<p>The looks had to be completed within a certain timescale after which each team presented their model and explained the techniques they had used and where they took their inspiration from.</p>
+<h4>Leon (PK) &amp; Tash (PK)</h4>
+<p>Leon &amp; Tash took their colour inspiration from the <strong>'Urban Sport'</strong> collection, using pre-lightened diamond shaped panels, they used a variety of the new <em>Schwarzkopf 'ColorWorx'</em> colours to create a bold, high impact look.</p>
+<p>Their cut &amp; style was taken from the <strong>'FreeCreation'</strong> collection. A bold, structured fringe creates maximum impact. The look was styled and finished using <em>Schwarzkopf Osis 'Blow &amp; Go', 'Sparkler' and 'Elastic' finishing spray.</em></p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/leon_tash.jpg" width="500" height="500" alt="Leon & Tash" class="news-image">
+<h4>Nat (JAKATA) &amp; Ashley (PK)</h4>
+<p>Nat &amp; Ashley sectioned the hair into panels under a veil and pre-lightened prior to applying <em>Schwarzkopf 'ColorWorx'</em>  teal fading into blue, and pink fading into purple. The colour was inspired by a look from the <strong>'Urban Sports'</strong> collection.</p>
+<p>The cut and style was heavily influenced by the '<strong>Future Wave</strong>' trend. Triangular sections were taken to create a textured cut. A curling wand was used to create soft textured curls. <em>Schwarzkopf Osis 'Undercoat', 'Dust it' and 'Elastic'</em> were used to create the finished look.</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/nat_ash.jpg" width="500" height="500" alt="Nat & Ashley" class="news-image">
+<h4>Kellie (PK) &amp; Maisie (JAKATA)</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/maisie_kel.jpg" width="500" height="500" alt="Kellie & Maisie" class="news-image">
+<h4>Caleb (PK) &amp; Laura (JAKATA)</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/caleb_laura.jpg" width="500" height="500" alt="Caleb & Laura" class="news-image">
+<h4>Shell (PK) &amp; Matt (JAKATA)</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/matt_shell.jpg" width="500" height="500" alt="Shell & Matt" class="news-image">
+<p class="offer_heading"></p>
+<p class="offer"></p>
+</section> <!--end .hidden-->
+<p class="author">Published by Adam</p>
+<time datetime="2016-04-15">15<sup>th</sup> April 2016</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="EliteSymposium" class="anchor"></a>	
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/symposium1.jpg" width="135" height="97" alt="Elite Symposium">
