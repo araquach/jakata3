@@ -24,7 +24,7 @@ window.addEvent('domready', function(){
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/groupshot.jpg" width="135" height="133" alt="Essential Looks Entries">
 <h2>Essential Looks Competition</h2>
-<p><strong>A couple of weeks ago we had our 3rd in-salon ‘Essential Looks’ completion - stylists from the Jakata and PK teams paired up to create a look inspired by the latest Schwarzkopf collections. In the previous competitions the stylists carried out the looks on training heads. We thought we’d mix it up a bit this time and have members of the public as models for the teams!</strong></p>
+<p><strong>A couple of weeks ago we had our 3rd in-salon ‘Essential Looks’ competition - stylists from the Jakata and PK teams paired up to create a look inspired by the latest Schwarzkopf collections. In the previous competitions the stylists carried out the looks on training heads. We thought we’d mix it up a bit this time and have members of the public as models for the teams!</strong></p>
 <p>After a morning session running through the looks with Steve Ward (Schwarzkopf educator) the stylists paired off into 5 teams and came up with a look taking influence from the latest collections - plus choosing something that would suit their models lifestyle.</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
@@ -39,13 +39,29 @@ window.addEvent('domready', function(){
 <p>The cut and style was heavily influenced by the '<strong>Future Wave</strong>' trend. Triangular sections were taken to create a textured cut. A curling wand was used to create soft textured curls. <em>Schwarzkopf Osis 'Undercoat', 'Dust it' and 'Elastic'</em> were used to create the finished look.</p>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/nat_ash.jpg" width="500" height="500" alt="Nat & Ashley" class="news-image">
 <h4>Kellie (PK) &amp; Maisie (JAKATA)</h4>
+<p>Kellie &amp; Maisie took their colour inspiration from the <strong>'Urban Sports'</strong> collection. Using a diamond shaped sectioning pattern they created a purple ombre with the new <em>'ColorWorx'</em> colours.</p>
+<p>Their cut and style was taken from the <strong>'FreeCreation'</strong> collection- a blunt, bold fringe sets the style off. The hair was styled smooth and shiny using <em>Osis 'Tame Wild' and 'Blow &amp; Go'.</em></p>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/maisie_kel.jpg" width="500" height="500" alt="Kellie & Maisie" class="news-image">
 <h4>Caleb (PK) &amp; Laura (JAKATA)</h4>
+<p>Caleb &amp; Laura were also heavily influenced by the <strong>'Urban Sports'</strong> collection. Laura used a graduating colour technique shifting colour from green to blue to purple with the <em>'ColorWorx'</em> palette.</p>
+<p>Caleb's haircut was inspired from the <strong>'FreeCreation'</strong> collection - a bold undercut style, with the top dressed in an upward fashion with a wavy texture. <em>Schwarzkopf Osis 'Flex Wax', 'Dust It' and 'Session'</em> were applied to finish the striking look.</p>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/caleb_laura.jpg" width="500" height="500" alt="Caleb & Laura" class="news-image">
 <h4>Shell (PK) &amp; Matt (JAKATA)</h4>
+<p>Shell &amp; Matt pre-lightened their models hair prior to applying shades of blue and green from the <em>'ColorWorx'</em> range for their <strong>'Urban Sport'</strong> inspired colour.</p>
+<p>The cut and style had influences from 2 different looks from within the <strong>'FreeCreation'</strong> collection. <em>Osis 'Blow &amp; Go', 'Upload', 'Dust It' and 'Mighty Matte'</em> were all used to style the hair.</p>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/matt_shell.jpg" width="500" height="500" alt="Shell & Matt" class="news-image">
-<p class="offer_heading"></p>
-<p class="offer"></p>
+<h4>The Final Looks</h4>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/groupshot_large.jpg" width="500" height="500" alt="The Final Looks" class="news-image">
+<h4>The Judging</h4>
+<p>The Judges (Adam, Jimmi, Steve and Natalie) inspected each models hair style and awarded points on creativity, application, cutting &amp; styling skills and presentation skills.</p>
+<p><strong>It was a tough call as all the models looked fantastic but the top 3 were chosen…</strong></p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/winners.jpg" width="500" height="212" alt="The Winners" class="news-image">
+<p><strong>1st Place: Laura &amp; Caleb</strong></p>
+<p><strong>2nd Place: Matt &amp; Shell</strong></p>
+<p><strong>3rd place: Kellie &amp; Maisie</strong></p>
+<p>Laura said <em>"I was totally shocked that I won! I was pleased to win a free day's holiday too!"</em></p>
+<p>Caleb added <em>"It was a huge confidence boost plus it was such a fantastic day - I can't wait for the next one in November!"</em></p>
+<p class="big"><a href="http://www.schwarzkopf-professional.co.uk/skp/uk/en/home/trends/essential-looks.html" target="_blank">Check out the Schwarzkopf Essential Looks here &gt;</a></p>
 </section> <!--end .hidden-->
 <p class="author">Published by Adam</p>
 <time datetime="2016-04-15">15<sup>th</sup> April 2016</time>
