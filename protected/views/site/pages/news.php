@@ -3,9 +3,9 @@
 $this->pageTitle=Yii::app()->name . 'Hairdressing News';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Schwarzkopf Professional Elite Symposium"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "Hairdressers always love the opportunity to meet up with like minded people to share ideas and see what’s happening in the industry as a whole. There are usually a few events each year put on by the major product suppliers geared at salons coming together to keep up to date with the latest movements in the hairdressing industry. 10 of the guys from across both salons won tickets to join the 300+ hairdressers invited to the event" ; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/elite_meta.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Essential Looks Competition"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "A couple of weeks ago we had our 3rd in-salon ‘Essential Looks’ competition - stylists from the Jakata and PK teams paired up to create a look inspired by the latest Schwarzkopf collections. In the previous competitions the stylists carried out the looks on training heads. We thought we’d mix it up a bit this time and have members of the public as models for the teams! After a morning session running through the looks with Steve Ward (Schwarzkopf educator) the stylists paired off into 5 teams and came up with a look taking influence from the latest collections - plus choosing something that would suit their models lifestyle." ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/el/groupshot_large.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -20,7 +20,7 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
-<a id="link" class="anchor"></a>
+<a id="EssentialLooksComp" class="anchor"></a>
 <section class="visible">
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/groupshot.jpg" width="135" height="133" alt="Essential Looks Entries">
 <h2>Essential Looks Competition</h2>

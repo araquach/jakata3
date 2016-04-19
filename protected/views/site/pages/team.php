@@ -33,10 +33,10 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Jimmy Sharpe">
 	<p><strong>Salon manager Jimmy joined Jakata in October 2007 as an apprentice and quickly worked his way up through the ranks.</strong></p>
 	<p>His passion for hairdressing is infectious. His experimental approach ensures he's always pushing the boundaries in cutting, colouring &amp; styling hair.</p>
-	<p>Jimmy is currently a member of the Schwarzkopf L.E.A.P Team</p>
+	<p>Jimmy was member of the Schwarzkopf L.E.A.P Team</p>
 	<p><strong>Favourite Style: </strong>Short hair cuts</p>
 	<p><strong>Favourite Product: </strong>Schwarzkopf Flex Wax</p>
-	<p class="price">Average Cut &amp; Colour <br>with Jimmy: &pound;106</p>dfggdf
+	<p class="price">Average Cut &amp; Colour <br>with Jimmy: &pound;110</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member jimmy-->
 	
@@ -46,12 +46,12 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<h2>Laura Crumplin</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Laura Hall">
-	<p><strong>Senior stylist Laura has been hairdressing for 9 years and joined Jakata in 2005. That makes her the longest serving team member (apart from Adam).</strong></p>
+	<p><strong>Senior stylist Laura has been hairdressing for 10 years and joined Jakata in 2005. That makes her the longest serving team member (apart from Adam).</strong></p>
 	<p>Laura loves classic styling plus technical services like Opti-Smooth and Kebelo.</p>
 	<p>Laura strongly believes using the right products is the key to maintaining a new hairstyle.</p>
 	<p><strong>Favourite Style: </strong>Any kind of hair-up</p>
 	<p><strong>Favourite Product:</strong> Any of the Tigi Candy Fixations Range</p>
-	 <p class="price">Average Cut &amp; Colour <br>with Laura: &pound;97</p>
+	 <p class="price">Average Cut &amp; Colour <br>with Laura: &pound;100</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member laura-->
 	
@@ -67,7 +67,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<p>She has advanced Colour diplomas with Schwarzkopf &amp; La Biostetique. She also loves doing the Kebelo smoothing service</p>
 	<p><strong>Favourite Style: </strong>Big, tousled hair</p>
 	<p><strong>Favourite Product: </strong>Tigi 'Totally Baked'</p> 
-	<p class="price">Average Cut &amp; Colour <br>with Maisie: &pound;97</p>
+	<p class="price">Average Cut &amp; Colour <br>with Maisie: &pound;100</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member maisie-->
 	
@@ -82,7 +82,7 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<p>She loves all aspects of creative colour and keeping on trend with the latest styles.</p>
 	<p><strong>Favourite Style: </strong> Anything with a creative edge</p>
 	<p><strong>Favourite Product: </strong>FibrePlex to create all colour changes</p>
-	<p class="price">Average Cut &amp; Colour <br>with Natalie: &pound;97</p>
+	<p class="price">Average Cut &amp; Colour <br>with Natalie: &pound;100</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member nat-->
 	
@@ -93,11 +93,11 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Vicky Rowland">
 	<p><strong>Vicky is a highly experienced stylist with a passion for all things vintage.</strong></p>
-	<p>Her time with the Hair Cuttery gave her a strong customer service focus. After joining Jakata in 2011 she's worked her way up to salon team leader.</p>
+	<p>Her time with the Hair Cuttery gave her a strong customer service focus. She's an expert in cutting &amp; colouring and loves vintage up-do's</p>
 	<p>Vicky's unique personal style definitely reflects in her innovative creations in the salon. </p>
 	<p><strong>Favourite Style: </strong> Anything Vintage</p>
 	<p><strong>Favourite Product: </strong>Catwalk Weightless Shine Spray</p>
-	<p class="price">Average Cut &amp; Colour <br>with Vicky: &pound;89</p>
+	<p class="price">Average Cut &amp; Colour <br>with Vicky: &pound;90</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member vicky-->
 	
@@ -107,11 +107,11 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Laura Minett">
 	<p><strong>Laura has recently been promoted to stylist position. She has quickly settled into the team and exhibits loads of natural flair for hairdressing.</strong></p>
+	<p>Her warm, friendly personality makes every visit to the salon a relaxing experience.</p>
 	<p>She particularly enjoys creative colouring &amp; styling whilst adding her own personal touch.</p>
-	<p>She currently has a special low price for a limited time only!</p>
 	<p><strong>Favourite Style: </strong>Soft &amp; Natural styles</p>
 	<p><strong>Favourite Product: </strong>Tigi Totally Baked &amp; Osis Dust It</p>
-	<p class="price">Average Cut &amp; Colour <br>with Laura M: &pound;74</p>
+	<p class="price">Average Cut &amp; Colour <br>with Laura M: &pound;90</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member laura_m -->
 	
@@ -120,12 +120,12 @@ Over the years Jakata has trained and developed a number of people to exceptiona
 	<h2>Matthew Lane</h2>
 	<section class="team_member_copy">
 	<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/team/closebutton.png" width="25" height="25" alt="Matthew Lane">
-	<p><strong>Matthew Lane joined the team as a Graduate stylist in 2014 after  previously studying art.</strong></p>
+	<p><strong>Matthew Lane joined the team in 2014 after previously studying art.</strong></p>
 	<p>He’s quickly establishing himself in the salon thanks to his passion for hairdressing and his friendly personality.</p>
 	<p>His love of art shines through with his bold, expressive colour and cuts.</p>
 	<p><strong>Favourite Style: </strong>Loves tailoring styles to suit the individual</p>
 	<p><strong>Favourite Product: </strong>Tigi Small Talk</p>
-	<p class="price">Average Cut &amp; Colour <br>with Matt: &pound;74</p>
+	<p class="price">Average Cut &amp; Colour <br>with Matt: &pound;90</p>
 	</section> <!--team_member_copy -->
 	</section> <!--team member vicky-->
 		 
