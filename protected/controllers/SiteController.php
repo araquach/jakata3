@@ -77,6 +77,7 @@ class SiteController extends Controller
 				$message->setBody('Name: '.ucfirst($model->first_name).' '.ucfirst($model->second_name).'<br>Email: '.$model->email.'<br>Mobile: '.$model->mobile.'<br>Message: '.$model->body, 'text/html');
 				$message->subject = 'Jakata Enquiry';
 				$message->addTo('adamcarter@jakatasalon.co.uk');
+				$message->addTo('booking@jakatasalon.co.uk');
 				$message->from = Yii::app()->params['adminEmail'];
 				
 				Yii::app()->mail->send($message);
