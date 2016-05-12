@@ -57,8 +57,8 @@ window.addEvent('domready', function(){
 <p><strong>It was a tough call as all the models looked fantastic but the top 3 were chosen…</strong></p>
 <img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/el/winners.jpg" width="500" height="212" alt="The Winners" class="news-image">
 <p><strong>1st Place: Laura &amp; Caleb</strong></p>
-<p><strong>2nd Place: Matt &amp; Shell</strong></p>
-<p><strong>3rd place: Kellie &amp; Maisie</strong></p>
+<p><strong>2rd place: Kellie &amp; Maisie</strong></p>
+<p><strong>3rd Place: Matt &amp; Shell</strong></p>
 <p>Laura said <em>"I was totally shocked that I won! I was pleased to win a free day's holiday too!"</em></p>
 <p>Caleb added <em>"It was a huge confidence boost plus it was such a fantastic day - I can't wait for the next one in November!"</em></p>
 <p class="big"><a href="http://www.schwarzkopf-professional.co.uk/skp/uk/en/home/trends/essential-looks.html" target="_blank">Check out the Schwarzkopf Essential Looks here &gt;</a></p>
