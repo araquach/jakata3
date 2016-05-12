@@ -27,7 +27,6 @@ window.addEvent('domready', function(){
 <h3>Training Session with North West Hairdresser of the Year</h3>
 <p><strong>A few weeks ago <em>Gary Taylor</em>, who was awarded the British North West Hairdresser of the year 2015, came into the salon to do a men's cutting course. We had our colleagues from Paul Kemp Hairdressing join us for the training session too.</strong></p>
 <p>I asked Jakata senior stylist Laura Hall to put together a news feature about the day&hellip;</p>
-<p>Gary was a lovely guy with a great personality, we all got on really well with him. He told us that he is from Halifax, comes from a long line of hairdressers and in 2019 his hair salon will be 100 years old!</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
