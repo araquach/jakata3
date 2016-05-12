@@ -3,9 +3,10 @@
 $this->pageTitle=Yii::app()->name . 'Hairdressing News';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Essential Looks Competition"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "A couple of weeks ago we had our 3rd in-salon ‘Essential Looks’ competition - stylists from the Jakata and PK teams paired up to create a look inspired by the latest Schwarzkopf collections. In the previous competitions the stylists carried out the looks on training heads. We thought we’d mix it up a bit this time and have members of the public as models for the teams! After a morning session running through the looks with Steve Ward (Schwarzkopf educator) the stylists paired off into 5 teams and came up with a look taking influence from the latest collections - plus choosing something that would suit their models lifestyle." ; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/el/groupshot_large.jpg"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Training Session with North West Hairdresser of the Year"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "A few weeks ago Gary Taylor, who was awarded the British North West Hairdresser of the year 2015, came into the salon to do a men's cutting course. We had our colleagues from Paul Kemp Hairdressing join us for the training session too. Gary was a lovely guy with a great personality, we all got on really well with him.
+He told us that he is from Halifax, comes from a long line of hairdressers and in 2019 his hair salon will be 100 years old!" ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -18,6 +19,32 @@ window.addEvent('domready', function(){
 <section id="news">
 
 <section id="accordion">
+
+<article class="article">
+<a id="GaryTaylor" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/" width="135" height="180">
+<h3>Training Session with North West Hairdresser of the Year</h3>
+<p><strong>A few weeks ago <em>Gary Taylor</em>, who was awarded the British North West Hairdresser of the year 2015, came into the salon to do a men's cutting course. We had our colleagues from Paul Kemp Hairdressing join us for the training session too.</strong></p>
+<p>I asked Jakata senior stylist Laura Hall to put together a news feature about the day&hellip;</p>
+<p>Gary was a lovely guy with a great personality, we all got on really well with him. He told us that he is from Halifax, comes from a long line of hairdressers and in 2019 his hair salon will be 100 years old!</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/" width="135" height="180">
+<p>Gary was a lovely guy with a great personality, we all got on really well with him. He told us that he is from Halifax, comes from a long line of hairdressers and in 2019 his hair salon will be 100 years old!</p>
+<p>In the morning session Gary did 3 models, one long hair and two short hair.
+The first model had long hair past his shoulders, Gary took it up to his shoulders, layered and shaped it so it was structured but still looking masculine. He gave lots of hints and tips on how to cut and style long hair on men and keep it masculine. For example leaving the hair slightly damp after blow drying so as it dries naturally it keeps the movement natural of their hair.</p>
+<p>The second model was a short cut, he showed us two different techniques of cutting the back and sides but achieving the same result. First he showed us with a cut throat razor and a comb, then he cut the other side with the clippers without using any guards.</p>
+<p>His third model was similar to the second, but on this guys hair he showed us how to do a blend from almost a bare blade to the equivalent length of a number 2 guard. He also left a weight line in his hair and told us how to soften it without completely  blending it away.</p>
+<p>For the afternoon session we all had models in and did at least one person each. Some people did two or three people. Gary walked around and helped everyone decide what technique of cutting to use so we could each try something new that he had demonstrated.</p>
+<p>I found the training very interesting and enjoyed trying something new. When using the clippers without a guard for the first time was nerve racking, but once I'd got the hang of it the results were really good.</p>
+<p class="big"><a href="http://www.hji.co.uk/hair/gary-taylor-north-western-hairdresser-year-finalist-collection/" target="_blank">To find out more about Gary Taylor click here &gt;</a></p>
+<?php echo CHtml::link('<p class="offer"></p>',array('site/page','view'=>'')); ?>
+</section> <!--end .hidden-->
+<p class="author">Published by </p>
+<time datetime="2016-05-12">12<sup>th</sup> May 2016</time>
+</article> <!--end #article-->
 
 <article class="article">
 <a id="EssentialLooksComp" class="anchor"></a>
@@ -129,7 +156,7 @@ at only £29.95 you get both shampoo and conditioner, an epic size with a mini p
 <p class="offer"></p>
 </section> <!--end .hidden-->
 <p class="author">Published by Nat</p>
-<time datetime="2015-03-15">15<sup>th</sup> March 2016</time>
+<time datetime="2016-03-15">15<sup>th</sup> March 2016</time>
 </article> <!--end #article-->
 
 <article class="article">
