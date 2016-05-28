@@ -3,10 +3,10 @@
 $this->pageTitle=Yii::app()->name . 'Hairdressing News';
 ?>
 
-<?php Yii::app()->facebook->ogTags['og:title'] = "Training Session with North West Hairdresser of the Year"; ?>
-<?php Yii::app()->facebook->ogTags['og:description'] = "A few weeks ago Gary Taylor, who was awarded the British North West Hairdresser of the year 2015, came into the salon to do a men's cutting course. We had our colleagues from Paul Kemp Hairdressing join us for the training session too. Gary was a lovely guy with a great personality, we all got on really well with him.
-He told us that he is from Halifax, comes from a long line of hairdressers and in 2019 his hair salon will be 100 years old!" ; ?>
-<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/"; ?>
+<?php Yii::app()->facebook->ogTags['og:title'] = "Touch of Pastel"; ?>
+<?php Yii::app()->facebook->ogTags['og:description'] = "We are very excited to stock Schwarzkopf ‘Instant Blushes’ spray in pastel colours. They can be used to enhance your colour during your appointment or take a bottle home with you to maintain the look.
+Schwarzkopf Instant Blushes are perfect for a party weekend,  music festivals or just trying out a new colour without the commitment" ; ?>
+<?php Yii::app()->facebook->ogTags['og:image'] =  "http://www.jakatasalon.co.uk/images/newspics/blushes_meta.jpg"; ?>
 
 <script type="text/javascript">
 window.addEvent('domready', function(){
@@ -21,27 +21,53 @@ window.addEvent('domready', function(){
 <section id="accordion">
 
 <article class="article">
+<a id="InstantBlushes" class="anchor"></a>
+<section class="visible">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/blushes1.jpg" width="135" height="162" alt="Instant Blushes">
+<h2>Touch of Pastel</h2>
+<p><strong>We are very excited to stock Schwarzkopf ‘Instant Blushes’ spray in pastel colours.</strong></p>
+<p>They can be used to enhance your colour during your appointment or take a bottle home with you to maintain the look.
+Schwarzkopf Instant Blushes are perfect for a party weekend,  music festivals or just trying out a new colour without the commitment.</p>
+<p class="reveal">Read more &gt;</p>
+</section> <!--end .visible-->
+<section class="hidden">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/blushes_colours.jpg" width="500" height="192" alt="Instant Blushes" class="news-image">
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/blushes2.jpg" width="135" height="160" alt="Instant Blushes">
+<p>You can personalise your look by placing slices of soft pastel through blonde lengths, spray on the ends for a dip-dye effect or spray all over for a real impact.</p>
+<p>We have the full range of Strawberry, Jade, Ice and Steel Blue tones available.</p>
+<p>You can use just one or use them all to create a different look every time you go out!</p>
+<p>Each 250ml bottle is only &pound;15.95 and for a limited time <strong>receive 25% off any of the other products in the Schwarzkopf ‘Blonde Me’ range</strong>.</p>
+<p class="big">Buy 3 bottles and get the 4th free!</p>
+<p>Don’t forget to ask your stylists about your loyalty points!</p>
+</section> <!--end .hidden-->
+<p class="author">Published by Natalie</p>
+<time datetime="2016-05-26">26<sup>th</sup> May 2016</time>
+</article> <!--end #article-->
+
+<article class="article">
 <a id="GaryTaylor" class="anchor"></a>
 <section class="visible">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/" width="135" height="180">
-<h3>Training Session with North West Hairdresser of the Year</h3>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/mens_laura.jpg" width="135" height="170" alt="Laura cutting her model">
+<h2>Training Session with North West Hairdresser of the Year</h2>
 <p><strong>A few weeks ago <em>Gary Taylor</em>, who was awarded the British North West Hairdresser of the year 2015, came into the salon to do a men's cutting course. We had our colleagues from Paul Kemp Hairdressing join us for the training session too.</strong></p>
 <p>I asked Jakata senior stylist Laura Hall to put together a news feature about the day&hellip;</p>
 <p class="reveal">Read more &gt;</p>
 </section> <!--end .visible-->
 <section class="hidden">
-<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/" width="135" height="180">
 <p>Gary was a lovely guy with a great personality, we all got on really well with him. He told us that he is from Halifax, comes from a long line of hairdressers and in 2019 his hair salon will be 100 years old!</p>
-<p>In the morning session Gary did 3 models, one long hair and two short hair.
-The first model had long hair past his shoulders, Gary took it up to his shoulders, layered and shaped it so it was structured but still looking masculine. He gave lots of hints and tips on how to cut and style long hair on men and keep it masculine. For example leaving the hair slightly damp after blow drying so as it dries naturally it keeps the movement natural of their hair.</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/mens_demo.jpg" width="500" height="450" alt="Gary Taylor demonstration" class="news-image">
+<p>In the morning session Gary did 3 models, one long hair and two short hair.The first model had long hair past his shoulders, Gary took it up to his shoulders, layered and shaped it so it was structured but still looking masculine. He gave lots of hints and tips on how to cut and style long hair on men and keep it masculine. For example leaving the hair slightly damp after blow drying so as it dries naturally it keeps the movement natural of their hair.</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/mens_nat.jpg" width="500" height="450" alt="Nat and her model" class="news-image">
 <p>The second model was a short cut, he showed us two different techniques of cutting the back and sides but achieving the same result. First he showed us with a cut throat razor and a comb, then he cut the other side with the clippers without using any guards.</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/mens_matt.jpg" width="500" height="450" alt="Matt with his model" class="news-image">
 <p>His third model was similar to the second, but on this guys hair he showed us how to do a blend from almost a bare blade to the equivalent length of a number 2 guard. He also left a weight line in his hair and told us how to soften it without completely  blending it away.</p>
+<img src="<?php echo Yii::app()->request->baseUrl; ?>/images/newspics/mens_vik.jpg" width="500" height="450" alt="Vikki with her model" class="news-image">
 <p>For the afternoon session we all had models in and did at least one person each. Some people did two or three people. Gary walked around and helped everyone decide what technique of cutting to use so we could each try something new that he had demonstrated.</p>
 <p>I found the training very interesting and enjoyed trying something new. When using the clippers without a guard for the first time was nerve racking, but once I'd got the hang of it the results were really good.</p>
 <p class="big"><a href="http://www.hji.co.uk/hair/gary-taylor-north-western-hairdresser-year-finalist-collection/" target="_blank">To find out more about Gary Taylor click here &gt;</a></p>
 <?php echo CHtml::link('<p class="offer"></p>',array('site/page','view'=>'')); ?>
 </section> <!--end .hidden-->
-<p class="author">Published by </p>
+<p class="author">Published by Laura</p>
 <time datetime="2016-05-12">12<sup>th</sup> May 2016</time>
 </article> <!--end #article-->
 
